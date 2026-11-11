@@ -23,15 +23,33 @@
     { code: "en", label: "English", nativeLabel: "English", short: "EN" },
     { code: "zh-CN", label: "Simplified Chinese", nativeLabel: "简体中文", short: "简中" },
     { code: "zh-TW", label: "Traditional Chinese", nativeLabel: "繁體中文", short: "繁中" },
+    { code: "ja", label: "Japanese", nativeLabel: "日本語", short: "JA" },
+    { code: "de", label: "German", nativeLabel: "Deutsch", short: "DE" },
+    { code: "fr", label: "French", nativeLabel: "Français", short: "FR" },
     { code: "es", label: "Spanish", nativeLabel: "Español", short: "ES" },
-    { code: "nl", label: "Dutch", nativeLabel: "Nederlands", short: "NL" }
+    { code: "it", label: "Italian", nativeLabel: "Italiano", short: "IT" },
+    { code: "nl", label: "Dutch", nativeLabel: "Nederlands", short: "NL" },
+    { code: "pl", label: "Polish", nativeLabel: "Polski", short: "PL" },
+    { code: "cs", label: "Czech", nativeLabel: "Čeština", short: "CS" },
+    { code: "ru", label: "Russian", nativeLabel: "Русский", short: "RU" },
+    { code: "uk", label: "Ukrainian", nativeLabel: "Українська", short: "UK" },
+    { code: "sr", label: "Serbian", nativeLabel: "Српски", short: "SR" }
   ];
   const SUPPORTED_CODES = new Set(SUPPORTED_LOCALES.map((item) => item.code));
   const UI_STRINGS_LOCALES = root.__PYBRICKS_I18N_UI_STRINGS_LOCALES__ || [
     "zh-CN",
     "zh-TW",
+    "ja",
+    "de",
+    "fr",
     "es",
-    "nl"
+    "it",
+    "nl",
+    "pl",
+    "cs",
+    "ru",
+    "uk",
+    "sr"
   ];
   const LANG_INDEX = Object.fromEntries(
     UI_STRINGS_LOCALES.map((loc, idx) => [loc, idx])
@@ -117,8 +135,8 @@
   };
 
   /**
-   * Normalize arbitrary BCP-47 locale tags (e.g. "zh", "zh-Hans-CN", "es-419", "nl-BE")
-   * to one of the 4 supported canonical locale codes ("en", "zh-CN", "es", "nl").
+   * Normalize arbitrary BCP-47 locale tags (e.g. "zh", "zh-Hans-CN", "zh-TW", "ja-JP", "de-AT", "es-419")
+   * to one of the 14 supported canonical locale codes.
    */
   function normalizeLocale(raw) {
     if (typeof raw !== "string" || !raw.trim()) {
@@ -129,17 +147,20 @@
       return clean;
     }
     const lower = clean.toLowerCase().replace(/_/g, "-");
+    if (
+      lower === "zh-tw" ||
+      lower === "zh-hk" ||
+      lower === "zh-mo" ||
+      lower.startsWith("zh-hant")
+    ) {
+      return "zh-TW";
+    }
     if (lower === "zh" || lower.startsWith("zh-")) {
       return "zh-CN";
     }
-    if (lower === "es" || lower.startsWith("es-")) {
-      return "es";
-    }
-    if (lower === "nl" || lower.startsWith("nl-")) {
-      return "nl";
-    }
-    if (lower === "en" || lower.startsWith("en-")) {
-      return "en";
+    const primary = lower.split("-")[0];
+    if (SUPPORTED_CODES.has(primary)) {
+      return primary;
     }
     return null;
   }
@@ -1434,6 +1455,7 @@
     isQuickPillHidden: () => quickPillHidden,
     applyDomPatches,
     installBlocklyHooks,
+    getBlockly: () => blocklyRef,
     registerExternalI18nManager,
     getModuleTranslation,
     isInsideBlacklistedZone,

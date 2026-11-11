@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Pybricks Code 多言語拡張機能 (日本語・14言語)",
+    "description": "Extension name (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "Pybricks日本語",
+    "description": "Short name (max 12 chars)"
+  },
+  "extDescription": {
+    "message": "Pybricks Code の UI と Blockly ブロックを日本語など14言語にリアルタイム翻訳。生成される Python コードは一切変更しません。",
+    "description": "Extension description (max 132 chars)"
+  }
+}

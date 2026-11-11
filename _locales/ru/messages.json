@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Pybricks Code на 14 языках (Русский и др.)",
+    "description": "Extension name (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "PybricksI18n",
+    "description": "Short name (max 12 chars)"
+  },
+  "extDescription": {
+    "message": "Полный перевод интерфейса и блоков Blockly на 14 языков (включая русский) для Pybricks Code без изменения кода Python.",
+    "description": "Extension description (max 132 chars)"
+  }
+}

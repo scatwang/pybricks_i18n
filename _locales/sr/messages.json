@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Pybricks Code Вишејезични (Српски / 14 јез.)",
+    "description": "Extension name (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "PybricksI18n",
+    "description": "Short name (max 12 chars)"
+  },
+  "extDescription": {
+    "message": "Комплетан превод интерфејса и Blockly блокова на 14 језика (укључујући српски) за Pybricks Code без измене Python кода.",
+    "description": "Extension description (max 132 chars)"
+  }
+}

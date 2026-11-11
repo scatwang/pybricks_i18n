@@ -1,14 +1,14 @@
 {
   "extName": {
-    "message": "Pybricks Code Multi-Language (简繁中文/ES/NL/EN)",
-    "description": "Extension name in Chrome Web Store (max 45 chars)"
+    "message": "Pybricks Code Multi-Language (14 Languages)",
+    "description": "Extension name (max 45 chars)"
   },
   "extShortName": {
     "message": "PybricksI18n",
     "description": "Short name (max 12 chars)"
   },
   "extDescription": {
-    "message": "Full UI & Blockly multi-language support (简体/繁體中文, Español, Nederlands, English) for Pybricks Code without modifying Python code.",
+    "message": "Full UI & Blockly localization in 14 languages (ZH, JA, DE, FR, ES, IT, NL, PL, CS, RU, UK, SR, EN) for Pybricks Code.",
     "description": "Extension description (max 132 chars)"
   }
 }

@@ -177,7 +177,22 @@ export async function buildLocales() {
     .filter((file) => file.endsWith(".csv"))
     .map((file) => file.replace(/\.csv$/, ""));
 
-  const PREFERRED_ORDER = ["en", "zh-CN", "zh-TW", "es", "nl"];
+  const PREFERRED_ORDER = [
+    "en",
+    "zh-CN",
+    "zh-TW",
+    "ja",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "nl",
+    "pl",
+    "cs",
+    "ru",
+    "uk",
+    "sr"
+  ];
   const orderedLocales = [
     ...PREFERRED_ORDER.filter((loc) => csvFiles.includes(loc)),
     ...csvFiles.filter((loc) => !PREFERRED_ORDER.includes(loc)).sort()

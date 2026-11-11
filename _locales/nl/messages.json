@@ -1,14 +1,14 @@
 {
   "extName": {
-    "message": "Pybricks Code Meertalig (NL/中文/ES/EN)",
-    "description": "Extension name in Dutch (max 45 chars)"
+    "message": "Pybricks Code Meertalig (NL & 14 talen)",
+    "description": "Extension name (max 45 chars)"
   },
   "extShortName": {
     "message": "PybricksI18n",
     "description": "Short name (max 12 chars)"
   },
   "extDescription": {
-    "message": "Volledige UI- en Blockly-vertaling (Nederlands, Chinees, Spaans, Engels) voor Pybricks Code zonder de Python-code ooit te wijzigen.",
-    "description": "Extension description in Dutch (max 132 chars)"
+    "message": "Volledige UI- en Blockly-vertaling in 14 talen (incl. Nederlands) voor Pybricks Code zonder de Python-code ooit te wijzigen.",
+    "description": "Extension description (max 132 chars)"
   }
 }

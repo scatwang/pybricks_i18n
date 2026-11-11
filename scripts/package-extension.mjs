@@ -22,13 +22,26 @@ const ROOT = path.resolve(__dirname, "..");
 const DIST_DIR = path.join(ROOT, "dist");
 const RELEASE_DIR = path.join(ROOT, "release");
 
+const STORE_LOCALES = [
+  "en",
+  "zh_CN",
+  "zh_TW",
+  "ja",
+  "de",
+  "fr",
+  "es",
+  "it",
+  "nl",
+  "pl",
+  "cs",
+  "ru",
+  "uk",
+  "sr"
+];
+
 const RUNTIME_FILES = [
   "manifest.json",
-  "_locales/en/messages.json",
-  "_locales/zh_CN/messages.json",
-  "_locales/zh_TW/messages.json",
-  "_locales/es/messages.json",
-  "_locales/nl/messages.json",
+  ...STORE_LOCALES.map((loc) => `_locales/${loc}/messages.json`),
   "icons/icon16.png",
   "icons/icon32.png",
   "icons/icon48.png",
@@ -56,8 +69,7 @@ function main() {
   const version = manifest.version;
   assert(/^\d+\.\d+\.\d+$/.test(version), `Invalid version format: ${version}`);
 
-  const storeLocales = ["en", "zh_CN", "zh_TW", "es", "nl"];
-  for (const loc of storeLocales) {
+  for (const loc of STORE_LOCALES) {
     const msgPath = path.join(ROOT, "_locales", loc, "messages.json");
     assert(fs.existsSync(msgPath), `Missing ${msgPath}`);
     const msgs = JSON.parse(fs.readFileSync(msgPath, "utf8"));

@@ -30,6 +30,30 @@
       pillLabel: "顯示頁面快捷切換膠囊",
       safety: "零程式碼污染保證：底層 MicroPython 原始碼、變數名與 .py 檔案保持 100% 原樣不變。"
     },
+    ja: {
+      subtitle: "UI・ブロックのリアルタイム言語切替",
+      ready: "保存済",
+      connected: "接続中",
+      pillLabel: "ページ内の言語切替ピルを表示",
+      safety:
+        "コード完全保護：生成される MicroPython コード、変数名、.py ファイルは一切変更されません。"
+    },
+    de: {
+      subtitle: "Live-Sprachwechsel für UI & Blöcke",
+      ready: "Bereit",
+      connected: "Verbunden",
+      pillLabel: "Schnellumschalter auf der Seite anzeigen",
+      safety:
+        "Code-Schutz: Generierter MicroPython-Code, Variablen und .py-Dateien bleiben zu 100 % unverändert."
+    },
+    fr: {
+      subtitle: "Changement de langue en direct (UI & blocs)",
+      ready: "Prêt",
+      connected: "Connecté",
+      pillLabel: "Afficher le sélecteur rapide sur la page",
+      safety:
+        "Code intact : le code MicroPython généré, les variables et les fichiers .py restent 100 % inchangés."
+    },
     es: {
       subtitle: "Cambio en vivo de interfaz y bloques",
       ready: "Listo",
@@ -38,6 +62,14 @@
       safety:
         "Código intacto: el código MicroPython generado, variables y archivos .py nunca se modifican."
     },
+    it: {
+      subtitle: "Cambio lingua istantaneo per UI e blocchi",
+      ready: "Pronto",
+      connected: "Connesso",
+      pillLabel: "Mostra selettore rapido nella pagina",
+      safety:
+        "Codice intatto: il codice MicroPython generato, le variabili e i file .py restano invariati al 100%."
+    },
     nl: {
       subtitle: "Directe taalwissel voor UI & blokken",
       ready: "Gereed",
@@ -45,6 +77,46 @@
       pillLabel: "Snelle taalknop op pagina tonen",
       safety:
         "Python-code blijft 100% ongewijzigd: gegenereerde MicroPython-code, variabelen en .py-bestanden blijven intact."
+    },
+    pl: {
+      subtitle: "Zmiana języka interfejsu i bloków na żywo",
+      ready: "Gotowe",
+      connected: "Połączono",
+      pillLabel: "Pokaż szybki przełącznik na stronie",
+      safety:
+        "Ochrona kodu: generowany kod MicroPython, zmienne i pliki .py pozostają w 100% niezmienione."
+    },
+    cs: {
+      subtitle: "Živé přepínání jazyka rozhraní a bloků",
+      ready: "Připraveno",
+      connected: "Připojeno",
+      pillLabel: "Zobrazit rychlý přepínač na stránce",
+      safety:
+        "Ochrana kódu: generovaný kód MicroPython, proměnné a soubory .py zůstávají 100% beze změny."
+    },
+    ru: {
+      subtitle: "Живое переключение языка интерфейса и блоков",
+      ready: "Готово",
+      connected: "Активно",
+      pillLabel: "Показывать быстрый переключатель на странице",
+      safety:
+        "Защита кода: генерируемый код MicroPython, переменные и файлы .py остаются на 100% без изменений."
+    },
+    uk: {
+      subtitle: "Миттєве перемикання мови інтерфейсу та блоків",
+      ready: "Готово",
+      connected: "Активно",
+      pillLabel: "Показувати швидкий перемикач на сторінці",
+      safety:
+        "Захист коду: згенерований код MicroPython, змінні та файли .py залишаються на 100% незмінними."
+    },
+    sr: {
+      subtitle: "Тренутна промена језика интерфејса и блокова",
+      ready: "Спремно",
+      connected: "Повезано",
+      pillLabel: "Прикажи брзи прекидач на страници",
+      safety:
+        "Заштита кода: генерисани MicroPython код, променљиве и .py датотеке остају 100% неизмењени."
     }
   };
 
