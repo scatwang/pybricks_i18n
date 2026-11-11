@@ -1,0 +1,209 @@
+/**
+ * Pybricks Code Multi-Language Styles
+ *
+ * 1. Native BlueprintJS v5 Settings Panel language selector (`.pb-i18n-settings-group`)
+ * 2. Lightweight collapsible quick-switch language capsule (`#pb-i18n-quick-switcher`)
+ * 3. Multi-language typography & CJK/Latin Blockly label readability refinements
+ */
+
+/* --- 1. Native Settings Panel Language Selector --- */
+.pb-settings .pb-i18n-settings-group {
+  margin-bottom: 15px;
+}
+
+.pb-settings .pb-i18n-html-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 220px;
+}
+
+.pb-settings .pb-i18n-html-select select {
+  width: 100%;
+  height: 30px;
+  padding: 0 28px 0 10px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 3px;
+  border: 1px solid rgba(17, 20, 24, 0.2);
+  background-color: #f6f7f9;
+  color: #1c2127;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  transition: background-color 100ms ease, box-shadow 100ms ease;
+}
+
+.pb-settings .pb-i18n-html-select select:hover {
+  background-color: #edeff2;
+}
+
+.pb-settings .pb-i18n-html-select select:focus {
+  outline: 2px solid #2d72d2;
+  outline-offset: 0;
+}
+
+.pb-settings .pb-i18n-html-select .bp5-icon {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  pointer-events: none;
+  color: #5f6b7c;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bp5-dark .pb-settings .pb-i18n-html-select select {
+  background-color: #30363d;
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #f6f7f9;
+}
+
+.bp5-dark .pb-settings .pb-i18n-html-select select:hover {
+  background-color: #383e47;
+}
+
+.bp5-dark .pb-settings .pb-i18n-html-select .bp5-icon {
+  color: #abb3bf;
+}
+
+.pb-settings .pb-i18n-settings-helper {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* --- 2. Floating Collapsible Quick-Switch Language Capsule --- */
+#pb-i18n-quick-switcher.pb-i18n-pill {
+  position: fixed;
+  right: 12px;
+  bottom: 30px;
+  z-index: 18;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(17, 20, 24, 0.16);
+  box-shadow: 0 2px 10px rgba(17, 20, 24, 0.14);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  user-select: none;
+  transition: box-shadow 150ms ease, opacity 150ms ease;
+}
+
+.bp5-dark #pb-i18n-quick-switcher.pb-i18n-pill,
+body:has(.bp5-dark) #pb-i18n-quick-switcher.pb-i18n-pill {
+  background: rgba(37, 42, 49, 0.92);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.38);
+}
+
+.pb-i18n-pill-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 0 7px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #2f3946;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.pb-i18n-pill-toggle:hover {
+  background: rgba(45, 114, 210, 0.1);
+  color: #215db0;
+}
+
+.bp5-dark .pb-i18n-pill-toggle,
+body:has(.bp5-dark) .pb-i18n-pill-toggle {
+  color: #dce0e5;
+}
+
+.bp5-dark .pb-i18n-pill-toggle:hover,
+body:has(.bp5-dark) .pb-i18n-pill-toggle:hover {
+  background: rgba(76, 144, 240, 0.18);
+  color: #8abbff;
+}
+
+.pb-i18n-pill-current {
+  display: none;
+}
+
+.pb-i18n-pill--collapsed .pb-i18n-pill-current {
+  display: inline;
+}
+
+.pb-i18n-pill-options {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.pb-i18n-pill--collapsed .pb-i18n-pill-options {
+  display: none;
+}
+
+.pb-i18n-pill-btn {
+  height: 24px;
+  min-width: 30px;
+  padding: 0 7px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #404854;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.pb-i18n-pill-btn:hover {
+  background: rgba(17, 20, 24, 0.07);
+  color: #1c2127;
+}
+
+.pb-i18n-pill-btn--active,
+.pb-i18n-pill-btn--active:hover {
+  background: #2d72d2;
+  color: #ffffff;
+}
+
+.bp5-dark .pb-i18n-pill-btn,
+body:has(.bp5-dark) .pb-i18n-pill-btn {
+  color: #abb3bf;
+}
+
+.bp5-dark .pb-i18n-pill-btn:hover,
+body:has(.bp5-dark) .pb-i18n-pill-btn:hover {
+  background: rgba(255, 255, 255, 0.09);
+  color: #f6f7f9;
+}
+
+.bp5-dark .pb-i18n-pill-btn--active,
+.bp5-dark .pb-i18n-pill-btn--active:hover,
+body:has(.bp5-dark) .pb-i18n-pill-btn--active,
+body:has(.bp5-dark) .pb-i18n-pill-btn--active:hover {
+  background: #4c90f0;
+  color: #ffffff;
+}
+
+/* --- 3. Toolbox & CJK Typography Polish --- */
+html[data-pybricks-i18n-locale="zh-CN"] .blocklyTreeLabel {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.blocklyTreeRowContentContainer span[data-pb-i18n-category] {
+  white-space: nowrap;
+}

@@ -1,0 +1,1474 @@
+﻿section,key,en,translation
+meta,label,English,English
+meta,nativeLabel,English,English
+meta,short,EN,EN
+bky_std,ADD_COMMENT,Add Comment,Add Comment
+bky_std,CANNOT_DELETE_VARIABLE_PROCEDURE,Can't delete the variable '%1' because it's part of the definition of the function '%2',Can't delete the variable '%1' because it's part of the definition of the function '%2'
+bky_std,CHANGE_VALUE_TITLE,Change value:,Change value:
+bky_std,CLEAN_UP,Clean up Blocks,Clean up Blocks
+bky_std,COLLAPSED_WARNINGS_WARNING,Collapsed blocks contain warnings.,Collapsed blocks contain warnings.
+bky_std,COLLAPSE_ALL,Collapse Blocks,Collapse Blocks
+bky_std,COLLAPSE_BLOCK,Collapse Block,Collapse Block
+bky_std,COLOUR_BLEND_COLOUR1,colour 1,colour 1
+bky_std,COLOUR_BLEND_COLOUR2,colour 2,colour 2
+bky_std,COLOUR_BLEND_HELPURL,https://meyerweb.com/eric/tools/color-blend/#:::rgbp,https://meyerweb.com/eric/tools/color-blend/#:::rgbp
+bky_std,COLOUR_BLEND_RATIO,ratio,ratio
+bky_std,COLOUR_BLEND_TITLE,blend,blend
+bky_std,COLOUR_BLEND_TOOLTIP,Blends two colours together with a given ratio (0.0 - 1.0).,Blends two colours together with a given ratio (0.0 - 1.0).
+bky_std,COLOUR_PICKER_HELPURL,https://en.wikipedia.org/wiki/Color,https://en.wikipedia.org/wiki/Color
+bky_std,COLOUR_PICKER_TOOLTIP,Choose a colour from the palette.,Choose a colour from the palette.
+bky_std,COLOUR_RANDOM_HELPURL,http://randomcolour.com,http://randomcolour.com
+bky_std,COLOUR_RANDOM_TITLE,random colour,random colour
+bky_std,COLOUR_RANDOM_TOOLTIP,Choose a colour at random.,Choose a colour at random.
+bky_std,COLOUR_RGB_BLUE,blue,blue
+bky_std,COLOUR_RGB_GREEN,green,green
+bky_std,COLOUR_RGB_HELPURL,https://www.december.com/html/spec/colorpercompact.html,https://www.december.com/html/spec/colorpercompact.html
+bky_std,COLOUR_RGB_RED,red,red
+bky_std,COLOUR_RGB_TITLE,colour with,colour with
+bky_std,COLOUR_RGB_TOOLTIP,"Create a colour with the specified amount of red, green, and blue. All values must be between 0 and 100.","Create a colour with the specified amount of red, green, and blue. All values must be between 0 and 100."
+bky_std,CONTROLS_FLOW_STATEMENTS_HELPURL,https://github.com/google/blockly/wiki/Loops#loop-termination-blocks,https://github.com/google/blockly/wiki/Loops#loop-termination-blocks
+bky_std,CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK,break out of loop,break out of loop
+bky_std,CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE,continue with next iteration of loop,continue with next iteration of loop
+bky_std,CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK,Break out of the containing loop.,Break out of the containing loop.
+bky_std,CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE,"Skip the rest of this loop, and continue with the next iteration.","Skip the rest of this loop, and continue with the next iteration."
+bky_std,CONTROLS_FLOW_STATEMENTS_WARNING,Warning: This block may only be used within a loop.,Warning: This block may only be used within a loop.
+bky_std,CONTROLS_FOREACH_HELPURL,https://github.com/google/blockly/wiki/Loops#for-each,https://github.com/google/blockly/wiki/Loops#for-each
+bky_std,CONTROLS_FOREACH_TITLE,for each item %1 in list %2,for each item %1 in list %2
+bky_std,CONTROLS_FOREACH_TOOLTIP,"For each item in a list, set the variable '%1' to the item, and then do some statements.","For each item in a list, set the variable '%1' to the item, and then do some statements."
+bky_std,CONTROLS_FOR_HELPURL,https://github.com/google/blockly/wiki/Loops#count-with,https://github.com/google/blockly/wiki/Loops#count-with
+bky_std,CONTROLS_FOR_TITLE,count with %1 from %2 to %3 by %4,count with %1 from %2 to %3 by %4
+bky_std,CONTROLS_FOR_TOOLTIP,"Have the variable '%1' take on the values from the start number to the end number, counting by the specified interval, and do the specified blocks.","Have the variable '%1' take on the values from the start number to the end number, counting by the specified interval, and do the specified blocks."
+bky_std,CONTROLS_IF_ELSEIF_TOOLTIP,Add a condition to the if block.,Add a condition to the if block.
+bky_std,CONTROLS_IF_ELSE_TOOLTIP,"Add a final, catch-all condition to the if block.","Add a final, catch-all condition to the if block."
+bky_std,CONTROLS_IF_HELPURL,https://github.com/google/blockly/wiki/IfElse,https://github.com/google/blockly/wiki/IfElse
+bky_std,CONTROLS_IF_IF_TOOLTIP,"Add, remove, or reorder sections to reconfigure this if block.","Add, remove, or reorder sections to reconfigure this if block."
+bky_std,CONTROLS_IF_MSG_ELSE,else,else
+bky_std,CONTROLS_IF_MSG_ELSEIF,else if,else if
+bky_std,CONTROLS_IF_MSG_IF,if,if
+bky_std,CONTROLS_IF_TOOLTIP_1,"If a value is true, then do some statements.","If a value is true, then do some statements."
+bky_std,CONTROLS_IF_TOOLTIP_2,"If a value is true, then do the first block of statements. Otherwise, do the second block of statements.","If a value is true, then do the first block of statements. Otherwise, do the second block of statements."
+bky_std,CONTROLS_IF_TOOLTIP_3,"If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements.","If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements."
+bky_std,CONTROLS_IF_TOOLTIP_4,"If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements.","If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements."
+bky_std,CONTROLS_REPEAT_HELPURL,https://en.wikipedia.org/wiki/For_loop,https://en.wikipedia.org/wiki/For_loop
+bky_std,CONTROLS_REPEAT_INPUT_DO,do,do
+bky_std,CONTROLS_REPEAT_TITLE,repeat %1 times,repeat %1 times
+bky_std,CONTROLS_REPEAT_TOOLTIP,Do some statements several times.,Do some statements several times.
+bky_std,CONTROLS_WHILEUNTIL_HELPURL,https://github.com/google/blockly/wiki/Loops#repeat,https://github.com/google/blockly/wiki/Loops#repeat
+bky_std,CONTROLS_WHILEUNTIL_OPERATOR_UNTIL,repeat until,repeat until
+bky_std,CONTROLS_WHILEUNTIL_OPERATOR_WHILE,repeat while,repeat while
+bky_std,CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL,"While a value is false, then do some statements.","While a value is false, then do some statements."
+bky_std,CONTROLS_WHILEUNTIL_TOOLTIP_WHILE,"While a value is true, then do some statements.","While a value is true, then do some statements."
+bky_std,DELETE_ALL_BLOCKS,Delete all %1 blocks?,Delete all %1 blocks?
+bky_std,DELETE_BLOCK,Delete Block,Delete Block
+bky_std,DELETE_VARIABLE,Delete the '%1' variable,Delete the '%1' variable
+bky_std,DELETE_VARIABLE_CONFIRMATION,Delete %1 uses of the '%2' variable?,Delete %1 uses of the '%2' variable?
+bky_std,DELETE_X_BLOCKS,Delete %1 Blocks,Delete %1 Blocks
+bky_std,DIALOG_CANCEL,Cancel,Cancel
+bky_std,DIALOG_OK,OK,OK
+bky_std,DISABLE_BLOCK,Disable Block,Disable Block
+bky_std,DUPLICATE_BLOCK,Duplicate,Duplicate
+bky_std,DUPLICATE_COMMENT,Duplicate Comment,Duplicate Comment
+bky_std,ENABLE_BLOCK,Enable Block,Enable Block
+bky_std,EXPAND_ALL,Expand Blocks,Expand Blocks
+bky_std,EXPAND_BLOCK,Expand Block,Expand Block
+bky_std,EXTERNAL_INPUTS,External Inputs,External Inputs
+bky_std,HELP,Help,Help
+bky_std,INLINE_INPUTS,Inline Inputs,Inline Inputs
+bky_std,LISTS_CREATE_EMPTY_HELPURL,https://github.com/google/blockly/wiki/Lists#create-empty-list,https://github.com/google/blockly/wiki/Lists#create-empty-list
+bky_std,LISTS_CREATE_EMPTY_TITLE,create empty list,create empty list
+bky_std,LISTS_CREATE_EMPTY_TOOLTIP,"Returns a list, of length 0, containing no data records","Returns a list, of length 0, containing no data records"
+bky_std,LISTS_CREATE_WITH_CONTAINER_TITLE_ADD,list,list
+bky_std,LISTS_CREATE_WITH_CONTAINER_TOOLTIP,"Add, remove, or reorder sections to reconfigure this list block.","Add, remove, or reorder sections to reconfigure this list block."
+bky_std,LISTS_CREATE_WITH_HELPURL,https://github.com/google/blockly/wiki/Lists#create-list-with,https://github.com/google/blockly/wiki/Lists#create-list-with
+bky_std,LISTS_CREATE_WITH_INPUT_WITH,create list with,create list with
+bky_std,LISTS_CREATE_WITH_ITEM_TOOLTIP,Add an item to the list.,Add an item to the list.
+bky_std,LISTS_CREATE_WITH_TOOLTIP,Create a list with any number of items.,Create a list with any number of items.
+bky_std,LISTS_GET_INDEX_FIRST,first,first
+bky_std,LISTS_GET_INDEX_FROM_END,# from end,# from end
+bky_std,LISTS_GET_INDEX_FROM_START,#,#
+bky_std,LISTS_GET_INDEX_GET,get,get
+bky_std,LISTS_GET_INDEX_GET_REMOVE,get and remove,get and remove
+bky_std,LISTS_GET_INDEX_LAST,last,last
+bky_std,LISTS_GET_INDEX_RANDOM,random,random
+bky_std,LISTS_GET_INDEX_REMOVE,remove,remove
+bky_std,LISTS_GET_INDEX_TAIL,,
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_FIRST,Returns the first item in a list.,Returns the first item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_FROM,Returns the item at the specified position in a list.,Returns the item at the specified position in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_LAST,Returns the last item in a list.,Returns the last item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_RANDOM,Returns a random item in a list.,Returns a random item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FIRST,Removes and returns the first item in a list.,Removes and returns the first item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FROM,Removes and returns the item at the specified position in a list.,Removes and returns the item at the specified position in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_LAST,Removes and returns the last item in a list.,Removes and returns the last item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_RANDOM,Removes and returns a random item in a list.,Removes and returns a random item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_FIRST,Removes the first item in a list.,Removes the first item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_FROM,Removes the item at the specified position in a list.,Removes the item at the specified position in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_LAST,Removes the last item in a list.,Removes the last item in a list.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_RANDOM,Removes a random item in a list.,Removes a random item in a list.
+bky_std,LISTS_GET_SUBLIST_END_FROM_END,to # from end,to # from end
+bky_std,LISTS_GET_SUBLIST_END_FROM_START,to #,to #
+bky_std,LISTS_GET_SUBLIST_END_LAST,to last,to last
+bky_std,LISTS_GET_SUBLIST_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-a-sublist,https://github.com/google/blockly/wiki/Lists#getting-a-sublist
+bky_std,LISTS_GET_SUBLIST_START_FIRST,get sub-list from first,get sub-list from first
+bky_std,LISTS_GET_SUBLIST_START_FROM_END,get sub-list from # from end,get sub-list from # from end
+bky_std,LISTS_GET_SUBLIST_START_FROM_START,get sub-list from #,get sub-list from #
+bky_std,LISTS_GET_SUBLIST_TAIL,,
+bky_std,LISTS_GET_SUBLIST_TOOLTIP,Creates a copy of the specified portion of a list.,Creates a copy of the specified portion of a list.
+bky_std,LISTS_INDEX_FROM_END_TOOLTIP,%1 is the last item.,%1 is the last item.
+bky_std,LISTS_INDEX_FROM_START_TOOLTIP,%1 is the first item.,%1 is the first item.
+bky_std,LISTS_INDEX_OF_FIRST,find first occurrence of item,find first occurrence of item
+bky_std,LISTS_INDEX_OF_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list
+bky_std,LISTS_INDEX_OF_LAST,find last occurrence of item,find last occurrence of item
+bky_std,LISTS_INDEX_OF_TOOLTIP,Returns the index of the first/last occurrence of the item in the list. Returns %1 if item is not found.,Returns the index of the first/last occurrence of the item in the list. Returns %1 if item is not found.
+bky_std,LISTS_INLIST,in list,in list
+bky_std,LISTS_ISEMPTY_HELPURL,https://github.com/google/blockly/wiki/Lists#is-empty,https://github.com/google/blockly/wiki/Lists#is-empty
+bky_std,LISTS_ISEMPTY_TITLE,%1 is empty,%1 is empty
+bky_std,LISTS_ISEMPTY_TOOLTIP,Returns true if the list is empty.,Returns true if the list is empty.
+bky_std,LISTS_LENGTH_HELPURL,https://github.com/google/blockly/wiki/Lists#length-of,https://github.com/google/blockly/wiki/Lists#length-of
+bky_std,LISTS_LENGTH_TITLE,length of %1,length of %1
+bky_std,LISTS_LENGTH_TOOLTIP,Returns the length of a list.,Returns the length of a list.
+bky_std,LISTS_REPEAT_HELPURL,https://github.com/google/blockly/wiki/Lists#create-list-with,https://github.com/google/blockly/wiki/Lists#create-list-with
+bky_std,LISTS_REPEAT_TITLE,create list with item %1 repeated %2 times,create list with item %1 repeated %2 times
+bky_std,LISTS_REPEAT_TOOLTIP,Creates a list consisting of the given value repeated the specified number of times.,Creates a list consisting of the given value repeated the specified number of times.
+bky_std,LISTS_REVERSE_HELPURL,https://github.com/google/blockly/wiki/Lists#reversing-a-list,https://github.com/google/blockly/wiki/Lists#reversing-a-list
+bky_std,LISTS_REVERSE_MESSAGE0,reverse %1,reverse %1
+bky_std,LISTS_REVERSE_TOOLTIP,Reverse a copy of a list.,Reverse a copy of a list.
+bky_std,LISTS_SET_INDEX_HELPURL,https://github.com/google/blockly/wiki/Lists#in-list--set,https://github.com/google/blockly/wiki/Lists#in-list--set
+bky_std,LISTS_SET_INDEX_INPUT_TO,as,as
+bky_std,LISTS_SET_INDEX_INSERT,insert at,insert at
+bky_std,LISTS_SET_INDEX_SET,set,set
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_FIRST,Inserts the item at the start of a list.,Inserts the item at the start of a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_FROM,Inserts the item at the specified position in a list.,Inserts the item at the specified position in a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_LAST,Append the item to the end of a list.,Append the item to the end of a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_RANDOM,Inserts the item randomly in a list.,Inserts the item randomly in a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_FIRST,Sets the first item in a list.,Sets the first item in a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_FROM,Sets the item at the specified position in a list.,Sets the item at the specified position in a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_LAST,Sets the last item in a list.,Sets the last item in a list.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_RANDOM,Sets a random item in a list.,Sets a random item in a list.
+bky_std,LISTS_SORT_HELPURL,https://github.com/google/blockly/wiki/Lists#sorting-a-list,https://github.com/google/blockly/wiki/Lists#sorting-a-list
+bky_std,LISTS_SORT_ORDER_ASCENDING,ascending,ascending
+bky_std,LISTS_SORT_ORDER_DESCENDING,descending,descending
+bky_std,LISTS_SORT_TITLE,sort %1 %2 %3,sort %1 %2 %3
+bky_std,LISTS_SORT_TOOLTIP,Sort a copy of a list.,Sort a copy of a list.
+bky_std,LISTS_SORT_TYPE_IGNORECASE,"alphabetic, ignore case","alphabetic, ignore case"
+bky_std,LISTS_SORT_TYPE_NUMERIC,numeric,numeric
+bky_std,LISTS_SORT_TYPE_TEXT,alphabetic,alphabetic
+bky_std,LISTS_SPLIT_HELPURL,https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists,https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists
+bky_std,LISTS_SPLIT_LIST_FROM_TEXT,make list from text,make list from text
+bky_std,LISTS_SPLIT_TEXT_FROM_LIST,make text from list,make text from list
+bky_std,LISTS_SPLIT_TOOLTIP_JOIN,"Join a list of texts into one text, separated by a delimiter.","Join a list of texts into one text, separated by a delimiter."
+bky_std,LISTS_SPLIT_TOOLTIP_SPLIT,"Split text into a list of texts, breaking at each delimiter.","Split text into a list of texts, breaking at each delimiter."
+bky_std,LISTS_SPLIT_WITH_DELIMITER,with delimiter,with delimiter
+bky_std,LOGIC_BOOLEAN_FALSE,false,false
+bky_std,LOGIC_BOOLEAN_HELPURL,https://github.com/google/blockly/wiki/Logic#values,https://github.com/google/blockly/wiki/Logic#values
+bky_std,LOGIC_BOOLEAN_TOOLTIP,Returns either true or false.,Returns either true or false.
+bky_std,LOGIC_BOOLEAN_TRUE,true,true
+bky_std,LOGIC_COMPARE_HELPURL,https://en.wikipedia.org/wiki/Inequality_(mathematics),https://en.wikipedia.org/wiki/Inequality_(mathematics)
+bky_std,LOGIC_COMPARE_TOOLTIP_EQ,Return true if both inputs equal each other.,Return true if both inputs equal each other.
+bky_std,LOGIC_COMPARE_TOOLTIP_GT,Return true if the first input is greater than the second input.,Return true if the first input is greater than the second input.
+bky_std,LOGIC_COMPARE_TOOLTIP_GTE,Return true if the first input is greater than or equal to the second input.,Return true if the first input is greater than or equal to the second input.
+bky_std,LOGIC_COMPARE_TOOLTIP_LT,Return true if the first input is smaller than the second input.,Return true if the first input is smaller than the second input.
+bky_std,LOGIC_COMPARE_TOOLTIP_LTE,Return true if the first input is smaller than or equal to the second input.,Return true if the first input is smaller than or equal to the second input.
+bky_std,LOGIC_COMPARE_TOOLTIP_NEQ,Return true if both inputs are not equal to each other.,Return true if both inputs are not equal to each other.
+bky_std,LOGIC_NEGATE_HELPURL,https://github.com/google/blockly/wiki/Logic#not,https://github.com/google/blockly/wiki/Logic#not
+bky_std,LOGIC_NEGATE_TITLE,not %1,not %1
+bky_std,LOGIC_NEGATE_TOOLTIP,Returns true if the input is false. Returns false if the input is true.,Returns true if the input is false. Returns false if the input is true.
+bky_std,LOGIC_NULL,null,null
+bky_std,LOGIC_NULL_HELPURL,https://en.wikipedia.org/wiki/Nullable_type,https://en.wikipedia.org/wiki/Nullable_type
+bky_std,LOGIC_NULL_TOOLTIP,Returns null.,Returns null.
+bky_std,LOGIC_OPERATION_AND,and,and
+bky_std,LOGIC_OPERATION_HELPURL,https://github.com/google/blockly/wiki/Logic#logical-operations,https://github.com/google/blockly/wiki/Logic#logical-operations
+bky_std,LOGIC_OPERATION_OR,or,or
+bky_std,LOGIC_OPERATION_TOOLTIP_AND,Return true if both inputs are true.,Return true if both inputs are true.
+bky_std,LOGIC_OPERATION_TOOLTIP_OR,Return true if at least one of the inputs is true.,Return true if at least one of the inputs is true.
+bky_std,LOGIC_TERNARY_CONDITION,test,test
+bky_std,LOGIC_TERNARY_HELPURL,https://en.wikipedia.org/wiki/%3F:,https://en.wikipedia.org/wiki/%3F:
+bky_std,LOGIC_TERNARY_IF_FALSE,if false,if false
+bky_std,LOGIC_TERNARY_IF_TRUE,if true,if true
+bky_std,LOGIC_TERNARY_TOOLTIP,"Check the condition in 'test'. If the condition is true, returns the 'if true' value; otherwise returns the 'if false' value.","Check the condition in 'test'. If the condition is true, returns the 'if true' value; otherwise returns the 'if false' value."
+bky_std,MATH_ADDITION_SYMBOL,+,+
+bky_std,MATH_ARITHMETIC_HELPURL,https://en.wikipedia.org/wiki/Arithmetic,https://en.wikipedia.org/wiki/Arithmetic
+bky_std,MATH_ARITHMETIC_TOOLTIP_ADD,Return the sum of the two numbers.,Return the sum of the two numbers.
+bky_std,MATH_ARITHMETIC_TOOLTIP_DIVIDE,Return the quotient of the two numbers.,Return the quotient of the two numbers.
+bky_std,MATH_ARITHMETIC_TOOLTIP_MINUS,Return the difference of the two numbers.,Return the difference of the two numbers.
+bky_std,MATH_ARITHMETIC_TOOLTIP_MULTIPLY,Return the product of the two numbers.,Return the product of the two numbers.
+bky_std,MATH_ARITHMETIC_TOOLTIP_POWER,Return the first number raised to the power of the second number.,Return the first number raised to the power of the second number.
+bky_std,MATH_ATAN2_HELPURL,https://en.wikipedia.org/wiki/Atan2,https://en.wikipedia.org/wiki/Atan2
+bky_std,MATH_ATAN2_TITLE,atan2 of X:%1 Y:%2,atan2 of X:%1 Y:%2
+bky_std,MATH_ATAN2_TOOLTIP,"Return the arctangent of point (X, Y) in degrees from -180 to 180.","Return the arctangent of point (X, Y) in degrees from -180 to 180."
+bky_std,MATH_CHANGE_HELPURL,https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter,https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter
+bky_std,MATH_CHANGE_TITLE,change %1 by %2,change %1 by %2
+bky_std,MATH_CHANGE_TOOLTIP,Add a number to variable '%1'.,Add a number to variable '%1'.
+bky_std,MATH_CONSTANT_HELPURL,https://en.wikipedia.org/wiki/Mathematical_constant,https://en.wikipedia.org/wiki/Mathematical_constant
+bky_std,MATH_CONSTANT_TOOLTIP,"Return one of the common constants: π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), or ∞ (infinity).","Return one of the common constants: π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), or ∞ (infinity)."
+bky_std,MATH_CONSTRAIN_HELPURL,https://en.wikipedia.org/wiki/Clamping_(graphics),https://en.wikipedia.org/wiki/Clamping_(graphics)
+bky_std,MATH_CONSTRAIN_TITLE,constrain %1 low %2 high %3,constrain %1 low %2 high %3
+bky_std,MATH_CONSTRAIN_TOOLTIP,Constrain a number to be between the specified limits (inclusive).,Constrain a number to be between the specified limits (inclusive).
+bky_std,MATH_DIVISION_SYMBOL,÷,÷
+bky_std,MATH_IS_DIVISIBLE_BY,is divisible by,is divisible by
+bky_std,MATH_IS_EVEN,is even,is even
+bky_std,MATH_IS_NEGATIVE,is negative,is negative
+bky_std,MATH_IS_ODD,is odd,is odd
+bky_std,MATH_IS_POSITIVE,is positive,is positive
+bky_std,MATH_IS_PRIME,is prime,is prime
+bky_std,MATH_IS_TOOLTIP,"Check if a number is an even, odd, prime, whole, positive, negative, or if it is divisible by certain number. Returns true or false.","Check if a number is an even, odd, prime, whole, positive, negative, or if it is divisible by certain number. Returns true or false."
+bky_std,MATH_IS_WHOLE,is whole,is whole
+bky_std,MATH_MODULO_HELPURL,https://en.wikipedia.org/wiki/Modulo_operation,https://en.wikipedia.org/wiki/Modulo_operation
+bky_std,MATH_MODULO_TITLE,remainder of %1 ÷ %2,remainder of %1 ÷ %2
+bky_std,MATH_MODULO_TOOLTIP,Return the remainder from dividing the two numbers.,Return the remainder from dividing the two numbers.
+bky_std,MATH_MULTIPLICATION_SYMBOL,×,×
+bky_std,MATH_NUMBER_HELPURL,https://en.wikipedia.org/wiki/Number,https://en.wikipedia.org/wiki/Number
+bky_std,MATH_NUMBER_TOOLTIP,A number.,A number.
+bky_std,MATH_ONLIST_HELPURL,,
+bky_std,MATH_ONLIST_OPERATOR_AVERAGE,average of list,average of list
+bky_std,MATH_ONLIST_OPERATOR_MAX,max of list,max of list
+bky_std,MATH_ONLIST_OPERATOR_MEDIAN,median of list,median of list
+bky_std,MATH_ONLIST_OPERATOR_MIN,min of list,min of list
+bky_std,MATH_ONLIST_OPERATOR_MODE,modes of list,modes of list
+bky_std,MATH_ONLIST_OPERATOR_RANDOM,random item of list,random item of list
+bky_std,MATH_ONLIST_OPERATOR_STD_DEV,standard deviation of list,standard deviation of list
+bky_std,MATH_ONLIST_OPERATOR_SUM,sum of list,sum of list
+bky_std,MATH_ONLIST_TOOLTIP_AVERAGE,Return the average (arithmetic mean) of the numeric values in the list.,Return the average (arithmetic mean) of the numeric values in the list.
+bky_std,MATH_ONLIST_TOOLTIP_MAX,Return the largest number in the list.,Return the largest number in the list.
+bky_std,MATH_ONLIST_TOOLTIP_MEDIAN,Return the median number in the list.,Return the median number in the list.
+bky_std,MATH_ONLIST_TOOLTIP_MIN,Return the smallest number in the list.,Return the smallest number in the list.
+bky_std,MATH_ONLIST_TOOLTIP_MODE,Return a list of the most common item(s) in the list.,Return a list of the most common item(s) in the list.
+bky_std,MATH_ONLIST_TOOLTIP_RANDOM,Return a random element from the list.,Return a random element from the list.
+bky_std,MATH_ONLIST_TOOLTIP_STD_DEV,Return the standard deviation of the list.,Return the standard deviation of the list.
+bky_std,MATH_ONLIST_TOOLTIP_SUM,Return the sum of all the numbers in the list.,Return the sum of all the numbers in the list.
+bky_std,MATH_POWER_SYMBOL,^,^
+bky_std,MATH_RANDOM_FLOAT_HELPURL,https://en.wikipedia.org/wiki/Random_number_generation,https://en.wikipedia.org/wiki/Random_number_generation
+bky_std,MATH_RANDOM_FLOAT_TITLE_RANDOM,random fraction,random fraction
+bky_std,MATH_RANDOM_FLOAT_TOOLTIP,Return a random fraction between 0.0 (inclusive) and 1.0 (exclusive).,Return a random fraction between 0.0 (inclusive) and 1.0 (exclusive).
+bky_std,MATH_RANDOM_INT_HELPURL,https://en.wikipedia.org/wiki/Random_number_generation,https://en.wikipedia.org/wiki/Random_number_generation
+bky_std,MATH_RANDOM_INT_TITLE,random integer from %1 to %2,random integer from %1 to %2
+bky_std,MATH_RANDOM_INT_TOOLTIP,"Return a random integer between the two specified limits, inclusive.","Return a random integer between the two specified limits, inclusive."
+bky_std,MATH_ROUND_HELPURL,https://en.wikipedia.org/wiki/Rounding,https://en.wikipedia.org/wiki/Rounding
+bky_std,MATH_ROUND_OPERATOR_ROUND,round,round
+bky_std,MATH_ROUND_OPERATOR_ROUNDDOWN,round down,round down
+bky_std,MATH_ROUND_OPERATOR_ROUNDUP,round up,round up
+bky_std,MATH_ROUND_TOOLTIP,Round a number up or down.,Round a number up or down.
+bky_std,MATH_SINGLE_HELPURL,https://en.wikipedia.org/wiki/Square_root,https://en.wikipedia.org/wiki/Square_root
+bky_std,MATH_SINGLE_OP_ABSOLUTE,absolute,absolute
+bky_std,MATH_SINGLE_OP_ROOT,square root,square root
+bky_std,MATH_SINGLE_TOOLTIP_ABS,Return the absolute value of a number.,Return the absolute value of a number.
+bky_std,MATH_SINGLE_TOOLTIP_EXP,Return e to the power of a number.,Return e to the power of a number.
+bky_std,MATH_SINGLE_TOOLTIP_LN,Return the natural logarithm of a number.,Return the natural logarithm of a number.
+bky_std,MATH_SINGLE_TOOLTIP_LOG10,Return the base 10 logarithm of a number.,Return the base 10 logarithm of a number.
+bky_std,MATH_SINGLE_TOOLTIP_NEG,Return the negation of a number.,Return the negation of a number.
+bky_std,MATH_SINGLE_TOOLTIP_POW10,Return 10 to the power of a number.,Return 10 to the power of a number.
+bky_std,MATH_SINGLE_TOOLTIP_ROOT,Return the square root of a number.,Return the square root of a number.
+bky_std,MATH_SUBTRACTION_SYMBOL,-,-
+bky_std,MATH_TRIG_ACOS,acos,acos
+bky_std,MATH_TRIG_ASIN,asin,asin
+bky_std,MATH_TRIG_ATAN,atan,atan
+bky_std,MATH_TRIG_COS,cos,cos
+bky_std,MATH_TRIG_HELPURL,https://en.wikipedia.org/wiki/Trigonometric_functions,https://en.wikipedia.org/wiki/Trigonometric_functions
+bky_std,MATH_TRIG_SIN,sin,sin
+bky_std,MATH_TRIG_TAN,tan,tan
+bky_std,MATH_TRIG_TOOLTIP_ACOS,Return the arccosine of a number.,Return the arccosine of a number.
+bky_std,MATH_TRIG_TOOLTIP_ASIN,Return the arcsine of a number.,Return the arcsine of a number.
+bky_std,MATH_TRIG_TOOLTIP_ATAN,Return the arctangent of a number.,Return the arctangent of a number.
+bky_std,MATH_TRIG_TOOLTIP_COS,Return the cosine of a degree (not radian).,Return the cosine of a degree (not radian).
+bky_std,MATH_TRIG_TOOLTIP_SIN,Return the sine of a degree (not radian).,Return the sine of a degree (not radian).
+bky_std,MATH_TRIG_TOOLTIP_TAN,Return the tangent of a degree (not radian).,Return the tangent of a degree (not radian).
+bky_std,NEW_COLOUR_VARIABLE,Create colour variable...,Create colour variable...
+bky_std,NEW_NUMBER_VARIABLE,Create number variable...,Create number variable...
+bky_std,NEW_STRING_VARIABLE,Create string variable...,Create string variable...
+bky_std,NEW_VARIABLE,Create variable...,Create variable...
+bky_std,NEW_VARIABLE_TITLE,New variable name:,New variable name:
+bky_std,NEW_VARIABLE_TYPE_TITLE,New variable type:,New variable type:
+bky_std,ORDINAL_NUMBER_SUFFIX,,
+bky_std,PROCEDURES_ALLOW_STATEMENTS,allow statements,allow statements
+bky_std,PROCEDURES_BEFORE_PARAMS,with:,with:
+bky_std,PROCEDURES_CALLNORETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://en.wikipedia.org/wiki/Subroutine
+bky_std,PROCEDURES_CALLNORETURN_TOOLTIP,Run the user-defined function '%1'.,Run the user-defined function '%1'.
+bky_std,PROCEDURES_CALLRETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://en.wikipedia.org/wiki/Subroutine
+bky_std,PROCEDURES_CALLRETURN_TOOLTIP,Run the user-defined function '%1' and use its output.,Run the user-defined function '%1' and use its output.
+bky_std,PROCEDURES_CALL_BEFORE_PARAMS,with:,with:
+bky_std,PROCEDURES_CREATE_DO,Create '%1',Create '%1'
+bky_std,PROCEDURES_DEFNORETURN_COMMENT,Describe this function...,Describe this function...
+bky_std,PROCEDURES_DEFNORETURN_DO,,
+bky_std,PROCEDURES_DEFNORETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://en.wikipedia.org/wiki/Subroutine
+bky_std,PROCEDURES_DEFNORETURN_PROCEDURE,do something,do something
+bky_std,PROCEDURES_DEFNORETURN_TITLE,to,to
+bky_std,PROCEDURES_DEFNORETURN_TOOLTIP,Creates a function with no output.,Creates a function with no output.
+bky_std,PROCEDURES_DEFRETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://en.wikipedia.org/wiki/Subroutine
+bky_std,PROCEDURES_DEFRETURN_RETURN,return,return
+bky_std,PROCEDURES_DEFRETURN_TOOLTIP,Creates a function with an output.,Creates a function with an output.
+bky_std,PROCEDURES_DEF_DUPLICATE_WARNING,Warning: This function has duplicate parameters.,Warning: This function has duplicate parameters.
+bky_std,PROCEDURES_HIGHLIGHT_DEF,Highlight function definition,Highlight function definition
+bky_std,PROCEDURES_IFRETURN_HELPURL,https://c2.com/cgi/wiki?GuardClause,https://c2.com/cgi/wiki?GuardClause
+bky_std,PROCEDURES_IFRETURN_TOOLTIP,"If a value is true, then return a second value.","If a value is true, then return a second value."
+bky_std,PROCEDURES_IFRETURN_WARNING,Warning: This block may be used only within a function definition.,Warning: This block may be used only within a function definition.
+bky_std,PROCEDURES_MUTATORARG_TITLE,input name:,input name:
+bky_std,PROCEDURES_MUTATORARG_TOOLTIP,Add an input to the function.,Add an input to the function.
+bky_std,PROCEDURES_MUTATORCONTAINER_TITLE,inputs,inputs
+bky_std,PROCEDURES_MUTATORCONTAINER_TOOLTIP,"Add, remove, or reorder inputs to this function.","Add, remove, or reorder inputs to this function."
+bky_std,REDO,Redo,Redo
+bky_std,REMOVE_COMMENT,Remove Comment,Remove Comment
+bky_std,RENAME_VARIABLE,Rename variable...,Rename variable...
+bky_std,RENAME_VARIABLE_TITLE,Rename all '%1' variables to:,Rename all '%1' variables to:
+bky_std,TEXT_APPEND_HELPURL,https://github.com/google/blockly/wiki/Text#text-modification,https://github.com/google/blockly/wiki/Text#text-modification
+bky_std,TEXT_APPEND_TITLE,to %1 append text %2,to %1 append text %2
+bky_std,TEXT_APPEND_TOOLTIP,Append some text to variable '%1'.,Append some text to variable '%1'.
+bky_std,TEXT_CHANGECASE_HELPURL,https://github.com/google/blockly/wiki/Text#adjusting-text-case,https://github.com/google/blockly/wiki/Text#adjusting-text-case
+bky_std,TEXT_CHANGECASE_OPERATOR_LOWERCASE,to lower case,to lower case
+bky_std,TEXT_CHANGECASE_OPERATOR_TITLECASE,to Title Case,to Title Case
+bky_std,TEXT_CHANGECASE_OPERATOR_UPPERCASE,to UPPER CASE,to UPPER CASE
+bky_std,TEXT_CHANGECASE_TOOLTIP,Return a copy of the text in a different case.,Return a copy of the text in a different case.
+bky_std,TEXT_CHARAT_FIRST,get first letter,get first letter
+bky_std,TEXT_CHARAT_FROM_END,get letter # from end,get letter # from end
+bky_std,TEXT_CHARAT_FROM_START,get letter #,get letter #
+bky_std,TEXT_CHARAT_HELPURL,https://github.com/google/blockly/wiki/Text#extracting-text,https://github.com/google/blockly/wiki/Text#extracting-text
+bky_std,TEXT_CHARAT_LAST,get last letter,get last letter
+bky_std,TEXT_CHARAT_RANDOM,get random letter,get random letter
+bky_std,TEXT_CHARAT_TAIL,,
+bky_std,TEXT_CHARAT_TITLE,in text %1 %2,in text %1 %2
+bky_std,TEXT_CHARAT_TOOLTIP,Returns the letter at the specified position.,Returns the letter at the specified position.
+bky_std,TEXT_COUNT_HELPURL,https://github.com/google/blockly/wiki/Text#counting-substrings,https://github.com/google/blockly/wiki/Text#counting-substrings
+bky_std,TEXT_COUNT_MESSAGE0,count %1 in %2,count %1 in %2
+bky_std,TEXT_COUNT_TOOLTIP,Count how many times some text occurs within some other text.,Count how many times some text occurs within some other text.
+bky_std,TEXT_CREATE_JOIN_ITEM_TOOLTIP,Add an item to the text.,Add an item to the text.
+bky_std,TEXT_CREATE_JOIN_TITLE_JOIN,join,join
+bky_std,TEXT_CREATE_JOIN_TOOLTIP,"Add, remove, or reorder sections to reconfigure this text block.","Add, remove, or reorder sections to reconfigure this text block."
+bky_std,TEXT_GET_SUBSTRING_END_FROM_END,to letter # from end,to letter # from end
+bky_std,TEXT_GET_SUBSTRING_END_FROM_START,to letter #,to letter #
+bky_std,TEXT_GET_SUBSTRING_END_LAST,to last letter,to last letter
+bky_std,TEXT_GET_SUBSTRING_HELPURL,https://github.com/google/blockly/wiki/Text#extracting-a-region-of-text,https://github.com/google/blockly/wiki/Text#extracting-a-region-of-text
+bky_std,TEXT_GET_SUBSTRING_INPUT_IN_TEXT,in text,in text
+bky_std,TEXT_GET_SUBSTRING_START_FIRST,get substring from first letter,get substring from first letter
+bky_std,TEXT_GET_SUBSTRING_START_FROM_END,get substring from letter # from end,get substring from letter # from end
+bky_std,TEXT_GET_SUBSTRING_START_FROM_START,get substring from letter #,get substring from letter #
+bky_std,TEXT_GET_SUBSTRING_TAIL,,
+bky_std,TEXT_GET_SUBSTRING_TOOLTIP,Returns a specified portion of the text.,Returns a specified portion of the text.
+bky_std,TEXT_INDEXOF_HELPURL,https://github.com/google/blockly/wiki/Text#finding-text,https://github.com/google/blockly/wiki/Text#finding-text
+bky_std,TEXT_INDEXOF_OPERATOR_FIRST,find first occurrence of text,find first occurrence of text
+bky_std,TEXT_INDEXOF_OPERATOR_LAST,find last occurrence of text,find last occurrence of text
+bky_std,TEXT_INDEXOF_TITLE,in text %1 %2 %3,in text %1 %2 %3
+bky_std,TEXT_INDEXOF_TOOLTIP,Returns the index of the first/last occurrence of the first text in the second text. Returns %1 if text is not found.,Returns the index of the first/last occurrence of the first text in the second text. Returns %1 if text is not found.
+bky_std,TEXT_ISEMPTY_HELPURL,https://github.com/google/blockly/wiki/Text#checking-for-empty-text,https://github.com/google/blockly/wiki/Text#checking-for-empty-text
+bky_std,TEXT_ISEMPTY_TITLE,%1 is empty,%1 is empty
+bky_std,TEXT_ISEMPTY_TOOLTIP,Returns true if the provided text is empty.,Returns true if the provided text is empty.
+bky_std,TEXT_JOIN_HELPURL,https://github.com/google/blockly/wiki/Text#text-creation,https://github.com/google/blockly/wiki/Text#text-creation
+bky_std,TEXT_JOIN_TITLE_CREATEWITH,create text with,create text with
+bky_std,TEXT_JOIN_TOOLTIP,Create a piece of text by joining together any number of items.,Create a piece of text by joining together any number of items.
+bky_std,TEXT_LENGTH_HELPURL,https://github.com/google/blockly/wiki/Text#text-modification,https://github.com/google/blockly/wiki/Text#text-modification
+bky_std,TEXT_LENGTH_TITLE,length of %1,length of %1
+bky_std,TEXT_LENGTH_TOOLTIP,Returns the number of letters (including spaces) in the provided text.,Returns the number of letters (including spaces) in the provided text.
+bky_std,TEXT_PRINT_HELPURL,https://github.com/google/blockly/wiki/Text#printing-text,https://github.com/google/blockly/wiki/Text#printing-text
+bky_std,TEXT_PRINT_TITLE,print %1,print %1
+bky_std,TEXT_PRINT_TOOLTIP,"Print the specified text, number or other value.","Print the specified text, number or other value."
+bky_std,TEXT_PROMPT_HELPURL,https://github.com/google/blockly/wiki/Text#getting-input-from-the-user,https://github.com/google/blockly/wiki/Text#getting-input-from-the-user
+bky_std,TEXT_PROMPT_TOOLTIP_NUMBER,Prompt for user for a number.,Prompt for user for a number.
+bky_std,TEXT_PROMPT_TOOLTIP_TEXT,Prompt for user for some text.,Prompt for user for some text.
+bky_std,TEXT_PROMPT_TYPE_NUMBER,prompt for number with message,prompt for number with message
+bky_std,TEXT_PROMPT_TYPE_TEXT,prompt for text with message,prompt for text with message
+bky_std,TEXT_REPLACE_HELPURL,https://github.com/google/blockly/wiki/Text#replacing-substrings,https://github.com/google/blockly/wiki/Text#replacing-substrings
+bky_std,TEXT_REPLACE_MESSAGE0,replace %1 with %2 in %3,replace %1 with %2 in %3
+bky_std,TEXT_REPLACE_TOOLTIP,Replace all occurances of some text within some other text.,Replace all occurances of some text within some other text.
+bky_std,TEXT_REVERSE_HELPURL,https://github.com/google/blockly/wiki/Text#reversing-text,https://github.com/google/blockly/wiki/Text#reversing-text
+bky_std,TEXT_REVERSE_MESSAGE0,reverse %1,reverse %1
+bky_std,TEXT_REVERSE_TOOLTIP,Reverses the order of the characters in the text.,Reverses the order of the characters in the text.
+bky_std,TEXT_TEXT_HELPURL,https://en.wikipedia.org/wiki/String_(computer_science),https://en.wikipedia.org/wiki/String_(computer_science)
+bky_std,TEXT_TEXT_TOOLTIP,"A letter, word, or line of text.","A letter, word, or line of text."
+bky_std,TEXT_TRIM_HELPURL,https://github.com/google/blockly/wiki/Text#trimming-removing-spaces,https://github.com/google/blockly/wiki/Text#trimming-removing-spaces
+bky_std,TEXT_TRIM_OPERATOR_BOTH,trim spaces from both sides of,trim spaces from both sides of
+bky_std,TEXT_TRIM_OPERATOR_LEFT,trim spaces from left side of,trim spaces from left side of
+bky_std,TEXT_TRIM_OPERATOR_RIGHT,trim spaces from right side of,trim spaces from right side of
+bky_std,TEXT_TRIM_TOOLTIP,Return a copy of the text with spaces removed from one or both ends.,Return a copy of the text with spaces removed from one or both ends.
+bky_std,TODAY,Today,Today
+bky_std,UNDO,Undo,Undo
+bky_std,UNNAMED_KEY,unnamed,unnamed
+bky_std,VARIABLES_DEFAULT_NAME,item,item
+bky_std,VARIABLES_GET_CREATE_SET,Create 'set %1',Create 'set %1'
+bky_std,VARIABLES_GET_HELPURL,https://github.com/google/blockly/wiki/Variables#get,https://github.com/google/blockly/wiki/Variables#get
+bky_std,VARIABLES_GET_TOOLTIP,Returns the value of this variable.,Returns the value of this variable.
+bky_std,VARIABLES_SET,set %1 to %2,set %1 to %2
+bky_std,VARIABLES_SET_CREATE_GET,Create 'get %1',Create 'get %1'
+bky_std,VARIABLES_SET_HELPURL,https://github.com/google/blockly/wiki/Variables#set,https://github.com/google/blockly/wiki/Variables#set
+bky_std,VARIABLES_SET_TOOLTIP,Sets this variable to be equal to the input.,Sets this variable to be equal to the input.
+bky_std,VARIABLE_ALREADY_EXISTS,A variable named '%1' already exists.,A variable named '%1' already exists.
+bky_std,VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE,A variable named '%1' already exists for another type: '%2'.,A variable named '%1' already exists for another type: '%2'.
+bky_std,WORKSPACE_ARIA_LABEL,Blockly Workspace,Blockly Workspace
+bky_std,WORKSPACE_COMMENT_DEFAULT_TEXT,Say something...,Say something...
+bky_std,CONTROLS_FOREACH_INPUT_DO,do,do
+bky_std,CONTROLS_FOR_INPUT_DO,do,do
+bky_std,CONTROLS_IF_ELSEIF_TITLE_ELSEIF,else if,else if
+bky_std,CONTROLS_IF_ELSE_TITLE_ELSE,else,else
+bky_std,CONTROLS_IF_IF_TITLE_IF,if,if
+bky_std,CONTROLS_IF_MSG_THEN,do,do
+bky_std,CONTROLS_WHILEUNTIL_INPUT_DO,do,do
+bky_std,LISTS_CREATE_WITH_ITEM_TITLE,item,item
+bky_std,LISTS_GET_INDEX_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list
+bky_std,LISTS_GET_INDEX_INPUT_IN_LIST,in list,in list
+bky_std,LISTS_GET_SUBLIST_INPUT_IN_LIST,in list,in list
+bky_std,LISTS_INDEX_OF_INPUT_IN_LIST,in list,in list
+bky_std,LISTS_SET_INDEX_INPUT_IN_LIST,in list,in list
+bky_std,MATH_CHANGE_TITLE_ITEM,item,item
+bky_std,PROCEDURES_DEFRETURN_COMMENT,Describe this function...,Describe this function...
+bky_std,PROCEDURES_DEFRETURN_DO,,
+bky_std,PROCEDURES_DEFRETURN_PROCEDURE,do something,do something
+bky_std,PROCEDURES_DEFRETURN_TITLE,to,to
+bky_std,TEXT_APPEND_VARIABLE,item,item
+bky_std,TEXT_CREATE_JOIN_ITEM_TITLE_ITEM,item,item
+bky_std,MATH_HUE,230,230
+bky_std,LOOPS_HUE,120,120
+bky_std,LISTS_HUE,260,260
+bky_std,LOGIC_HUE,210,210
+bky_std,VARIABLES_HUE,330,330
+bky_std,TEXTS_HUE,160,160
+bky_std,PROCEDURES_HUE,290,290
+bky_std,COLOUR_HUE,20,20
+bky_std,VARIABLES_DYNAMIC_HUE,310,310
+bky_std,CROSS_TAB_COPY,Copy,Copy
+bky_std,CROSS_TAB_PASTE,Paste,Paste
+bky_custom,CONTROLS_REPEAT_TITLE,repeat %1 times,repeat %1 times
+bky_custom,DELETE_X_BLOCKS,Delete,Delete
+bky_custom,DELETE_BLOCK,Delete,Delete
+bky_custom,WITH_FORWARD,with forward,with forward
+bky_custom,ON_PORT,on,on
+bky_custom,SET_UP,set up,set up
+bky_custom,PROGRAM_START,program,program
+bky_custom,Stop.COAST,coast,coast
+bky_custom,STOP_COAST_DESCRIPTION,coast freely,coast freely
+bky_custom,Stop.BRAKE,brake,brake
+bky_custom,STOP_BRAKE_DESCRIPTION,brake by friction,brake by friction
+bky_custom,Stop.HOLD,hold,hold
+bky_custom,STOP_HOLD_DESCRIPTION,hold this position,hold this position
+bky_custom,Stop.NONE,continue,continue
+bky_custom,STOP_NONE_DESCRIPTION,continue moving,continue moving
+bky_custom,RENAME_ELIPSIS,Rename...,Rename...
+bky_custom,CONTROLS_ITER_FOR,for,for
+bky_custom,CONTROLS_ITER_IN,in,in
+bky_custom,WARN_LOOP_VAR,Can only be used within loop block with the same variable.,Can only be used within loop block with the same variable.
+bky_custom,WARN_FUNC_VAR,Can only be used within function with this argument,Can only be used within function with this argument
+bky_custom,RANGE,range,range
+bky_custom,MULTITASK,multitask until %3 done,multitask until %3 done
+bky_custom,MULTITASK_ALL,all,all
+bky_custom,MULTITASK_RACE,one task,one task
+bky_custom,MULTITASK_ALL_DESCRIPTION,all: Wait for all tasks to finish.,all: Wait for all tasks to finish.
+bky_custom,MULTITASK_RACE_DESCRIPTION,"one task: Finish one task, then cancel the others.","one task: Finish one task, then cancel the others."
+bky_custom,SEP_SPACE_DESCRIPTION,space,space
+bky_custom,SEP_COMMA_ONLY_DESCRIPTION,comma,comma
+bky_custom,SEP_COMMA_SPACE_DESCRIPTION,comma with space,comma with space
+bky_custom,TRUE,true,true
+bky_custom,FALSE,false,false
+bky_custom,NONE,none,none
+bky_custom,EQ_DESCRIPTION,=    True if the values are equal,=    True if the values are equal
+bky_custom,NEQ_DESCRIPTION,≠   True if the values are different,≠   True if the values are different
+bky_custom,LT_DESCRIPTION,<   True if left value is smaller,<   True if left value is smaller
+bky_custom,LTE_DESCRIPTION,"≤   True if left value is smaller, or the same","≤   True if left value is smaller, or the same"
+bky_custom,GT_DESCRIPTION,>   True if left value is bigger,>   True if left value is bigger
+bky_custom,GTE_DESCRIPTION,"≥   True if left value is bigger, or the same","≥   True if left value is bigger, or the same"
+bky_custom,MATH_RANDOM_INT_TITLE,random from %1 to %2,random from %1 to %2
+bky_custom,LIST_LITERAL,list,list
+bky_custom,LIST_IS_IN,in,in
+bky_custom,COLOR_TO_DETECT_SETUP,to match only,to match only
+bky_custom,COLOR_CHOOSE_COLOR,choose color,choose color
+bky_custom,MOTOR_RUN_AT_SPEED,run at,run at
+bky_custom,MOTOR_STOP,stop,stop
+bky_custom,MOTOR_TRACK,track,track
+bky_custom,MOTOR_MEASURE,get,get
+bky_custom,MOTOR_RESET_ANGLE,reset angle to,reset angle to
+bky_custom,MOTOR_GET_ANGLE_DESCRIPTION,angle: °,angle: °
+bky_custom,MOTOR_GET_SPEED_DESCRIPTION,speed: °/s,speed: °/s
+bky_custom,MOTOR_GET_SPEED_AVERAGE,average speed,average speed
+bky_custom,MOTOR_GET_SPEED_AVERAGE_DESCRIPTION,average speed: °/s,average speed: °/s
+bky_custom,MOTOR_LOAD,load,load
+bky_custom,MOTOR_LOAD_DESCRIPTION,load: mNm,load: mNm
+bky_custom,MOTOR_STALLED,stalled,stalled
+bky_custom,MOTOR_STALLED_DESCRIPTION,stalled: true or false,stalled: true or false
+bky_custom,MOTOR_GET_SPEED_AVERAGE_DURING,during,during
+bky_custom,MOTOR_POWER_AT,power at,power at
+bky_custom,MOTOR_CONFIGURE,configure,configure
+bky_custom,MOTOR_DUTY_CYCLE,duty cycle,duty cycle
+bky_custom,MOTOR_THEN,then,then
+bky_custom,MOTOR_POWER_LIMIT,with power limit,with power limit
+bky_custom,MOTOR_RUN_FOREVER,forever,forever
+bky_custom,MOTOR_RUN_FOREVER_DESCRIPTION,rotate forever (until you use another motor block or the program ends),rotate forever (until you use another motor block or the program ends)
+bky_custom,MOTOR_RUN_FOR,by,by
+bky_custom,MOTOR_RUN_FOR_DESCRIPTION,rotate by the given angle,rotate by the given angle
+bky_custom,MOTOR_RUN_TO,towards,towards
+bky_custom,MOTOR_RUN_TO_DESCRIPTION,rotate towards the angle target,rotate towards the angle target
+bky_custom,MOTOR_RUN_UNTIL_STALLED,to end stop,to end stop
+bky_custom,MOTOR_RUN_UNTIL_STALLED_DESCRIPTION,rotate to the end stop,rotate to the end stop
+bky_custom,MOTOR_RUN_TO_CENTER,to center,to center
+bky_custom,MOTOR_RUN_TO_CENTER_DESCRIPTION,rotate to the center between two end stops,rotate to the center between two end stops
+bky_custom,MOTOR_TARGET_TOLERANCES,tolerances,tolerances
+bky_custom,MOTOR_TARGET_TOLERANCES_DESCRIPTION,tolerances for movements,tolerances for movements
+bky_custom,MOTOR_ANGLE,angle,angle
+bky_custom,MOTOR_SPEED,speed,speed
+bky_custom,MOTOR_ACCELERATION,acceleration,acceleration
+bky_custom,MOTOR_ACCELERATION_DESCRIPTION,acceleration and deceleration,acceleration and deceleration
+bky_custom,MOTOR_MAX_SPEED,maximum speed,maximum speed
+bky_custom,MOTOR_MAX_SPEED_DESCRIPTION,maximum speed,maximum speed
+bky_custom,MOTOR_MAX_TORQUE,maximum torque,maximum torque
+bky_custom,MOTOR_MAX_TORQUE_DESCRIPTION,maximum feedback torque,maximum feedback torque
+bky_custom,MOTOR_MAX_VOLTAGE,maximum voltage,maximum voltage
+bky_custom,MOTOR_MAX_VOLTAGE_DESCRIPTION,maximum voltage,maximum voltage
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT,straight,straight
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT_DESCRIPTION,straight for a given distance,straight for a given distance
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT_FOR,for,for
+bky_custom,DRIVEBASE_STRAIGHT_SPEED,drive speed,drive speed
+bky_custom,DRIVEBASE_STRAIGHT_SPEED_DESCRIPTION,drive speed,drive speed
+bky_custom,DRIVEBASE_STRAIGHT_ACCELERATION,drive acceleration,drive acceleration
+bky_custom,DRIVEBASE_STRAIGHT_ACCELERATION_DESCRIPTION,drive acceleration,drive acceleration
+bky_custom,DRIVEBASE_TURN_RATE,turn speed,turn speed
+bky_custom,DRIVEBASE_TURN_RATE_DESCRIPTION,turn speed,turn speed
+bky_custom,DRIVEBASE_TURN_ACCELERATION,turn acceleration,turn acceleration
+bky_custom,DRIVEBASE_TURN_ACCELERATION_DESCRIPTION,turn acceleration,turn acceleration
+bky_custom,DRIVEBASE_DRIVE,drive,drive
+bky_custom,DRIVEBASE_DRIVE_FOREVER,forever,forever
+bky_custom,DRIVEBASE_TURN_AT_SPEED,at,at
+bky_custom,DRIVEBASE_TURN_AT_RATE,and turn at,and turn at
+bky_custom,DRIVEBASE_DRIVE_FOREVER_DESCRIPTION,forever (until you change course or stop),forever (until you change course or stop)
+bky_custom,DRIVEBASE_DRIVE_TURN,turn,turn
+bky_custom,DRIVEBASE_DRIVE_TURN_DESCRIPTION,turn in place by a given angle,turn in place by a given angle
+bky_custom,DRIVEBASE_DRIVE_CURVE,curve,curve
+bky_custom,DRIVEBASE_DRIVE_CURVE_DESCRIPTION,curve by a given angle and radius,curve by a given angle and radius
+bky_custom,DRIVEBASE_DRIVE_CURVE_RADIUS,with radius,with radius
+bky_custom,DRIVEBASE_DRIVE_ARC_ANGLE,curve,curve
+bky_custom,DRIVEBASE_DRIVE_ARC_ANGLE_DESCRIPTION,curve by a given angle and radius,curve by a given angle and radius
+bky_custom,DRIVEBASE_DRIVE_ARC_DISTANCE,veer,veer
+bky_custom,DRIVEBASE_DRIVE_ARC_DISTANCE_DESCRIPTION,veer along a circle for a given distance,veer along a circle for a given distance
+bky_custom,DRIVEBASE_RESET,reset distance and angle,reset distance and angle
+bky_custom,DRIVEBASE_RESET_WITH_VALUES,reset distance %4 angle %5,reset distance %4 angle %5
+bky_custom,DRIVEBASE_USE_GYRO,use,use
+bky_custom,DRIVEBASE_USE_GYRO_TRUE,gyro,gyro
+bky_custom,DRIVEBASE_USE_GYRO_FALSE,rotation sensors,rotation sensors
+bky_custom,DRIVEBASE_USE_GYRO_TRUE_DESCRIPTION,use gyro for turning and driving straight,use gyro for turning and driving straight
+bky_custom,DRIVEBASE_USE_GYRO_FALSE_DESCRIPTION,use rotation sensors for turning and driving straight,use rotation sensors for turning and driving straight
+bky_custom,DRIVEBASE_MEASURE,get,get
+bky_custom,DRIVEBASE_GET_SPEED,speed,speed
+bky_custom,DRIVEBASE_GET_SPEED_DESCRIPTION,drive speed: mm/s,drive speed: mm/s
+bky_custom,DRIVEBASE_GET_DISTANCE,distance,distance
+bky_custom,DRIVEBASE_GET_DISTANCE_DESCRIPTION,driven distance: mm,driven distance: mm
+bky_custom,DRIVEBASE_GET_ANGLE,angle,angle
+bky_custom,DRIVEBASE_GET_ANGLE_DESCRIPTION,driven angle: °,driven angle: °
+bky_custom,DRIVEBASE_GET_TURN_RATE,turn rate,turn rate
+bky_custom,DRIVEBASE_GET_TURN_RATE_DESCRIPTION,turn rate: °/s,turn rate: °/s
+bky_custom,DRIVEBASE_START_DRIVING,start at,start at
+bky_custom,DRIVEBASE_START_TURNING,and,and
+bky_custom,DRIVEBASE_MOVE,drive,drive
+bky_custom,DRIVEBASE_MOVE_STRAIGHT,straight,straight
+bky_custom,DRIVEBASE_MOVE_STRAIGHT_DESCRIPTION,straight,straight
+bky_custom,DRIVEBASE_MOVE_STRAIGHT_FOR,for,for
+bky_custom,DRIVEBASE_MOVE_TURN,turn,turn
+bky_custom,DRIVEBASE_MOVE_TURN_DESCRIPTION,turn,turn
+bky_custom,DRIVEBASE_MOVE_TURN_RELATIVE,by,by
+bky_custom,DRIVEBASE_MOVE_TURN_RELATIVE_DESCRIPTION,relative: by a given angle,relative: by a given angle
+bky_custom,DRIVEBASE_MOVE_TURN_ABSOLUTE,to,to
+bky_custom,DRIVEBASE_MOVE_TURN_ABSOLUTE_DESCRIPTION,absolute: to a target angle,absolute: to a target angle
+bky_custom,DRIVEBASE_MOVE_ARC,curve,curve
+bky_custom,DRIVEBASE_MOVE_ARC_DESCRIPTION,curve,curve
+bky_custom,DRIVEBASE_MOVE_ARC_RADIUS,radius,radius
+bky_custom,DRIVEBASE_MOVE_ARC_ANGLE,by,by
+bky_custom,DRIVEBASE_MOVE_ARC_ANGLE_DESCRIPTION,by an angle,by an angle
+bky_custom,DRIVEBASE_MOVE_ARC_DISTANCE,for,for
+bky_custom,DRIVEBASE_MOVE_ARC_DISTANCE_DESCRIPTION,for a distance,for a distance
+bky_custom,DRIVEBASE_MOVE_COORDINATES,coordinates,coordinates
+bky_custom,DRIVEBASE_MOVE_COORDINATES_X,Δ x,Δ x
+bky_custom,DRIVEBASE_MOVE_COORDINATES_Y,Δ y,Δ y
+bky_custom,DRIVEBASE_MOVE_COORDINATES_DESCRIPTION,coordinates,coordinates
+bky_custom,CHANNEL,channel,channel
+bky_custom,CHANNELS,channels,channels
+bky_custom,BLE_RADIO_BROADCAST_CHANNEL,broadcast channel,broadcast channel
+bky_custom,BLE_RADIO_OBSERVE_CHANNEL,observe channel,observe channel
+bky_custom,BLE_RADIO_OBSERVE_CHANNELS,observe channels,observe channels
+bky_custom,OBSERVE_CHANNEL_UNAVAILABLE,Configure an observe channel first,Configure an observe channel first
+bky_custom,BROADCAST,broadcast,broadcast
+bky_custom,OBSERVE,observe,observe
+bky_custom,UNPACK_INTO,unpack %1 to,unpack %1 to
+bky_custom,WAIT_UNTIL,wait until,wait until
+bky_custom,WAIT,wait,wait
+bky_custom,WAIT_FOREVER,wait forever,wait forever
+bky_custom,BUTTON_PRESSED,is pressed,is pressed
+bky_custom,LEFT_DOWN,left down,left down
+bky_custom,LEFT_MINUS,left ━,left ━
+bky_custom,DOWN,down,down
+bky_custom,RIGHT_DOWN,right down,right down
+bky_custom,RIGHT_MINUS,right ━,right ━
+bky_custom,LEFT,left,left
+bky_custom,CENTER,center,center
+bky_custom,RIGHT,right,right
+bky_custom,LEFT_UP,left up,left up
+bky_custom,LEFT_PLUS,left ✚,left ✚
+bky_custom,UP,up,up
+bky_custom,BLUETOOTH,bluetooth,bluetooth
+bky_custom,RIGHT_UP,right up,right up
+bky_custom,RIGHT_PLUS,right ✚,right ✚
+bky_custom,BUTTON_ANY,any button,any button
+bky_custom,LIGHT_REFLECTION,reflected light,reflected light
+bky_custom,LIGHT_AMBIENT,ambient light,ambient light
+bky_custom,LIGHT_REFLECTED_DESCRIPTION,reflected light: %,reflected light: %
+bky_custom,LIGHT_AMBIENT_DESCRIPTION,ambient light: %,ambient light: %
+bky_custom,CONNECT_ANY,scan and connect,scan and connect
+bky_custom,CONNECT_ANY_DESCRIPTION,scan and connect to the first available remote,scan and connect to the first available remote
+bky_custom,CONNECT_NAME,connect to,connect to
+bky_custom,CONNECT_NAME_DESCRIPTION,connect to a specific remote,connect to a specific remote
+bky_custom,CONNECT_RENAME,connect and rename to,connect and rename to
+bky_custom,CONNECT_RENAME_DESCRIPTION,"scan and connect to the first available remote, then rename it","scan and connect to the first available remote, then rename it"
+bky_custom,MAX_ONE_REMOTE,There can only be one remote.,There can only be one remote.
+bky_custom,MAX_ONE_HUB,There can only be one hub.,There can only be one hub.
+bky_custom,MAX_ONE_BLE_RADIO,There can only be one Bluetooth radio.,There can only be one Bluetooth radio.
+bky_custom,HUB_AXIS_TOP,top side axis,top side axis
+bky_custom,HUB_AXIS_FRONT,front side axis,front side axis
+bky_custom,VECTOR,vector,vector
+bky_custom,IMU_MEASURE,get,get
+bky_custom,IMU_GET_PITCH,pitch,pitch
+bky_custom,IMU_GET_PITCH_DESCRIPTION,pitch: °,pitch: °
+bky_custom,IMU_GET_ROLL,roll,roll
+bky_custom,IMU_GET_ROLL_DESCRIPTION,roll: °,roll: °
+bky_custom,IMU_GET_ACCELERATION,acceleration,acceleration
+bky_custom,IMU_GET_ACCELERATION_DESCRIPTION,acceleration: mm/s²,acceleration: mm/s²
+bky_custom,IMU_GET_ANGULAR_VELOCITY,angular velocity,angular velocity
+bky_custom,IMU_GET_ANGULAR_VELOCITY_DESCRIPTION,angular velocity: °/s,angular velocity: °/s
+bky_custom,IMU_GET_ROTATION,rotation,rotation
+bky_custom,IMU_GET_ROTATION_DESCRIPTION,rotation: °,rotation: °
+bky_custom,IMU_GET_ALONG_AXIS,along,along
+bky_custom,IMU_GET_AROUND_AXIS,around,around
+bky_custom,IMU_GET_HEADING,get heading,get heading
+bky_custom,IMU_RESET_HEADING,reset heading to,reset heading to
+bky_custom,IMU_GET_READY,ready,ready
+bky_custom,IMU_GET_READY_DESCRIPTION,check if gyro is ready for use,check if gyro is ready for use
+bky_custom,IMU_GET_STATIONARY,stationary,stationary
+bky_custom,IMU_GET_STATIONARY_DESCRIPTION,check if hub is currently stationary,check if hub is currently stationary
+bky_custom,IMU_GYRO_IS,is,is
+bky_custom,COLOR_GET_COLOR,color,color
+bky_custom,COLOR_GET_COLOR_DESCRIPTION,best matching color,best matching color
+bky_custom,COLOR_GET_HSV,hsv,hsv
+bky_custom,COLOR_GET_HSV_DESCRIPTION,"hue (h), saturation (s), and brightness value (v) measurement","hue (h), saturation (s), and brightness value (v) measurement"
+bky_custom,BLUE_1,blue 1,blue 1
+bky_custom,BLUE_1_DESCRIPTION,"channel 1, blue","channel 1, blue"
+bky_custom,BLUE_2,blue 2,blue 2
+bky_custom,BLUE_2_DESCRIPTION,"channel 2, blue","channel 2, blue"
+bky_custom,BLUE_3,blue 3,blue 3
+bky_custom,BLUE_3_DESCRIPTION,"channel 3, blue","channel 3, blue"
+bky_custom,BLUE_4,blue 4,blue 4
+bky_custom,BLUE_4_DESCRIPTION,"channel 4, blue","channel 4, blue"
+bky_custom,RED_1,red 1,red 1
+bky_custom,RED_1_DESCRIPTION,"channel 1, red","channel 1, red"
+bky_custom,RED_2,red 2,red 2
+bky_custom,RED_2_DESCRIPTION,"channel 2, red","channel 2, red"
+bky_custom,RED_3,red 3,red 3
+bky_custom,RED_3_DESCRIPTION,"channel 3, red","channel 3, red"
+bky_custom,RED_4,red 4,red 4
+bky_custom,RED_4_DESCRIPTION,"channel 4, red","channel 4, red"
+bky_custom,FORCE,force,force
+bky_custom,DISTANCE,distance,distance
+bky_custom,PRINT,print,print
+bky_custom,LIGHT,light,light
+bky_custom,LIGHT_ON,on,on
+bky_custom,LIGHT_OFF,off,off
+bky_custom,STOPWATCH_TIME,time,time
+bky_custom,STOPWATCH_PAUSE,pause,pause
+bky_custom,STOPWATCH_RESET,reset,reset
+bky_custom,STOPWATCH_RESET_DESCRIPTION,reset time to 0 ms,reset time to 0 ms
+bky_custom,STOPWATCH_RESUME,resume,resume
+bky_custom,APP_DATA_ONE_VALUE,value,value
+bky_custom,APP_DATA_ONE_VALUE_DESCRIPTION,one value (0 is first),one value (0 is first)
+bky_custom,APP_DATA_ALL_VALUES,all values,all values
+bky_custom,APP_DATA_ALL_VALUES_DESCRIPTION,list of all values,list of all values
+bky_custom,APP_DATA_COLOR_TRACKER,color tracker,color tracker
+bky_custom,APP_DATA_COLOR_TRACKER_DESCRIPTION,track a colored object,track a colored object
+bky_custom,APP_DATA_LINE_FOLLOWER,line follower,line follower
+bky_custom,APP_DATA_LINE_FOLLOWER_DESCRIPTION,follow a line on the ground,follow a line on the ground
+bky_custom,APP_DATA_LINE_FOLLOWER_DARK_LINE,dark line,dark line
+bky_custom,APP_DATA_LINE_FOLLOWER_DARK_LINE_DESCRIPTION,follow a dark line on a light surface,follow a dark line on a light surface
+bky_custom,APP_DATA_LINE_FOLLOWER_LIGHT_LINE,light line,light line
+bky_custom,APP_DATA_LINE_FOLLOWER_LIGHT_LINE_DESCRIPTION,follow a light line on a dark surface,follow a light line on a dark surface
+bky_custom,APP_DATA_CUSTOM,custom,custom
+bky_custom,APP_DATA_CUSTOM_DESCRIPTION,use a custom data format,use a custom data format
+bky_custom,APP_DATA_FORMAT,format,format
+bky_custom,APP_DATA_MODE,mode,mode
+bky_custom,APP_DATA_TEACHABLE_MACHINE,classification,classification
+bky_custom,APP_DATA_TEACHABLE_MACHINE_DESCRIPTION,classify objects using your own model,classify objects using your own model
+bky_custom,APP_DATA_TEACHABLE_MACHINE_MODEL,model,model
+bky_custom,LIGHT_MATRIX_DISPLAY,display,display
+bky_custom,LIGHT_MATRIX_OFF,off,off
+bky_custom,LIGHT_MATRIX_OFF_DESCRIPTION,turn display off,turn display off
+bky_custom,LIGHT_MATRIX_PIXEL,pixel,pixel
+bky_custom,LIGHT_MATRIX_PIXEL_DESCRIPTION,pixel (one light),pixel (one light)
+bky_custom,LIGHT_MATRIX_NUMBER,number,number
+bky_custom,LIGHT_MATRIX_NUMBER_DESCRIPTION,number from 0 to 99,number from 0 to 99
+bky_custom,LIGHT_MATRIX_SYMBOL,letter,letter
+bky_custom,LIGHT_MATRIX_SYMBOL_DESCRIPTION,letter (A-Z) or symbol (! # $ % & < = > ? @),letter (A-Z) or symbol (! # $ % & < = > ? @)
+bky_custom,LIGHT_MATRIX_ROW,row,row
+bky_custom,LIGHT_MATRIX_COL,column,column
+bky_custom,LIGHT_MATRIX_BRIGHTNESS,at,at
+bky_custom,BEEP,beep at %4 for %5,beep at %4 for %5
+bky_custom,TASK_DEFINE,Make your own task,Make your own task
+bky_custom,TASK_MULTITASK,Multitask,Multitask
+bky_custom,TASK_MY_TASKS,My tasks,My tasks
+bky_custom,TASK_EXTERNAL,External tasks,External tasks
+bky_custom,IMPORT_FROM,from %3 import %4,from %3 import %4
+bky_custom,BATTERY_MEASURE,battery,battery
+bky_custom,BATTERY_GET_VOLTAGE,voltage,voltage
+bky_custom,BATTERY_GET_VOLTAGE_DESCRIPTION,voltage: mV,voltage: mV
+bky_custom,BATTERY_GET_CURRENT,current,current
+bky_custom,BATTERY_GET_CURRENT_DESCRIPTION,current: mA,current: mA
+bky_custom,LB,left bumper,left bumper
+bky_custom,RB,right bumper,right bumper
+bky_custom,LJ,left joystick,left joystick
+bky_custom,RJ,right joystick,right joystick
+bky_custom,XBOX_LT,left trigger,left trigger
+bky_custom,XBOX_RT,right trigger,right trigger
+bky_custom,XBOX_LJ_X,left joystick horizontal,left joystick horizontal
+bky_custom,XBOX_LJ_Y,left joystick vertical,left joystick vertical
+bky_custom,XBOX_RJ_X,right joystick horizontal,right joystick horizontal
+bky_custom,XBOX_RJ_Y,right joystick vertical,right joystick vertical
+bky_custom,XBOX_DPAD,direction pad,direction pad
+bky_custom,MENU,menu,menu
+bky_custom,VIEW,view,view
+bky_custom,GUIDE,guide,guide
+bky_custom,UPLOAD,upload,upload
+bky_custom,CAR_WITH_STEER,with steering,with steering
+bky_custom,CAR_WITH_DRIVE,and drive,and drive
+bky_custom,CAR_STEER_BY,steer by,steer by
+bky_custom,CAR_DRIVE_AT,drive at,drive at
+bky_custom,CAR_DRIVE_AT_SPEED,speed,speed
+bky_custom,CAR_DRIVE_AT_POWER,power,power
+bky_custom,P1,paddle 1,paddle 1
+bky_custom,P2,paddle 2,paddle 2
+bky_custom,P3,paddle 3,paddle 3
+bky_custom,P4,paddle 4,paddle 4
+bky_custom,XBOX_PROFILE,profile,profile
+bky_custom,LIST_GET,list %1 get %2,list %1 get %2
+bky_custom,LIST_DO,list,list
+bky_custom,LIST_GET_FIRST,first,first
+bky_custom,LIST_GET_FIRST_DESCRIPTION,first value,first value
+bky_custom,LIST_GET_LAST,last,last
+bky_custom,LIST_GET_LAST_DESCRIPTION,last value,last value
+bky_custom,LIST_GET_INDEX,#,#
+bky_custom,LIST_GET_INDEX_DESCRIPTION,value at index #,value at index #
+bky_custom,LIST_GET_RANDOM,random,random
+bky_custom,LIST_GET_RANDOM_DESCRIPTION,random value,random value
+bky_custom,LIST_SET_INDEX_TO,to,to
+bky_custom,LIST_INSERT_INDEX_AS,as,as
+bky_custom,LIST_SET_INDEX,set #,set #
+bky_custom,LIST_SET_INDEX_DESCRIPTION,set value with index # to a new value,set value with index # to a new value
+bky_custom,LIST_SET_FIRST,set first,set first
+bky_custom,LIST_SET_FIRST_DESCRIPTION,set first value to a new value,set first value to a new value
+bky_custom,LIST_SET_LAST,set last,set last
+bky_custom,LIST_SET_LAST_DESCRIPTION,set last value to a new value,set last value to a new value
+bky_custom,LIST_REMOVE_INDEX,remove #,remove #
+bky_custom,LIST_REMOVE_INDEX_DESCRIPTION,remove value with index #,remove value with index #
+bky_custom,LIST_REMOVE_FIRST,remove first,remove first
+bky_custom,LIST_REMOVE_FIRST_DESCRIPTION,remove first value,remove first value
+bky_custom,LIST_REMOVE_LAST,remove last,remove last
+bky_custom,LIST_REMOVE_LAST_DESCRIPTION,remove last value,remove last value
+bky_custom,LIST_INSERT_INDEX,insert at #,insert at #
+bky_custom,LIST_INSERT_INDEX_DESCRIPTION,insert a new value at (before) index #,insert a new value at (before) index #
+bky_custom,LIST_INSERT_FIRST,prefix,prefix
+bky_custom,LIST_INSERT_FIRST_DESCRIPTION,prefix a new value at the beginning,prefix a new value at the beginning
+bky_custom,LIST_INSERT_LAST,append,append
+bky_custom,LIST_INSERT_LAST_DESCRIPTION,append a new value at the end,append a new value at the end
+bky_custom,DRIVEBASE_LEFT,left,left
+bky_custom,DRIVEBASE_RIGHT,right,right
+bky_custom,DRIVEBASE_WITH,with,with
+bky_custom,DRIVEBASE_AND,and,and
+bky_custom,HUB_SET_STOP_BUTTON,stop button is,stop button is
+bky_custom,HUB_SHUTDOWN,shut down,shut down
+bky_custom,STOP_PROGRAM,stop program,stop program
+bky_custom,GAMEPAD_RUMBLE_AT_FOR,rumble at %4 for %5,rumble at %4 for %5
+bky_custom,GAMEPAD_RUMBLE_REPEAT,times with pause,times with pause
+bky_custom,WARNING_CANNOT_READ_VARIABLE_IN_SETUP,Cannot read variable in setup,Cannot read variable in setup
+bky_custom,WARNING_SETUP_FIRST,⚠️ Click to set up.,⚠️ Click to set up.
+bky_custom,READ_INPUT,read,read
+bky_custom,READ_INPUT_FIRST_CHAR,first key,first key
+bky_custom,READ_INPUT_FIRST_CHAR_DESCRIPTION,"the first (oldest) input byte, as a character key","the first (oldest) input byte, as a character key"
+bky_custom,READ_INPUT_LAST_CHAR,last key,last key
+bky_custom,READ_INPUT_LAST_CHAR_DESCRIPTION,"the last (newest) input byte, as a character key","the last (newest) input byte, as a character key"
+bky_custom,READ_INPUT_FIRST_BYTE,first byte,first byte
+bky_custom,READ_INPUT_FIRST_BYTE_DESCRIPTION,"the first (oldest) input byte, as a number (0 to 255)","the first (oldest) input byte, as a number (0 to 255)"
+bky_custom,READ_INPUT_LAST_BYTE,last byte,last byte
+bky_custom,READ_INPUT_LAST_BYTE_DESCRIPTION,"the last (newest) input byte, as a number (0 to 255)","the last (newest) input byte, as a number (0 to 255)"
+bky_custom,SIDE_TOP,top side,top side
+bky_custom,SIDE_BOTTOM,bottom side,bottom side
+bky_custom,SIDE_FRONT,front side,front side
+bky_custom,SIDE_BACK,back side,back side
+bky_custom,SIDE_LEFT,left side,left side
+bky_custom,SIDE_RIGHT,right side,right side
+bky_custom,SIDE_IS_UP,is up,is up
+bky_custom,MATH_ADDITION_DESCRIPTION,+    add,+    add
+bky_custom,MATH_SUBTRACTION_DESCRIPTION,−    subtract,−    subtract
+bky_custom,MATH_MULTIPLICATION_DESCRIPTION,×    multiply,×    multiply
+bky_custom,MATH_DIVISION_DESCRIPTION,÷    divide,÷    divide
+bky_custom,MATH_POWER_DESCRIPTION,^    power,^    power
+bky_custom,MATH_DIVIDE_INT,//,//
+bky_custom,MATH_DIVIDE_INT_DESCRIPTION,//    divide and discard decimals,//    divide and discard decimals
+bky_custom,IMU_HEADING_CORRECTION,heading correction,heading correction
+bky_custom,IMU_ANGULAR_VELOCITY_THRESHOLD,angular velocity threshold,angular velocity threshold
+bky_custom,IMU_ANGULAR_VELOCITY_THRESHOLD_DESCRIPTION,angular velocity below which the hub calibrates,angular velocity below which the hub calibrates
+bky_custom,IMU_ACCELERATION_THRESHOLD,acceleration threshold,acceleration threshold
+bky_custom,IMU_ACCELERATION_THRESHOLD_DESCRIPTION,acceleration below which the hub calibrates,acceleration below which the hub calibrates
+bky_custom,TEMPERATURE,temperature,temperature
+bky_custom,SOUNDINPUT_VOLUME,volume,volume
+bky_custom,CHANNEL_1,channel 1,channel 1
+bky_custom,CHANNEL_2,channel 2,channel 2
+bky_custom,CHANNEL_3,channel 3,channel 3
+bky_custom,CHANNEL_4,channel 4,channel 4
+bky_custom,BEACON,beacon,beacon
+bky_custom,CLASS_INSTANTIATE,is a,is a
+bky_custom,CLASS_CALL_METHOD_SYNC,call,call
+bky_custom,CLASS_CALL_METHOD_ASYNC,await,await
+bky_custom,CLASS_CALL_METHOD_SYNC_DESCRIPTION,call a method (def),call a method (def)
+bky_custom,CLASS_CALL_METHOD_ASYNC_DESCRIPTION,await a method (async def),await a method (async def)
+bky_custom,APP_DATA_OBJECT_DETECTION,object detection,object detection
+bky_custom,APP_DATA_OBJECT_DETECTION_DESCRIPTION,detect everyday objects,detect everyday objects
+bky_custom,APP_DATA_OBJECT_DETECTION_LABEL,detect,detect
+bky_custom,DETECT_NONE,nothing,nothing
+bky_custom,DETECT_PERSON,person,person
+bky_custom,DETECT_BICYCLE,bicycle,bicycle
+bky_custom,DETECT_CAR,car,car
+bky_custom,DETECT_MOTORCYCLE,motorcycle,motorcycle
+bky_custom,DETECT_AIRPLANE,airplane,airplane
+bky_custom,DETECT_BUS,bus,bus
+bky_custom,DETECT_TRAIN,train,train
+bky_custom,DETECT_TRUCK,truck,truck
+bky_custom,DETECT_BOAT,boat,boat
+bky_custom,DETECT_TRAFFIC_LIGHT,traffic light,traffic light
+bky_custom,DETECT_FIRE_HYDRANT,fire hydrant,fire hydrant
+bky_custom,DETECT_STOP_SIGN,stop sign,stop sign
+bky_custom,DETECT_PARKING_METER,parking meter,parking meter
+bky_custom,DETECT_BENCH,bench,bench
+bky_custom,DETECT_BIRD,bird,bird
+bky_custom,DETECT_CAT,cat,cat
+bky_custom,DETECT_DOG,dog,dog
+bky_custom,DETECT_HORSE,horse,horse
+bky_custom,DETECT_SHEEP,sheep,sheep
+bky_custom,DETECT_COW,cow,cow
+bky_custom,DETECT_ELEPHANT,elephant,elephant
+bky_custom,DETECT_BEAR,bear,bear
+bky_custom,DETECT_ZEBRA,zebra,zebra
+bky_custom,DETECT_GIRAFFE,giraffe,giraffe
+bky_custom,DETECT_BACKPACK,backpack,backpack
+bky_custom,DETECT_UMBRELLA,umbrella,umbrella
+bky_custom,DETECT_HANDBAG,handbag,handbag
+bky_custom,DETECT_TIE,tie,tie
+bky_custom,DETECT_SUITCASE,suitcase,suitcase
+bky_custom,DETECT_FRISBEE,frisbee,frisbee
+bky_custom,DETECT_SKIS,skis,skis
+bky_custom,DETECT_SNOWBOARD,snowboard,snowboard
+bky_custom,DETECT_SPORTS_BALL,sports ball,sports ball
+bky_custom,DETECT_KITE,kite,kite
+bky_custom,DETECT_BASEBALL_BAT,baseball bat,baseball bat
+bky_custom,DETECT_BASEBALL_GLOVE,baseball glove,baseball glove
+bky_custom,DETECT_SKATEBOARD,skateboard,skateboard
+bky_custom,DETECT_SURFBOARD,surfboard,surfboard
+bky_custom,DETECT_TENNIS_RACKET,tennis racket,tennis racket
+bky_custom,DETECT_BOTTLE,bottle,bottle
+bky_custom,DETECT_WINE_GLASS,wine glass,wine glass
+bky_custom,DETECT_CUP,cup,cup
+bky_custom,DETECT_FORK,fork,fork
+bky_custom,DETECT_KNIFE,knife,knife
+bky_custom,DETECT_SPOON,spoon,spoon
+bky_custom,DETECT_BOWL,bowl,bowl
+bky_custom,DETECT_BANANA,banana,banana
+bky_custom,DETECT_APPLE,apple,apple
+bky_custom,DETECT_SANDWICH,sandwich,sandwich
+bky_custom,DETECT_ORANGE,orange,orange
+bky_custom,DETECT_BROCCOLI,broccoli,broccoli
+bky_custom,DETECT_CARROT,carrot,carrot
+bky_custom,DETECT_HOT_DOG,hot dog,hot dog
+bky_custom,DETECT_PIZZA,pizza,pizza
+bky_custom,DETECT_DONUT,donut,donut
+bky_custom,DETECT_CAKE,cake,cake
+bky_custom,DETECT_CHAIR,chair,chair
+bky_custom,DETECT_COUCH,couch,couch
+bky_custom,DETECT_POTTED_PLANT,potted plant,potted plant
+bky_custom,DETECT_BED,bed,bed
+bky_custom,DETECT_DINING_TABLE,dining table,dining table
+bky_custom,DETECT_TOILET,toilet,toilet
+bky_custom,DETECT_TV,tv,tv
+bky_custom,DETECT_LAPTOP,laptop,laptop
+bky_custom,DETECT_MOUSE,mouse,mouse
+bky_custom,DETECT_REMOTE,remote,remote
+bky_custom,DETECT_KEYBOARD,keyboard,keyboard
+bky_custom,DETECT_CELL_PHONE,cell phone,cell phone
+bky_custom,DETECT_MICROWAVE,microwave,microwave
+bky_custom,DETECT_OVEN,oven,oven
+bky_custom,DETECT_TOASTER,toaster,toaster
+bky_custom,DETECT_SINK,sink,sink
+bky_custom,DETECT_REFRIGERATOR,refrigerator,refrigerator
+bky_custom,DETECT_BOOK,book,book
+bky_custom,DETECT_CLOCK,clock,clock
+bky_custom,DETECT_VASE,vase,vase
+bky_custom,DETECT_SCISSORS,scissors,scissors
+bky_custom,DETECT_TEDDY_BEAR,teddy bear,teddy bear
+bky_custom,DETECT_HAIR_DRIER,hair drier,hair drier
+bky_custom,DETECT_TOOTHBRUSH,toothbrush,toothbrush
+bky_custom,OUTDATED_BLOCK_WARNING,A newer version of this block is available in the palette.,A newer version of this block is available in the palette.
+bky_custom,SENSOR_PRESSED,pressed,pressed
+bky_custom,SENSOR_RELEASED,released,released
+bky_custom,SENSOR_FORCE,force,force
+bky_custom,SENSOR_FORCE_DESCRIPTION,force: N,force: N
+bky_custom,Port A,Port A,Port A
+bky_custom,Port B,Port B,Port B
+bky_custom,Port C,Port C,Port C
+bky_custom,Port D,Port D,Port D
+bky_custom,Port E,Port E,Port E
+bky_custom,Port F,Port F,Port F
+bky_custom,Sensor Port 1,Sensor Port 1,Sensor Port 1
+bky_custom,Sensor Port 2,Sensor Port 2,Sensor Port 2
+bky_custom,Sensor Port 3,Sensor Port 3,Sensor Port 3
+bky_custom,Sensor Port 4,Sensor Port 4,Sensor Port 4
+bky_custom,PB_EXT_EMPTY_LIST,empty list,empty list
+bky_custom,PB_EXT_LIST_WITH,list with,list with
+bky_custom,PB_EXT_COLOR_DEF,%1 %2 %3 as %4 h %5 s %6 v %7,%1 %2 %3 as %4 h %5 s %6 v %7
+bky_custom,PB_EXT_SETUP_ON,%1 %2 %3 on %4,%1 %2 %3 on %4
+bky_custom,PB_EXT_SETUP_ON_2,%1 %2 %3 on %4 %5,%1 %2 %3 on %4 %5
+bky_custom,PB_EXT_SETUP_ON_FWD,%1 %2 %3 on %4 with forward %5,%1 %2 %3 on %4 with forward %5
+bky_custom,PB_EXT_SETUP_ON_2_FWD,%1 %2 %3 on %4 %5 with forward %6,%1 %2 %3 on %4 %5 with forward %6
+bky_custom,PB_EXT_TASK_RETURN,%1 %2 return %3,%1 %2 return %3
+bky_custom,PB_EXT_VAR_STARTING_AT,%1 %2 %3 starting at %4,%1 %2 %3 starting at %4
+bky_custom,PB_EXT_VAR_SET_TO,%1 %2 %3 set to %4,%1 %2 %3 set to %4
+bky_custom,PB_EXT_RANGE_FROM,from,from
+bky_custom,PB_EXT_RANGE_TO,to,to
+bky_custom,PB_EXT_RANGE_STEPS,with steps of,with steps of
+toolbox_categories,Setup,Setup,Setup
+toolbox_categories,Output,Output,Output
+toolbox_categories,Input,Input,Input
+toolbox_categories,Flow,Flow,Flow
+toolbox_categories,Data,Data,Data
+toolbox_categories,Tasks,Tasks,Tasks
+toolbox_categories,Variables,Variables,Variables
+toolbox_categories,Other,Other,Other
+flyout_labels,Set up hub,Set up hub,Set up hub
+flyout_labels,Set up smart motors,Set up smart motors,Set up smart motors
+flyout_labels,Set up basic motors,Set up basic motors,Set up basic motors
+flyout_labels,Set up lights,Set up lights,Set up lights
+flyout_labels,Set up Powered Up sensors,Set up Powered Up sensors,Set up Powered Up sensors
+flyout_labels,Set up EV3 sensors,Set up EV3 sensors,Set up EV3 sensors
+flyout_labels,Set up NXT sensors,Set up NXT sensors,Set up NXT sensors
+flyout_labels,Set up other sensors,Set up other sensors,Set up other sensors
+flyout_labels,Motor,Motor,Motor
+flyout_labels,Drive Base,Drive Base,Drive Base
+flyout_labels,Car,Car,Car
+flyout_labels,Light & Sound,Light & Sound,Light & Sound
+flyout_labels,Motors,Motors,Motors
+flyout_labels,General,General,General
+flyout_labels,Light and Color,Light and Color,Light and Color
+flyout_labels,Orientation,Orientation,Orientation
+flyout_labels,Buttons and Force,Buttons and Force,Buttons and Force
+flyout_labels,Time,Time,Time
+flyout_labels,Communication,Communication,Communication
+flyout_labels,Hub status,Hub status,Hub status
+flyout_labels,Decisions,Decisions,Decisions
+flyout_labels,Waiting,Waiting,Waiting
+flyout_labels,Repeating,Repeating,Repeating
+flyout_labels,Comments,Comments,Comments
+flyout_labels,Stopping the program,Stopping the program,Stopping the program
+flyout_labels,Numbers,Numbers,Numbers
+flyout_labels,Logic,Logic,Logic
+flyout_labels,Geometry,Geometry,Geometry
+flyout_labels,Lists and Text,Lists and Text,Lists and Text
+flyout_labels,Variables,Variables,Variables
+flyout_labels,Imports,Imports,Imports
+flyout_labels,Classes,Classes,Classes
+flyout_labels,My objects,My objects,My objects
+ui_strings,Editor,Editor,Editor
+ui_strings,Welcome,Welcome,Welcome
+ui_strings,Write your program here…,Write your program here…,Write your program here…
+ui_strings,Check syntax,Check syntax,Check syntax
+ui_strings,Copy,Copy,Copy
+ui_strings,Paste,Paste,Paste
+ui_strings,Select all,Select all,Select all
+ui_strings,Undo,Undo,Undo
+ui_strings,Redo,Redo,Redo
+ui_strings,Close {fileName},Close {fileName},Close {fileName}
+ui_strings,Editor context menu,Editor context menu,Editor context menu
+ui_strings,Clear,Clear,Clear
+ui_strings,Loading…,Loading…,Loading…
+ui_strings,Unable to load project.,Unable to load project.,Unable to load project.
+ui_strings,File type,File type,File type
+ui_strings,Select the type of program you want to create.,Select the type of program you want to create.,Select the type of program you want to create.
+ui_strings,Code with blocks,Code with blocks,Code with blocks
+ui_strings,Code with Python,Code with Python,Code with Python
+ui_strings,Show code,Show code,Show code
+ui_strings,Hide code,Hide code,Hide code
+ui_strings,This code changes when you move blocks around. Open a Python program to make changes.,This code changes when you move blocks around. Open a Python program to make changes.,This code changes when you move blocks around. Open a Python program to make changes.
+ui_strings,Enable block coding,Enable block coding,Enable block coding
+ui_strings,Unlock with a license code,Unlock with a license code,Unlock with a license code
+ui_strings,"Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.","Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.","Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}."
+ui_strings,more,more,more
+ui_strings,Your license is activated,Your license is activated,Your license is activated
+ui_strings,Free trial activated,Free trial activated,Free trial activated
+ui_strings,Thank you for supporting Pybricks!,Thank you for supporting Pybricks!,Thank you for supporting Pybricks!
+ui_strings,Valid until: {expiryDate}.,Valid until: {expiryDate}.,Valid until: {expiryDate}.
+ui_strings,This license does not expire.,This license does not expire.,This license does not expire.
+ui_strings,"To use this license on another device, please deactivate it here first.","To use this license on another device, please deactivate it here first.","To use this license on another device, please deactivate it here first."
+ui_strings,Enter or paste the license code,Enter or paste the license code,Enter or paste the license code
+ui_strings,Paste from clipboard,Paste from clipboard,Paste from clipboard
+ui_strings,Activate,Activate,Activate
+ui_strings,Try free,Try free,Try free
+ui_strings,Welcome to Pybricks! Go on and build something fun!,Welcome to Pybricks! Go on and build something fun!,Welcome to Pybricks! Go on and build something fun!
+ui_strings,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.
+ui_strings,Your free trial has ended.,Your free trial has ended.,Your free trial has ended.
+ui_strings,Free for {days} days,Free for {days} days,Free for {days} days
+ui_strings,Trial ended,Trial ended,Trial ended
+ui_strings,Checking…,Checking…,Checking…
+ui_strings,Deactivate on this device,Deactivate on this device,Deactivate on this device
+ui_strings,End trial,End trial,End trial
+ui_strings,Sign out,Sign out,Sign out
+ui_strings,Continue,Continue,Continue
+ui_strings,Block coding is available with a license code or a fan subscription.,Block coding is available with a license code or a fan subscription.,Block coding is available with a license code or a fan subscription.
+ui_strings,Buy,Buy,Buy
+ui_strings,For fans of our mission,For fans of our mission,For fans of our mission
+ui_strings,"If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.","If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.","If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks."
+ui_strings,Sign in via Patreon,Sign in via Patreon,Sign in via Patreon
+ui_strings,Become a supporter,Become a supporter,Become a supporter
+ui_strings,Try again,Try again,Try again
+ui_strings,You will be asked to sign in again in {days} days.,You will be asked to sign in again in {days} days.,You will be asked to sign in again in {days} days.
+ui_strings,Unable to access the license server. Please try again from the Pybricks app.,Unable to access the license server. Please try again from the Pybricks app.,Unable to access the license server. Please try again from the Pybricks app.
+ui_strings,An unexpected error occurred. Please try again.,An unexpected error occurred. Please try again.,An unexpected error occurred. Please try again.
+ui_strings,Unable to access the license server. Please check your internet connection and try again.,Unable to access the license server. Please check your internet connection and try again.,Unable to access the license server. Please check your internet connection and try again.
+ui_strings,Unable to process your request.,Unable to process your request.,Unable to process your request.
+ui_strings,Please enter a license code.,Please enter a license code.,Please enter a license code.
+ui_strings,This code doesn't look right. Make sure you copy the whole red box from your email receipt.,This code doesn't look right. Make sure you copy the whole red box from your email receipt.,This code doesn't look right. Make sure you copy the whole red box from your email receipt.
+ui_strings,This license has expired.,This license has expired.,This license has expired.
+ui_strings,License code not found. Please check and try again.,License code not found. Please check and try again.,License code not found. Please check and try again.
+ui_strings,Patreon sign-in failed due to an invalid origin. Please try again.,Patreon sign-in failed due to an invalid origin. Please try again.,Patreon sign-in failed due to an invalid origin. Please try again.
+ui_strings,Patreon sign-in failed. Please try again.,Patreon sign-in failed. Please try again.,Patreon sign-in failed. Please try again.
+ui_strings,"You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake.","You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake.","You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake."
+ui_strings,Starting camera.,Starting camera.,Starting camera.
+ui_strings,Camera access was denied or unavailable.,Camera access was denied or unavailable.,Camera access was denied or unavailable.
+ui_strings,Select camera,Select camera,Select camera
+ui_strings,No cameras found,No cameras found,No cameras found
+ui_strings,"If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}","If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}","If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}"
+ui_strings,Click for instructions.,Click for instructions.,Click for instructions.
+ui_strings,Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions},Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions},Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions}
+ui_strings,Bluetooth button,Bluetooth button,Bluetooth button
+ui_strings,button,button,button
+ui_strings,right button,right button,right button
+ui_strings,Bluetooth light,Bluetooth light,Bluetooth light
+ui_strings,hub light,hub light,hub light
+ui_strings,pink-green-blue-off,pink-green-blue-off,pink-green-blue-off
+ui_strings,light purple,light purple,light purple
+ui_strings,Preparation:,Preparation:,Preparation:
+ui_strings,Make sure the hub has new or fully charged batteries.,Make sure the hub has new or fully charged batteries.,Make sure the hub has new or fully charged batteries.
+ui_strings,Make sure the hub is turned off.,Make sure the hub is turned off.,Make sure the hub is turned off.
+ui_strings,Disconnect the USB cable.,Disconnect the USB cable.,Disconnect the USB cable.
+ui_strings,Open the {lego} Powered Up app in 'Create' mode and start a new project.,Open the {lego} Powered Up app in 'Create' mode and start a new project.,Open the {lego} Powered Up app in 'Create' mode and start a new project.
+ui_strings,Enter update mode (see video):,Enter update mode (see video):,Enter update mode (see video):
+ui_strings,Disconnect any device from port A on the hub.,Disconnect any device from port A on the hub.,Disconnect any device from port A on the hub.
+ui_strings,Press and hold the {button} on the hub.,Press and hold the {button} on the hub.,Press and hold the {button} on the hub.
+ui_strings,Connect the USB cable.,Connect the USB cable.,Connect the USB cable.
+ui_strings,Wait for the {light} to start blinking {lightPattern}.,Wait for the {light} to start blinking {lightPattern}.,Wait for the {light} to start blinking {lightPattern}.
+ui_strings,The app will automatically connect and start restoring the firmware.,The app will automatically connect and start restoring the firmware.,The app will automatically connect and start restoring the firmware.
+ui_strings,Release the {button}.,Release the {button}.,Release the {button}.
+ui_strings,Release the button. Wait for progress to reach 100%.,Release the button. Wait for progress to reach 100%.,Release the button. Wait for progress to reach 100%.
+ui_strings,Keep holding the {button} in the next steps. We'll tell you when to let go.,Keep holding the {button} in the next steps. We'll tell you when to let go.,Keep holding the {button} in the next steps. We'll tell you when to let go.
+ui_strings,Press the center button to turn on the EV3.,Press the center button to turn on the EV3.,Press the center button to turn on the EV3.
+ui_strings,"When the screen says ""Updating..."", release both buttons.","When the screen says ""Updating..."", release both buttons.","When the screen says ""Updating..."", release both buttons."
+ui_strings,"When the progress bar is done, the app will connect.","When the progress bar is done, the app will connect.","When the progress bar is done, the app will connect."
+ui_strings,Install:,Install:,Install:
+ui_strings,Click the {flashButton} button below.,Click the {flashButton} button below.,Click the {flashButton} button below.
+ui_strings,Install,Install,Install
+ui_strings,"In the pop-up dialog, select {deviceName} and click {connectButton}.","In the pop-up dialog, select {deviceName} and click {connectButton}.","In the pop-up dialog, select {deviceName} and click {connectButton}."
+ui_strings,Connect,Connect,Connect
+ui_strings,Connected to:,Connected to:,Connected to:
+ui_strings,Hub type:,Hub type:,Hub type:
+ui_strings,Firmware:,Firmware:,Firmware:
+ui_strings,Currently installed:,Currently installed:,Currently installed:
+ui_strings,Version to install:,Version to install:,Version to install:
+ui_strings,Version to recover:,Version to recover:,Version to recover:
+ui_strings,app: {app},app: {app},app: {app}
+ui_strings,version: {version},version: {version},version: {version}
+ui_strings,Option 1: Quick update,Option 1: Quick update,Option 1: Quick update
+ui_strings,This works if you used the {spike} App or Pybricks recently.,This works if you used the {spike} App or Pybricks recently.,This works if you used the {spike} App or Pybricks recently.
+ui_strings,Turn the hub {on}.,Turn the hub {on}.,Turn the hub {on}.
+ui_strings,Connect the USB cable and click {checkButton} below.,Connect the USB cable and click {checkButton} below.,Connect the USB cable and click {checkButton} below.
+ui_strings,Click your hub in the dialog and click {connectButton}.,Click your hub in the dialog and click {connectButton}.,Click your hub in the dialog and click {connectButton}.
+ui_strings,Check for hubs,Check for hubs,Check for hubs
+ui_strings,Option 2: Manual update,Option 2: Manual update,Option 2: Manual update
+ui_strings,This is the old installation method. You can use this:,This is the old installation method. You can use this:,This is the old installation method. You can use this:
+ui_strings,If your hub still runs an old version of Pybricks or an old LEGO app.,If your hub still runs an old version of Pybricks or an old LEGO app.,If your hub still runs an old version of Pybricks or an old LEGO app.
+ui_strings,"Or if a hub light already blinks red/blue/green, or a light blinks pink.","Or if a hub light already blinks red/blue/green, or a light blinks pink.","Or if a hub light already blinks red/blue/green, or a light blinks pink."
+ui_strings,"Next time, you can do the quick update.","Next time, you can do the quick update.","Next time, you can do the quick update."
+ui_strings,Update manually,Update manually,Update manually
+ui_strings,Code completion engine status indicator,Code completion engine status indicator,Code completion engine status indicator
+ui_strings,Code completion engine is starting up and will be ready soon.,Code completion engine is starting up and will be ready soon.,Code completion engine is starting up and will be ready soon.
+ui_strings,Code completion engine is ready to use.,Code completion engine is ready to use.,Code completion engine is ready to use.
+ui_strings,Code completion engine has stopped working.,Code completion engine has stopped working.,Code completion engine has stopped working.
+ui_strings,Code completion engine has not started yet.,Code completion engine has not started yet.,Code completion engine has not started yet.
+ui_strings,Connected hub,Connected hub,Connected hub
+ui_strings,Battery,Battery,Battery
+ui_strings,Battery is low. Hub will turn off soon.,Battery is low. Hub will turn off soon.,Battery is low. Hub will turn off soon.
+ui_strings,Battery level is OK.,Battery level is OK.,Battery level is OK.
+ui_strings,Devices,Devices,Devices
+ui_strings,Pause,Pause,Pause
+ui_strings,Resume,Resume,Resume
+ui_strings,Hold your sensor steady at one LEGO unit above a white piece of paper.,Hold your sensor steady at one LEGO unit above a white piece of paper.,Hold your sensor steady at one LEGO unit above a white piece of paper.
+ui_strings,Hold steady…,Hold steady…,Hold steady…
+ui_strings,Calibration complete. The results are saved on the hub for this sensor port.,Calibration complete. The results are saved on the hub for this sensor port.,Calibration complete. The results are saved on the hub for this sensor port.
+ui_strings,Calibration did not succeed. Please try again.,Calibration did not succeed. Please try again.,Calibration did not succeed. Please try again.
+ui_strings,User,User,User
+ui_strings,Log in to unlock extra features,Log in to unlock extra features,Log in to unlock extra features
+ui_strings,The file '{fileName}' will be permanently deleted. This cannot be undone.,The file '{fileName}' will be permanently deleted. This cannot be undone.,The file '{fileName}' will be permanently deleted. This cannot be undone.
+ui_strings,Delete,Delete,Delete
+ui_strings,Keep,Keep,Keep
+ui_strings,File name,File name,File name
+ui_strings,OK!,OK!,OK!
+ui_strings,File name cannot be empty.,File name cannot be empty.,File name cannot be empty.
+ui_strings,File name cannot have spaces.,File name cannot have spaces.,File name cannot have spaces.
+ui_strings,The file extension will be added automatically.,The file extension will be added automatically.,The file extension will be added automatically.
+ui_strings,File name must start with a letter ({letters}) or underscore ({underscore}).,File name must start with a letter ({letters}) or underscore ({underscore}).,File name must start with a letter ({letters}) or underscore ({underscore}).
+ui_strings,"File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).","File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).","File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore})."
+ui_strings,A file with this name already exists. Try a different name.,A file with this name already exists. Try a different name.,A file with this name already exists. Try a different name.
+ui_strings,Fix it for me.,Fix it for me.,Fix it for me.
+ui_strings,Duplicate '{fileName}',Duplicate '{fileName}',Duplicate '{fileName}'
+ui_strings,Duplicate,Duplicate,Duplicate
+ui_strings,File actions,File actions,File actions
+ui_strings,Back up all files,Back up all files,Back up all files
+ui_strings,Import a file,Import a file,Import a file
+ui_strings,Create a new file,Create a new file,Create a new file
+ui_strings,Files,Files,Files
+ui_strings,Accessibility guide for tree {treeLabel}.,Accessibility guide for tree {treeLabel}.,Accessibility guide for tree {treeLabel}.
+ui_strings,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:
+ui_strings,{key} to open the file in the code editor,{key} to open the file in the code editor,{key} to open the file in the code editor
+ui_strings,{key} to start renaming the focused file,{key} to start renaming the focused file,{key} to start renaming the focused file
+ui_strings,{key} to duplicate focused file,{key} to duplicate focused file,{key} to duplicate focused file
+ui_strings,{key} to export the focused file,{key} to export the focused file,{key} to export the focused file
+ui_strings,{key} to delete the focused file,{key} to delete the focused file,{key} to delete the focused file
+ui_strings,Searching.,Searching.,Searching.
+ui_strings,Rename {fileName},Rename {fileName},Rename {fileName}
+ui_strings,Duplicate {fileName},Duplicate {fileName},Duplicate {fileName}
+ui_strings,Export {fileName},Export {fileName},Export {fileName}
+ui_strings,Delete {fileName},Delete {fileName},Delete {fileName}
+ui_strings,Template,Template,Template
+ui_strings,Use a template,Use a template,Use a template
+ui_strings,Create a new file for the selected hub.,Create a new file for the selected hub.,Create a new file for the selected hub.
+ui_strings,Create a new empty file.,Create a new empty file.,Create a new empty file.
+ui_strings,Create,Create,Create
+ui_strings,Rename '{fileName}',Rename '{fileName}',Rename '{fileName}'
+ui_strings,Rename,Rename,Rename
+ui_strings,Rename imported file,Rename imported file,Rename imported file
+ui_strings,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.
+ui_strings,Skip importing this file,Skip importing this file,Skip importing this file
+ui_strings,Replace existing file?,Replace existing file?,Replace existing file?
+ui_strings,A file already exists with the same name as the imported file '{fileName}'.,A file already exists with the same name as the imported file '{fileName}'.,A file already exists with the same name as the imported file '{fileName}'.
+ui_strings,Remember this answer when resolving additional conflicts.,Remember this answer when resolving additional conflicts.,Remember this answer when resolving additional conflicts.
+ui_strings,Keep the existing file and skip importing this file,Keep the existing file and skip importing this file,Keep the existing file and skip importing this file
+ui_strings,Replace the existing file with the imported file,Replace the existing file with the imported file,Replace the existing file with the imported file
+ui_strings,Keep the existing file and rename the imported file,Keep the existing file and rename the imported file,Keep the existing file and rename the imported file
+ui_strings,Open source software licenses,Open source software licenses,Open source software licenses
+ui_strings,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.
+ui_strings,Packages,Packages,Packages
+ui_strings,Package:,Package:,Package:
+ui_strings,Author:,Author:,Author:
+ui_strings,License:,License:,License:
+ui_strings,Failed to load license data.,Failed to load license data.,Failed to load license data.
+ui_strings,Select a package to view the license.,Select a package to view the license.,Select a package to view the license.
+ui_strings,About {appName},About {appName},About {appName}
+ui_strings,MicroPython for programmable {lego} hubs.,MicroPython for programmable {lego} hubs.,MicroPython for programmable {lego} hubs.
+ui_strings,Copy version info,Copy version info,Copy version info
+ui_strings,Software licenses,Software licenses,Software licenses
+ui_strings,Changelog,Changelog,Changelog
+ui_strings,Pybricks website,Pybricks website,Pybricks website
+ui_strings,Help,Help,Help
+ui_strings,Click to show help for the {helpForLabel} checkbox.,Click to show help for the {helpForLabel} checkbox.,Click to show help for the {helpForLabel} checkbox.
+ui_strings,Close,Close,Close
+ui_strings,Settings & help,Settings & help,Settings & help
+ui_strings,Appearance,Appearance,Appearance
+ui_strings,Dark mode,Dark mode,Dark mode
+ui_strings,Enable to choose dark mode. Disable to choose light mode.,Enable to choose dark mode. Disable to choose light mode.,Enable to choose dark mode. Disable to choose light mode.
+ui_strings,Use {in} and {out} to zoom.,Use {in} and {out} to zoom.,Use {in} and {out} to zoom.
+ui_strings,Language,Language,Language
+ui_strings,Firmware,Firmware,Firmware
+ui_strings,Install Pybricks firmware,Install Pybricks firmware,Install Pybricks firmware
+ui_strings,Restore official {lego} firmware,Restore official {lego} firmware,Restore official {lego} firmware
+ui_strings,Learn Pybricks,Learn Pybricks,Learn Pybricks
+ui_strings,Community answers,Community answers,Community answers
+ui_strings,Bug reports,Bug reports,Bug reports
+ui_strings,Developer,Developer,Developer
+ui_strings,Show debug info,Show debug info,Show debug info
+ui_strings,Enable NXT,Enable NXT,Enable NXT
+ui_strings,Pretend to be on,Pretend to be on,Pretend to be on
+ui_strings,Actual platform,Actual platform,Actual platform
+ui_strings,App,App,App
+ui_strings,Ready for offline use.,Ready for offline use.,Ready for offline use.
+ui_strings,Install as app,Install as app,Install as app
+ui_strings,Check for update,Check for update,Check for update
+ui_strings,Try new beta features,Try new beta features,Try new beta features
+ui_strings,Return to stable version,Return to stable version,Return to stable version
+ui_strings,Restart to install update,Restart to install update,Restart to install update
+ui_strings,About,About,About
+ui_strings,Welcome tour,Welcome tour,Welcome tour
+ui_strings,Select your hub,Select your hub,Select your hub
+ui_strings,Hubs that connect with Bluetooth Low Energy,Hubs that connect with Bluetooth Low Energy,Hubs that connect with Bluetooth Low Energy
+ui_strings,Hubs that connect with Bluetooth Classic,Hubs that connect with Bluetooth Classic,Hubs that connect with Bluetooth Classic
+ui_strings,First time setup for {hub},First time setup for {hub},First time setup for {hub}
+ui_strings,Back,Back,Back
+ui_strings,Next,Next,Next
+ui_strings,Done,Done,Done
+ui_strings,Mac,Mac,Mac
+ui_strings,Windows PC,Windows PC,Windows PC
+ui_strings,Linux computer,Linux computer,Linux computer
+ui_strings,Android device,Android device,Android device
+ui_strings,Chromebook,Chromebook,Chromebook
+ui_strings,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.
+ui_strings,"Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}","Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}","Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}"
+ui_strings,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.
+ui_strings,Tap {pairNewDevice} and select your {hub} when it appears.,Tap {pairNewDevice} and select your {hub} when it appears.,Tap {pairNewDevice} and select your {hub} when it appears.
+ui_strings,Click {pairNewDevice} and select your {hub} when it appears.,Click {pairNewDevice} and select your {hub} when it appears.,Click {pairNewDevice} and select your {hub} when it appears.
+ui_strings,Nearby Devices,Nearby Devices,Nearby Devices
+ui_strings,Add device,Add device,Add device
+ui_strings,Bluetooth,Bluetooth,Bluetooth
+ui_strings,Pair new device,Pair new device,Pair new device
+ui_strings,All devices,All devices,All devices
+ui_strings," If it is not in the list, click {allDevices} to stop Windows from hiding it."," If it is not in the list, click {allDevices} to stop Windows from hiding it."," If it is not in the list, click {allDevices} to stop Windows from hiding it."
+ui_strings,Register EV3 Bluetooth connection,Register EV3 Bluetooth connection,Register EV3 Bluetooth connection
+ui_strings,"The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time."
+ui_strings,"On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.","On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.","On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen."
+ui_strings,Settings,Settings,Settings
+ui_strings,Add new computer,Add new computer,Add new computer
+ui_strings,Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice},Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice},Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice}
+ui_strings,"Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on.","Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on.","Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on."
+ui_strings,Register NXT Bluetooth connection,Register NXT Bluetooth connection,Register NXT Bluetooth connection
+ui_strings,"The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time."
+ui_strings,Turn your NXT brick on.,Turn your NXT brick on.,Turn your NXT brick on.
+ui_strings,"Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.","Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.","Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}."
+ui_strings,", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it",", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it",", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it"
+ui_strings,"Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on.","Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on.","Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on."
+ui_strings,Windows DFU USB driver installation instructions,Windows DFU USB driver installation instructions,Windows DFU USB driver installation instructions
+ui_strings,"Right-click the Windows {startMenu}, then click {deviceManager}.","Right-click the Windows {startMenu}, then click {deviceManager}.","Right-click the Windows {startMenu}, then click {deviceManager}."
+ui_strings,Start Menu,Start Menu,Start Menu
+ui_strings,Device Manager,Device Manager,Device Manager
+ui_strings,Look for {dfuUsbHubName} under {otherDevices}.,Look for {dfuUsbHubName} under {otherDevices}.,Look for {dfuUsbHubName} under {otherDevices}.
+ui_strings,Other Devices,Other Devices,Other Devices
+ui_strings,Properties,Properties,Properties
+ui_strings,"If it is listed with a warning sign, right-click it and select {properties}.","If it is listed with a warning sign, right-click it and select {properties}.","If it is listed with a warning sign, right-click it and select {properties}."
+ui_strings,"If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.","If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.","If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window."
+ui_strings,"If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions.","If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions.","If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions."
+ui_strings,"In the {properties} dialog, click the {updateDriver} button.","In the {properties} dialog, click the {updateDriver} button.","In the {properties} dialog, click the {updateDriver} button."
+ui_strings,{dfuUsbHubName} Properties,{dfuUsbHubName} Properties,{dfuUsbHubName} Properties
+ui_strings,Update Driver...,Update Driver...,Update Driver...
+ui_strings,"In the {updateDrivers} dialog, click the {browse} button.","In the {updateDrivers} dialog, click the {browse} button.","In the {updateDrivers} dialog, click the {browse} button."
+ui_strings,Update Drivers,Update Drivers,Update Drivers
+ui_strings,Browse my computer for drivers,Browse my computer for drivers,Browse my computer for drivers
+ui_strings,Then click the {letMePick} button.,Then click the {letMePick} button.,Then click the {letMePick} button.
+ui_strings,Let me pick from a list of available drivers on my computer,Let me pick from a list of available drivers on my computer,Let me pick from a list of available drivers on my computer
+ui_strings,"In the list of device types, select {usbDevices}, then click the {next} button.","In the list of device types, select {usbDevices}, then click the {next} button.","In the list of device types, select {usbDevices}, then click the {next} button."
+ui_strings,Universal Serial Bus devices,Universal Serial Bus devices,Universal Serial Bus devices
+ui_strings,"In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.","In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.","In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button."
+ui_strings,Manufacturer,Manufacturer,Manufacturer
+ui_strings,WinUsb Device,WinUsb Device,WinUsb Device
+ui_strings,Model,Model,Model
+ui_strings,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.
+ui_strings,Yes,Yes,Yes
+ui_strings,The driver installation is complete. Click the {close} button.,The driver installation is complete. Click the {close} button.,The driver installation is complete. Click the {close} button.
+ui_strings,Select hub type,Select hub type,Select hub type
+ui_strings,Select your hub.,Select your hub.,Select your hub.
+ui_strings,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.
+ui_strings," Once installed, you can use your Android device to run Pybricks programs."," Once installed, you can use your Android device to run Pybricks programs."," Once installed, you can use your Android device to run Pybricks programs."
+ui_strings,Advanced,Advanced,Advanced
+ui_strings,Drop custom firmware .zip file here or click to browse.,Drop custom firmware .zip file here or click to browse.,Drop custom firmware .zip file here or click to browse.
+ui_strings,Custom firmware selected.,Custom firmware selected.,Custom firmware selected.
+ui_strings,Hub type: {hubTypeName},Hub type: {hubTypeName},Hub type: {hubTypeName}
+ui_strings,Firmware version: {version},Firmware version: {version},Firmware version: {version}
+ui_strings,Accept licenses,Accept licenses,Accept licenses
+ui_strings,There was a problem while getting the firmware file.,There was a problem while getting the firmware file.,There was a problem while getting the firmware file.
+ui_strings,I have read and agree to the license terms and conditions.,I have read and agree to the license terms and conditions.,I have read and agree to the license terms and conditions.
+ui_strings,Configure options,Configure options,Configure options
+ui_strings,Hub name,Hub name,Hub name
+ui_strings,(optional),(optional),(optional)
+ui_strings,"Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.","Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.","Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect."
+ui_strings,The name is too long.,The name is too long.,The name is too long.
+ui_strings,Suggest a different name,Suggest a different name,Suggest a different name
+ui_strings,"Select the hub to restore the official {lego} firmware on, then click {next}.","Select the hub to restore the official {lego} firmware on, then click {next}.","Select the hub to restore the official {lego} firmware on, then click {next}."
+ui_strings,Select which firmware you want to restore.,Select which firmware you want to restore.,Select which firmware you want to restore.
+ui_strings,Restore firmware,Restore firmware,Restore firmware
+ui_strings,Restore,Restore,Restore
+ui_strings,v3: {app} App,v3: {app} App,v3: {app} App
+ui_strings,v2: {app} Robot Inventor App,v2: {app} Robot Inventor App,v2: {app} Robot Inventor App
+ui_strings,v1.09H: {app} EV3 Home edition,v1.09H: {app} EV3 Home edition,v1.09H: {app} EV3 Home edition
+ui_strings,v1.09E: {app} EV3 Classroom and EV3 Lab,v1.09E: {app} EV3 Classroom and EV3 Lab,v1.09E: {app} EV3 Classroom and EV3 Lab
+ui_strings,v1.10E: {app},v1.10E: {app},v1.10E: {app}
+ui_strings,Pybricks on Linux,Pybricks on Linux,Pybricks on Linux
+ui_strings,Access rules,Access rules,Access rules
+ui_strings,You must give your computer permission to connect to your robot. You only need to do this once.,You must give your computer permission to connect to your robot. You only need to do this once.,You must give your computer permission to connect to your robot. You only need to do this once.
+ui_strings,Download the rules file. Remember where you save it.,Download the rules file. Remember where you save it.,Download the rules file. Remember where you save it.
+ui_strings,Download rules file,Download rules file,Download rules file
+ui_strings,Open a terminal and run this command. You need administrator (sudo) access.,Open a terminal and run this command. You need administrator (sudo) access.,Open a terminal and run this command. You need administrator (sudo) access.
+ui_strings,"This copies the rules file to the correct system location. If you saved it elsewhere, change the path below.","This copies the rules file to the correct system location. If you saved it elsewhere, change the path below.","This copies the rules file to the correct system location. If you saved it elsewhere, change the path below."
+ui_strings,"You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in.","You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in.","You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in."
+ui_strings,Browser tips,Browser tips,Browser tips
+ui_strings,"You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.","You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.","You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi."
+ui_strings,"If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:","If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:","If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:"
+ui_strings,"Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.","Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.","Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser."
+ui_strings,Enabled,Enabled,Enabled
+ui_strings,Linux setup,Linux setup,Linux setup
+ui_strings,Connect using Bluetooth,Connect using Bluetooth,Connect using Bluetooth
+ui_strings,Disconnect Bluetooth,Disconnect Bluetooth,Disconnect Bluetooth
+ui_strings,"USB is connected, disconnect to use Bluetooth","USB is connected, disconnect to use Bluetooth","USB is connected, disconnect to use Bluetooth"
+ui_strings,File explorer,File explorer,File explorer
+ui_strings,Show file explorer,Show file explorer,Show file explorer
+ui_strings,Hide file explorer,Hide file explorer,Hide file explorer
+ui_strings,REPL,REPL,REPL
+ui_strings,Code interactively in the terminal (REPL),Code interactively in the terminal (REPL),Code interactively in the terminal (REPL)
+ui_strings,Run,Run,Run
+ui_strings,Run this program ({key}),Run this program ({key}),Run this program ({key})
+ui_strings,Downloading… {percent},Downloading… {percent},Downloading… {percent}
+ui_strings,Show settings and help,Show settings and help,Show settings and help
+ui_strings,Hide settings and help,Hide settings and help,Hide settings and help
+ui_strings,Stop,Stop,Stop
+ui_strings,Stop everything ({key}),Stop everything ({key}),Stop everything ({key})
+ui_strings,USB,USB,USB
+ui_strings,Connect using USB,Connect using USB,Connect using USB
+ui_strings,Disconnect USB,Disconnect USB,Disconnect USB
+ui_strings,"Bluetooth is connected, disconnect to use USB","Bluetooth is connected, disconnect to use USB","Bluetooth is connected, disconnect to use USB"
+ui_strings,Last,Last,Last
+ui_strings,Open the dialog,Open the dialog,Open the dialog
+ui_strings,Skip,Skip,Skip
+ui_strings,Welcome to {appName}.,Welcome to {appName}.,Welcome to {appName}.
+ui_strings,Click {next} to discover key features.,Click {next} to discover key features.,Click {next} to discover key features.
+ui_strings,Click the {icon} button to create a new program.,Click the {icon} button to create a new program.,Click the {icon} button to create a new program.
+ui_strings,Don't lose your work.,Don't lose your work.,Don't lose your work.
+ui_strings,Click {icon} to back up your programs.,Click {icon} to back up your programs.,Click {icon} to back up your programs.
+ui_strings,"To use {appName}, you have to install the Pybricks firmware.","To use {appName}, you have to install the Pybricks firmware.","To use {appName}, you have to install the Pybricks firmware."
+ui_strings,You can restore the official {lego} firmware at any time.,You can restore the official {lego} firmware at any time.,You can restore the official {lego} firmware at any time.
+ui_strings,Click the Bluetooth button to connect.,Click the Bluetooth button to connect.,Click the Bluetooth button to connect.
+ui_strings,"Once connected, click the {icon} button to run your program.","Once connected, click the {icon} button to run your program.","Once connected, click the {icon} button to run your program."
+ui_strings,The program is now saved on the hub. Press the button on the hub to run it again.,The program is now saved on the hub. Press the button on the hub to run it again.,The program is now saved on the hub. Press the button on the hub to run it again.
+ui_strings,Browser not supported,Browser not supported,Browser not supported
+ui_strings,This browser cannot connect to your hub.,This browser cannot connect to your hub.,This browser cannot connect to your hub.
+ui_strings,"Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.","Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.","Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi."
+ui_strings,"To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.","To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.","To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store."
+ui_strings,"SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor","SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor","SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor"
+ui_strings,"These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser.","These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser.","These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser."
+ui_strings,MINDSTORMS EV3,MINDSTORMS EV3,MINDSTORMS EV3
+ui_strings,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.
+ui_strings,Supported browsers,Supported browsers,Supported browsers
+ui_strings,Activities,Activities,Activities
+ui_strings,Terminal,Terminal,Terminal
+ui_strings,Documentation,Documentation,Documentation
+ui_strings,Show documentation,Show documentation,Show documentation
+ui_strings,Hide documentation,Hide documentation,Hide documentation
+ui_strings,Show terminal,Show terminal,Show terminal
+ui_strings,Hide terminal,Hide terminal,Hide terminal
+ui_strings,Open camera,Open camera,Open camera
+ui_strings,Hide camera,Hide camera,Hide camera
+ui_strings,"An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.","An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.","An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error."
+ui_strings,Expand for detailed technical information,Expand for detailed technical information,Expand for detailed technical information
+ui_strings,Copy error message,Copy error message,Copy error message
+ui_strings,Report bug,Report bug,Report bug
+ui_strings,Could not connect to the hub.,Could not connect to the hub.,Could not connect to the hub.
+ui_strings,Check that your hub is not in use by other apps.,Check that your hub is not in use by other apps.,Check that your hub is not in use by other apps.
+ui_strings,Check that your hub is not in use by other apps. Make sure that you have permission to connect.,Check that your hub is not in use by other apps. Make sure that you have permission to connect.,Check that your hub is not in use by other apps. Make sure that you have permission to connect.
+ui_strings,Failed to connect to update server. The internet connection or the server may be down. Try again later.,Failed to connect to update server. The internet connection or the server may be down. Try again later.,Failed to connect to update server. The internet connection or the server may be down. Try again later.
+ui_strings,This browser does not support Web Bluetooth or it is not enabled.,This browser does not support Web Bluetooth or it is not enabled.,This browser does not support Web Bluetooth or it is not enabled.
+ui_strings,Use a supported browser such as Google Chrome or Microsoft Edge.,Use a supported browser such as Google Chrome or Microsoft Edge.,Use a supported browser such as Google Chrome or Microsoft Edge.
+ui_strings,"On Linux, Web Bluetooth must be turned on manually.","On Linux, Web Bluetooth must be turned on manually.","On Linux, Web Bluetooth must be turned on manually."
+ui_strings,"Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.","Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.","Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave."
+ui_strings,More info,More info,More info
+ui_strings,No Bluetooth adapter could be found or permission to use it has not been granted.,No Bluetooth adapter could be found or permission to use it has not been granted.,No Bluetooth adapter could be found or permission to use it has not been granted.
+ui_strings,"Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.","Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.","Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser."
+ui_strings,"Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy.","Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy.","Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy."
+ui_strings,The web browser did not give permission to use Bluetooth Low Energy.,The web browser did not give permission to use Bluetooth Low Energy.,The web browser did not give permission to use Bluetooth Low Energy.
+ui_strings,Failed to connect to the hub.,Failed to connect to the hub.,Failed to connect to the hub.
+ui_strings,"Please restart your computer and the hub, then try again.","Please restart your computer and the hub, then try again.","Please restart your computer and the hub, then try again."
+ui_strings,How can I solve connectivity issues?,How can I solve connectivity issues?,How can I solve connectivity issues?
+ui_strings,Connected to hub but failed to get {serviceName} service.,Connected to hub but failed to get {serviceName} service.,Connected to hub but failed to get {serviceName} service.
+ui_strings,Ensure that you are using the most recent firmware.,Ensure that you are using the most recent firmware.,Ensure that you are using the most recent firmware.
+ui_strings,"If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again."
+ui_strings,No hub detected.,No hub detected.,No hub detected.
+ui_strings,Have you installed the Pybricks firmware yet?,Have you installed the Pybricks firmware yet?,Have you installed the Pybricks firmware yet?
+ui_strings,Solve connectivity issues,Solve connectivity issues,Solve connectivity issues
+ui_strings,A new firmware version is available for this hub. Please install the latest version to use all new features.,A new firmware version is available for this hub. Please install the latest version to use all new features.,A new firmware version is available for this hub. Please install the latest version to use all new features.
+ui_strings,Update Pybricks firmware,Update Pybricks firmware,Update Pybricks firmware
+ui_strings,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.
+ui_strings,The hub has {hubVersion} while {app} supports {appVersion}.,The hub has {hubVersion} while {app} supports {appVersion}.,The hub has {hubVersion} while {app} supports {appVersion}.
+ui_strings,Downgrade the hub firmware or upgrade {app} to avoid problems.,Downgrade the hub firmware or upgrade {app} to avoid problems.,Downgrade the hub firmware or upgrade {app} to avoid problems.
+ui_strings,The hub is no longer connected. Please reconnect and try again.,The hub is no longer connected. Please reconnect and try again.,The hub is no longer connected. Please reconnect and try again.
+ui_strings,The file '{fileName}' could not be opened. It is already open in another window.,The file '{fileName}' could not be opened. It is already open in another window.,The file '{fileName}' could not be opened. It is already open in another window.
+ui_strings,There are no files to back up. Create a new file first by clicking the {icon} icon.,There are no files to back up. Create a new file first by clicking the {icon} icon.,There are no files to back up. Create a new file first by clicking the {icon} icon.
+ui_strings,There were no {py} files in the {zip} file.,There were no {py} files in the {zip} file.,There were no {py} files in the {zip} file.
+ui_strings,A USB error occurred while installing the firmware.,A USB error occurred while installing the firmware.,A USB error occurred while installing the firmware.
+ui_strings,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.
+ui_strings,This browser does not support WebUSB or WebUSB is not enabled.,This browser does not support WebUSB or WebUSB is not enabled.,This browser does not support WebUSB or WebUSB is not enabled.
+ui_strings,This browser does not support WebHID or WebHID is not enabled.,This browser does not support WebHID or WebHID is not enabled.,This browser does not support WebHID or WebHID is not enabled.
+ui_strings,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.
+ui_strings,Also make sure that you have permission to connect.,Also make sure that you have permission to connect.,Also make sure that you have permission to connect.
+ui_strings,The firmware you selected is not compatible with your hub.,The firmware you selected is not compatible with your hub.,The firmware you selected is not compatible with your hub.
+ui_strings,This is very unusual. The USB device did not contain the expected interface.,This is very unusual. The USB device did not contain the expected interface.,This is very unusual. The USB device did not contain the expected interface.
+ui_strings,Erasing the old firmware: {percent},Erasing the old firmware: {percent},Erasing the old firmware: {percent}
+ui_strings,Installing the new firmware: {percent},Installing the new firmware: {percent},Installing the new firmware: {percent}
+ui_strings,You may release the power button on the hub now.,You may release the power button on the hub now.,You may release the power button on the hub now.
+ui_strings,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.
+ui_strings,Try removing unused code or making names and strings smaller.,Try removing unused code or making names and strings smaller.,Try removing unused code or making names and strings smaller.
+ui_strings,Failed to compile MicroPython file.,Failed to compile MicroPython file.,Failed to compile MicroPython file.
+ui_strings,Go to error,Go to error,Go to error
+ui_strings,This browser does not support the Web Serial API or it is not enabled.,This browser does not support the Web Serial API or it is not enabled.,This browser does not support the Web Serial API or it is not enabled.
+ui_strings,This hub is already in use in another Pybricks tab or window.,This hub is already in use in another Pybricks tab or window.,This hub is already in use in another Pybricks tab or window.
+ui_strings,Not connected. Make sure that the hub is on. Then try again.,Not connected. Make sure that the hub is on. Then try again.,Not connected. Make sure that the hub is on. Then try again.
+ui_strings,You have to register the connection manually the first time.,You have to register the connection manually the first time.,You have to register the connection manually the first time.
+ui_strings,EV3 instructions,EV3 instructions,EV3 instructions
+ui_strings,NXT instructions,NXT instructions,NXT instructions
+ui_strings,Pybricks is not yet installed on this hub.,Pybricks is not yet installed on this hub.,Pybricks is not yet installed on this hub.
+ui_strings,Start installation,Start installation,Start installation
+ui_strings,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.
+ui_strings,{appName} is already up to date.,{appName} is already up to date.,{appName} is already up to date.
+ui_strings,"Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again."
+ui_strings,Unexpected error while trying to connect: {errorMessage},Unexpected error while trying to connect: {errorMessage},Unexpected error while trying to connect: {errorMessage}
+ui_strings,Failed to open file.,Failed to open file.,Failed to open file.
+ui_strings,Failed to save the program.,Failed to save the program.,Failed to save the program.
+ui_strings,Failed to import file(s).,Failed to import file(s).,Failed to import file(s).
+ui_strings,Failed to create file.,Failed to create file.,Failed to create file.
+ui_strings,Failed to duplicate file.,Failed to duplicate file.,Failed to duplicate file.
+ui_strings,Failed to export file.,Failed to export file.,Failed to export file.
+ui_strings,Failed to delete file.,Failed to delete file.,Failed to delete file.
+ui_strings,Failed to archive files.,Failed to archive files.,Failed to archive files.
+ui_strings,Failed to initialize file storage. Changes will not be automatically saved.,Failed to initialize file storage. Changes will not be automatically saved.,Failed to initialize file storage. Changes will not be automatically saved.
+ui_strings,The hub took too long to respond. Restart the hub and try again.,The hub took too long to respond. Restart the hub and try again.,The hub took too long to respond. Restart the hub and try again.
+ui_strings,There was a problem with Bluetooth.,There was a problem with Bluetooth.,There was a problem with Bluetooth.
+ui_strings,The hub was disconnected before installation was completed. Restart the hub and try again.,The hub was disconnected before installation was completed. Restart the hub and try again.,The hub was disconnected before installation was completed. Restart the hub and try again.
+ui_strings,The hub said something went wrong.,The hub said something went wrong.,The hub said something went wrong.
+ui_strings,The connected hub is not supported.,The connected hub is not supported.,The connected hub is not supported.
+ui_strings,The firmware is for a different kind of hub from the connected hub.,The firmware is for a different kind of hub from the connected hub.,The firmware is for a different kind of hub from the connected hub.
+ui_strings,Failed to fetch firmware from the server: {status},Failed to fetch firmware from the server: {status},Failed to fetch firmware from the server: {status}
+ui_strings,The firmware.zip file is missing required files or is invalid.,The firmware.zip file is missing required files or is invalid.,The firmware.zip file is missing required files or is invalid.
+ui_strings,"The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.","The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.","The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again."
+ui_strings,"The included main.py file could not be compiled. Fix it, then try again.","The included main.py file could not be compiled. Fix it, then try again.","The included main.py file could not be compiled. Fix it, then try again."
+ui_strings,The combined firmware and main.py are too big to fit in the flash memory.,The combined firmware and main.py are too big to fit in the flash memory.,The combined firmware and main.py are too big to fit in the flash memory.
+ui_strings,Unexpected error while trying to install firmware: {errorMessage},Unexpected error while trying to install firmware: {errorMessage},Unexpected error while trying to install firmware: {errorMessage}
+ui_strings,{errorMessage},{errorMessage},{errorMessage}
+ui_strings,A new version of {appName} is available. Click {action} to start using the new version.,A new version of {appName} is available. Click {action} to start using the new version.,A new version of {appName} is available. Click {action} to start using the new version.
+ui_strings,Restart,Restart,Restart
+ui_overrides,i18n_x0wdzg.checkHub.easy.on,on,on
+ui_overrides,i18n_x0wdzg.button.power,button,button
+ui_overrides,i18n_1h3ihz6.bootloaderPanel.title,Install,Install
+ui_overrides,i18n_1w3ud0i.last,Last,Last
+dom_patches,searchPlaceholder,Search...,Search...
+dom_patches,languageHeading,Language,Language
+dom_patches,languageHelper,Switch UI & block language (Python code is never modified).,Switch UI & block language (Python code is never modified).
+dom_patches,quickSwitchTooltip,Switch Pybricks UI & Blocks language,Switch Pybricks UI & Blocks language
+dom_patches,hubNames.BOOST Move Hub,BOOST Move Hub,BOOST Move Hub
+dom_patches,hubNames.City Hub,City Hub,City Hub
+dom_patches,hubNames.Technic Hub,Technic Hub,Technic Hub
+dom_patches,hubNames.SPIKE Prime Hub,SPIKE Prime Hub,SPIKE Prime Hub
+dom_patches,hubNames.MINDSTORMS Robot Inventor,MINDSTORMS Robot Inventor,MINDSTORMS Robot Inventor
+dom_patches,hubNames.SPIKE Essential Hub,SPIKE Essential Hub,SPIKE Essential Hub
+dom_patches,hubNames.MINDSTORMS EV3,MINDSTORMS EV3,MINDSTORMS EV3
+dom_patches,hubNames.MINDSTORMS NXT,MINDSTORMS NXT,MINDSTORMS NXT
+dom_patches,telemetryLabels.reflection,reflection,reflection
+dom_patches,telemetryLabels.ambient light,ambient light,ambient light
+dom_patches,telemetryLabels.calibrate,calibrate,calibrate
+dom_patches,telemetryLabels.distance,distance,distance
+dom_patches,telemetryLabels.angle,angle,angle
+dom_patches,telemetryLabels.position,position,position
+dom_patches,telemetryLabels.width,width,width
+dom_patches,telemetryLabels.height,height,height
+dom_patches,telemetryLabels.score,score,score
+dom_patches,telemetryLabels.error,error,error
+dom_patches,dialogButtons.Back,Back,Back
+dom_patches,dialogButtons.Next,Next,Next
+dom_patches,dialogButtons.Submit,Submit,Submit
+dom_patches,dialogButtons.Close,Close,Close
+dom_patches,dialogButtons.OK,OK,OK

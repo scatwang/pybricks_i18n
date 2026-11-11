@@ -1,0 +1,1474 @@
+﻿section,key,en,translation
+meta,label,English,Simplified Chinese
+meta,nativeLabel,English,简体中文
+meta,short,EN,简中
+bky_std,ADD_COMMENT,Add Comment,添加注释
+bky_std,CANNOT_DELETE_VARIABLE_PROCEDURE,Can't delete the variable '%1' because it's part of the definition of the function '%2',不能删除变量“%1”，因为它是函数“%2”定义的一部分
+bky_std,CHANGE_VALUE_TITLE,Change value:,更改值：
+bky_std,CLEAN_UP,Clean up Blocks,整理积木
+bky_std,COLLAPSED_WARNINGS_WARNING,Collapsed blocks contain warnings.,已折叠的积木内包含警告。
+bky_std,COLLAPSE_ALL,Collapse Blocks,折叠积木
+bky_std,COLLAPSE_BLOCK,Collapse Block,折叠积木
+bky_std,COLOUR_BLEND_COLOUR1,colour 1,颜色1
+bky_std,COLOUR_BLEND_COLOUR2,colour 2,颜色2
+bky_std,COLOUR_BLEND_HELPURL,https://meyerweb.com/eric/tools/color-blend/#:::rgbp,https://meyerweb.com/eric/tools/color-blend/#:::rgbp
+bky_std,COLOUR_BLEND_RATIO,ratio,比例
+bky_std,COLOUR_BLEND_TITLE,blend,混合
+bky_std,COLOUR_BLEND_TOOLTIP,Blends two colours together with a given ratio (0.0 - 1.0).,把两种颜色以一个给定的比例(0.0-1.0)进行混合。
+bky_std,COLOUR_PICKER_HELPURL,https://en.wikipedia.org/wiki/Color,https://zh.wikipedia.org/wiki/颜色
+bky_std,COLOUR_PICKER_TOOLTIP,Choose a colour from the palette.,从调色板中选择一种颜色。
+bky_std,COLOUR_RANDOM_HELPURL,http://randomcolour.com,http://randomcolour.com
+bky_std,COLOUR_RANDOM_TITLE,random colour,随机颜色
+bky_std,COLOUR_RANDOM_TOOLTIP,Choose a colour at random.,随机选择一种颜色。
+bky_std,COLOUR_RGB_BLUE,blue,蓝色
+bky_std,COLOUR_RGB_GREEN,green,绿色
+bky_std,COLOUR_RGB_HELPURL,https://www.december.com/html/spec/colorpercompact.html,https://www.december.com/html/spec/colorpercompact.html
+bky_std,COLOUR_RGB_RED,red,红色
+bky_std,COLOUR_RGB_TITLE,colour with,颜色
+bky_std,COLOUR_RGB_TOOLTIP,"Create a colour with the specified amount of red, green, and blue. All values must be between 0 and 100.",通过指定红色、绿色和蓝色的量创建一种颜色。所有的值必须在0和100之间。
+bky_std,CONTROLS_FLOW_STATEMENTS_HELPURL,https://github.com/google/blockly/wiki/Loops#loop-termination-blocks,https://github.com/google/blockly/wiki/Loops#loop-termination-blocks
+bky_std,CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK,break out of loop,跳出循环
+bky_std,CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE,continue with next iteration of loop,继续下一轮循环
+bky_std,CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK,Break out of the containing loop.,跳出包含它的循环。
+bky_std,CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE,"Skip the rest of this loop, and continue with the next iteration.",跳过本轮循环的剩余部分，并继续下一轮循环。
+bky_std,CONTROLS_FLOW_STATEMENTS_WARNING,Warning: This block may only be used within a loop.,警告：此积木只能在循环内使用。
+bky_std,CONTROLS_FOREACH_HELPURL,https://github.com/google/blockly/wiki/Loops#for-each,https://github.com/google/blockly/wiki/Loops#for-each
+bky_std,CONTROLS_FOREACH_TITLE,for each item %1 in list %2,遍历列表 %2 里的每一项 %1
+bky_std,CONTROLS_FOREACH_TOOLTIP,"For each item in a list, set the variable '%1' to the item, and then do some statements.",遍历列表中的每一项，将变量“%1”设为所选项，并执行一些语句。
+bky_std,CONTROLS_FOR_HELPURL,https://github.com/google/blockly/wiki/Loops#count-with,https://github.com/google/blockly/wiki/Loops#count-with
+bky_std,CONTROLS_FOR_TITLE,count with %1 from %2 to %3 by %4,变量 %1 从 %2 数到 %3 每次增加 %4
+bky_std,CONTROLS_FOR_TOOLTIP,"Have the variable '%1' take on the values from the start number to the end number, counting by the specified interval, and do the specified blocks.",让变量“%1”取从起始数到结束数之间按指定间隔变化的值，并执行指定的积木。
+bky_std,CONTROLS_IF_ELSEIF_TOOLTIP,Add a condition to the if block.,在当前 if 条件积木中增加一个条件。
+bky_std,CONTROLS_IF_ELSE_TOOLTIP,"Add a final, catch-all condition to the if block.",在当前 if 条件积木中添加一个涵盖所有其他情况的最终条件。
+bky_std,CONTROLS_IF_HELPURL,https://github.com/google/blockly/wiki/IfElse,https://github.com/google/blockly/wiki/IfElse
+bky_std,CONTROLS_IF_IF_TOOLTIP,"Add, remove, or reorder sections to reconfigure this if block.",添加、移除或重新排列各部分，以重新配置此 if 条件积木。
+bky_std,CONTROLS_IF_MSG_ELSE,else,否则
+bky_std,CONTROLS_IF_MSG_ELSEIF,else if,否则如果
+bky_std,CONTROLS_IF_MSG_IF,if,如果
+bky_std,CONTROLS_IF_TOOLTIP_1,"If a value is true, then do some statements.",如果值为真，则执行一些语句。
+bky_std,CONTROLS_IF_TOOLTIP_2,"If a value is true, then do the first block of statements. Otherwise, do the second block of statements.",如果值为真，则执行第一组语句。否则，执行第二组语句。
+bky_std,CONTROLS_IF_TOOLTIP_3,"If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements.",如果第一个值为真，则执行第一组语句。否则，如果第二个值为真，则执行第二组语句。
+bky_std,CONTROLS_IF_TOOLTIP_4,"If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements.",如果第一个值为真，则执行第一组语句。否则，如果第二个值为真，则执行第二组语句。如果所有条件均不为真，则执行最后一组语句。
+bky_std,CONTROLS_REPEAT_HELPURL,https://en.wikipedia.org/wiki/For_loop,https://zh.wikipedia.org/wiki/For循环
+bky_std,CONTROLS_REPEAT_INPUT_DO,do,执行
+bky_std,CONTROLS_REPEAT_TITLE,repeat %1 times,重复 %1 次
+bky_std,CONTROLS_REPEAT_TOOLTIP,Do some statements several times.,多次执行一些语句。
+bky_std,CONTROLS_WHILEUNTIL_HELPURL,https://github.com/google/blockly/wiki/Loops#repeat,https://github.com/google/blockly/wiki/Loops#repeat
+bky_std,CONTROLS_WHILEUNTIL_OPERATOR_UNTIL,repeat until,重复直到条件满足
+bky_std,CONTROLS_WHILEUNTIL_OPERATOR_WHILE,repeat while,当条件满足时重复
+bky_std,CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL,"While a value is false, then do some statements.",只要值为假，就一直循环执行一些语句。
+bky_std,CONTROLS_WHILEUNTIL_TOOLTIP_WHILE,"While a value is true, then do some statements.",只要值为真，就一直循环执行一些语句。
+bky_std,DELETE_ALL_BLOCKS,Delete all %1 blocks?,删除所有 %1 个积木吗？
+bky_std,DELETE_BLOCK,Delete Block,删除积木
+bky_std,DELETE_VARIABLE,Delete the '%1' variable,删除变量“%1”
+bky_std,DELETE_VARIABLE_CONFIRMATION,Delete %1 uses of the '%2' variable?,要删除对变量“%2”的 %1 处引用吗？
+bky_std,DELETE_X_BLOCKS,Delete %1 Blocks,删除 %1 个积木
+bky_std,DIALOG_CANCEL,Cancel,取消
+bky_std,DIALOG_OK,OK,确认
+bky_std,DISABLE_BLOCK,Disable Block,禁用积木
+bky_std,DUPLICATE_BLOCK,Duplicate,复制
+bky_std,DUPLICATE_COMMENT,Duplicate Comment,复制注释
+bky_std,ENABLE_BLOCK,Enable Block,启用积木
+bky_std,EXPAND_ALL,Expand Blocks,展开积木
+bky_std,EXPAND_BLOCK,Expand Block,展开积木
+bky_std,EXTERNAL_INPUTS,External Inputs,外部输入
+bky_std,HELP,Help,帮助
+bky_std,INLINE_INPUTS,Inline Inputs,单行输入
+bky_std,LISTS_CREATE_EMPTY_HELPURL,https://github.com/google/blockly/wiki/Lists#create-empty-list,https://github.com/google/blockly/wiki/Lists#create-empty-list
+bky_std,LISTS_CREATE_EMPTY_TITLE,create empty list,创建空列表
+bky_std,LISTS_CREATE_EMPTY_TOOLTIP,"Returns a list, of length 0, containing no data records",返回一个列表，长度为 0，不包含任何数据记录
+bky_std,LISTS_CREATE_WITH_CONTAINER_TITLE_ADD,list,列表
+bky_std,LISTS_CREATE_WITH_CONTAINER_TOOLTIP,"Add, remove, or reorder sections to reconfigure this list block.",添加、移除或重新排列各部分，以重新配置此列表积木。
+bky_std,LISTS_CREATE_WITH_HELPURL,https://github.com/google/blockly/wiki/Lists#create-list-with,https://github.com/google/blockly/wiki/Lists#create-list-with
+bky_std,LISTS_CREATE_WITH_INPUT_WITH,create list with,创建列表，内容：
+bky_std,LISTS_CREATE_WITH_ITEM_TOOLTIP,Add an item to the list.,将一个项添加到列表中。
+bky_std,LISTS_CREATE_WITH_TOOLTIP,Create a list with any number of items.,创建一个具有任意数量项的列表。
+bky_std,LISTS_GET_INDEX_FIRST,first,第一项
+bky_std,LISTS_GET_INDEX_FROM_END,# from end,倒数第#项
+bky_std,LISTS_GET_INDEX_FROM_START,#,#
+bky_std,LISTS_GET_INDEX_GET,get,取得
+bky_std,LISTS_GET_INDEX_GET_REMOVE,get and remove,取得并移除
+bky_std,LISTS_GET_INDEX_LAST,last,最后一项
+bky_std,LISTS_GET_INDEX_RANDOM,random,随机的一项
+bky_std,LISTS_GET_INDEX_REMOVE,remove,移除
+bky_std,LISTS_GET_INDEX_TAIL,,
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_FIRST,Returns the first item in a list.,返回列表中的第一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_FROM,Returns the item at the specified position in a list.,返回在列表中的指定位置的项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_LAST,Returns the last item in a list.,返回列表中的最后一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_RANDOM,Returns a random item in a list.,返回列表中的随机一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FIRST,Removes and returns the first item in a list.,移除并返回列表中的第一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FROM,Removes and returns the item at the specified position in a list.,移除并返回列表中的指定位置的项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_LAST,Removes and returns the last item in a list.,移除并返回列表中的最后一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_RANDOM,Removes and returns a random item in a list.,移除并返回列表中的随机一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_FIRST,Removes the first item in a list.,移除列表中的第一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_FROM,Removes the item at the specified position in a list.,移除在列表中的指定位置的项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_LAST,Removes the last item in a list.,移除列表中的最后一项。
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_RANDOM,Removes a random item in a list.,删除列表中的随机一项。
+bky_std,LISTS_GET_SUBLIST_END_FROM_END,to # from end,到倒数第#项
+bky_std,LISTS_GET_SUBLIST_END_FROM_START,to #,到第#项
+bky_std,LISTS_GET_SUBLIST_END_LAST,to last,到最后一项
+bky_std,LISTS_GET_SUBLIST_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-a-sublist,https://github.com/google/blockly/wiki/Lists#getting-a-sublist
+bky_std,LISTS_GET_SUBLIST_START_FIRST,get sub-list from first,获取子列表，从第一项
+bky_std,LISTS_GET_SUBLIST_START_FROM_END,get sub-list from # from end,获取子列表，从倒数第#项
+bky_std,LISTS_GET_SUBLIST_START_FROM_START,get sub-list from #,获取子列表，从第#项
+bky_std,LISTS_GET_SUBLIST_TAIL,,
+bky_std,LISTS_GET_SUBLIST_TOOLTIP,Creates a copy of the specified portion of a list.,复制列表中指定的部分。
+bky_std,LISTS_INDEX_FROM_END_TOOLTIP,%1 is the last item.,%1是最后一项。
+bky_std,LISTS_INDEX_FROM_START_TOOLTIP,%1 is the first item.,%1是第一项。
+bky_std,LISTS_INDEX_OF_FIRST,find first occurrence of item,寻找第一次出现的项
+bky_std,LISTS_INDEX_OF_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list
+bky_std,LISTS_INDEX_OF_LAST,find last occurrence of item,寻找最后一次出现的项
+bky_std,LISTS_INDEX_OF_TOOLTIP,Returns the index of the first/last occurrence of the item in the list. Returns %1 if item is not found.,返回在列表中的第一/最后一个匹配项的索引值。如果找不到项目则返回%1。
+bky_std,LISTS_INLIST,in list,在列表中
+bky_std,LISTS_ISEMPTY_HELPURL,https://github.com/google/blockly/wiki/Lists#is-empty,https://github.com/google/blockly/wiki/Lists#is-empty
+bky_std,LISTS_ISEMPTY_TITLE,%1 is empty,%1是空的
+bky_std,LISTS_ISEMPTY_TOOLTIP,Returns true if the list is empty.,如果该列表为空，则返回真。
+bky_std,LISTS_LENGTH_HELPURL,https://github.com/google/blockly/wiki/Lists#length-of,https://github.com/google/blockly/wiki/Lists#length-of
+bky_std,LISTS_LENGTH_TITLE,length of %1,%1的长度
+bky_std,LISTS_LENGTH_TOOLTIP,Returns the length of a list.,返回列表的长度。
+bky_std,LISTS_REPEAT_HELPURL,https://github.com/google/blockly/wiki/Lists#create-list-with,https://github.com/google/blockly/wiki/Lists#create-list-with
+bky_std,LISTS_REPEAT_TITLE,create list with item %1 repeated %2 times,创建列表，将项 %1 重复 %2 次
+bky_std,LISTS_REPEAT_TOOLTIP,Creates a list consisting of the given value repeated the specified number of times.,创建包含指定重复次数的值的列表。
+bky_std,LISTS_REVERSE_HELPURL,https://github.com/google/blockly/wiki/Lists#reversing-a-list,https://github.com/google/blockly/wiki/Lists#reversing-a-list
+bky_std,LISTS_REVERSE_MESSAGE0,reverse %1,倒转%1
+bky_std,LISTS_REVERSE_TOOLTIP,Reverse a copy of a list.,倒转一个列表，返回副本。
+bky_std,LISTS_SET_INDEX_HELPURL,https://github.com/google/blockly/wiki/Lists#in-list--set,https://github.com/google/blockly/wiki/Lists#in-list--set
+bky_std,LISTS_SET_INDEX_INPUT_TO,as,值为
+bky_std,LISTS_SET_INDEX_INSERT,insert at,插入在
+bky_std,LISTS_SET_INDEX_SET,set,设置
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_FIRST,Inserts the item at the start of a list.,在列表的起始处添加该项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_FROM,Inserts the item at the specified position in a list.,在列表中指定位置插入项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_LAST,Append the item to the end of a list.,在列表的末尾处添加该项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_RANDOM,Inserts the item randomly in a list.,在列表的随机位置插入该项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_FIRST,Sets the first item in a list.,设置列表中的第一项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_FROM,Sets the item at the specified position in a list.,设置在列表中指定位置的项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_LAST,Sets the last item in a list.,设置列表中的最后一项。
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_RANDOM,Sets a random item in a list.,设置列表中的随机一项。
+bky_std,LISTS_SORT_HELPURL,https://github.com/google/blockly/wiki/Lists#sorting-a-list,https://github.com/google/blockly/wiki/Lists#sorting-a-list
+bky_std,LISTS_SORT_ORDER_ASCENDING,ascending,升序
+bky_std,LISTS_SORT_ORDER_DESCENDING,descending,降序
+bky_std,LISTS_SORT_TITLE,sort %1 %2 %3,排序%1 %2 %3
+bky_std,LISTS_SORT_TOOLTIP,Sort a copy of a list.,排序一个列表，返回副本。
+bky_std,LISTS_SORT_TYPE_IGNORECASE,"alphabetic, ignore case",按字母（忽略大小写）
+bky_std,LISTS_SORT_TYPE_NUMERIC,numeric,按数字
+bky_std,LISTS_SORT_TYPE_TEXT,alphabetic,按字母
+bky_std,LISTS_SPLIT_HELPURL,https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists,https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists
+bky_std,LISTS_SPLIT_LIST_FROM_TEXT,make list from text,从文本制作列表
+bky_std,LISTS_SPLIT_TEXT_FROM_LIST,make text from list,将列表合并为文本
+bky_std,LISTS_SPLIT_TOOLTIP_JOIN,"Join a list of texts into one text, separated by a delimiter.",使用分隔符将文本列表拼接为一个文本。
+bky_std,LISTS_SPLIT_TOOLTIP_SPLIT,"Split text into a list of texts, breaking at each delimiter.",将文本按指定的分隔符拆分为文本组成的列表。
+bky_std,LISTS_SPLIT_WITH_DELIMITER,with delimiter,分隔符：
+bky_std,LOGIC_BOOLEAN_FALSE,false,false
+bky_std,LOGIC_BOOLEAN_HELPURL,https://github.com/google/blockly/wiki/Logic#values,https://github.com/google/blockly/wiki/Logic#values
+bky_std,LOGIC_BOOLEAN_TOOLTIP,Returns either true or false.,返回 true 或 false。
+bky_std,LOGIC_BOOLEAN_TRUE,true,true
+bky_std,LOGIC_COMPARE_HELPURL,https://en.wikipedia.org/wiki/Inequality_(mathematics),https://zh.wikipedia.org/wiki/不等
+bky_std,LOGIC_COMPARE_TOOLTIP_EQ,Return true if both inputs equal each other.,如果两个输入结果相等，则返回真。
+bky_std,LOGIC_COMPARE_TOOLTIP_GT,Return true if the first input is greater than the second input.,如果第一个输入结果比第二个大，则返回真。
+bky_std,LOGIC_COMPARE_TOOLTIP_GTE,Return true if the first input is greater than or equal to the second input.,如果第一个输入结果大于或等于第二个输入结果，则返回真。
+bky_std,LOGIC_COMPARE_TOOLTIP_LT,Return true if the first input is smaller than the second input.,如果第一个输入结果比第二个小，则返回真。
+bky_std,LOGIC_COMPARE_TOOLTIP_LTE,Return true if the first input is smaller than or equal to the second input.,如果第一个输入结果小于或等于第二个输入结果，则返回真。
+bky_std,LOGIC_COMPARE_TOOLTIP_NEQ,Return true if both inputs are not equal to each other.,如果两个输入结果不相等，则返回真。
+bky_std,LOGIC_NEGATE_HELPURL,https://github.com/google/blockly/wiki/Logic#not,https://github.com/google/blockly/wiki/Logic#not
+bky_std,LOGIC_NEGATE_TITLE,not %1,非 %1
+bky_std,LOGIC_NEGATE_TOOLTIP,Returns true if the input is false. Returns false if the input is true.,如果输入结果为false，则返回true；如果输入结果为true，则返回false。
+bky_std,LOGIC_NULL,null,空
+bky_std,LOGIC_NULL_HELPURL,https://en.wikipedia.org/wiki/Nullable_type,https://en.wikipedia.org/wiki/Nullable_type
+bky_std,LOGIC_NULL_TOOLTIP,Returns null.,返回空值。
+bky_std,LOGIC_OPERATION_AND,and,并且
+bky_std,LOGIC_OPERATION_HELPURL,https://github.com/google/blockly/wiki/Logic#logical-operations,https://github.com/google/blockly/wiki/Logic#logical-operations
+bky_std,LOGIC_OPERATION_OR,or,或
+bky_std,LOGIC_OPERATION_TOOLTIP_AND,Return true if both inputs are true.,如果两个输入结果都为真，则返回真。
+bky_std,LOGIC_OPERATION_TOOLTIP_OR,Return true if at least one of the inputs is true.,如果至少有一个输入结果为真，则返回真。
+bky_std,LOGIC_TERNARY_CONDITION,test,断言
+bky_std,LOGIC_TERNARY_HELPURL,https://en.wikipedia.org/wiki/%3F:,https://zh.wikipedia.org/wiki/条件运算符
+bky_std,LOGIC_TERNARY_IF_FALSE,if false,如果为 false
+bky_std,LOGIC_TERNARY_IF_TRUE,if true,如果为 true
+bky_std,LOGIC_TERNARY_TOOLTIP,"Check the condition in 'test'. If the condition is true, returns the 'if true' value; otherwise returns the 'if false' value.",检查“断言”里的条件。如果条件为真，则返回“如果为真”的值；否则返回“如果为假”的值。
+bky_std,MATH_ADDITION_SYMBOL,+,+
+bky_std,MATH_ARITHMETIC_HELPURL,https://en.wikipedia.org/wiki/Arithmetic,https://zh.wikipedia.org/wiki/算术
+bky_std,MATH_ARITHMETIC_TOOLTIP_ADD,Return the sum of the two numbers.,返回两个数的和。
+bky_std,MATH_ARITHMETIC_TOOLTIP_DIVIDE,Return the quotient of the two numbers.,返回两个数的商。
+bky_std,MATH_ARITHMETIC_TOOLTIP_MINUS,Return the difference of the two numbers.,返回两个数的差。
+bky_std,MATH_ARITHMETIC_TOOLTIP_MULTIPLY,Return the product of the two numbers.,返回两个数的积。
+bky_std,MATH_ARITHMETIC_TOOLTIP_POWER,Return the first number raised to the power of the second number.,返回第一个数的第二个数次幂。
+bky_std,MATH_ATAN2_HELPURL,https://en.wikipedia.org/wiki/Atan2,https://zh.wikipedia.org/wiki/反正切2
+bky_std,MATH_ATAN2_TITLE,atan2 of X:%1 Y:%2,"点(x:%1,y:%2)的方位角"
+bky_std,MATH_ATAN2_TOOLTIP,"Return the arctangent of point (X, Y) in degrees from -180 to 180.",返回点（X，Y）的反正切值，范围为-180到180度。
+bky_std,MATH_CHANGE_HELPURL,https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter,https://zh.wikipedia.org/wiki/加法
+bky_std,MATH_CHANGE_TITLE,change %1 by %2,给 %1 加 %2
+bky_std,MATH_CHANGE_TOOLTIP,Add a number to variable '%1'.,把数加到变量“%1”。
+bky_std,MATH_CONSTANT_HELPURL,https://en.wikipedia.org/wiki/Mathematical_constant,https://zh.wikipedia.org/wiki/数学常数
+bky_std,MATH_CONSTANT_TOOLTIP,"Return one of the common constants: π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), or ∞ (infinity).",返回一个以下常见常数：π (3.141…)、e (2.718…)、φ (1.618…)、根号2 (1.414…)、根号½ (0.707…)或∞ (无穷)。
+bky_std,MATH_CONSTRAIN_HELPURL,https://en.wikipedia.org/wiki/Clamping_(graphics),https://en.wikipedia.org/wiki/Clamping_(graphics)
+bky_std,MATH_CONSTRAIN_TITLE,constrain %1 low %2 high %3,将 %1 限制在 最低 %2 到最高 %3 之间
+bky_std,MATH_CONSTRAIN_TOOLTIP,Constrain a number to be between the specified limits (inclusive).,将一个数限制在指定的上下限（含）之间。
+bky_std,MATH_DIVISION_SYMBOL,÷,÷
+bky_std,MATH_IS_DIVISIBLE_BY,is divisible by,能被整除
+bky_std,MATH_IS_EVEN,is even,是偶数
+bky_std,MATH_IS_NEGATIVE,is negative,是负数
+bky_std,MATH_IS_ODD,is odd,是奇数
+bky_std,MATH_IS_POSITIVE,is positive,是正数
+bky_std,MATH_IS_PRIME,is prime,是质数
+bky_std,MATH_IS_TOOLTIP,"Check if a number is an even, odd, prime, whole, positive, negative, or if it is divisible by certain number. Returns true or false.",检查一个数是否是偶数、奇数、质数、整数、正数、负数，或者是否能被某数整除。返回真或假。
+bky_std,MATH_IS_WHOLE,is whole,是整数
+bky_std,MATH_MODULO_HELPURL,https://en.wikipedia.org/wiki/Modulo_operation,https://zh.wikipedia.org/wiki/模除
+bky_std,MATH_MODULO_TITLE,remainder of %1 ÷ %2,%1 ÷ %2 的余数
+bky_std,MATH_MODULO_TOOLTIP,Return the remainder from dividing the two numbers.,返回两个数相除的余数。
+bky_std,MATH_MULTIPLICATION_SYMBOL,×,×
+bky_std,MATH_NUMBER_HELPURL,https://en.wikipedia.org/wiki/Number,https://zh.wikipedia.org/wiki/数
+bky_std,MATH_NUMBER_TOOLTIP,A number.,一个数。
+bky_std,MATH_ONLIST_HELPURL,,
+bky_std,MATH_ONLIST_OPERATOR_AVERAGE,average of list,列表的平均值
+bky_std,MATH_ONLIST_OPERATOR_MAX,max of list,列表的最大数
+bky_std,MATH_ONLIST_OPERATOR_MEDIAN,median of list,列表的中位数
+bky_std,MATH_ONLIST_OPERATOR_MIN,min of list,列表的最小数
+bky_std,MATH_ONLIST_OPERATOR_MODE,modes of list,列表的众数
+bky_std,MATH_ONLIST_OPERATOR_RANDOM,random item of list,列表的随机项
+bky_std,MATH_ONLIST_OPERATOR_STD_DEV,standard deviation of list,列表的标准差
+bky_std,MATH_ONLIST_OPERATOR_SUM,sum of list,列表的和
+bky_std,MATH_ONLIST_TOOLTIP_AVERAGE,Return the average (arithmetic mean) of the numeric values in the list.,返回列表中数值的平均值（算术平均数）。
+bky_std,MATH_ONLIST_TOOLTIP_MAX,Return the largest number in the list.,返回列表中的最大值。
+bky_std,MATH_ONLIST_TOOLTIP_MEDIAN,Return the median number in the list.,返回列表中数值的中位数。
+bky_std,MATH_ONLIST_TOOLTIP_MIN,Return the smallest number in the list.,返回列表中的最小值。
+bky_std,MATH_ONLIST_TOOLTIP_MODE,Return a list of the most common item(s) in the list.,返回由列表中出现次数最多的项组成的列表。
+bky_std,MATH_ONLIST_TOOLTIP_RANDOM,Return a random element from the list.,返回列表中的随机一项。
+bky_std,MATH_ONLIST_TOOLTIP_STD_DEV,Return the standard deviation of the list.,返回列表的标准差。
+bky_std,MATH_ONLIST_TOOLTIP_SUM,Return the sum of all the numbers in the list.,返回列表中所有数字的和。
+bky_std,MATH_POWER_SYMBOL,^,^
+bky_std,MATH_RANDOM_FLOAT_HELPURL,https://en.wikipedia.org/wiki/Random_number_generation,https://zh.wikipedia.org/wiki/随机数生成器
+bky_std,MATH_RANDOM_FLOAT_TITLE_RANDOM,random fraction,随机小数
+bky_std,MATH_RANDOM_FLOAT_TOOLTIP,Return a random fraction between 0.0 (inclusive) and 1.0 (exclusive).,返回一个从0.0（含）到1.0（不含）之间的随机数。
+bky_std,MATH_RANDOM_INT_HELPURL,https://en.wikipedia.org/wiki/Random_number_generation,https://zh.wikipedia.org/wiki/随机数生成器
+bky_std,MATH_RANDOM_INT_TITLE,random integer from %1 to %2,从 %1 到 %2 范围内的随机整数
+bky_std,MATH_RANDOM_INT_TOOLTIP,"Return a random integer between the two specified limits, inclusive.",返回两个指定的极限（含）之间的随机整数。
+bky_std,MATH_ROUND_HELPURL,https://en.wikipedia.org/wiki/Rounding,https://zh.wikipedia.org/wiki/数值修约
+bky_std,MATH_ROUND_OPERATOR_ROUND,round,四舍五入
+bky_std,MATH_ROUND_OPERATOR_ROUNDDOWN,round down,向下舍入
+bky_std,MATH_ROUND_OPERATOR_ROUNDUP,round up,向上舍入
+bky_std,MATH_ROUND_TOOLTIP,Round a number up or down.,数向上或向下取整。
+bky_std,MATH_SINGLE_HELPURL,https://en.wikipedia.org/wiki/Square_root,https://zh.wikipedia.org/wiki/平方根
+bky_std,MATH_SINGLE_OP_ABSOLUTE,absolute,绝对值
+bky_std,MATH_SINGLE_OP_ROOT,square root,平方根
+bky_std,MATH_SINGLE_TOOLTIP_ABS,Return the absolute value of a number.,返回一个数的绝对值。
+bky_std,MATH_SINGLE_TOOLTIP_EXP,Return e to the power of a number.,返回e的一个数次幂。
+bky_std,MATH_SINGLE_TOOLTIP_LN,Return the natural logarithm of a number.,返回一个数的自然对数。
+bky_std,MATH_SINGLE_TOOLTIP_LOG10,Return the base 10 logarithm of a number.,返回一个数的以10为底的对数。
+bky_std,MATH_SINGLE_TOOLTIP_NEG,Return the negation of a number.,返回一个数的相反数。
+bky_std,MATH_SINGLE_TOOLTIP_POW10,Return 10 to the power of a number.,返回10的一个数次幂。
+bky_std,MATH_SINGLE_TOOLTIP_ROOT,Return the square root of a number.,返回一个数的平方根。
+bky_std,MATH_SUBTRACTION_SYMBOL,-,-
+bky_std,MATH_TRIG_ACOS,acos,反余弦
+bky_std,MATH_TRIG_ASIN,asin,反正弦
+bky_std,MATH_TRIG_ATAN,atan,反正切
+bky_std,MATH_TRIG_COS,cos,余弦
+bky_std,MATH_TRIG_HELPURL,https://en.wikipedia.org/wiki/Trigonometric_functions,https://zh.wikipedia.org/wiki/三角函数
+bky_std,MATH_TRIG_SIN,sin,正弦
+bky_std,MATH_TRIG_TAN,tan,正切
+bky_std,MATH_TRIG_TOOLTIP_ACOS,Return the arccosine of a number.,返回一个数的反余弦。
+bky_std,MATH_TRIG_TOOLTIP_ASIN,Return the arcsine of a number.,返回一个数的反正弦。
+bky_std,MATH_TRIG_TOOLTIP_ATAN,Return the arctangent of a number.,返回一个数的反正切。
+bky_std,MATH_TRIG_TOOLTIP_COS,Return the cosine of a degree (not radian).,返回角度（非弧度）的余弦。
+bky_std,MATH_TRIG_TOOLTIP_SIN,Return the sine of a degree (not radian).,返回角度（非弧度）的正弦。
+bky_std,MATH_TRIG_TOOLTIP_TAN,Return the tangent of a degree (not radian).,返回角度（非弧度）的正切。
+bky_std,NEW_COLOUR_VARIABLE,Create colour variable...,创建颜色变量...
+bky_std,NEW_NUMBER_VARIABLE,Create number variable...,创建数字变量...
+bky_std,NEW_STRING_VARIABLE,Create string variable...,创建字符串变量...
+bky_std,NEW_VARIABLE,Create variable...,创建变量...
+bky_std,NEW_VARIABLE_TITLE,New variable name:,新变量的名称：
+bky_std,NEW_VARIABLE_TYPE_TITLE,New variable type:,新变量的类型：
+bky_std,ORDINAL_NUMBER_SUFFIX,,
+bky_std,PROCEDURES_ALLOW_STATEMENTS,allow statements,允许语句
+bky_std,PROCEDURES_BEFORE_PARAMS,with:,与：
+bky_std,PROCEDURES_CALLNORETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://zh.wikipedia.org/wiki/子程序
+bky_std,PROCEDURES_CALLNORETURN_TOOLTIP,Run the user-defined function '%1'.,运行用户定义的函数“%1”。
+bky_std,PROCEDURES_CALLRETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://zh.wikipedia.org/wiki/子程序
+bky_std,PROCEDURES_CALLRETURN_TOOLTIP,Run the user-defined function '%1' and use its output.,运行用户定义的函数“%1”，并使用它的输出值。
+bky_std,PROCEDURES_CALL_BEFORE_PARAMS,with:,与：
+bky_std,PROCEDURES_CREATE_DO,Create '%1',创建“%1”
+bky_std,PROCEDURES_DEFNORETURN_COMMENT,Describe this function...,描述该函数...
+bky_std,PROCEDURES_DEFNORETURN_DO,,
+bky_std,PROCEDURES_DEFNORETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://zh.wikipedia.org/wiki/子程序
+bky_std,PROCEDURES_DEFNORETURN_PROCEDURE,do something,做点什么
+bky_std,PROCEDURES_DEFNORETURN_TITLE,to,至
+bky_std,PROCEDURES_DEFNORETURN_TOOLTIP,Creates a function with no output.,创建一个不带输出值的函数。
+bky_std,PROCEDURES_DEFRETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://zh.wikipedia.org/wiki/子程序
+bky_std,PROCEDURES_DEFRETURN_RETURN,return,返回
+bky_std,PROCEDURES_DEFRETURN_TOOLTIP,Creates a function with an output.,创建一个有输出值的函数。
+bky_std,PROCEDURES_DEF_DUPLICATE_WARNING,Warning: This function has duplicate parameters.,警告：此函数具有重复参数。
+bky_std,PROCEDURES_HIGHLIGHT_DEF,Highlight function definition,突出显示函数定义
+bky_std,PROCEDURES_IFRETURN_HELPURL,https://c2.com/cgi/wiki?GuardClause,https://c2.com/cgi/wiki?GuardClause
+bky_std,PROCEDURES_IFRETURN_TOOLTIP,"If a value is true, then return a second value.",如果值为真，则返回第二个值。
+bky_std,PROCEDURES_IFRETURN_WARNING,Warning: This block may be used only within a function definition.,警告：此积木只能在函数定义内使用。
+bky_std,PROCEDURES_MUTATORARG_TITLE,input name:,输入名称：
+bky_std,PROCEDURES_MUTATORARG_TOOLTIP,Add an input to the function.,添加函数输入。
+bky_std,PROCEDURES_MUTATORCONTAINER_TITLE,inputs,输入
+bky_std,PROCEDURES_MUTATORCONTAINER_TOOLTIP,"Add, remove, or reorder inputs to this function.",添加、移除或重新排列此函数的输入。
+bky_std,REDO,Redo,重做
+bky_std,REMOVE_COMMENT,Remove Comment,删除注释
+bky_std,RENAME_VARIABLE,Rename variable...,重命名变量...
+bky_std,RENAME_VARIABLE_TITLE,Rename all '%1' variables to:,将所有“%1”变量重命名为：
+bky_std,TEXT_APPEND_HELPURL,https://github.com/google/blockly/wiki/Text#text-modification,https://github.com/google/blockly/wiki/Text#text-modification
+bky_std,TEXT_APPEND_TITLE,to %1 append text %2,在%1之后加上文本%2
+bky_std,TEXT_APPEND_TOOLTIP,Append some text to variable '%1'.,将一些文本追加到变量“%1”里。
+bky_std,TEXT_CHANGECASE_HELPURL,https://github.com/google/blockly/wiki/Text#adjusting-text-case,https://github.com/google/blockly/wiki/Text#adjusting-text-case
+bky_std,TEXT_CHANGECASE_OPERATOR_LOWERCASE,to lower case,转为小写
+bky_std,TEXT_CHANGECASE_OPERATOR_TITLECASE,to Title Case,转为首字母大写
+bky_std,TEXT_CHANGECASE_OPERATOR_UPPERCASE,to UPPER CASE,转为大写
+bky_std,TEXT_CHANGECASE_TOOLTIP,Return a copy of the text in a different case.,用不同的大小写模式复制并返回这段文字。
+bky_std,TEXT_CHARAT_FIRST,get first letter,获取第一个字符
+bky_std,TEXT_CHARAT_FROM_END,get letter # from end,获取倒数第#个字符
+bky_std,TEXT_CHARAT_FROM_START,get letter #,获取第#个字符
+bky_std,TEXT_CHARAT_HELPURL,https://github.com/google/blockly/wiki/Text#extracting-text,https://github.com/google/blockly/wiki/Text#extracting-text
+bky_std,TEXT_CHARAT_LAST,get last letter,获取最后一个字符
+bky_std,TEXT_CHARAT_RANDOM,get random letter,获取随机一个字符
+bky_std,TEXT_CHARAT_TAIL,,
+bky_std,TEXT_CHARAT_TITLE,in text %1 %2,在文本%1 里 %2
+bky_std,TEXT_CHARAT_TOOLTIP,Returns the letter at the specified position.,返回位于指定位置的字符。
+bky_std,TEXT_COUNT_HELPURL,https://github.com/google/blockly/wiki/Text#counting-substrings,https://github.com/google/blockly/wiki/Text#counting-substrings
+bky_std,TEXT_COUNT_MESSAGE0,count %1 in %2,计算%1在%2里出现的次数
+bky_std,TEXT_COUNT_TOOLTIP,Count how many times some text occurs within some other text.,计算在一段文本中，某个部分文本重复出现了多少次。
+bky_std,TEXT_CREATE_JOIN_ITEM_TOOLTIP,Add an item to the text.,将一个项添加到文本中。
+bky_std,TEXT_CREATE_JOIN_TITLE_JOIN,join,拼接
+bky_std,TEXT_CREATE_JOIN_TOOLTIP,"Add, remove, or reorder sections to reconfigure this text block.",添加、移除或重新排列各部分，以重新配置此文本积木。
+bky_std,TEXT_GET_SUBSTRING_END_FROM_END,to letter # from end,到倒数第#个字符
+bky_std,TEXT_GET_SUBSTRING_END_FROM_START,to letter #,到第#个字符
+bky_std,TEXT_GET_SUBSTRING_END_LAST,to last letter,到最后一个字符
+bky_std,TEXT_GET_SUBSTRING_HELPURL,https://github.com/google/blockly/wiki/Text#extracting-a-region-of-text,https://github.com/google/blockly/wiki/Text#extracting-a-region-of-text
+bky_std,TEXT_GET_SUBSTRING_INPUT_IN_TEXT,in text,从文本
+bky_std,TEXT_GET_SUBSTRING_START_FIRST,get substring from first letter,获取子串，从第一个字符
+bky_std,TEXT_GET_SUBSTRING_START_FROM_END,get substring from letter # from end,获取子串，从倒数第#个字符
+bky_std,TEXT_GET_SUBSTRING_START_FROM_START,get substring from letter #,获取子串，从第#个字符
+bky_std,TEXT_GET_SUBSTRING_TAIL,,
+bky_std,TEXT_GET_SUBSTRING_TOOLTIP,Returns a specified portion of the text.,返回文本中指定的一部分。
+bky_std,TEXT_INDEXOF_HELPURL,https://github.com/google/blockly/wiki/Text#finding-text,https://github.com/google/blockly/wiki/Text#finding-text
+bky_std,TEXT_INDEXOF_OPERATOR_FIRST,find first occurrence of text,寻找第一次出现的文本
+bky_std,TEXT_INDEXOF_OPERATOR_LAST,find last occurrence of text,寻找最后一次出现的文本
+bky_std,TEXT_INDEXOF_TITLE,in text %1 %2 %3,在文本 %1 里 %2 %3
+bky_std,TEXT_INDEXOF_TOOLTIP,Returns the index of the first/last occurrence of the first text in the second text. Returns %1 if text is not found.,返回第一个文本段在第二个文本段中的第一/最后一个匹配项的起始位置。如果未找到，则返回%1。
+bky_std,TEXT_ISEMPTY_HELPURL,https://github.com/google/blockly/wiki/Text#checking-for-empty-text,https://github.com/google/blockly/wiki/Text#checking-for-empty-text
+bky_std,TEXT_ISEMPTY_TITLE,%1 is empty,%1是空的
+bky_std,TEXT_ISEMPTY_TOOLTIP,Returns true if the provided text is empty.,如果给定的文本为空，则返回真。
+bky_std,TEXT_JOIN_HELPURL,https://github.com/google/blockly/wiki/Text#text-creation,https://github.com/google/blockly/wiki/Text#text-creation
+bky_std,TEXT_JOIN_TITLE_CREATEWITH,create text with,创建文本，内容：
+bky_std,TEXT_JOIN_TOOLTIP,Create a piece of text by joining together any number of items.,拼接任意数量的项以创建一段文本。
+bky_std,TEXT_LENGTH_HELPURL,https://github.com/google/blockly/wiki/Text#text-modification,https://github.com/google/blockly/wiki/Text#text-modification
+bky_std,TEXT_LENGTH_TITLE,length of %1,%1的长度
+bky_std,TEXT_LENGTH_TOOLTIP,Returns the number of letters (including spaces) in the provided text.,返回给定文本的字母数（包括空格）。
+bky_std,TEXT_PRINT_HELPURL,https://github.com/google/blockly/wiki/Text#printing-text,https://github.com/google/blockly/wiki/Text#printing-text
+bky_std,TEXT_PRINT_TITLE,print %1,输出%1
+bky_std,TEXT_PRINT_TOOLTIP,"Print the specified text, number or other value.",打印指定的文字、数或其他值。
+bky_std,TEXT_PROMPT_HELPURL,https://github.com/google/blockly/wiki/Text#getting-input-from-the-user,https://github.com/google/blockly/wiki/Text#getting-input-from-the-user
+bky_std,TEXT_PROMPT_TOOLTIP_NUMBER,Prompt for user for a number.,提示用户输入一个数。
+bky_std,TEXT_PROMPT_TOOLTIP_TEXT,Prompt for user for some text.,要求用户输入一些文本。
+bky_std,TEXT_PROMPT_TYPE_NUMBER,prompt for number with message,提示输入数并显示消息
+bky_std,TEXT_PROMPT_TYPE_TEXT,prompt for text with message,要求输入文本，并显示提示消息
+bky_std,TEXT_REPLACE_HELPURL,https://github.com/google/blockly/wiki/Text#replacing-substrings,https://github.com/google/blockly/wiki/Text#replacing-substrings
+bky_std,TEXT_REPLACE_MESSAGE0,replace %1 with %2 in %3,把%3中的%1替换为%2
+bky_std,TEXT_REPLACE_TOOLTIP,Replace all occurances of some text within some other text.,在一段文本中，将出现过的某部分文本全部替换。
+bky_std,TEXT_REVERSE_HELPURL,https://github.com/google/blockly/wiki/Text#reversing-text,https://github.com/google/blockly/wiki/Text#reversing-text
+bky_std,TEXT_REVERSE_MESSAGE0,reverse %1,倒转文本%1
+bky_std,TEXT_REVERSE_TOOLTIP,Reverses the order of the characters in the text.,将文本中各个字符的顺序倒转。
+bky_std,TEXT_TEXT_HELPURL,https://en.wikipedia.org/wiki/String_(computer_science),https://zh.wikipedia.org/wiki/字符串
+bky_std,TEXT_TEXT_TOOLTIP,"A letter, word, or line of text.",一个字、词或一行文本。
+bky_std,TEXT_TRIM_HELPURL,https://github.com/google/blockly/wiki/Text#trimming-removing-spaces,https://github.com/google/blockly/wiki/Text#trimming-removing-spaces
+bky_std,TEXT_TRIM_OPERATOR_BOTH,trim spaces from both sides of,消除其两侧的空格
+bky_std,TEXT_TRIM_OPERATOR_LEFT,trim spaces from left side of,消除其左侧的空格
+bky_std,TEXT_TRIM_OPERATOR_RIGHT,trim spaces from right side of,消除其右侧的空格
+bky_std,TEXT_TRIM_TOOLTIP,Return a copy of the text with spaces removed from one or both ends.,从某一端或同时从两端删除多余的空白，并返回这段文字的一个副本。
+bky_std,TODAY,Today,今天
+bky_std,UNDO,Undo,撤销
+bky_std,UNNAMED_KEY,unnamed,未命名
+bky_std,VARIABLES_DEFAULT_NAME,item,项目
+bky_std,VARIABLES_GET_CREATE_SET,Create 'set %1',创建“将 %1 设为”
+bky_std,VARIABLES_GET_HELPURL,https://github.com/google/blockly/wiki/Variables#get,https://github.com/google/blockly/wiki/Variables#get
+bky_std,VARIABLES_GET_TOOLTIP,Returns the value of this variable.,返回此变量的值。
+bky_std,VARIABLES_SET,set %1 to %2,赋值 %1 为 %2
+bky_std,VARIABLES_SET_CREATE_GET,Create 'get %1',创建“获取 %1”
+bky_std,VARIABLES_SET_HELPURL,https://github.com/google/blockly/wiki/Variables#set,https://github.com/google/blockly/wiki/Variables#set
+bky_std,VARIABLES_SET_TOOLTIP,Sets this variable to be equal to the input.,设置此变量，以使它和输入值相等。
+bky_std,VARIABLE_ALREADY_EXISTS,A variable named '%1' already exists.,名为“%1”的变量已存在。
+bky_std,VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE,A variable named '%1' already exists for another type: '%2'.,名为“%1”的变量已存在另一种类型：“%2”。
+bky_std,WORKSPACE_ARIA_LABEL,Blockly Workspace,Blockly 工作区
+bky_std,WORKSPACE_COMMENT_DEFAULT_TEXT,Say something...,说点什么...
+bky_std,CONTROLS_FOREACH_INPUT_DO,do,执行
+bky_std,CONTROLS_FOR_INPUT_DO,do,执行
+bky_std,CONTROLS_IF_ELSEIF_TITLE_ELSEIF,else if,否则如果
+bky_std,CONTROLS_IF_ELSE_TITLE_ELSE,else,否则
+bky_std,CONTROLS_IF_IF_TITLE_IF,if,如果
+bky_std,CONTROLS_IF_MSG_THEN,do,执行
+bky_std,CONTROLS_WHILEUNTIL_INPUT_DO,do,执行
+bky_std,LISTS_CREATE_WITH_ITEM_TITLE,item,项目
+bky_std,LISTS_GET_INDEX_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list
+bky_std,LISTS_GET_INDEX_INPUT_IN_LIST,in list,在列表中
+bky_std,LISTS_GET_SUBLIST_INPUT_IN_LIST,in list,在列表中
+bky_std,LISTS_INDEX_OF_INPUT_IN_LIST,in list,在列表中
+bky_std,LISTS_SET_INDEX_INPUT_IN_LIST,in list,在列表中
+bky_std,MATH_CHANGE_TITLE_ITEM,item,项目
+bky_std,PROCEDURES_DEFRETURN_COMMENT,Describe this function...,描述该函数...
+bky_std,PROCEDURES_DEFRETURN_DO,,
+bky_std,PROCEDURES_DEFRETURN_PROCEDURE,do something,做点什么
+bky_std,PROCEDURES_DEFRETURN_TITLE,to,至
+bky_std,TEXT_APPEND_VARIABLE,item,项目
+bky_std,TEXT_CREATE_JOIN_ITEM_TITLE_ITEM,item,项目
+bky_std,MATH_HUE,230,230
+bky_std,LOOPS_HUE,120,120
+bky_std,LISTS_HUE,260,260
+bky_std,LOGIC_HUE,210,210
+bky_std,VARIABLES_HUE,330,330
+bky_std,TEXTS_HUE,160,160
+bky_std,PROCEDURES_HUE,290,290
+bky_std,COLOUR_HUE,20,20
+bky_std,VARIABLES_DYNAMIC_HUE,310,310
+bky_std,CROSS_TAB_COPY,Copy,复制
+bky_std,CROSS_TAB_PASTE,Paste,粘贴
+bky_custom,CONTROLS_REPEAT_TITLE,repeat %1 times,重复执行 %1 次
+bky_custom,DELETE_X_BLOCKS,Delete,删除积木
+bky_custom,DELETE_BLOCK,Delete,删除积木
+bky_custom,WITH_FORWARD,with forward,正方向为
+bky_custom,ON_PORT,on,连接端口
+bky_custom,SET_UP,set up,配置
+bky_custom,PROGRAM_START,program,当程序开始时
+bky_custom,Stop.COAST,coast,滑行
+bky_custom,STOP_COAST_DESCRIPTION,coast freely,自由滑行停止
+bky_custom,Stop.BRAKE,brake,刹停
+bky_custom,STOP_BRAKE_DESCRIPTION,brake by friction,阻力刹停
+bky_custom,Stop.HOLD,hold,保持位置
+bky_custom,STOP_HOLD_DESCRIPTION,hold this position,锁定并保持当前角度位置
+bky_custom,Stop.NONE,continue,继续运动
+bky_custom,STOP_NONE_DESCRIPTION,continue moving,不停止，继续运动
+bky_custom,RENAME_ELIPSIS,Rename...,重命名…
+bky_custom,CONTROLS_ITER_FOR,for,遍历
+bky_custom,CONTROLS_ITER_IN,in,于
+bky_custom,WARN_LOOP_VAR,Can only be used within loop block with the same variable.,只能在具有相同变量的循环积木内部使用。
+bky_custom,WARN_FUNC_VAR,Can only be used within function with this argument,只能在使用该参数的任务/函数内部使用。
+bky_custom,RANGE,range,数字序列
+bky_custom,MULTITASK,multitask until %3 done,多任务并行直到 %3 完成
+bky_custom,MULTITASK_ALL,all,全部任务
+bky_custom,MULTITASK_RACE,one task,任一任务
+bky_custom,MULTITASK_ALL_DESCRIPTION,all: Wait for all tasks to finish.,全部任务：等待所有任务执行完毕。
+bky_custom,MULTITASK_RACE_DESCRIPTION,"one task: Finish one task, then cancel the others.",任一任务：任意一个任务完成后立即取消其余任务。
+bky_custom,SEP_SPACE_DESCRIPTION,space,空格
+bky_custom,SEP_COMMA_ONLY_DESCRIPTION,comma,逗号
+bky_custom,SEP_COMMA_SPACE_DESCRIPTION,comma with space,逗号加空格
+bky_custom,TRUE,true,真
+bky_custom,FALSE,false,假
+bky_custom,NONE,none,空值
+bky_custom,EQ_DESCRIPTION,=    True if the values are equal,=    两值相等时为真
+bky_custom,NEQ_DESCRIPTION,≠   True if the values are different,≠   两值不相等时为真
+bky_custom,LT_DESCRIPTION,<   True if left value is smaller,<   左侧值更小时为真
+bky_custom,LTE_DESCRIPTION,"≤   True if left value is smaller, or the same",≤   左侧值小于或等于时为真
+bky_custom,GT_DESCRIPTION,>   True if left value is bigger,>   左侧值更大时为真
+bky_custom,GTE_DESCRIPTION,"≥   True if left value is bigger, or the same",≥   左侧值大于或等于时为真
+bky_custom,MATH_RANDOM_INT_TITLE,random from %1 to %2,在 %1 到 %2 之间随机取整
+bky_custom,LIST_LITERAL,list,列表
+bky_custom,LIST_IS_IN,in,包含于
+bky_custom,COLOR_TO_DETECT_SETUP,to match only,仅识别颜色
+bky_custom,COLOR_CHOOSE_COLOR,choose color,选择颜色
+bky_custom,MOTOR_RUN_AT_SPEED,run at,以速度运行
+bky_custom,MOTOR_STOP,stop,停止
+bky_custom,MOTOR_TRACK,track,跟踪角度
+bky_custom,MOTOR_MEASURE,get,读取
+bky_custom,MOTOR_RESET_ANGLE,reset angle to,将角度重置为
+bky_custom,MOTOR_GET_ANGLE_DESCRIPTION,angle: °,角度：°
+bky_custom,MOTOR_GET_SPEED_DESCRIPTION,speed: °/s,速度：°/s
+bky_custom,MOTOR_GET_SPEED_AVERAGE,average speed,平均速度
+bky_custom,MOTOR_GET_SPEED_AVERAGE_DESCRIPTION,average speed: °/s,平均速度：°/s
+bky_custom,MOTOR_LOAD,load,负载力矩
+bky_custom,MOTOR_LOAD_DESCRIPTION,load: mNm,负载力矩：mNm
+bky_custom,MOTOR_STALLED,stalled,已堵转
+bky_custom,MOTOR_STALLED_DESCRIPTION,stalled: true or false,已堵转：真或假
+bky_custom,MOTOR_GET_SPEED_AVERAGE_DURING,during,持续时间
+bky_custom,MOTOR_POWER_AT,power at,以功率输出
+bky_custom,MOTOR_CONFIGURE,configure,设置参数
+bky_custom,MOTOR_DUTY_CYCLE,duty cycle,占空比
+bky_custom,MOTOR_THEN,then,结束后
+bky_custom,MOTOR_POWER_LIMIT,with power limit,功率上限
+bky_custom,MOTOR_RUN_FOREVER,forever,持续旋转
+bky_custom,MOTOR_RUN_FOREVER_DESCRIPTION,rotate forever (until you use another motor block or the program ends),持续旋转（直到执行下一个电机积木或程序结束）
+bky_custom,MOTOR_RUN_FOR,by,转过
+bky_custom,MOTOR_RUN_FOR_DESCRIPTION,rotate by the given angle,旋转指定角度
+bky_custom,MOTOR_RUN_TO,towards,转到
+bky_custom,MOTOR_RUN_TO_DESCRIPTION,rotate towards the angle target,旋转至目标角度位置
+bky_custom,MOTOR_RUN_UNTIL_STALLED,to end stop,直到堵转限位
+bky_custom,MOTOR_RUN_UNTIL_STALLED_DESCRIPTION,rotate to the end stop,旋转直到碰到机械限位（堵转）
+bky_custom,MOTOR_RUN_TO_CENTER,to center,转到居中位置
+bky_custom,MOTOR_RUN_TO_CENTER_DESCRIPTION,rotate to the center between two end stops,旋转至两个机械限位之间的中心位置
+bky_custom,MOTOR_TARGET_TOLERANCES,tolerances,目标容差
+bky_custom,MOTOR_TARGET_TOLERANCES_DESCRIPTION,tolerances for movements,电机运动到位容差
+bky_custom,MOTOR_ANGLE,angle,角度
+bky_custom,MOTOR_SPEED,speed,速度
+bky_custom,MOTOR_ACCELERATION,acceleration,加速度
+bky_custom,MOTOR_ACCELERATION_DESCRIPTION,acceleration and deceleration,加速度与减速度
+bky_custom,MOTOR_MAX_SPEED,maximum speed,最大速度
+bky_custom,MOTOR_MAX_SPEED_DESCRIPTION,maximum speed,最大转速限制
+bky_custom,MOTOR_MAX_TORQUE,maximum torque,最大扭矩
+bky_custom,MOTOR_MAX_TORQUE_DESCRIPTION,maximum feedback torque,最大反馈控制扭矩
+bky_custom,MOTOR_MAX_VOLTAGE,maximum voltage,最大电压
+bky_custom,MOTOR_MAX_VOLTAGE_DESCRIPTION,maximum voltage,最大输出电压
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT,straight,直线行驶
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT_DESCRIPTION,straight for a given distance,直线行驶指定距离
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT_FOR,for,距离
+bky_custom,DRIVEBASE_STRAIGHT_SPEED,drive speed,直线速度
+bky_custom,DRIVEBASE_STRAIGHT_SPEED_DESCRIPTION,drive speed,直线行驶速度
+bky_custom,DRIVEBASE_STRAIGHT_ACCELERATION,drive acceleration,直线加速度
+bky_custom,DRIVEBASE_STRAIGHT_ACCELERATION_DESCRIPTION,drive acceleration,直线行驶加减速度
+bky_custom,DRIVEBASE_TURN_RATE,turn speed,转向速度
+bky_custom,DRIVEBASE_TURN_RATE_DESCRIPTION,turn speed,原地或弧线转向角速度
+bky_custom,DRIVEBASE_TURN_ACCELERATION,turn acceleration,转向加速度
+bky_custom,DRIVEBASE_TURN_ACCELERATION_DESCRIPTION,turn acceleration,转向角加速度
+bky_custom,DRIVEBASE_DRIVE,drive,行驶
+bky_custom,DRIVEBASE_DRIVE_FOREVER,forever,持续行驶
+bky_custom,DRIVEBASE_TURN_AT_SPEED,at,速度
+bky_custom,DRIVEBASE_TURN_AT_RATE,and turn at,转向角速度
+bky_custom,DRIVEBASE_DRIVE_FOREVER_DESCRIPTION,forever (until you change course or stop),持续行驶（直到改变运动指令或停止）
+bky_custom,DRIVEBASE_DRIVE_TURN,turn,原地转向
+bky_custom,DRIVEBASE_DRIVE_TURN_DESCRIPTION,turn in place by a given angle,原地旋转指定角度
+bky_custom,DRIVEBASE_DRIVE_CURVE,curve,弧线行驶
+bky_custom,DRIVEBASE_DRIVE_CURVE_DESCRIPTION,curve by a given angle and radius,按指定半径与角度沿弧线行驶
+bky_custom,DRIVEBASE_DRIVE_CURVE_RADIUS,with radius,半径
+bky_custom,DRIVEBASE_DRIVE_ARC_ANGLE,curve,弧线转角
+bky_custom,DRIVEBASE_DRIVE_ARC_ANGLE_DESCRIPTION,curve by a given angle and radius,按指定半径与角度沿圆弧行驶
+bky_custom,DRIVEBASE_DRIVE_ARC_DISTANCE,veer,弧线距离
+bky_custom,DRIVEBASE_DRIVE_ARC_DISTANCE_DESCRIPTION,veer along a circle for a given distance,沿圆弧行驶指定弧长距离
+bky_custom,DRIVEBASE_RESET,reset distance and angle,重置行驶距离和角度
+bky_custom,DRIVEBASE_RESET_WITH_VALUES,reset distance %4 angle %5,重置距离为 %4 角度为 %5
+bky_custom,DRIVEBASE_USE_GYRO,use,航向控制使用
+bky_custom,DRIVEBASE_USE_GYRO_TRUE,gyro,陀螺仪
+bky_custom,DRIVEBASE_USE_GYRO_FALSE,rotation sensors,电机编码器
+bky_custom,DRIVEBASE_USE_GYRO_TRUE_DESCRIPTION,use gyro for turning and driving straight,使用内置陀螺仪保持直线行驶与精准转向
+bky_custom,DRIVEBASE_USE_GYRO_FALSE_DESCRIPTION,use rotation sensors for turning and driving straight,使用车轮电机内置角度传感器进行转向与直行
+bky_custom,DRIVEBASE_MEASURE,get,读取
+bky_custom,DRIVEBASE_GET_SPEED,speed,速度
+bky_custom,DRIVEBASE_GET_SPEED_DESCRIPTION,drive speed: mm/s,当前行驶速度：mm/s
+bky_custom,DRIVEBASE_GET_DISTANCE,distance,距离
+bky_custom,DRIVEBASE_GET_DISTANCE_DESCRIPTION,driven distance: mm,累计行驶距离：mm
+bky_custom,DRIVEBASE_GET_ANGLE,angle,角度
+bky_custom,DRIVEBASE_GET_ANGLE_DESCRIPTION,driven angle: °,累计转向角度：°
+bky_custom,DRIVEBASE_GET_TURN_RATE,turn rate,转向角速度
+bky_custom,DRIVEBASE_GET_TURN_RATE_DESCRIPTION,turn rate: °/s,当前转向角速度：°/s
+bky_custom,DRIVEBASE_START_DRIVING,start at,开始行驶：速度
+bky_custom,DRIVEBASE_START_TURNING,and,转向速度
+bky_custom,DRIVEBASE_MOVE,drive,行驶
+bky_custom,DRIVEBASE_MOVE_STRAIGHT,straight,直线
+bky_custom,DRIVEBASE_MOVE_STRAIGHT_DESCRIPTION,straight,直线移动
+bky_custom,DRIVEBASE_MOVE_STRAIGHT_FOR,for,距离
+bky_custom,DRIVEBASE_MOVE_TURN,turn,转向
+bky_custom,DRIVEBASE_MOVE_TURN_DESCRIPTION,turn,原地转向
+bky_custom,DRIVEBASE_MOVE_TURN_RELATIVE,by,相对转过
+bky_custom,DRIVEBASE_MOVE_TURN_RELATIVE_DESCRIPTION,relative: by a given angle,相对转向：旋转指定角度增量
+bky_custom,DRIVEBASE_MOVE_TURN_ABSOLUTE,to,朝向角度
+bky_custom,DRIVEBASE_MOVE_TURN_ABSOLUTE_DESCRIPTION,absolute: to a target angle,绝对朝向：转至目标航向角
+bky_custom,DRIVEBASE_MOVE_ARC,curve,圆弧
+bky_custom,DRIVEBASE_MOVE_ARC_DESCRIPTION,curve,沿圆弧行驶
+bky_custom,DRIVEBASE_MOVE_ARC_RADIUS,radius,半径
+bky_custom,DRIVEBASE_MOVE_ARC_ANGLE,by,角度
+bky_custom,DRIVEBASE_MOVE_ARC_ANGLE_DESCRIPTION,by an angle,按指定圆心角行驶
+bky_custom,DRIVEBASE_MOVE_ARC_DISTANCE,for,距离
+bky_custom,DRIVEBASE_MOVE_ARC_DISTANCE_DESCRIPTION,for a distance,按指定弧长距离行驶
+bky_custom,DRIVEBASE_MOVE_COORDINATES,coordinates,坐标位移
+bky_custom,DRIVEBASE_MOVE_COORDINATES_X,Δ x,Δ x
+bky_custom,DRIVEBASE_MOVE_COORDINATES_Y,Δ y,Δ y
+bky_custom,DRIVEBASE_MOVE_COORDINATES_DESCRIPTION,coordinates,按相对坐标位移行驶
+bky_custom,CHANNEL,channel,频道
+bky_custom,CHANNELS,channels,频道列表
+bky_custom,BLE_RADIO_BROADCAST_CHANNEL,broadcast channel,广播发送频道
+bky_custom,BLE_RADIO_OBSERVE_CHANNEL,observe channel,广播监听频道
+bky_custom,BLE_RADIO_OBSERVE_CHANNELS,observe channels,广播监听频道列表
+bky_custom,OBSERVE_CHANNEL_UNAVAILABLE,Configure an observe channel first,请先在配置区添加广播监听频道
+bky_custom,BROADCAST,broadcast,广播发送
+bky_custom,OBSERVE,observe,接收频道数据
+bky_custom,UNPACK_INTO,unpack %1 to,将 %1 解包赋给
+bky_custom,WAIT_UNTIL,wait until,等待直到
+bky_custom,WAIT,wait,等待
+bky_custom,WAIT_FOREVER,wait forever,一直等待
+bky_custom,BUTTON_PRESSED,is pressed,被按下
+bky_custom,LEFT_DOWN,left down,左下键
+bky_custom,LEFT_MINUS,left ━,左 ━ 键
+bky_custom,DOWN,down,下键
+bky_custom,RIGHT_DOWN,right down,右下键
+bky_custom,RIGHT_MINUS,right ━,右 ━ 键
+bky_custom,LEFT,left,左键
+bky_custom,CENTER,center,中心键
+bky_custom,RIGHT,right,右键
+bky_custom,LEFT_UP,left up,左上键
+bky_custom,LEFT_PLUS,left ✚,左 ✚ 键
+bky_custom,UP,up,上键
+bky_custom,BLUETOOTH,bluetooth,蓝牙键
+bky_custom,RIGHT_UP,right up,右上键
+bky_custom,RIGHT_PLUS,right ✚,右 ✚ 键
+bky_custom,BUTTON_ANY,any button,任意按键
+bky_custom,LIGHT_REFLECTION,reflected light,反射光强度
+bky_custom,LIGHT_AMBIENT,ambient light,环境光强度
+bky_custom,LIGHT_REFLECTED_DESCRIPTION,reflected light: %,反射光强度：%
+bky_custom,LIGHT_AMBIENT_DESCRIPTION,ambient light: %,环境光强度：%
+bky_custom,CONNECT_ANY,scan and connect,扫描并连接
+bky_custom,CONNECT_ANY_DESCRIPTION,scan and connect to the first available remote,自动扫描并连接第一个可用的遥控器
+bky_custom,CONNECT_NAME,connect to,连接到指定名称
+bky_custom,CONNECT_NAME_DESCRIPTION,connect to a specific remote,连接到指定名称的遥控器
+bky_custom,CONNECT_RENAME,connect and rename to,连接并重命名为
+bky_custom,CONNECT_RENAME_DESCRIPTION,"scan and connect to the first available remote, then rename it",连接第一个可用遥控器并将其重命名
+bky_custom,MAX_ONE_REMOTE,There can only be one remote.,最多只能配置一个遥控器。
+bky_custom,MAX_ONE_HUB,There can only be one hub.,最多只能配置一个集线器。
+bky_custom,MAX_ONE_BLE_RADIO,There can only be one Bluetooth radio.,最多只能配置一个蓝牙广播模块。
+bky_custom,HUB_AXIS_TOP,top side axis,顶部朝向轴
+bky_custom,HUB_AXIS_FRONT,front side axis,前方朝向轴
+bky_custom,VECTOR,vector,向量
+bky_custom,IMU_MEASURE,get,读取
+bky_custom,IMU_GET_PITCH,pitch,俯仰角
+bky_custom,IMU_GET_PITCH_DESCRIPTION,pitch: °,俯仰角（前后倾斜）：°
+bky_custom,IMU_GET_ROLL,roll,翻滚角
+bky_custom,IMU_GET_ROLL_DESCRIPTION,roll: °,翻滚角（左右倾斜）：°
+bky_custom,IMU_GET_ACCELERATION,acceleration,加速度
+bky_custom,IMU_GET_ACCELERATION_DESCRIPTION,acceleration: mm/s²,线加速度：mm/s²
+bky_custom,IMU_GET_ANGULAR_VELOCITY,angular velocity,角速度
+bky_custom,IMU_GET_ANGULAR_VELOCITY_DESCRIPTION,angular velocity: °/s,旋转角速度：°/s
+bky_custom,IMU_GET_ROTATION,rotation,旋转角度
+bky_custom,IMU_GET_ROTATION_DESCRIPTION,rotation: °,绕轴旋转角度：°
+bky_custom,IMU_GET_ALONG_AXIS,along,沿轴
+bky_custom,IMU_GET_AROUND_AXIS,around,绕轴
+bky_custom,IMU_GET_HEADING,get heading,偏航角（航向）
+bky_custom,IMU_RESET_HEADING,reset heading to,将偏航角重置为
+bky_custom,IMU_GET_READY,ready,已就绪
+bky_custom,IMU_GET_READY_DESCRIPTION,check if gyro is ready for use,检测陀螺仪是否已完成校准并就绪
+bky_custom,IMU_GET_STATIONARY,stationary,处于静止
+bky_custom,IMU_GET_STATIONARY_DESCRIPTION,check if hub is currently stationary,检测集线器当前是否静止不动
+bky_custom,IMU_GYRO_IS,is,状态为
+bky_custom,COLOR_GET_COLOR,color,颜色
+bky_custom,COLOR_GET_COLOR_DESCRIPTION,best matching color,最佳匹配颜色
+bky_custom,COLOR_GET_HSV,hsv,HSV 色值
+bky_custom,COLOR_GET_HSV_DESCRIPTION,"hue (h), saturation (s), and brightness value (v) measurement",色相 (H)、饱和度 (S) 与明度 (V) 测量值
+bky_custom,BLUE_1,blue 1,蓝 1
+bky_custom,BLUE_1_DESCRIPTION,"channel 1, blue",频道 1，蓝色端
+bky_custom,BLUE_2,blue 2,蓝 2
+bky_custom,BLUE_2_DESCRIPTION,"channel 2, blue",频道 2，蓝色端
+bky_custom,BLUE_3,blue 3,蓝 3
+bky_custom,BLUE_3_DESCRIPTION,"channel 3, blue",频道 3，蓝色端
+bky_custom,BLUE_4,blue 4,蓝 4
+bky_custom,BLUE_4_DESCRIPTION,"channel 4, blue",频道 4，蓝色端
+bky_custom,RED_1,red 1,红 1
+bky_custom,RED_1_DESCRIPTION,"channel 1, red",频道 1，红色端
+bky_custom,RED_2,red 2,红 2
+bky_custom,RED_2_DESCRIPTION,"channel 2, red",频道 2，红色端
+bky_custom,RED_3,red 3,红 3
+bky_custom,RED_3_DESCRIPTION,"channel 3, red",频道 3，红色端
+bky_custom,RED_4,red 4,红 4
+bky_custom,RED_4_DESCRIPTION,"channel 4, red",频道 4，红色端
+bky_custom,FORCE,force,压力
+bky_custom,DISTANCE,distance,距离
+bky_custom,PRINT,print,打印输出
+bky_custom,LIGHT,light,灯光
+bky_custom,LIGHT_ON,on,点亮为
+bky_custom,LIGHT_OFF,off,关闭灯光
+bky_custom,STOPWATCH_TIME,time,计时时间
+bky_custom,STOPWATCH_PAUSE,pause,暂停计时
+bky_custom,STOPWATCH_RESET,reset,重置计时器
+bky_custom,STOPWATCH_RESET_DESCRIPTION,reset time to 0 ms,将计时器归零 (0 ms)
+bky_custom,STOPWATCH_RESUME,resume,继续计时
+bky_custom,APP_DATA_ONE_VALUE,value,单个数值
+bky_custom,APP_DATA_ONE_VALUE_DESCRIPTION,one value (0 is first),读取单个值（0 表示第一个）
+bky_custom,APP_DATA_ALL_VALUES,all values,全部数值
+bky_custom,APP_DATA_ALL_VALUES_DESCRIPTION,list of all values,所有数值组成的列表
+bky_custom,APP_DATA_COLOR_TRACKER,color tracker,颜色追踪
+bky_custom,APP_DATA_COLOR_TRACKER_DESCRIPTION,track a colored object,通过摄像头追踪指定颜色的物体
+bky_custom,APP_DATA_LINE_FOLLOWER,line follower,视觉巡线
+bky_custom,APP_DATA_LINE_FOLLOWER_DESCRIPTION,follow a line on the ground,追踪地面上的引导线
+bky_custom,APP_DATA_LINE_FOLLOWER_DARK_LINE,dark line,深色线
+bky_custom,APP_DATA_LINE_FOLLOWER_DARK_LINE_DESCRIPTION,follow a dark line on a light surface,在浅色背景上巡深色（黑）线
+bky_custom,APP_DATA_LINE_FOLLOWER_LIGHT_LINE,light line,浅色线
+bky_custom,APP_DATA_LINE_FOLLOWER_LIGHT_LINE_DESCRIPTION,follow a light line on a dark surface,在深色背景上巡浅色（白）线
+bky_custom,APP_DATA_CUSTOM,custom,自定义数据
+bky_custom,APP_DATA_CUSTOM_DESCRIPTION,use a custom data format,使用自定义数据格式通信
+bky_custom,APP_DATA_FORMAT,format,数据格式
+bky_custom,APP_DATA_MODE,mode,模式
+bky_custom,APP_DATA_TEACHABLE_MACHINE,classification,图像分类
+bky_custom,APP_DATA_TEACHABLE_MACHINE_DESCRIPTION,classify objects using your own model,使用自定义机器学习模型分类物体
+bky_custom,APP_DATA_TEACHABLE_MACHINE_MODEL,model,模型
+bky_custom,LIGHT_MATRIX_DISPLAY,display,显示
+bky_custom,LIGHT_MATRIX_OFF,off,关闭显示
+bky_custom,LIGHT_MATRIX_OFF_DESCRIPTION,turn display off,关闭矩阵灯显示
+bky_custom,LIGHT_MATRIX_PIXEL,pixel,像素点
+bky_custom,LIGHT_MATRIX_PIXEL_DESCRIPTION,pixel (one light),点亮单个像素灯
+bky_custom,LIGHT_MATRIX_NUMBER,number,数字
+bky_custom,LIGHT_MATRIX_NUMBER_DESCRIPTION,number from 0 to 99,显示 0 到 99 之间的数字
+bky_custom,LIGHT_MATRIX_SYMBOL,letter,字符
+bky_custom,LIGHT_MATRIX_SYMBOL_DESCRIPTION,letter (A-Z) or symbol (! # $ % & < = > ? @),显示字母 (A-Z) 或符号 (! # $ % & < = > ? @)
+bky_custom,LIGHT_MATRIX_ROW,row,行
+bky_custom,LIGHT_MATRIX_COL,column,列
+bky_custom,LIGHT_MATRIX_BRIGHTNESS,at,亮度
+bky_custom,BEEP,beep at %4 for %5,以 %4 蜂鸣 %5
+bky_custom,TASK_DEFINE,Make your own task,创建自定义任务
+bky_custom,TASK_MULTITASK,Multitask,多任务并行
+bky_custom,TASK_MY_TASKS,My tasks,我的任务
+bky_custom,TASK_EXTERNAL,External tasks,外部任务
+bky_custom,IMPORT_FROM,from %3 import %4,从 %3 导入 %4
+bky_custom,BATTERY_MEASURE,battery,电池
+bky_custom,BATTERY_GET_VOLTAGE,voltage,电压
+bky_custom,BATTERY_GET_VOLTAGE_DESCRIPTION,voltage: mV,电池电压：mV
+bky_custom,BATTERY_GET_CURRENT,current,电流
+bky_custom,BATTERY_GET_CURRENT_DESCRIPTION,current: mA,放电电流：mA
+bky_custom,LB,left bumper,左肩键 (LB)
+bky_custom,RB,right bumper,右肩键 (RB)
+bky_custom,LJ,left joystick,左摇杆按键
+bky_custom,RJ,right joystick,右摇杆按键
+bky_custom,XBOX_LT,left trigger,左扳机 (LT)
+bky_custom,XBOX_RT,right trigger,右扳机 (RT)
+bky_custom,XBOX_LJ_X,left joystick horizontal,左摇杆水平轴
+bky_custom,XBOX_LJ_Y,left joystick vertical,左摇杆垂直轴
+bky_custom,XBOX_RJ_X,right joystick horizontal,右摇杆水平轴
+bky_custom,XBOX_RJ_Y,right joystick vertical,右摇杆垂直轴
+bky_custom,XBOX_DPAD,direction pad,方向键 (D-Pad)
+bky_custom,MENU,menu,菜单键
+bky_custom,VIEW,view,视图键
+bky_custom,GUIDE,guide,西瓜键 (Guide)
+bky_custom,UPLOAD,upload,分享键
+bky_custom,CAR_WITH_STEER,with steering,转向电机
+bky_custom,CAR_WITH_DRIVE,and drive,驱动电机
+bky_custom,CAR_STEER_BY,steer by,转向角度
+bky_custom,CAR_DRIVE_AT,drive at,行驶控制
+bky_custom,CAR_DRIVE_AT_SPEED,speed,速度
+bky_custom,CAR_DRIVE_AT_POWER,power,功率
+bky_custom,P1,paddle 1,拨片 1
+bky_custom,P2,paddle 2,拨片 2
+bky_custom,P3,paddle 3,拨片 3
+bky_custom,P4,paddle 4,拨片 4
+bky_custom,XBOX_PROFILE,profile,配置档切换键
+bky_custom,LIST_GET,list %1 get %2,从列表 %1 获取 %2
+bky_custom,LIST_DO,list,列表
+bky_custom,LIST_GET_FIRST,first,第一项
+bky_custom,LIST_GET_FIRST_DESCRIPTION,first value,获取第一个元素
+bky_custom,LIST_GET_LAST,last,最后一项
+bky_custom,LIST_GET_LAST_DESCRIPTION,last value,获取最后一个元素
+bky_custom,LIST_GET_INDEX,#,第 # 项
+bky_custom,LIST_GET_INDEX_DESCRIPTION,value at index #,获取索引 # 处的元素（0 为首项）
+bky_custom,LIST_GET_RANDOM,random,随机一项
+bky_custom,LIST_GET_RANDOM_DESCRIPTION,random value,随机获取一个元素
+bky_custom,LIST_SET_INDEX_TO,to,设为
+bky_custom,LIST_INSERT_INDEX_AS,as,插入
+bky_custom,LIST_SET_INDEX,set #,修改第 # 项
+bky_custom,LIST_SET_INDEX_DESCRIPTION,set value with index # to a new value,将索引 # 处的元素修改为新值
+bky_custom,LIST_SET_FIRST,set first,修改第一项
+bky_custom,LIST_SET_FIRST_DESCRIPTION,set first value to a new value,将第一个元素修改为新值
+bky_custom,LIST_SET_LAST,set last,修改最后一项
+bky_custom,LIST_SET_LAST_DESCRIPTION,set last value to a new value,将最后一个元素修改为新值
+bky_custom,LIST_REMOVE_INDEX,remove #,删除第 # 项
+bky_custom,LIST_REMOVE_INDEX_DESCRIPTION,remove value with index #,删除索引 # 处的元素
+bky_custom,LIST_REMOVE_FIRST,remove first,删除第一项
+bky_custom,LIST_REMOVE_FIRST_DESCRIPTION,remove first value,删除第一个元素
+bky_custom,LIST_REMOVE_LAST,remove last,删除最后一项
+bky_custom,LIST_REMOVE_LAST_DESCRIPTION,remove last value,删除最后一个元素
+bky_custom,LIST_INSERT_INDEX,insert at #,在 # 处插入
+bky_custom,LIST_INSERT_INDEX_DESCRIPTION,insert a new value at (before) index #,在索引 # 之前插入一个新元素
+bky_custom,LIST_INSERT_FIRST,prefix,在开头插入
+bky_custom,LIST_INSERT_FIRST_DESCRIPTION,prefix a new value at the beginning,在列表最前面插入新元素
+bky_custom,LIST_INSERT_LAST,append,追加到末尾
+bky_custom,LIST_INSERT_LAST_DESCRIPTION,append a new value at the end,在列表末尾追加新元素
+bky_custom,DRIVEBASE_LEFT,left,左轮电机
+bky_custom,DRIVEBASE_RIGHT,right,右轮电机
+bky_custom,DRIVEBASE_WITH,with,轮径
+bky_custom,DRIVEBASE_AND,and,轮距
+bky_custom,HUB_SET_STOP_BUTTON,stop button is,停止程序按键设为
+bky_custom,HUB_SHUTDOWN,shut down,关闭集线器电源
+bky_custom,STOP_PROGRAM,stop program,停止程序
+bky_custom,GAMEPAD_RUMBLE_AT_FOR,rumble at %4 for %5,以 %4 强度震动 %5
+bky_custom,GAMEPAD_RUMBLE_REPEAT,times with pause,次，间隔
+bky_custom,WARNING_CANNOT_READ_VARIABLE_IN_SETUP,Cannot read variable in setup,不能在配置区读取变量
+bky_custom,WARNING_SETUP_FIRST,⚠️ Click to set up.,⚠️ 点击此处先完成设备配置。
+bky_custom,READ_INPUT,read,读取终端输入
+bky_custom,READ_INPUT_FIRST_CHAR,first key,首个按键字符
+bky_custom,READ_INPUT_FIRST_CHAR_DESCRIPTION,"the first (oldest) input byte, as a character key",最早收到的输入字节（作为按键字符）
+bky_custom,READ_INPUT_LAST_CHAR,last key,最新按键字符
+bky_custom,READ_INPUT_LAST_CHAR_DESCRIPTION,"the last (newest) input byte, as a character key",最新收到的输入字节（作为按键字符）
+bky_custom,READ_INPUT_FIRST_BYTE,first byte,首个字节数值
+bky_custom,READ_INPUT_FIRST_BYTE_DESCRIPTION,"the first (oldest) input byte, as a number (0 to 255)",最早收到的输入字节（0 到 255 数值）
+bky_custom,READ_INPUT_LAST_BYTE,last byte,最新字节数值
+bky_custom,READ_INPUT_LAST_BYTE_DESCRIPTION,"the last (newest) input byte, as a number (0 to 255)",最新收到的输入字节（0 到 255 数值）
+bky_custom,SIDE_TOP,top side,顶面
+bky_custom,SIDE_BOTTOM,bottom side,底面
+bky_custom,SIDE_FRONT,front side,正面
+bky_custom,SIDE_BACK,back side,背面
+bky_custom,SIDE_LEFT,left side,左侧面
+bky_custom,SIDE_RIGHT,right side,右侧面
+bky_custom,SIDE_IS_UP,is up,朝上
+bky_custom,MATH_ADDITION_DESCRIPTION,+    add,+    加法
+bky_custom,MATH_SUBTRACTION_DESCRIPTION,−    subtract,−    减法
+bky_custom,MATH_MULTIPLICATION_DESCRIPTION,×    multiply,×    乘法
+bky_custom,MATH_DIVISION_DESCRIPTION,÷    divide,÷    除法
+bky_custom,MATH_POWER_DESCRIPTION,^    power,^    乘方（幂）
+bky_custom,MATH_DIVIDE_INT,//,//
+bky_custom,MATH_DIVIDE_INT_DESCRIPTION,//    divide and discard decimals,//    整除（舍弃小数部分）
+bky_custom,IMU_HEADING_CORRECTION,heading correction,偏航角校准系数
+bky_custom,IMU_ANGULAR_VELOCITY_THRESHOLD,angular velocity threshold,静止角速度阈值
+bky_custom,IMU_ANGULAR_VELOCITY_THRESHOLD_DESCRIPTION,angular velocity below which the hub calibrates,集线器自动校准陀螺仪的最大角速度阈值
+bky_custom,IMU_ACCELERATION_THRESHOLD,acceleration threshold,静止加速度阈值
+bky_custom,IMU_ACCELERATION_THRESHOLD_DESCRIPTION,acceleration below which the hub calibrates,集线器自动校准陀螺仪的最大加速度阈值
+bky_custom,TEMPERATURE,temperature,温度
+bky_custom,SOUNDINPUT_VOLUME,volume,音量强度
+bky_custom,CHANNEL_1,channel 1,频道 1
+bky_custom,CHANNEL_2,channel 2,频道 2
+bky_custom,CHANNEL_3,channel 3,频道 3
+bky_custom,CHANNEL_4,channel 4,频道 4
+bky_custom,BEACON,beacon,红外信标
+bky_custom,CLASS_INSTANTIATE,is a,实例化为
+bky_custom,CLASS_CALL_METHOD_SYNC,call,调用
+bky_custom,CLASS_CALL_METHOD_ASYNC,await,异步等待调用
+bky_custom,CLASS_CALL_METHOD_SYNC_DESCRIPTION,call a method (def),调用普通方法 (def)
+bky_custom,CLASS_CALL_METHOD_ASYNC_DESCRIPTION,await a method (async def),异步调用协程方法 (async def)
+bky_custom,APP_DATA_OBJECT_DETECTION,object detection,物体识别
+bky_custom,APP_DATA_OBJECT_DETECTION_DESCRIPTION,detect everyday objects,识别常见日常物品
+bky_custom,APP_DATA_OBJECT_DETECTION_LABEL,detect,检测物体
+bky_custom,DETECT_NONE,nothing,无物体
+bky_custom,DETECT_PERSON,person,人
+bky_custom,DETECT_BICYCLE,bicycle,自行车
+bky_custom,DETECT_CAR,car,汽车
+bky_custom,DETECT_MOTORCYCLE,motorcycle,摩托车
+bky_custom,DETECT_AIRPLANE,airplane,飞机
+bky_custom,DETECT_BUS,bus,公交车
+bky_custom,DETECT_TRAIN,train,火车
+bky_custom,DETECT_TRUCK,truck,卡车
+bky_custom,DETECT_BOAT,boat,船
+bky_custom,DETECT_TRAFFIC_LIGHT,traffic light,红绿灯
+bky_custom,DETECT_FIRE_HYDRANT,fire hydrant,消防栓
+bky_custom,DETECT_STOP_SIGN,stop sign,停车标志
+bky_custom,DETECT_PARKING_METER,parking meter,停车计时器
+bky_custom,DETECT_BENCH,bench,长椅
+bky_custom,DETECT_BIRD,bird,鸟
+bky_custom,DETECT_CAT,cat,猫
+bky_custom,DETECT_DOG,dog,狗
+bky_custom,DETECT_HORSE,horse,马
+bky_custom,DETECT_SHEEP,sheep,羊
+bky_custom,DETECT_COW,cow,牛
+bky_custom,DETECT_ELEPHANT,elephant,大象
+bky_custom,DETECT_BEAR,bear,熊
+bky_custom,DETECT_ZEBRA,zebra,斑马
+bky_custom,DETECT_GIRAFFE,giraffe,长颈鹿
+bky_custom,DETECT_BACKPACK,backpack,双肩包
+bky_custom,DETECT_UMBRELLA,umbrella,雨伞
+bky_custom,DETECT_HANDBAG,handbag,手提包
+bky_custom,DETECT_TIE,tie,领带
+bky_custom,DETECT_SUITCASE,suitcase,行李箱
+bky_custom,DETECT_FRISBEE,frisbee,飞盘
+bky_custom,DETECT_SKIS,skis,滑雪板（双板）
+bky_custom,DETECT_SNOWBOARD,snowboard,单板滑雪板
+bky_custom,DETECT_SPORTS_BALL,sports ball,运动球
+bky_custom,DETECT_KITE,kite,风筝
+bky_custom,DETECT_BASEBALL_BAT,baseball bat,棒球棒
+bky_custom,DETECT_BASEBALL_GLOVE,baseball glove,棒球手套
+bky_custom,DETECT_SKATEBOARD,skateboard,滑板
+bky_custom,DETECT_SURFBOARD,surfboard,冲浪板
+bky_custom,DETECT_TENNIS_RACKET,tennis racket,网球拍
+bky_custom,DETECT_BOTTLE,bottle,瓶子
+bky_custom,DETECT_WINE_GLASS,wine glass,高脚杯
+bky_custom,DETECT_CUP,cup,杯子
+bky_custom,DETECT_FORK,fork,叉子
+bky_custom,DETECT_KNIFE,knife,刀
+bky_custom,DETECT_SPOON,spoon,勺子
+bky_custom,DETECT_BOWL,bowl,碗
+bky_custom,DETECT_BANANA,banana,香蕉
+bky_custom,DETECT_APPLE,apple,苹果
+bky_custom,DETECT_SANDWICH,sandwich,三明治
+bky_custom,DETECT_ORANGE,orange,橙子
+bky_custom,DETECT_BROCCOLI,broccoli,西兰花
+bky_custom,DETECT_CARROT,carrot,胡萝卜
+bky_custom,DETECT_HOT_DOG,hot dog,热狗
+bky_custom,DETECT_PIZZA,pizza,披萨
+bky_custom,DETECT_DONUT,donut,甜甜圈
+bky_custom,DETECT_CAKE,cake,蛋糕
+bky_custom,DETECT_CHAIR,chair,椅子
+bky_custom,DETECT_COUCH,couch,沙发
+bky_custom,DETECT_POTTED_PLANT,potted plant,盆栽
+bky_custom,DETECT_BED,bed,床
+bky_custom,DETECT_DINING_TABLE,dining table,餐桌
+bky_custom,DETECT_TOILET,toilet,马桶
+bky_custom,DETECT_TV,tv,电视
+bky_custom,DETECT_LAPTOP,laptop,笔记本电脑
+bky_custom,DETECT_MOUSE,mouse,鼠标
+bky_custom,DETECT_REMOTE,remote,遥控器
+bky_custom,DETECT_KEYBOARD,keyboard,键盘
+bky_custom,DETECT_CELL_PHONE,cell phone,手机
+bky_custom,DETECT_MICROWAVE,microwave,微波炉
+bky_custom,DETECT_OVEN,oven,烤箱
+bky_custom,DETECT_TOASTER,toaster,烤面包机
+bky_custom,DETECT_SINK,sink,水槽
+bky_custom,DETECT_REFRIGERATOR,refrigerator,冰箱
+bky_custom,DETECT_BOOK,book,书
+bky_custom,DETECT_CLOCK,clock,时钟
+bky_custom,DETECT_VASE,vase,花瓶
+bky_custom,DETECT_SCISSORS,scissors,剪刀
+bky_custom,DETECT_TEDDY_BEAR,teddy bear,泰迪熊
+bky_custom,DETECT_HAIR_DRIER,hair drier,吹风机
+bky_custom,DETECT_TOOTHBRUSH,toothbrush,牙刷
+bky_custom,OUTDATED_BLOCK_WARNING,A newer version of this block is available in the palette.,积木面板中已有该积木的更新版本。
+bky_custom,SENSOR_PRESSED,pressed,被按下
+bky_custom,SENSOR_RELEASED,released,已松开
+bky_custom,SENSOR_FORCE,force,压力
+bky_custom,SENSOR_FORCE_DESCRIPTION,force: N,压力：N
+bky_custom,Port A,Port A,端口 A
+bky_custom,Port B,Port B,端口 B
+bky_custom,Port C,Port C,端口 C
+bky_custom,Port D,Port D,端口 D
+bky_custom,Port E,Port E,端口 E
+bky_custom,Port F,Port F,端口 F
+bky_custom,Sensor Port 1,Sensor Port 1,传感器端口 1
+bky_custom,Sensor Port 2,Sensor Port 2,传感器端口 2
+bky_custom,Sensor Port 3,Sensor Port 3,传感器端口 3
+bky_custom,Sensor Port 4,Sensor Port 4,传感器端口 4
+bky_custom,PB_EXT_EMPTY_LIST,empty list,空列表
+bky_custom,PB_EXT_LIST_WITH,list with,列表包含
+bky_custom,PB_EXT_COLOR_DEF,%1 %2 %3 as %4 h %5 s %6 v %7,%1 %2 %3 设为 %4 色相 %5 饱和度 %6 明度 %7
+bky_custom,PB_EXT_SETUP_ON,%1 %2 %3 on %4,%1 %2 %3 连接端口 %4
+bky_custom,PB_EXT_SETUP_ON_2,%1 %2 %3 on %4 %5,%1 %2 %3 连接端口 %4 %5
+bky_custom,PB_EXT_SETUP_ON_FWD,%1 %2 %3 on %4 with forward %5,%1 %2 %3 连接端口 %4 正方向 %5
+bky_custom,PB_EXT_SETUP_ON_2_FWD,%1 %2 %3 on %4 %5 with forward %6,%1 %2 %3 连接端口 %4 %5 正方向 %6
+bky_custom,PB_EXT_TASK_RETURN,%1 %2 return %3,%1 %2 返回 %3
+bky_custom,PB_EXT_VAR_STARTING_AT,%1 %2 %3 starting at %4,%1 %2 %3 初始值设为 %4
+bky_custom,PB_EXT_VAR_SET_TO,%1 %2 %3 set to %4,%1 %2 将 %3 设为 %4
+bky_custom,PB_EXT_RANGE_FROM,from,从
+bky_custom,PB_EXT_RANGE_TO,to,到
+bky_custom,PB_EXT_RANGE_STEPS,with steps of,步长为
+toolbox_categories,Setup,Setup,配置
+toolbox_categories,Output,Output,输出
+toolbox_categories,Input,Input,输入
+toolbox_categories,Flow,Flow,控制
+toolbox_categories,Data,Data,数据与运算
+toolbox_categories,Tasks,Tasks,任务
+toolbox_categories,Variables,Variables,变量
+toolbox_categories,Other,Other,其他
+flyout_labels,Set up hub,Set up hub,配置集线器
+flyout_labels,Set up smart motors,Set up smart motors,配置智能电机
+flyout_labels,Set up basic motors,Set up basic motors,配置基础电机
+flyout_labels,Set up lights,Set up lights,配置灯光
+flyout_labels,Set up Powered Up sensors,Set up Powered Up sensors,配置 Powered Up 传感器
+flyout_labels,Set up EV3 sensors,Set up EV3 sensors,配置 EV3 传感器
+flyout_labels,Set up NXT sensors,Set up NXT sensors,配置 NXT 传感器
+flyout_labels,Set up other sensors,Set up other sensors,配置其他设备与传感器
+flyout_labels,Motor,Motor,电机
+flyout_labels,Drive Base,Drive Base,驾驶底座
+flyout_labels,Car,Car,转向车辆
+flyout_labels,Light & Sound,Light & Sound,灯光与声音
+flyout_labels,Motors,Motors,电机
+flyout_labels,General,General,通用
+flyout_labels,Light and Color,Light and Color,光线与颜色
+flyout_labels,Orientation,Orientation,姿态与陀螺仪
+flyout_labels,Buttons and Force,Buttons and Force,按键与压力
+flyout_labels,Time,Time,时间与计时器
+flyout_labels,Communication,Communication,蓝牙与通信
+flyout_labels,Hub status,Hub status,集线器状态
+flyout_labels,Decisions,Decisions,条件判断
+flyout_labels,Waiting,Waiting,等待
+flyout_labels,Repeating,Repeating,循环重复
+flyout_labels,Comments,Comments,注释
+flyout_labels,Stopping the program,Stopping the program,停止程序
+flyout_labels,Numbers,Numbers,数字运算
+flyout_labels,Logic,Logic,逻辑运算
+flyout_labels,Geometry,Geometry,几何与向量
+flyout_labels,Lists and Text,Lists and Text,列表与文本
+flyout_labels,Variables,Variables,变量
+flyout_labels,Imports,Imports,模块导入
+flyout_labels,Classes,Classes,类与对象
+flyout_labels,My objects,My objects,我的设备对象
+ui_strings,Editor,Editor,编辑器
+ui_strings,Welcome,Welcome,欢迎
+ui_strings,Write your program here…,Write your program here…,在此编写你的程序…
+ui_strings,Check syntax,Check syntax,检查语法
+ui_strings,Copy,Copy,复制
+ui_strings,Paste,Paste,粘贴
+ui_strings,Select all,Select all,全选
+ui_strings,Undo,Undo,撤销
+ui_strings,Redo,Redo,重做
+ui_strings,Close {fileName},Close {fileName},关闭 {fileName}
+ui_strings,Editor context menu,Editor context menu,编辑器右键菜单
+ui_strings,Clear,Clear,清空
+ui_strings,Loading…,Loading…,加载中…
+ui_strings,Unable to load project.,Unable to load project.,无法加载项目。
+ui_strings,File type,File type,文件类型
+ui_strings,Select the type of program you want to create.,Select the type of program you want to create.,选择你要创建的程序类型。
+ui_strings,Code with blocks,Code with blocks,使用积木编程
+ui_strings,Code with Python,Code with Python,使用 Python 编程
+ui_strings,Show code,Show code,显示 Python 代码
+ui_strings,Hide code,Hide code,隐藏 Python 代码
+ui_strings,This code changes when you move blocks around. Open a Python program to make changes.,This code changes when you move blocks around. Open a Python program to make changes.,移动积木时此处代码会自动更新。如需直接编辑代码，请新建或打开 Python 程序。
+ui_strings,Enable block coding,Enable block coding,启用积木编程
+ui_strings,Unlock with a license code,Unlock with a license code,使用许可证激活码解锁
+ui_strings,"Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.","Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.",可购买年度或永久授权码，无需注册账号，非常适合个人、赛队和学校使用。了解 {learnMoreLink}。
+ui_strings,more,more,更多详情
+ui_strings,Your license is activated,Your license is activated,许可证已激活
+ui_strings,Free trial activated,Free trial activated,免费试用已激活
+ui_strings,Thank you for supporting Pybricks!,Thank you for supporting Pybricks!,感谢你支持 Pybricks！
+ui_strings,Valid until: {expiryDate}.,Valid until: {expiryDate}.,有效期至：{expiryDate}。
+ui_strings,This license does not expire.,This license does not expire.,此许可证永久有效。
+ui_strings,"To use this license on another device, please deactivate it here first.","To use this license on another device, please deactivate it here first.",如需在其他设备上使用此许可证，请先在本设备上停用。
+ui_strings,Enter or paste the license code,Enter or paste the license code,输入或粘贴许可证激活码
+ui_strings,Paste from clipboard,Paste from clipboard,从剪贴板粘贴
+ui_strings,Activate,Activate,激活
+ui_strings,Try free,Try free,免费试用
+ui_strings,Welcome to Pybricks! Go on and build something fun!,Welcome to Pybricks! Go on and build something fun!,欢迎使用 Pybricks！快去搭建并编写有趣的机器人作品吧！
+ui_strings,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.,如果你是教师，需要更长的课堂试用时间，请联系 sales@pybricks.com 获取 30 天免费教学试用。
+ui_strings,Your free trial has ended.,Your free trial has ended.,你的免费试用已结束。
+ui_strings,Free for {days} days,Free for {days} days,免费试用剩余 {days} 天
+ui_strings,Trial ended,Trial ended,试用已结束
+ui_strings,Checking…,Checking…,正在验证…
+ui_strings,Deactivate on this device,Deactivate on this device,在此设备上停用
+ui_strings,End trial,End trial,结束试用
+ui_strings,Sign out,Sign out,退出登录
+ui_strings,Continue,Continue,继续
+ui_strings,Block coding is available with a license code or a fan subscription.,Block coding is available with a license code or a fan subscription.,积木编程可通过许可证激活码或支持者订阅解锁。
+ui_strings,Buy,Buy,购买授权
+ui_strings,For fans of our mission,For fans of our mission,支持我们的开源使命
+ui_strings,"If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.","If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.",如果你喜欢我们的工作，可以通过创作者平台 Patreon 支持我们，解锁全部功能并获取最新动态与专属福利。
+ui_strings,Sign in via Patreon,Sign in via Patreon,通过 Patreon 登录
+ui_strings,Become a supporter,Become a supporter,成为支持者
+ui_strings,Try again,Try again,重试
+ui_strings,You will be asked to sign in again in {days} days.,You will be asked to sign in again in {days} days.,系统将在 {days} 天后提示你重新登录验证。
+ui_strings,Unable to access the license server. Please try again from the Pybricks app.,Unable to access the license server. Please try again from the Pybricks app.,无法访问许可证服务器，请在 Pybricks 应用中重试。
+ui_strings,An unexpected error occurred. Please try again.,An unexpected error occurred. Please try again.,发生意外错误，请重试。
+ui_strings,Unable to access the license server. Please check your internet connection and try again.,Unable to access the license server. Please check your internet connection and try again.,无法连接许可证服务器，请检查网络连接后重试。
+ui_strings,Unable to process your request.,Unable to process your request.,无法处理你的请求。
+ui_strings,Please enter a license code.,Please enter a license code.,请输入许可证激活码。
+ui_strings,This code doesn't look right. Make sure you copy the whole red box from your email receipt.,This code doesn't look right. Make sure you copy the whole red box from your email receipt.,激活码格式不正确，请确保完整复制了收据邮件中红色框内的全部内容。
+ui_strings,This license has expired.,This license has expired.,此许可证已过期。
+ui_strings,License code not found. Please check and try again.,License code not found. Please check and try again.,未找到该许可证激活码，请核对后重试。
+ui_strings,Patreon sign-in failed due to an invalid origin. Please try again.,Patreon sign-in failed due to an invalid origin. Please try again.,由于来源域名无效，Patreon 登录失败，请重试。
+ui_strings,Patreon sign-in failed. Please try again.,Patreon sign-in failed. Please try again.,Patreon 登录失败，请重试。
+ui_strings,"You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake.","You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake.",你已登录 Patreon，但当前账号并非 Pybricks 支持者。如有疑问，请联系我们。
+ui_strings,Starting camera.,Starting camera.,正在启动摄像头…
+ui_strings,Camera access was denied or unavailable.,Camera access was denied or unavailable.,摄像头访问被拒绝或不可用。
+ui_strings,Select camera,Select camera,选择摄像头
+ui_strings,No cameras found,No cameras found,未检测到摄像头
+ui_strings,"If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}","If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}",如果你是首次在 Linux 上通过 USB 使用 Pybricks，需要先授予电脑连接集线器的权限。{instructions}
+ui_strings,Click for instructions.,Click for instructions.,点击查看设置说明。
+ui_strings,Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions},Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions},首次在这台电脑上使用 Pybricks？你可能需要为此类型集线器手动安装 USB 驱动程序。{instructions}
+ui_strings,Bluetooth button,Bluetooth button,蓝牙按钮
+ui_strings,button,button,按钮
+ui_strings,right button,right button,右侧按钮
+ui_strings,Bluetooth light,Bluetooth light,蓝牙指示灯
+ui_strings,hub light,hub light,集线器指示灯
+ui_strings,pink-green-blue-off,pink-green-blue-off,粉-绿-蓝交替闪烁
+ui_strings,light purple,light purple,浅紫色
+ui_strings,Preparation:,Preparation:,准备工作：
+ui_strings,Make sure the hub has new or fully charged batteries.,Make sure the hub has new or fully charged batteries.,请确保集线器装有新电池或电池已充满电。
+ui_strings,Make sure the hub is turned off.,Make sure the hub is turned off.,请确保集线器已关机。
+ui_strings,Disconnect the USB cable.,Disconnect the USB cable.,拔下 USB 数据线。
+ui_strings,Open the {lego} Powered Up app in 'Create' mode and start a new project.,Open the {lego} Powered Up app in 'Create' mode and start a new project.,打开 {lego} Powered Up 应用，进入“创作 (Create)”模式并新建一个项目。
+ui_strings,Enter update mode (see video):,Enter update mode (see video):,进入固件更新模式（参见视频演示）：
+ui_strings,Disconnect any device from port A on the hub.,Disconnect any device from port A on the hub.,拔下集线器端口 A 上连接的任何设备。
+ui_strings,Press and hold the {button} on the hub.,Press and hold the {button} on the hub.,按住集线器上的{button}不放。
+ui_strings,Connect the USB cable.,Connect the USB cable.,连接 USB 数据线。
+ui_strings,Wait for the {light} to start blinking {lightPattern}.,Wait for the {light} to start blinking {lightPattern}.,等待{light}开始呈{lightPattern}闪烁。
+ui_strings,The app will automatically connect and start restoring the firmware.,The app will automatically connect and start restoring the firmware.,应用将自动连接并开始恢复官方固件。
+ui_strings,Release the {button}.,Release the {button}.,松开{button}。
+ui_strings,Release the button. Wait for progress to reach 100%.,Release the button. Wait for progress to reach 100%.,松开按钮，等待进度达到 100%。
+ui_strings,Keep holding the {button} in the next steps. We'll tell you when to let go.,Keep holding the {button} in the next steps. We'll tell you when to let go.,在接下来的步骤中请继续按住{button}，稍后我们会提示你何时松开。
+ui_strings,Press the center button to turn on the EV3.,Press the center button to turn on the EV3.,按下中心键开启 EV3 主机。
+ui_strings,"When the screen says ""Updating..."", release both buttons.","When the screen says ""Updating..."", release both buttons.",当屏幕显示“Updating...”时，同时松开两个按钮。
+ui_strings,"When the progress bar is done, the app will connect.","When the progress bar is done, the app will connect.",进度条完成后，应用将自动连接。
+ui_strings,Install:,Install:,开始安装：
+ui_strings,Click the {flashButton} button below.,Click the {flashButton} button below.,点击下方的 {flashButton} 按钮。
+ui_strings,Install,Install,安装
+ui_strings,"In the pop-up dialog, select {deviceName} and click {connectButton}.","In the pop-up dialog, select {deviceName} and click {connectButton}.",在弹出的窗口中选择 {deviceName}，然后点击 {connectButton}。
+ui_strings,Connect,Connect,连接
+ui_strings,Connected to:,Connected to:,已连接到：
+ui_strings,Hub type:,Hub type:,集线器类型：
+ui_strings,Firmware:,Firmware:,固件版本：
+ui_strings,Currently installed:,Currently installed:,当前已安装：
+ui_strings,Version to install:,Version to install:,即将安装版本：
+ui_strings,Version to recover:,Version to recover:,即将恢复版本：
+ui_strings,app: {app},app: {app},应用：{app}
+ui_strings,version: {version},version: {version},版本：{version}
+ui_strings,Option 1: Quick update,Option 1: Quick update,方式一：快速更新
+ui_strings,This works if you used the {spike} App or Pybricks recently.,This works if you used the {spike} App or Pybricks recently.,如果你近期使用过 {spike} 应用或 Pybricks，可直接采用此方式。
+ui_strings,Turn the hub {on}.,Turn the hub {on}.,将集线器{on}。
+ui_strings,Connect the USB cable and click {checkButton} below.,Connect the USB cable and click {checkButton} below.,连接 USB 数据线，并点击下方的 {checkButton}。
+ui_strings,Click your hub in the dialog and click {connectButton}.,Click your hub in the dialog and click {connectButton}.,在弹窗中选中你的集线器，然后点击 {connectButton}。
+ui_strings,Check for hubs,Check for hubs,检测集线器
+ui_strings,Option 2: Manual update,Option 2: Manual update,方式二：手动恢复更新
+ui_strings,This is the old installation method. You can use this:,This is the old installation method. You can use this:,这是传统的刷机方式，适用于以下情况：
+ui_strings,If your hub still runs an old version of Pybricks or an old LEGO app.,If your hub still runs an old version of Pybricks or an old LEGO app.,集线器上仍运行着旧版 Pybricks 或旧版乐高官方固件。
+ui_strings,"Or if a hub light already blinks red/blue/green, or a light blinks pink.","Or if a hub light already blinks red/blue/green, or a light blinks pink.",或者集线器指示灯已经在红/蓝/绿闪烁，或呈粉色闪烁。
+ui_strings,"Next time, you can do the quick update.","Next time, you can do the quick update.",完成本次安装后，下次即可直接使用快速更新。
+ui_strings,Update manually,Update manually,手动更新
+ui_strings,Code completion engine status indicator,Code completion engine status indicator,代码补全引擎状态指示器
+ui_strings,Code completion engine is starting up and will be ready soon.,Code completion engine is starting up and will be ready soon.,Python 代码智能补全引擎正在启动，即将就绪。
+ui_strings,Code completion engine is ready to use.,Code completion engine is ready to use.,Python 代码智能补全引擎已就绪。
+ui_strings,Code completion engine has stopped working.,Code completion engine has stopped working.,代码补全引擎已停止运行。
+ui_strings,Code completion engine has not started yet.,Code completion engine has not started yet.,代码补全引擎尚未启动。
+ui_strings,Connected hub,Connected hub,已连接的集线器
+ui_strings,Battery,Battery,电池电量
+ui_strings,Battery is low. Hub will turn off soon.,Battery is low. Hub will turn off soon.,电池电量低，集线器即将自动关机。
+ui_strings,Battery level is OK.,Battery level is OK.,电池电量正常。
+ui_strings,Devices,Devices,端口设备监控
+ui_strings,Pause,Pause,暂停
+ui_strings,Resume,Resume,继续
+ui_strings,Hold your sensor steady at one LEGO unit above a white piece of paper.,Hold your sensor steady at one LEGO unit above a white piece of paper.,请将传感器平稳悬停在白纸上方约一个乐高单位高度处。
+ui_strings,Hold steady…,Hold steady…,请保持稳定…
+ui_strings,Calibration complete. The results are saved on the hub for this sensor port.,Calibration complete. The results are saved on the hub for this sensor port.,校准完成！校准数据已保存在集线器的该传感器端口中。
+ui_strings,Calibration did not succeed. Please try again.,Calibration did not succeed. Please try again.,校准未成功，请重试。
+ui_strings,User,User,账户与授权
+ui_strings,Log in to unlock extra features,Log in to unlock extra features,登录或激活许可证以解锁积木编程等高级功能
+ui_strings,The file '{fileName}' will be permanently deleted. This cannot be undone.,The file '{fileName}' will be permanently deleted. This cannot be undone.,文件“{fileName}”将被永久删除，此操作无法撤销。
+ui_strings,Delete,Delete,删除
+ui_strings,Keep,Keep,保留
+ui_strings,File name,File name,文件名
+ui_strings,OK!,OK!,可用！
+ui_strings,File name cannot be empty.,File name cannot be empty.,文件名不能为空。
+ui_strings,File name cannot have spaces.,File name cannot have spaces.,文件名不能包含空格。
+ui_strings,The file extension will be added automatically.,The file extension will be added automatically.,文件扩展名将自动添加，无需手动输入。
+ui_strings,File name must start with a letter ({letters}) or underscore ({underscore}).,File name must start with a letter ({letters}) or underscore ({underscore}).,文件名必须以字母 ({letters}) 或下划线 ({underscore}) 开头。
+ui_strings,"File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).","File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).",文件名只能包含字母 ({letters})、数字 ({numbers}) 和下划线 ({underscore})。
+ui_strings,A file with this name already exists. Try a different name.,A file with this name already exists. Try a different name.,已存在同名文件，请尝试其他名称。
+ui_strings,Fix it for me.,Fix it for me.,自动修正文件名
+ui_strings,Duplicate '{fileName}',Duplicate '{fileName}',复制“{fileName}”副本
+ui_strings,Duplicate,Duplicate,创建副本
+ui_strings,File actions,File actions,文件操作
+ui_strings,Back up all files,Back up all files,备份导出全部文件
+ui_strings,Import a file,Import a file,导入文件
+ui_strings,Create a new file,Create a new file,新建程序文件
+ui_strings,Files,Files,程序文件
+ui_strings,Accessibility guide for tree {treeLabel}.,Accessibility guide for tree {treeLabel}.,{treeLabel}列表无障碍导航说明。
+ui_strings,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:,使用方向键浏览文件列表，直接输入字符可搜索文件。其他快捷键：
+ui_strings,{key} to open the file in the code editor,{key} to open the file in the code editor,按 {key} 在编辑器中打开文件
+ui_strings,{key} to start renaming the focused file,{key} to start renaming the focused file,按 {key} 重命名当前文件
+ui_strings,{key} to duplicate focused file,{key} to duplicate focused file,按 {key} 复制当前文件
+ui_strings,{key} to export the focused file,{key} to export the focused file,按 {key} 导出当前文件
+ui_strings,{key} to delete the focused file,{key} to delete the focused file,按 {key} 删除当前文件
+ui_strings,Searching.,Searching.,正在搜索…
+ui_strings,Rename {fileName},Rename {fileName},重命名 {fileName}
+ui_strings,Duplicate {fileName},Duplicate {fileName},复制 {fileName}
+ui_strings,Export {fileName},Export {fileName},导出 {fileName}
+ui_strings,Delete {fileName},Delete {fileName},删除 {fileName}
+ui_strings,Template,Template,程序模板
+ui_strings,Use a template,Use a template,使用设备初始模板
+ui_strings,Create a new file for the selected hub.,Create a new file for the selected hub.,为所选集线器创建带默认配置的程序。
+ui_strings,Create a new empty file.,Create a new empty file.,创建一个空白程序文件。
+ui_strings,Create,Create,创建
+ui_strings,Rename '{fileName}',Rename '{fileName}',重命名“{fileName}”
+ui_strings,Rename,Rename,重命名
+ui_strings,Rename imported file,Rename imported file,重命名导入的文件
+ui_strings,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.,导入的文件名“{fileName}”不符合 {appName} 命名规则，请在下方修改名称。
+ui_strings,Skip importing this file,Skip importing this file,跳过导入此文件
+ui_strings,Replace existing file?,Replace existing file?,替换现有同名文件？
+ui_strings,A file already exists with the same name as the imported file '{fileName}'.,A file already exists with the same name as the imported file '{fileName}'.,已存在与导入文件“{fileName}”同名的文件。
+ui_strings,Remember this answer when resolving additional conflicts.,Remember this answer when resolving additional conflicts.,对后续同名冲突文件应用相同操作。
+ui_strings,Keep the existing file and skip importing this file,Keep the existing file and skip importing this file,保留现有文件并跳过导入
+ui_strings,Replace the existing file with the imported file,Replace the existing file with the imported file,使用导入的文件覆盖现有文件
+ui_strings,Keep the existing file and rename the imported file,Keep the existing file and rename the imported file,保留现有文件并重命名导入的文件
+ui_strings,Open source software licenses,Open source software licenses,开源软件许可证
+ui_strings,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.,{name} 基于开源软件构建。使用 {name} 即表示你同意所包含的全部开源软件许可证条款。
+ui_strings,Packages,Packages,软件包列表
+ui_strings,Package:,Package:,软件包：
+ui_strings,Author:,Author:,作者：
+ui_strings,License:,License:,许可证：
+ui_strings,Failed to load license data.,Failed to load license data.,无法加载许可证数据。
+ui_strings,Select a package to view the license.,Select a package to view the license.,在左侧选择一个软件包以查看其许可证全文。
+ui_strings,About {appName},About {appName},关于 {appName}
+ui_strings,MicroPython for programmable {lego} hubs.,MicroPython for programmable {lego} hubs.,面向可编程 {lego} 智能集线器的 MicroPython 编程环境。
+ui_strings,Copy version info,Copy version info,复制版本信息
+ui_strings,Software licenses,Software licenses,开源软件许可
+ui_strings,Changelog,Changelog,更新日志
+ui_strings,Pybricks website,Pybricks website,Pybricks 官方网站
+ui_strings,Help,Help,帮助
+ui_strings,Click to show help for the {helpForLabel} checkbox.,Click to show help for the {helpForLabel} checkbox.,点击查看“{helpForLabel}”选项的帮助说明。
+ui_strings,Close,Close,关闭
+ui_strings,Settings & help,Settings & help,设置与帮助
+ui_strings,Appearance,Appearance,界面外观
+ui_strings,Dark mode,Dark mode,深色模式
+ui_strings,Enable to choose dark mode. Disable to choose light mode.,Enable to choose dark mode. Disable to choose light mode.,开启以使用深色护眼主题，关闭则使用浅色明亮主题。
+ui_strings,Use {in} and {out} to zoom.,Use {in} and {out} to zoom.,按 {in} 放大界面，按 {out} 缩小界面。
+ui_strings,Language,Language,界面语言
+ui_strings,Firmware,Firmware,固件管理
+ui_strings,Install Pybricks firmware,Install Pybricks firmware,安装 Pybricks 固件
+ui_strings,Restore official {lego} firmware,Restore official {lego} firmware,恢复 {lego} 官方固件
+ui_strings,Learn Pybricks,Learn Pybricks,Pybricks 教程文档
+ui_strings,Community answers,Community answers,社区问答讨论
+ui_strings,Bug reports,Bug reports,反馈问题与错误
+ui_strings,Developer,Developer,开发者选项
+ui_strings,Show debug info,Show debug info,显示调试信息
+ui_strings,Enable NXT,Enable NXT,启用 LEGO NXT 支持
+ui_strings,Pretend to be on,Pretend to be on,模拟运行平台
+ui_strings,Actual platform,Actual platform,当前真实平台
+ui_strings,App,App,应用程序
+ui_strings,Ready for offline use.,Ready for offline use.,已完成缓存，可离线使用。
+ui_strings,Install as app,Install as app,安装为桌面应用
+ui_strings,Check for update,Check for update,检查版本更新
+ui_strings,Try new beta features,Try new beta features,体验测试版 (Beta) 新功能
+ui_strings,Return to stable version,Return to stable version,返回稳定版
+ui_strings,Restart to install update,Restart to install update,重启应用以完成更新
+ui_strings,About,About,关于
+ui_strings,Welcome tour,Welcome tour,新手引导演示
+ui_strings,Select your hub,Select your hub,选择你的集线器
+ui_strings,Hubs that connect with Bluetooth Low Energy,Hubs that connect with Bluetooth Low Energy,通过低功耗蓝牙 (BLE) 连接的集线器
+ui_strings,Hubs that connect with Bluetooth Classic,Hubs that connect with Bluetooth Classic,通过经典蓝牙连接的编程主机
+ui_strings,First time setup for {hub},First time setup for {hub},{hub} 首次连接配对指南
+ui_strings,Back,Back,上一步
+ui_strings,Next,Next,下一步
+ui_strings,Done,Done,完成
+ui_strings,Mac,Mac,Mac 电脑
+ui_strings,Windows PC,Windows PC,Windows 电脑
+ui_strings,Linux computer,Linux computer,Linux 电脑
+ui_strings,Android device,Android device,Android 设备
+ui_strings,Chromebook,Chromebook,Chromebook
+ui_strings,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.,几秒钟后，你的 {hub} 会出现在“{nearbyDevices}”下方，点击旁边的“{connect}”。
+ui_strings,"Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}","Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}",点击“{addDevice}”，选择“{bluetooth}”，然后在列表中出现你的 {hub} 时选中它。{allDevicesNote}
+ui_strings,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.,几秒钟后，你的 {hub} 会出现在设备列表中，直接点击即可开始配对。
+ui_strings,Tap {pairNewDevice} and select your {hub} when it appears.,Tap {pairNewDevice} and select your {hub} when it appears.,轻触“{pairNewDevice}”，并在出现你的 {hub} 时选中它。
+ui_strings,Click {pairNewDevice} and select your {hub} when it appears.,Click {pairNewDevice} and select your {hub} when it appears.,点击“{pairNewDevice}”，并在出现你的 {hub} 时选中它。
+ui_strings,Nearby Devices,Nearby Devices,附近设备
+ui_strings,Add device,Add device,添加设备
+ui_strings,Bluetooth,Bluetooth,蓝牙
+ui_strings,Pair new device,Pair new device,与新设备配对
+ui_strings,All devices,All devices,所有设备
+ui_strings," If it is not in the list, click {allDevices} to stop Windows from hiding it."," If it is not in the list, click {allDevices} to stop Windows from hiding it.", 如果列表中没有显示，请开启或点击“{allDevices}”，防止 Windows 默认隐藏该设备。
+ui_strings,Register EV3 Bluetooth connection,Register EV3 Bluetooth connection,配对注册 EV3 蓝牙连接
+ui_strings,"The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.",首次使用前，需要先将 EV3 主机与你的 {platform} 进行一次系统蓝牙配对（就像交换电话号码一样）。此步骤只需操作一次，之后随时都能直接在 Pybricks 中一键连接。
+ui_strings,"On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.","On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.",在 EV3 主机屏幕上进入“{settings}”，选择“{registerDevice}”，并让 EV3 保持停留在该界面。
+ui_strings,Settings,Settings,设置
+ui_strings,Add new computer,Add new computer,添加新电脑 (Add new computer)
+ui_strings,Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice},Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice},打开你 {platform} 上的系统蓝牙设置并开启蓝牙。{findDevice}
+ui_strings,"Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on.","Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on.",配对完成后，EV3 主机会自动断开系统连接（这是正常现象）。请关闭 {platform} 和 EV3 上的蓝牙设置界面。此后只要开启 EV3，点击 Pybricks 顶部的蓝牙图标即可直接连接。
+ui_strings,Register NXT Bluetooth connection,Register NXT Bluetooth connection,配对注册 NXT 蓝牙连接
+ui_strings,"The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.",首次使用前，需要先将 NXT 主机与你的 {platform} 进行一次系统蓝牙配对。此步骤只需操作一次，之后即可随时在 Pybricks 中直接连接。
+ui_strings,Turn your NXT brick on.,Turn your NXT brick on.,开启你的 NXT 主机电源。
+ui_strings,"Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.","Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.",打开你 {platform} 上的系统蓝牙设置并开启蓝牙。{findDevice} 当提示输入配对码 (PIN) 时，请输入 {passkey}{suggestedPasskeyNote}。
+ui_strings,", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it",", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it",，替换掉电脑自动预填的任何数字（该输入框虽然看似不可改，但实际上可以直接输入修改）
+ui_strings,"Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on.","Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on.",配对完成后，NXT 主机会自动断开系统连接（这是正常现象）。请关闭 {platform} 上的蓝牙设置。此后只要开启 NXT，点击 Pybricks 中的蓝牙按钮即可连接。
+ui_strings,Windows DFU USB driver installation instructions,Windows DFU USB driver installation instructions,Windows DFU USB 驱动程序安装指南
+ui_strings,"Right-click the Windows {startMenu}, then click {deviceManager}.","Right-click the Windows {startMenu}, then click {deviceManager}.",右键点击 Windows “{startMenu}”，然后选择“{deviceManager}”。
+ui_strings,Start Menu,Start Menu,开始菜单
+ui_strings,Device Manager,Device Manager,设备管理器
+ui_strings,Look for {dfuUsbHubName} under {otherDevices}.,Look for {dfuUsbHubName} under {otherDevices}.,在“{otherDevices}”分类下查找 {dfuUsbHubName}。
+ui_strings,Other Devices,Other Devices,其他设备
+ui_strings,Properties,Properties,属性
+ui_strings,"If it is listed with a warning sign, right-click it and select {properties}.","If it is listed with a warning sign, right-click it and select {properties}.",如果图标旁带有黄色感叹号警告标志，请右键点击它并选择“{properties}”。
+ui_strings,"If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.","If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.",如果它在其他分类下正常显示且没有警告标志，说明驱动已安装妥当，可直接关闭此窗口。
+ui_strings,"If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions.","If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions.",如果完全找不到该设备，请确认集线器已正确进入 DFU 固件更新模式后重试。可关闭此窗口观看视频演示。
+ui_strings,"In the {properties} dialog, click the {updateDriver} button.","In the {properties} dialog, click the {updateDriver} button.",在“{properties}”窗口中，点击“{updateDriver}”按钮。
+ui_strings,{dfuUsbHubName} Properties,{dfuUsbHubName} Properties,{dfuUsbHubName} 属性
+ui_strings,Update Driver...,Update Driver...,更新驱动程序...
+ui_strings,"In the {updateDrivers} dialog, click the {browse} button.","In the {updateDrivers} dialog, click the {browse} button.",在“{updateDrivers}”窗口中，点击“{browse}”。
+ui_strings,Update Drivers,Update Drivers,更新驱动程序
+ui_strings,Browse my computer for drivers,Browse my computer for drivers,浏览我的电脑以查找驱动程序
+ui_strings,Then click the {letMePick} button.,Then click the {letMePick} button.,接着点击“{letMePick}”。
+ui_strings,Let me pick from a list of available drivers on my computer,Let me pick from a list of available drivers on my computer,让我从计算机上的可用驱动程序列表中选取
+ui_strings,"In the list of device types, select {usbDevices}, then click the {next} button.","In the list of device types, select {usbDevices}, then click the {next} button.",在设备类型列表中选择“{usbDevices}”，然后点击“{next}”。
+ui_strings,Universal Serial Bus devices,Universal Serial Bus devices,通用串行总线设备 (Universal Serial Bus devices)
+ui_strings,"In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.","In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.",在左侧“{manufacturer}”列表中选择“{winUsbDevice}”，再在右侧“{model}”列表中同样选择“{winUsbDevice}”，然后点击“{next}”。
+ui_strings,Manufacturer,Manufacturer,厂商
+ui_strings,WinUsb Device,WinUsb Device,WinUsb 设备 (WinUsb Device)
+ui_strings,Model,Model,型号
+ui_strings,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.,系统可能会弹出“不推荐安装此驱动程序”警告框，请点击“{yes}”继续安装，该驱动完全兼容。
+ui_strings,Yes,Yes,是
+ui_strings,The driver installation is complete. Click the {close} button.,The driver installation is complete. Click the {close} button.,驱动程序安装完成！点击“{close}”按钮关闭窗口。
+ui_strings,Select hub type,Select hub type,选择集线器类型
+ui_strings,Select your hub.,Select your hub.,请选择你要刷写固件的集线器型号。
+ui_strings,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.,无法通过 Android 设备更新 EV3 固件，请改用电脑完成此刷机步骤。
+ui_strings," Once installed, you can use your Android device to run Pybricks programs."," Once installed, you can use your Android device to run Pybricks programs.", 固件安装完成后，你就可以用 Android 设备连接并运行 Pybricks 程序了。
+ui_strings,Advanced,Advanced,高级选项
+ui_strings,Drop custom firmware .zip file here or click to browse.,Drop custom firmware .zip file here or click to browse.,将自定义固件 .zip 压缩包拖放到此处，或点击浏览选择文件。
+ui_strings,Custom firmware selected.,Custom firmware selected.,已选择自定义固件包。
+ui_strings,Hub type: {hubTypeName},Hub type: {hubTypeName},集线器类型：{hubTypeName}
+ui_strings,Firmware version: {version},Firmware version: {version},固件版本：{version}
+ui_strings,Accept licenses,Accept licenses,许可协议确认
+ui_strings,There was a problem while getting the firmware file.,There was a problem while getting the firmware file.,获取固件文件时出错，请检查网络或重试。
+ui_strings,I have read and agree to the license terms and conditions.,I have read and agree to the license terms and conditions.,我已阅读并同意上述软件许可协议条款。
+ui_strings,Configure options,Configure options,配置集线器选项
+ui_strings,Hub name,Hub name,集线器蓝牙名称
+ui_strings,(optional),(optional),（可选）
+ui_strings,"Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.","Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.",为你的集线器起一个专属蓝牙名称。如果你有多台集线器（如课堂或赛队环境），连接时就能轻松区分它们。
+ui_strings,The name is too long.,The name is too long.,名称过长，请缩短字符数。
+ui_strings,Suggest a different name,Suggest a different name,随机推荐一个名称
+ui_strings,"Select the hub to restore the official {lego} firmware on, then click {next}.","Select the hub to restore the official {lego} firmware on, then click {next}.",选择要恢复 {lego} 官方固件的集线器型号，然后点击“{next}”。
+ui_strings,Select which firmware you want to restore.,Select which firmware you want to restore.,选择你要恢复的官方固件版本。
+ui_strings,Restore firmware,Restore firmware,恢复官方固件
+ui_strings,Restore,Restore,开始恢复
+ui_strings,v3: {app} App,v3: {app} App,v3：{app} 应用版（新版 SPIKE 3）
+ui_strings,v2: {app} Robot Inventor App,v2: {app} Robot Inventor App,v2：{app} 机器人发明家 / SPIKE 2 旧版
+ui_strings,v1.09H: {app} EV3 Home edition,v1.09H: {app} EV3 Home edition,v1.09H：{app} EV3 家庭版 (Home)
+ui_strings,v1.09E: {app} EV3 Classroom and EV3 Lab,v1.09E: {app} EV3 Classroom and EV3 Lab,v1.09E：{app} EV3 教育版 (Classroom / Lab)
+ui_strings,v1.10E: {app},v1.10E: {app},v1.10E：{app} 专用版
+ui_strings,Pybricks on Linux,Pybricks on Linux,在 Linux 上使用 Pybricks
+ui_strings,Access rules,Access rules,USB 访问权限规则
+ui_strings,You must give your computer permission to connect to your robot. You only need to do this once.,You must give your computer permission to connect to your robot. You only need to do this once.,你需要授予电脑通过 USB 访问乐高集线器的权限，只需设置一次即可。
+ui_strings,Download the rules file. Remember where you save it.,Download the rules file. Remember where you save it.,下载 udev 权限规则文件，并留意保存路径。
+ui_strings,Download rules file,Download rules file,下载规则文件
+ui_strings,Open a terminal and run this command. You need administrator (sudo) access.,Open a terminal and run this command. You need administrator (sudo) access.,打开系统终端并运行以下命令（需要 sudo 管理员权限）：
+ui_strings,"This copies the rules file to the correct system location. If you saved it elsewhere, change the path below.","This copies the rules file to the correct system location. If you saved it elsewhere, change the path below.",该命令会将规则文件复制到系统目录。如果文件保存在其他文件夹，请相应修改下方路径。
+ui_strings,"You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in.","You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in.",无需重启电脑。如果集线器已经插在电脑上，只需重新插拔一次 USB 线即可生效。
+ui_strings,Browser tips,Browser tips,浏览器配置提示
+ui_strings,"You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.","You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.",你可以使用 Google Chrome、Chromium、Brave 或 Vivaldi 浏览器运行 Pybricks。
+ui_strings,"If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:","If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:",如果你使用的是 Ubuntu 默认通过 Snap 安装的 Chromium，还必须运行以下命令开启原始 USB 权限：
+ui_strings,"Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.","Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.",部分浏览器的硬件接口默认未开启。请将下方地址逐行粘贴到浏览器地址栏，将其设为“{enabled}”并重启浏览器：
+ui_strings,Enabled,Enabled,已启用 (Enabled)
+ui_strings,Linux setup,Linux setup,Linux 权限设置
+ui_strings,Connect using Bluetooth,Connect using Bluetooth,通过蓝牙连接集线器
+ui_strings,Disconnect Bluetooth,Disconnect Bluetooth,断开蓝牙连接
+ui_strings,"USB is connected, disconnect to use Bluetooth","USB is connected, disconnect to use Bluetooth",当前已通过 USB 连接，如需改用蓝牙请先断开 USB
+ui_strings,File explorer,File explorer,文件资源管理器
+ui_strings,Show file explorer,Show file explorer,显示文件列表
+ui_strings,Hide file explorer,Hide file explorer,隐藏文件列表
+ui_strings,REPL,REPL,交互终端 (REPL)
+ui_strings,Code interactively in the terminal (REPL),Code interactively in the terminal (REPL),在终端中运行交互式 Python 指令 (REPL)
+ui_strings,Run,Run,运行
+ui_strings,Run this program ({key}),Run this program ({key}),下载并运行当前程序 ({key})
+ui_strings,Downloading… {percent},Downloading… {percent},正在下载到集线器… {percent}
+ui_strings,Show settings and help,Show settings and help,显示设置与帮助
+ui_strings,Hide settings and help,Hide settings and help,隐藏设置与帮助
+ui_strings,Stop,Stop,停止
+ui_strings,Stop everything ({key}),Stop everything ({key}),停止运行所有电机与程序 ({key})
+ui_strings,USB,USB,USB 连接
+ui_strings,Connect using USB,Connect using USB,通过 USB 数据线连接
+ui_strings,Disconnect USB,Disconnect USB,断开 USB 连接
+ui_strings,"Bluetooth is connected, disconnect to use USB","Bluetooth is connected, disconnect to use USB",当前已通过蓝牙连接，如需改用 USB 请先断开蓝牙
+ui_strings,Last,Last,完成
+ui_strings,Open the dialog,Open the dialog,打开对话框
+ui_strings,Skip,Skip,跳过引导
+ui_strings,Welcome to {appName}.,Welcome to {appName}.,欢迎使用 {appName}！
+ui_strings,Click {next} to discover key features.,Click {next} to discover key features.,点击“{next}”快速了解核心功能。
+ui_strings,Click the {icon} button to create a new program.,Click the {icon} button to create a new program.,点击 {icon} 按钮新建一个积木或 Python 程序。
+ui_strings,Don't lose your work.,Don't lose your work.,养成备份好习惯，防止作品丢失。
+ui_strings,Click {icon} to back up your programs.,Click {icon} to back up your programs.,点击 {icon} 将所有程序打包备份到电脑。
+ui_strings,"To use {appName}, you have to install the Pybricks firmware.","To use {appName}, you have to install the Pybricks firmware.",首次使用 {appName} 前，需要先为乐高集线器安装 Pybricks 固件。
+ui_strings,You can restore the official {lego} firmware at any time.,You can restore the official {lego} firmware at any time.,你可以随时一键恢复回 {lego} 官方原厂固件。
+ui_strings,Click the Bluetooth button to connect.,Click the Bluetooth button to connect.,点击顶部的蓝牙按钮无线连接你的集线器。
+ui_strings,"Once connected, click the {icon} button to run your program.","Once connected, click the {icon} button to run your program.",连接成功后，点击绿色的 {icon} 按钮即可编译并运行程序！
+ui_strings,The program is now saved on the hub. Press the button on the hub to run it again.,The program is now saved on the hub. Press the button on the hub to run it again.,程序现已保存在集线器中，离线时直接按下集线器上的按钮即可再次运行。
+ui_strings,Browser not supported,Browser not supported,当前浏览器不受支持
+ui_strings,This browser cannot connect to your hub.,This browser cannot connect to your hub.,当前浏览器不支持连接乐高集线器所需的硬件接口。
+ui_strings,"Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.","Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.",请使用 Google Chrome、Microsoft Edge、Chromium、Brave 或 Vivaldi 浏览器打开 Pybricks。
+ui_strings,"To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.","To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.",要在 iPhone 或 iPad 上使用 Pybricks，请从 App Store 下载支持 Web 蓝牙的浏览器（如 Bluefy）。
+ui_strings,"SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor","SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor",SPIKE Prime 科创套装、SPIKE Essential 与 MINDSTORMS 机器人发明家
+ui_strings,"These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser.","These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser.",这些集线器首次刷入固件时必须使用 USB 数据线（可通过 Windows、Mac、Linux 或 Android 设备完成）。刷好固件后，即可回到此处通过支持蓝牙的浏览器无线编程运行。
+ui_strings,MINDSTORMS EV3,MINDSTORMS EV3,MINDSTORMS EV3
+ui_strings,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.,EV3 主机采用旧版经典蓝牙协议，无法在 iPhone 或 iPad 的任何浏览器中连接。
+ui_strings,Supported browsers,Supported browsers,查看支持的浏览器
+ui_strings,Activities,Activities,侧边功能栏
+ui_strings,Terminal,Terminal,终端与输出
+ui_strings,Documentation,Documentation,参考文档
+ui_strings,Show documentation,Show documentation,显示帮助文档栏
+ui_strings,Hide documentation,Hide documentation,隐藏帮助文档栏
+ui_strings,Show terminal,Show terminal,显示底部终端面板
+ui_strings,Hide terminal,Hide terminal,隐藏底部终端面板
+ui_strings,Open camera,Open camera,打开摄像头视觉面板
+ui_strings,Hide camera,Hide camera,关闭摄像头面板
+ui_strings,"An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.","An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.",发生了意外错误。欢迎向我们反馈以便改进提示信息：点击下方“{copyErrorMessage}”复制技术详情并粘贴到问题反馈中，同时请附上你的操作系统、浏览器型号以及触发该错误的操作步骤。
+ui_strings,Expand for detailed technical information,Expand for detailed technical information,展开查看详细技术堆栈信息
+ui_strings,Copy error message,Copy error message,复制错误信息
+ui_strings,Report bug,Report bug,提交错误反馈
+ui_strings,Could not connect to the hub.,Could not connect to the hub.,无法连接到集线器。
+ui_strings,Check that your hub is not in use by other apps.,Check that your hub is not in use by other apps.,请检查集线器是否正被其他应用或浏览器标签页占用。
+ui_strings,Check that your hub is not in use by other apps. Make sure that you have permission to connect.,Check that your hub is not in use by other apps. Make sure that you have permission to connect.,请检查集线器是否被其他应用占用，并确认当前系统账号拥有连接权限。
+ui_strings,Failed to connect to update server. The internet connection or the server may be down. Try again later.,Failed to connect to update server. The internet connection or the server may be down. Try again later.,无法连接到固件更新服务器，请检查网络连接或稍后再试。
+ui_strings,This browser does not support Web Bluetooth or it is not enabled.,This browser does not support Web Bluetooth or it is not enabled.,当前浏览器不支持 Web Bluetooth（网页蓝牙），或该功能未开启。
+ui_strings,Use a supported browser such as Google Chrome or Microsoft Edge.,Use a supported browser such as Google Chrome or Microsoft Edge.,请使用受支持的浏览器，例如 Google Chrome 或 Microsoft Edge。
+ui_strings,"On Linux, Web Bluetooth must be turned on manually.","On Linux, Web Bluetooth must be turned on manually.",在 Linux 系统上，需要手动开启浏览器的 Web Bluetooth 实验选项。
+ui_strings,"Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.","Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.",Brave 浏览器默认关闭了网页蓝牙。请将下方地址粘贴到地址栏，设为“{enabled}”并重启 Brave：
+ui_strings,More info,More info,了解更多
+ui_strings,No Bluetooth adapter could be found or permission to use it has not been granted.,No Bluetooth adapter could be found or permission to use it has not been granted.,未检测到蓝牙适配器，或尚未授予浏览器蓝牙访问权限。
+ui_strings,"Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.","Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.",请启用低功耗蓝牙 (BLE) 适配器，确保操作系统已允许浏览器使用蓝牙，然后重启浏览器。
+ui_strings,"Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy.","Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy.",Opera 等部分浏览器不支持网页蓝牙，请使用 Chrome、Edge，或在 iPhone/iPad 上使用 Bluefy。
+ui_strings,The web browser did not give permission to use Bluetooth Low Energy.,The web browser did not give permission to use Bluetooth Low Energy.,浏览器未能授予低功耗蓝牙 (BLE) 访问权限。
+ui_strings,Failed to connect to the hub.,Failed to connect to the hub.,连接集线器失败。
+ui_strings,"Please restart your computer and the hub, then try again.","Please restart your computer and the hub, then try again.",请尝试重启集线器和电脑蓝牙后再试。
+ui_strings,How can I solve connectivity issues?,How can I solve connectivity issues?,如何排查蓝牙连接故障？
+ui_strings,Connected to hub but failed to get {serviceName} service.,Connected to hub but failed to get {serviceName} service.,已连接上集线器，但无法获取 {serviceName} 通信服务。
+ui_strings,Ensure that you are using the most recent firmware.,Ensure that you are using the most recent firmware.,请确保集线器已更新至最新版 Pybricks 固件。
+ui_strings,"If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.",如果问题依旧，请在操作系统的蓝牙已配对列表中删除“{hubName}”，然后回到此处重新连接。
+ui_strings,No hub detected.,No hub detected.,未检测到集线器。
+ui_strings,Have you installed the Pybricks firmware yet?,Have you installed the Pybricks firmware yet?,你是否已为集线器刷入 Pybricks 固件？
+ui_strings,Solve connectivity issues,Solve connectivity issues,排查连接问题
+ui_strings,A new firmware version is available for this hub. Please install the latest version to use all new features.,A new firmware version is available for this hub. Please install the latest version to use all new features.,该集线器有新版本固件可用！请更新至最新固件以使用全部新积木与新特性。
+ui_strings,Update Pybricks firmware,Update Pybricks firmware,更新 Pybricks 固件
+ui_strings,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.,所连集线器的通信协议版本比当前网页应用更新，部分功能可能无法正常工作。
+ui_strings,The hub has {hubVersion} while {app} supports {appVersion}.,The hub has {hubVersion} while {app} supports {appVersion}.,集线器协议版本为 {hubVersion}，而当前 {app} 支持版本为 {appVersion}。
+ui_strings,Downgrade the hub firmware or upgrade {app} to avoid problems.,Downgrade the hub firmware or upgrade {app} to avoid problems.,请升级刷新 {app}，或重新安装匹配的集线器固件以避免兼容性问题。
+ui_strings,The hub is no longer connected. Please reconnect and try again.,The hub is no longer connected. Please reconnect and try again.,集线器连接已断开，请重新连接后再试。
+ui_strings,The file '{fileName}' could not be opened. It is already open in another window.,The file '{fileName}' could not be opened. It is already open in another window.,无法打开文件“{fileName}”，它已在另一个窗口或标签页中打开。
+ui_strings,There are no files to back up. Create a new file first by clicking the {icon} icon.,There are no files to back up. Create a new file first by clicking the {icon} icon.,当前没有可备份的文件，请先点击 {icon} 图标新建程序文件。
+ui_strings,There were no {py} files in the {zip} file.,There were no {py} files in the {zip} file.,所选 {zip} 压缩包中未找到任何 {py} 程序文件。
+ui_strings,A USB error occurred while installing the firmware.,A USB error occurred while installing the firmware.,安装固件过程中发生 USB 通信错误。
+ui_strings,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.,请确认使用的是支持数据传输的完好 USB 线，并已牢固插紧在集线器和电脑接口上。
+ui_strings,This browser does not support WebUSB or WebUSB is not enabled.,This browser does not support WebUSB or WebUSB is not enabled.,当前浏览器不支持 WebUSB 或未启用 WebUSB。
+ui_strings,This browser does not support WebHID or WebHID is not enabled.,This browser does not support WebHID or WebHID is not enabled.,当前浏览器不支持 WebHID 或未启用 WebHID。
+ui_strings,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.,未找到集线器。请确保集线器已通过 USB 连接电脑，并已进入固件更新闪烁模式。
+ui_strings,Also make sure that you have permission to connect.,Also make sure that you have permission to connect.,同时请确保已配置 Linux USB 连接权限规则。
+ui_strings,The firmware you selected is not compatible with your hub.,The firmware you selected is not compatible with your hub.,所选固件型号与你当前连接的集线器不兼容。
+ui_strings,This is very unusual. The USB device did not contain the expected interface.,This is very unusual. The USB device did not contain the expected interface.,异常情况：所选 USB 设备不包含预期的固件升级接口。
+ui_strings,Erasing the old firmware: {percent},Erasing the old firmware: {percent},正在擦除旧固件：{percent}
+ui_strings,Installing the new firmware: {percent},Installing the new firmware: {percent},正在写入新固件：{percent}
+ui_strings,You may release the power button on the hub now.,You may release the power button on the hub now.,现在可以松开集线器上的电源按钮了！
+ui_strings,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.,程序体积超出集线器容量上限：编译后大小为 {actual} 字节，但该集线器最多只能容纳 {max} 字节。
+ui_strings,Try removing unused code or making names and strings smaller.,Try removing unused code or making names and strings smaller.,请尝试删减未使用的代码块，或精简过长的文本字符串。
+ui_strings,Failed to compile MicroPython file.,Failed to compile MicroPython file.,MicroPython 程序编译失败，请检查语法错误。
+ui_strings,Go to error,Go to error,定位到错误行
+ui_strings,This browser does not support the Web Serial API or it is not enabled.,This browser does not support the Web Serial API or it is not enabled.,当前浏览器不支持 Web Serial 串口接口，或该功能未开启。
+ui_strings,This hub is already in use in another Pybricks tab or window.,This hub is already in use in another Pybricks tab or window.,该集线器正在另一个 Pybricks 标签页或窗口中被占用。
+ui_strings,Not connected. Make sure that the hub is on. Then try again.,Not connected. Make sure that the hub is on. Then try again.,尚未连接。请确保集线器已开机，然后重试。
+ui_strings,You have to register the connection manually the first time.,You have to register the connection manually the first time.,首次使用经典蓝牙连接时，需要先在系统设置中完成配对注册。
+ui_strings,EV3 instructions,EV3 instructions,EV3 配对说明
+ui_strings,NXT instructions,NXT instructions,NXT 配对说明
+ui_strings,Pybricks is not yet installed on this hub.,Pybricks is not yet installed on this hub.,这台集线器尚未安装 Pybricks 固件。
+ui_strings,Start installation,Start installation,立即安装固件
+ui_strings,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.,捐赠地址已复制到剪贴板，请使用支持 ENS 域名的钱包完成捐赠。
+ui_strings,{appName} is already up to date.,{appName} is already up to date.,{appName} 当前已是最新版本。
+ui_strings,"Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","已连接到集线器，但无法获取 {serviceName} 服务。
+请确保使用最新版固件。
+如果问题仍然存在，请在系统蓝牙设置中移除“{hubName}”后重新连接。"
+ui_strings,Unexpected error while trying to connect: {errorMessage},Unexpected error while trying to connect: {errorMessage},尝试连接时发生意外错误：{errorMessage}
+ui_strings,Failed to open file.,Failed to open file.,打开文件失败。
+ui_strings,Failed to save the program.,Failed to save the program.,保存程序失败。
+ui_strings,Failed to import file(s).,Failed to import file(s).,导入文件失败。
+ui_strings,Failed to create file.,Failed to create file.,新建文件失败。
+ui_strings,Failed to duplicate file.,Failed to duplicate file.,复制文件副本失败。
+ui_strings,Failed to export file.,Failed to export file.,导出文件失败。
+ui_strings,Failed to delete file.,Failed to delete file.,删除文件失败。
+ui_strings,Failed to archive files.,Failed to archive files.,打包备份文件失败。
+ui_strings,Failed to initialize file storage. Changes will not be automatically saved.,Failed to initialize file storage. Changes will not be automatically saved.,无法初始化浏览器本地文件存储，所做的修改将无法自动保存。
+ui_strings,The hub took too long to respond. Restart the hub and try again.,The hub took too long to respond. Restart the hub and try again.,集线器响应超时，请重启集线器后重试。
+ui_strings,There was a problem with Bluetooth.,There was a problem with Bluetooth.,蓝牙连接出现异常。
+ui_strings,The hub was disconnected before installation was completed. Restart the hub and try again.,The hub was disconnected before installation was completed. Restart the hub and try again.,固件安装完成前集线器断开了连接，请重启集线器后重试。
+ui_strings,The hub said something went wrong.,The hub said something went wrong.,集线器报告了内部错误。
+ui_strings,The connected hub is not supported.,The connected hub is not supported.,暂不支持当前连接的集线器型号。
+ui_strings,The firmware is for a different kind of hub from the connected hub.,The firmware is for a different kind of hub from the connected hub.,所选固件适用的集线器型号与当前已连接的集线器不一致。
+ui_strings,Failed to fetch firmware from the server: {status},Failed to fetch firmware from the server: {status},从服务器下载固件失败：{status}
+ui_strings,The firmware.zip file is missing required files or is invalid.,The firmware.zip file is missing required files or is invalid.,自定义 firmware.zip 压缩包损坏或缺少必要文件。
+ui_strings,"The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.","The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.",firmware.metadata.json 包含缺失或无效字段，请修正后重试。
+ui_strings,"The included main.py file could not be compiled. Fix it, then try again.","The included main.py file could not be compiled. Fix it, then try again.",固件包内附带的 main.py 无法通过编译，请修复代码错误后重试。
+ui_strings,The combined firmware and main.py are too big to fit in the flash memory.,The combined firmware and main.py are too big to fit in the flash memory.,固件与 main.py 合并后的总大小超出了集线器闪存容量上限。
+ui_strings,Unexpected error while trying to install firmware: {errorMessage},Unexpected error while trying to install firmware: {errorMessage},安装固件时发生意外错误：{errorMessage}
+ui_strings,{errorMessage},{errorMessage},{errorMessage}
+ui_strings,A new version of {appName} is available. Click {action} to start using the new version.,A new version of {appName} is available. Click {action} to start using the new version.,{appName} 有新版本可用！点击“{action}”立即启用新版本。
+ui_strings,Restart,Restart,立即重启
+ui_overrides,i18n_x0wdzg.checkHub.easy.on,on,开机
+ui_overrides,i18n_x0wdzg.button.power,button,电源键
+ui_overrides,i18n_1h3ihz6.bootloaderPanel.title,Install,安装固件
+ui_overrides,i18n_1w3ud0i.last,Last,完成
+dom_patches,searchPlaceholder,Search...,搜索文件…
+dom_patches,languageHeading,Language,界面与积木语言
+dom_patches,languageHelper,Switch UI & block language (Python code is never modified).,切换界面与编程积木显示语言（绝不修改底层 Python 代码）。
+dom_patches,quickSwitchTooltip,Switch Pybricks UI & Blocks language,切换 Pybricks 界面与积木语言
+dom_patches,hubNames.BOOST Move Hub,BOOST Move Hub,BOOST 移动集线器 (Move Hub)
+dom_patches,hubNames.City Hub,City Hub,城市组集线器 (City Hub)
+dom_patches,hubNames.Technic Hub,Technic Hub,机械组集线器 (Technic Hub)
+dom_patches,hubNames.SPIKE Prime Hub,SPIKE Prime Hub,SPIKE Prime 科创集线器
+dom_patches,hubNames.MINDSTORMS Robot Inventor,MINDSTORMS Robot Inventor,MINDSTORMS 机器人发明家集线器
+dom_patches,hubNames.SPIKE Essential Hub,SPIKE Essential Hub,SPIKE Essential 基础集线器
+dom_patches,hubNames.MINDSTORMS EV3,MINDSTORMS EV3,MINDSTORMS EV3 主机
+dom_patches,hubNames.MINDSTORMS NXT,MINDSTORMS NXT,MINDSTORMS NXT 主机
+dom_patches,telemetryLabels.reflection,reflection,反射光
+dom_patches,telemetryLabels.ambient light,ambient light,环境光
+dom_patches,telemetryLabels.calibrate,calibrate,校准传感器
+dom_patches,telemetryLabels.distance,distance,距离
+dom_patches,telemetryLabels.angle,angle,角度
+dom_patches,telemetryLabels.position,position,位置
+dom_patches,telemetryLabels.width,width,宽度
+dom_patches,telemetryLabels.height,height,高度
+dom_patches,telemetryLabels.score,score,置信度
+dom_patches,telemetryLabels.error,error,偏差
+dom_patches,dialogButtons.Back,Back,上一步
+dom_patches,dialogButtons.Next,Next,下一步
+dom_patches,dialogButtons.Submit,Submit,确定
+dom_patches,dialogButtons.Close,Close,关闭
+dom_patches,dialogButtons.OK,OK,确定

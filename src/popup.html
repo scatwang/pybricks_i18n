@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pybricks Code Multi-Language</title>
+    <style>
+      :root {
+        --bg: #f6f8fa;
+        --card: #ffffff;
+        --border: #dde2e8;
+        --text: #1c2127;
+        --muted: #5f6b7c;
+        --primary: #2d72d2;
+        --primary-soft: rgba(45, 114, 210, 0.1);
+        --success: #1d8050;
+        --success-bg: rgba(29, 128, 80, 0.1);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #1c2127;
+          --card: #252a31;
+          --border: #383e47;
+          --text: #f6f7f9;
+          --muted: #abb3bf;
+          --primary: #4c90f0;
+          --primary-soft: rgba(76, 144, 240, 0.16);
+          --success: #32a467;
+          --success-bg: rgba(50, 164, 103, 0.16);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        width: 312px;
+        padding: 14px;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        font-size: 13px;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+      }
+
+      .brand img {
+        width: 28px;
+        height: 28px;
+        border-radius: 6px;
+      }
+
+      .brand-title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      .brand-sub {
+        font-size: 11px;
+        color: var(--muted);
+        margin-top: 2px;
+      }
+
+      .status-badge {
+        font-size: 11px;
+        font-weight: 600;
+        padding: 3px 8px;
+        border-radius: 999px;
+        background: var(--border);
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .status-badge.connected {
+        background: var(--success-bg);
+        color: var(--success);
+      }
+
+      .lang-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+
+      .lang-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        padding: 10px 11px;
+        border-radius: 8px;
+        border: 1.5px solid var(--border);
+        background: var(--card);
+        color: var(--text);
+        cursor: pointer;
+        text-align: left;
+        transition: border-color 120ms ease, background-color 120ms ease,
+          transform 80ms ease;
+      }
+
+      .lang-card:hover {
+        border-color: var(--primary);
+      }
+
+      .lang-card:active {
+        transform: scale(0.985);
+      }
+
+      .lang-card.active {
+        border-color: var(--primary);
+        background: var(--primary-soft);
+      }
+
+      .lang-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .lang-short {
+        font-size: 10.5px;
+        font-weight: 700;
+        padding: 1px 5px;
+        border-radius: 4px;
+        background: var(--border);
+        color: var(--muted);
+      }
+
+      .lang-card.active .lang-short {
+        background: var(--primary);
+        color: #ffffff;
+      }
+
+      .lang-native {
+        font-size: 13.5px;
+        font-weight: 650;
+        margin-top: 2px;
+      }
+
+      .lang-en {
+        font-size: 11px;
+        color: var(--muted);
+      }
+
+      .option-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 9px 11px;
+        border-radius: 8px;
+        border: 1px solid var(--border);
+        background: var(--card);
+        margin-bottom: 10px;
+      }
+
+      .option-label {
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .safety-note {
+        display: flex;
+        align-items: flex-start;
+        gap: 7px;
+        padding: 8px 10px;
+        border-radius: 7px;
+        background: var(--card);
+        border: 1px dashed var(--border);
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 1.4;
+      }
+
+      .safety-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--success);
+        margin-top: 4px;
+        flex-shrink: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="brand">
+        <img src="../icons/icon48.png" alt="Pybricks i18n" />
+        <div>
+          <div class="brand-title" id="ui-title">Pybricks Multi-Language</div>
+          <div class="brand-sub" id="ui-subtitle">UI &amp; Blockly Live Switcher</div>
+        </div>
+      </div>
+      <span class="status-badge" id="status-badge">Ready</span>
+    </div>
+
+    <div class="lang-grid" id="lang-grid" role="radiogroup" aria-label="Language">
+      <button type="button" class="lang-card" data-locale="zh-CN">
+        <div class="lang-top">
+          <span class="lang-native">简体中文</span>
+          <span class="lang-short">中文</span>
+        </div>
+        <span class="lang-en">Simplified Chinese</span>
+      </button>
+
+      <button type="button" class="lang-card" data-locale="zh-TW">
+        <div class="lang-top">
+          <span class="lang-native">繁體中文</span>
+          <span class="lang-short">繁中</span>
+        </div>
+        <span class="lang-en">Traditional Chinese</span>
+      </button>
+
+      <button type="button" class="lang-card" data-locale="en">
+        <div class="lang-top">
+          <span class="lang-native">English</span>
+          <span class="lang-short">EN</span>
+        </div>
+        <span class="lang-en">Original UI</span>
+      </button>
+
+      <button type="button" class="lang-card" data-locale="es">
+        <div class="lang-top">
+          <span class="lang-native">Español</span>
+          <span class="lang-short">ES</span>
+        </div>
+        <span class="lang-en">Spanish</span>
+      </button>
+
+      <button type="button" class="lang-card" data-locale="nl">
+        <div class="lang-top">
+          <span class="lang-native">Nederlands</span>
+          <span class="lang-short">NL</span>
+        </div>
+        <span class="lang-en">Dutch</span>
+      </button>
+    </div>
+
+    <label class="option-row" for="toggle-pill">
+      <span class="option-label" id="ui-pill-label">Show in-page quick switcher</span>
+      <input type="checkbox" id="toggle-pill" checked />
+    </label>
+
+    <div class="safety-note">
+      <span class="safety-dot"></span>
+      <span id="ui-safety">
+        Zero-Code-Mutation: Generated MicroPython code, variables, and .py files are 100% untouched.
+      </span>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

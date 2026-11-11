@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Pybricks Code 多語言擴充功能 (繁簡中文 / ES / NL)",
+    "description": "Extension name in Traditional Chinese (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "Pybricks繁中",
+    "description": "Short name (max 12 chars)"
+  },
+  "extDescription": {
+    "message": "為 Pybricks Code 提供完整介面與 Blockly 程式積木多語言支援（繁體中文、简体中文、西語、荷語、英語），免重新整理即時切換且絕不修改 Python 程式碼。",
+    "description": "Extension description in Traditional Chinese (max 132 chars)"
+  }
+}

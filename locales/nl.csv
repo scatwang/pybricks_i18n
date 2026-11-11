@@ -1,0 +1,1474 @@
+﻿section,key,en,translation
+meta,label,English,Dutch
+meta,nativeLabel,English,Nederlands
+meta,short,EN,NL
+bky_std,ADD_COMMENT,Add Comment,Opmerking toevoegen
+bky_std,CANNOT_DELETE_VARIABLE_PROCEDURE,Can't delete the variable '%1' because it's part of the definition of the function '%2',"De variabele ""%1"" kan niet verwijderd worden omdat die onderdeel uitmaakt van de definitie van de functie ""%2"""
+bky_std,CHANGE_VALUE_TITLE,Change value:,Waarde wijzigen:
+bky_std,CLEAN_UP,Clean up Blocks,Blokken opschonen
+bky_std,COLLAPSED_WARNINGS_WARNING,Collapsed blocks contain warnings.,Samengevouwen blokken bevatten waarschuwingen.
+bky_std,COLLAPSE_ALL,Collapse Blocks,Blokken samenvouwen
+bky_std,COLLAPSE_BLOCK,Collapse Block,Blok samenvouwen
+bky_std,COLOUR_BLEND_COLOUR1,colour 1,kleur 1
+bky_std,COLOUR_BLEND_COLOUR2,colour 2,kleur 2
+bky_std,COLOUR_BLEND_HELPURL,https://meyerweb.com/eric/tools/color-blend/#:::rgbp,https://meyerweb.com/eric/tools/color-blend/#:::rgbp
+bky_std,COLOUR_BLEND_RATIO,ratio,verhouding
+bky_std,COLOUR_BLEND_TITLE,blend,mengen
+bky_std,COLOUR_BLEND_TOOLTIP,Blends two colours together with a given ratio (0.0 - 1.0).,Mengt twee kleuren samen met een bepaalde verhouding (0.0 - 1.0).
+bky_std,COLOUR_PICKER_HELPURL,https://en.wikipedia.org/wiki/Color,https://nl.wikipedia.org/wiki/Kleur
+bky_std,COLOUR_PICKER_TOOLTIP,Choose a colour from the palette.,Kies een kleur in het palet.
+bky_std,COLOUR_RANDOM_HELPURL,http://randomcolour.com,http://randomcolour.com
+bky_std,COLOUR_RANDOM_TITLE,random colour,willekeurige kleur
+bky_std,COLOUR_RANDOM_TOOLTIP,Choose a colour at random.,Kies een willekeurige kleur.
+bky_std,COLOUR_RGB_BLUE,blue,blauw
+bky_std,COLOUR_RGB_GREEN,green,groen
+bky_std,COLOUR_RGB_HELPURL,https://www.december.com/html/spec/colorpercompact.html,https://www.december.com/html/spec/colorpercompact.html
+bky_std,COLOUR_RGB_RED,red,rood
+bky_std,COLOUR_RGB_TITLE,colour with,kleuren met
+bky_std,COLOUR_RGB_TOOLTIP,"Create a colour with the specified amount of red, green, and blue. All values must be between 0 and 100.","Maak een kleur met de opgegeven hoeveelheid rood, groen en blauw. Alle waarden moeten tussen 0 en 100 liggen."
+bky_std,CONTROLS_FLOW_STATEMENTS_HELPURL,https://github.com/google/blockly/wiki/Loops#loop-termination-blocks,https://github.com/google/blockly/wiki/Loops#loop-termination-blocks
+bky_std,CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK,break out of loop,uit lus breken
+bky_std,CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE,continue with next iteration of loop,doorgaan met de volgende iteratie van de lus
+bky_std,CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK,Break out of the containing loop.,Uit de bovenliggende lus breken.
+bky_std,CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE,"Skip the rest of this loop, and continue with the next iteration.",De rest van deze lus overslaan en doorgaan met de volgende herhaling.
+bky_std,CONTROLS_FLOW_STATEMENTS_WARNING,Warning: This block may only be used within a loop.,Waarschuwing: dit blok mag alleen gebruikt worden in een lus.
+bky_std,CONTROLS_FOREACH_HELPURL,https://github.com/google/blockly/wiki/Loops#for-each,https://github.com/google/blockly/wiki/Loops#for-each
+bky_std,CONTROLS_FOREACH_TITLE,for each item %1 in list %2,voor ieder item %1 in lijst %2
+bky_std,CONTROLS_FOREACH_TOOLTIP,"For each item in a list, set the variable '%1' to the item, and then do some statements.","Voor ieder item in een lijst, stel de variabele ""%1"" in op het item en voer daarna opdrachten uit."
+bky_std,CONTROLS_FOR_HELPURL,https://github.com/google/blockly/wiki/Loops#count-with,https://github.com/google/blockly/wiki/Loops#count-with
+bky_std,CONTROLS_FOR_TITLE,count with %1 from %2 to %3 by %4,rekenen met %1 van %2 tot %3 in stappen van %4
+bky_std,CONTROLS_FOR_TOOLTIP,"Have the variable '%1' take on the values from the start number to the end number, counting by the specified interval, and do the specified blocks.","Laat de variabele ""%1"" de waarden aannemen van het beginnummer tot het laatste nummer, tellende met het opgegeven interval, en met uitvoering van de opgegeven blokken."
+bky_std,CONTROLS_IF_ELSEIF_TOOLTIP,Add a condition to the if block.,Voeg een voorwaarde toe aan het als-blok.
+bky_std,CONTROLS_IF_ELSE_TOOLTIP,"Add a final, catch-all condition to the if block.","Voeg een laatste, vang-alles conditie toe aan het als-statement."
+bky_std,CONTROLS_IF_HELPURL,https://github.com/google/blockly/wiki/IfElse,https://github.com/google/blockly/wiki/IfElse
+bky_std,CONTROLS_IF_IF_TOOLTIP,"Add, remove, or reorder sections to reconfigure this if block.","Voeg stukken toe, verwijder of wijzig de volgorde om dit ""als""-blok te wijzigen."
+bky_std,CONTROLS_IF_MSG_ELSE,else,anders
+bky_std,CONTROLS_IF_MSG_ELSEIF,else if,anders als
+bky_std,CONTROLS_IF_MSG_IF,if,als
+bky_std,CONTROLS_IF_TOOLTIP_1,"If a value is true, then do some statements.","Als een waarde waar is, voer dan opdrachten uit."
+bky_std,CONTROLS_IF_TOOLTIP_2,"If a value is true, then do the first block of statements. Otherwise, do the second block of statements.","Als een waarde waar is, voert dan het eerste blok met opdrachten uit. Voer andere het tweede blok met opdrachten uit."
+bky_std,CONTROLS_IF_TOOLTIP_3,"If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements.","Als de eerste waarde waar is, voer dan het eerste blok met opdrachten uit. Voer anders, als de tweede waarde waar is, het tweede blok met opdrachten uit."
+bky_std,CONTROLS_IF_TOOLTIP_4,"If the first value is true, then do the first block of statements. Otherwise, if the second value is true, do the second block of statements. If none of the values are true, do the last block of statements.","Als de eerste waarde ""waar"" is, voer dan het eerste blok uit. Voer anders wanneer de tweede waarde ""waar"" is, het tweede blok uit. Als geen van beide waarden waar zijn, voer dan het laatste blok uit."
+bky_std,CONTROLS_REPEAT_HELPURL,https://en.wikipedia.org/wiki/For_loop,https://nl.wikipedia.org/wiki/Repetitie_(informatica)#For_en_Foreach
+bky_std,CONTROLS_REPEAT_INPUT_DO,do,voer uit
+bky_std,CONTROLS_REPEAT_TITLE,repeat %1 times,%1 keer herhalen
+bky_std,CONTROLS_REPEAT_TOOLTIP,Do some statements several times.,Voer een aantal opdrachten meerdere keren uit.
+bky_std,CONTROLS_WHILEUNTIL_HELPURL,https://github.com/google/blockly/wiki/Loops#repeat,https://github.com/google/blockly/wiki/Loops#repeat
+bky_std,CONTROLS_WHILEUNTIL_OPERATOR_UNTIL,repeat until,herhalen totdat
+bky_std,CONTROLS_WHILEUNTIL_OPERATOR_WHILE,repeat while,herhalen zolang
+bky_std,CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL,"While a value is false, then do some statements.",Terwijl een waarde onwaar is de volgende opdrachten uitvoeren.
+bky_std,CONTROLS_WHILEUNTIL_TOOLTIP_WHILE,"While a value is true, then do some statements.",Terwijl een waarde waar is de volgende opdrachten uitvoeren.
+bky_std,DELETE_ALL_BLOCKS,Delete all %1 blocks?,Alle %1 blokken verwijderen?
+bky_std,DELETE_BLOCK,Delete Block,Blok verwijderen
+bky_std,DELETE_VARIABLE,Delete the '%1' variable,"Verwijder de variabele ""%1"""
+bky_std,DELETE_VARIABLE_CONFIRMATION,Delete %1 uses of the '%2' variable?,"%1 gebruiken van de variabele ""%2"" verwijderen?"
+bky_std,DELETE_X_BLOCKS,Delete %1 Blocks,%1 blokken verwijderen
+bky_std,DIALOG_CANCEL,Cancel,Annuleren
+bky_std,DIALOG_OK,OK,OK
+bky_std,DISABLE_BLOCK,Disable Block,Blok uitschakelen
+bky_std,DUPLICATE_BLOCK,Duplicate,Dupliceren
+bky_std,DUPLICATE_COMMENT,Duplicate Comment,Opmerking dupliceren
+bky_std,ENABLE_BLOCK,Enable Block,Blok inschakelen
+bky_std,EXPAND_ALL,Expand Blocks,Blokken uitvouwen
+bky_std,EXPAND_BLOCK,Expand Block,Blok uitvouwen
+bky_std,EXTERNAL_INPUTS,External Inputs,Externe invoer
+bky_std,HELP,Help,Hulp
+bky_std,INLINE_INPUTS,Inline Inputs,Inline invoer
+bky_std,LISTS_CREATE_EMPTY_HELPURL,https://github.com/google/blockly/wiki/Lists#create-empty-list,https://github.com/google/blockly/wiki/Lists#create-empty-list
+bky_std,LISTS_CREATE_EMPTY_TITLE,create empty list,maak een lege lijst
+bky_std,LISTS_CREATE_EMPTY_TOOLTIP,"Returns a list, of length 0, containing no data records","Geeft een lijst terug met lengte 0, zonder items"
+bky_std,LISTS_CREATE_WITH_CONTAINER_TITLE_ADD,list,lijst
+bky_std,LISTS_CREATE_WITH_CONTAINER_TOOLTIP,"Add, remove, or reorder sections to reconfigure this list block.","Voeg stukken toe, verwijder ze of wijzig de volgorde om dit lijstblok aan te passen."
+bky_std,LISTS_CREATE_WITH_HELPURL,https://github.com/google/blockly/wiki/Lists#create-list-with,https://github.com/google/blockly/wiki/Lists#create-list-with
+bky_std,LISTS_CREATE_WITH_INPUT_WITH,create list with,maak een lijst met
+bky_std,LISTS_CREATE_WITH_ITEM_TOOLTIP,Add an item to the list.,Voeg iets toe aan de lijst.
+bky_std,LISTS_CREATE_WITH_TOOLTIP,Create a list with any number of items.,Maak een lijst met een willekeurig aantal items.
+bky_std,LISTS_GET_INDEX_FIRST,first,eerste
+bky_std,LISTS_GET_INDEX_FROM_END,# from end,# van einde
+bky_std,LISTS_GET_INDEX_FROM_START,#,#
+bky_std,LISTS_GET_INDEX_GET,get,haal op
+bky_std,LISTS_GET_INDEX_GET_REMOVE,get and remove,haal op en verwijder
+bky_std,LISTS_GET_INDEX_LAST,last,laatste
+bky_std,LISTS_GET_INDEX_RANDOM,random,willekeurig
+bky_std,LISTS_GET_INDEX_REMOVE,remove,verwijder
+bky_std,LISTS_GET_INDEX_TAIL,,
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_FIRST,Returns the first item in a list.,Geeft het eerste item in een lijst terug.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_FROM,Returns the item at the specified position in a list.,Geeft het item op de opgegeven positie in een lijst.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_LAST,Returns the last item in a list.,Geeft het laatste item in een lijst terug.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_RANDOM,Returns a random item in a list.,Geeft een willekeurig item uit een lijst.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FIRST,Removes and returns the first item in a list.,Geeft het laatste item in een lijst terug en verwijdert het.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_FROM,Removes and returns the item at the specified position in a list.,Geeft het item op de opgegeven positie in een lijst terug en verwijdert het.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_LAST,Removes and returns the last item in a list.,Geeft het laatste item uit een lijst terug en verwijdert het.
+bky_std,LISTS_GET_INDEX_TOOLTIP_GET_REMOVE_RANDOM,Removes and returns a random item in a list.,Geeft een willekeurig item in een lijst terug en verwijdert het.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_FIRST,Removes the first item in a list.,Verwijdert het eerste item in een lijst.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_FROM,Removes the item at the specified position in a list.,Verwijdert het item op de opgegeven positie in een lijst.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_LAST,Removes the last item in a list.,Verwijdert het laatste item uit een lijst.
+bky_std,LISTS_GET_INDEX_TOOLTIP_REMOVE_RANDOM,Removes a random item in a list.,Verwijdert een willekeurig item uit een lijst.
+bky_std,LISTS_GET_SUBLIST_END_FROM_END,to # from end,naar # vanaf einde
+bky_std,LISTS_GET_SUBLIST_END_FROM_START,to #,naar item
+bky_std,LISTS_GET_SUBLIST_END_LAST,to last,naar laatste
+bky_std,LISTS_GET_SUBLIST_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-a-sublist,https://github.com/google/blockly/wiki/Lists#getting-a-sublist
+bky_std,LISTS_GET_SUBLIST_START_FIRST,get sub-list from first,haal sublijst op vanaf eerste
+bky_std,LISTS_GET_SUBLIST_START_FROM_END,get sub-list from # from end,haal sublijst op van positie vanaf einde
+bky_std,LISTS_GET_SUBLIST_START_FROM_START,get sub-list from #,haal sublijst op vanaf positie
+bky_std,LISTS_GET_SUBLIST_TAIL,,
+bky_std,LISTS_GET_SUBLIST_TOOLTIP,Creates a copy of the specified portion of a list.,Maakt een kopie van het opgegeven deel van de lijst.
+bky_std,LISTS_INDEX_FROM_END_TOOLTIP,%1 is the last item.,Item %1 is het laatste item.
+bky_std,LISTS_INDEX_FROM_START_TOOLTIP,%1 is the first item.,Item %1 is het eerste item.
+bky_std,LISTS_INDEX_OF_FIRST,find first occurrence of item,zoek eerste voorkomen van item
+bky_std,LISTS_INDEX_OF_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list
+bky_std,LISTS_INDEX_OF_LAST,find last occurrence of item,zoek laatste voorkomen van item
+bky_std,LISTS_INDEX_OF_TOOLTIP,Returns the index of the first/last occurrence of the item in the list. Returns %1 if item is not found.,Geeft de index terug van het eerste of laatste voorkomen van een item in de lijst. Geeft %1 terug als het item niet is gevonden.
+bky_std,LISTS_INLIST,in list,in lijst
+bky_std,LISTS_ISEMPTY_HELPURL,https://github.com/google/blockly/wiki/Lists#is-empty,https://github.com/google/blockly/wiki/Lists#is-empty
+bky_std,LISTS_ISEMPTY_TITLE,%1 is empty,%1 is leeg
+bky_std,LISTS_ISEMPTY_TOOLTIP,Returns true if the list is empty.,Geeft waar terug als de lijst leeg is.
+bky_std,LISTS_LENGTH_HELPURL,https://github.com/google/blockly/wiki/Lists#length-of,https://github.com/google/blockly/wiki/Lists#length-of
+bky_std,LISTS_LENGTH_TITLE,length of %1,lengte van %1
+bky_std,LISTS_LENGTH_TOOLTIP,Returns the length of a list.,Geeft de lengte van een lijst terug.
+bky_std,LISTS_REPEAT_HELPURL,https://github.com/google/blockly/wiki/Lists#create-list-with,https://github.com/google/blockly/wiki/Lists#create-list-with
+bky_std,LISTS_REPEAT_TITLE,create list with item %1 repeated %2 times,"Maak lijst met item %1, %2 keer herhaald"
+bky_std,LISTS_REPEAT_TOOLTIP,Creates a list consisting of the given value repeated the specified number of times.,"Maakt een lijst die bestaat uit de opgegeven waarde, het opgegeven aantal keer herhaald."
+bky_std,LISTS_REVERSE_HELPURL,https://github.com/google/blockly/wiki/Lists#reversing-a-list,https://github.com/google/blockly/wiki/Lists#reversing-a-list
+bky_std,LISTS_REVERSE_MESSAGE0,reverse %1,%1 omkeren
+bky_std,LISTS_REVERSE_TOOLTIP,Reverse a copy of a list.,Keert een kopie van een lijst om.
+bky_std,LISTS_SET_INDEX_HELPURL,https://github.com/google/blockly/wiki/Lists#in-list--set,https://github.com/google/blockly/wiki/Lists#in-list--set
+bky_std,LISTS_SET_INDEX_INPUT_TO,as,als
+bky_std,LISTS_SET_INDEX_INSERT,insert at,tussenvoegen op
+bky_std,LISTS_SET_INDEX_SET,set,stel in
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_FIRST,Inserts the item at the start of a list.,Voegt het item toe aan het begin van de lijst.
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_FROM,Inserts the item at the specified position in a list.,Voegt het item op een opgegeven positie in een lijst in.
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_LAST,Append the item to the end of a list.,Voeg het item aan het einde van een lijst toe.
+bky_std,LISTS_SET_INDEX_TOOLTIP_INSERT_RANDOM,Inserts the item randomly in a list.,Voegt het item op een willekeurige positie in de lijst in.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_FIRST,Sets the first item in a list.,Stelt het eerste item in een lijst in.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_FROM,Sets the item at the specified position in a list.,Zet het item op de opgegeven positie in de lijst.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_LAST,Sets the last item in a list.,Stelt het laatste item van een lijst in.
+bky_std,LISTS_SET_INDEX_TOOLTIP_SET_RANDOM,Sets a random item in a list.,Stelt een willekeurig item uit de lijst in.
+bky_std,LISTS_SORT_HELPURL,https://github.com/google/blockly/wiki/Lists#sorting-a-list,https://github.com/google/blockly/wiki/Lists#sorting-a-list
+bky_std,LISTS_SORT_ORDER_ASCENDING,ascending,oplopend
+bky_std,LISTS_SORT_ORDER_DESCENDING,descending,aflopend
+bky_std,LISTS_SORT_TITLE,sort %1 %2 %3,sorteer %1 %2 %3
+bky_std,LISTS_SORT_TOOLTIP,Sort a copy of a list.,Sorteer een kopie van een lijst.
+bky_std,LISTS_SORT_TYPE_IGNORECASE,"alphabetic, ignore case","alfabetisch, negeer hoofd-/kleine letters"
+bky_std,LISTS_SORT_TYPE_NUMERIC,numeric,numeriek
+bky_std,LISTS_SORT_TYPE_TEXT,alphabetic,alfabetisch
+bky_std,LISTS_SPLIT_HELPURL,https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists,https://github.com/google/blockly/wiki/Lists#splitting-strings-and-joining-lists
+bky_std,LISTS_SPLIT_LIST_FROM_TEXT,make list from text,lijst maken van tekst
+bky_std,LISTS_SPLIT_TEXT_FROM_LIST,make text from list,tekst maken van lijst
+bky_std,LISTS_SPLIT_TOOLTIP_JOIN,"Join a list of texts into one text, separated by a delimiter.","Lijst van tekstdelen samenvoegen in één stuk tekst, waarbij de tekstdelen gescheiden zijn door een scheidingsteken."
+bky_std,LISTS_SPLIT_TOOLTIP_SPLIT,"Split text into a list of texts, breaking at each delimiter.",Tekst splitsen in een lijst van teksten op basis van een scheidingsteken.
+bky_std,LISTS_SPLIT_WITH_DELIMITER,with delimiter,met scheidingsteken
+bky_std,LOGIC_BOOLEAN_FALSE,false,onwaar
+bky_std,LOGIC_BOOLEAN_HELPURL,https://github.com/google/blockly/wiki/Logic#values,https://github.com/google/blockly/wiki/Logic#values
+bky_std,LOGIC_BOOLEAN_TOOLTIP,Returns either true or false.,"Geeft ""waar"" of ""onwaar"" terug."
+bky_std,LOGIC_BOOLEAN_TRUE,true,waar
+bky_std,LOGIC_COMPARE_HELPURL,https://en.wikipedia.org/wiki/Inequality_(mathematics),https://nl.wikipedia.org/wiki/Ongelijkheid_(wiskunde)
+bky_std,LOGIC_COMPARE_TOOLTIP_EQ,Return true if both inputs equal each other.,"Geeft ""waar"", als beide waarden gelijk aan elkaar zijn."
+bky_std,LOGIC_COMPARE_TOOLTIP_GT,Return true if the first input is greater than the second input.,"Geeft ""waar"" terug als de eerste invoer meer is dan de tweede invoer."
+bky_std,LOGIC_COMPARE_TOOLTIP_GTE,Return true if the first input is greater than or equal to the second input.,"Geeft ""waar"" terug als de eerste invoer groter is of gelijk aan de tweede invoer."
+bky_std,LOGIC_COMPARE_TOOLTIP_LT,Return true if the first input is smaller than the second input.,"Geeft ""waar"" als de eerste invoer kleiner is dan de tweede invoer."
+bky_std,LOGIC_COMPARE_TOOLTIP_LTE,Return true if the first input is smaller than or equal to the second input.,"Geeft ""waar"" terug als de eerste invoer kleiner of gelijk is aan de tweede invoer."
+bky_std,LOGIC_COMPARE_TOOLTIP_NEQ,Return true if both inputs are not equal to each other.,"Geeft ""waar"" terug als de waarden niet gelijk zijn aan elkaar."
+bky_std,LOGIC_NEGATE_HELPURL,https://github.com/google/blockly/wiki/Logic#not,https://github.com/google/blockly/wiki/Logic#not
+bky_std,LOGIC_NEGATE_TITLE,not %1,niet %1
+bky_std,LOGIC_NEGATE_TOOLTIP,Returns true if the input is false. Returns false if the input is true.,"Geeft ""waar"" terug als de invoer ""onwaar"" is. Geeft ""onwaar"" als de invoer ""waar"" is."
+bky_std,LOGIC_NULL,null,niets
+bky_std,LOGIC_NULL_HELPURL,https://en.wikipedia.org/wiki/Nullable_type,https://en.wikipedia.org/wiki/Nullable_type
+bky_std,LOGIC_NULL_TOOLTIP,Returns null.,Geeft niets terug.
+bky_std,LOGIC_OPERATION_AND,and,en
+bky_std,LOGIC_OPERATION_HELPURL,https://github.com/google/blockly/wiki/Logic#logical-operations,https://github.com/google/blockly/wiki/Logic#logical-operations
+bky_std,LOGIC_OPERATION_OR,or,of
+bky_std,LOGIC_OPERATION_TOOLTIP_AND,Return true if both inputs are true.,Geeft waar als beide waarden waar zijn.
+bky_std,LOGIC_OPERATION_TOOLTIP_OR,Return true if at least one of the inputs is true.,"Geeft ""waar"" terug als in ieder geval één van de waarden waar is."
+bky_std,LOGIC_TERNARY_CONDITION,test,test
+bky_std,LOGIC_TERNARY_HELPURL,https://en.wikipedia.org/wiki/%3F:,https://en.wikipedia.org/wiki/%3F:
+bky_std,LOGIC_TERNARY_IF_FALSE,if false,als onwaar
+bky_std,LOGIC_TERNARY_IF_TRUE,if true,als waar
+bky_std,LOGIC_TERNARY_TOOLTIP,"Check the condition in 'test'. If the condition is true, returns the 'if true' value; otherwise returns the 'if false' value.","Test de voorwaarde in ""test"". Als de voorwaarde ""waar"" is, geef de waarde van ""als waar"" terug; geef anders de waarde van ""als onwaar"" terug."
+bky_std,MATH_ADDITION_SYMBOL,+,+
+bky_std,MATH_ARITHMETIC_HELPURL,https://en.wikipedia.org/wiki/Arithmetic,https://nl.wikipedia.org/wiki/Rekenen
+bky_std,MATH_ARITHMETIC_TOOLTIP_ADD,Return the sum of the two numbers.,Geeft de som van 2 getallen.
+bky_std,MATH_ARITHMETIC_TOOLTIP_DIVIDE,Return the quotient of the two numbers.,Geeft de gedeelde waarde van twee getallen.
+bky_std,MATH_ARITHMETIC_TOOLTIP_MINUS,Return the difference of the two numbers.,Geeft het verschil van de twee getallen.
+bky_std,MATH_ARITHMETIC_TOOLTIP_MULTIPLY,Return the product of the two numbers.,Geeft het product terug van de twee getallen.
+bky_std,MATH_ARITHMETIC_TOOLTIP_POWER,Return the first number raised to the power of the second number.,Geeft het eerste getal tot de macht van het tweede getal.
+bky_std,MATH_ATAN2_HELPURL,https://en.wikipedia.org/wiki/Atan2,https://en.wikipedia.org/wiki/Atan2
+bky_std,MATH_ATAN2_TITLE,atan2 of X:%1 Y:%2,atan2 van X:%1 Y:%2
+bky_std,MATH_ATAN2_TOOLTIP,"Return the arctangent of point (X, Y) in degrees from -180 to 180.","Geef de boogtangens van punt (X, Y) terug in graden tussen -180 naar 180."
+bky_std,MATH_CHANGE_HELPURL,https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter,https://en.wikipedia.org/wiki/Programming_idiom#Incrementing_a_counter
+bky_std,MATH_CHANGE_TITLE,change %1 by %2,%1 wijzigen met %2
+bky_std,MATH_CHANGE_TOOLTIP,Add a number to variable '%1'.,"Voegt een getal toe aan variabele ""%1""."
+bky_std,MATH_CONSTANT_HELPURL,https://en.wikipedia.org/wiki/Mathematical_constant,https://nl.wikipedia.org/wiki/Wiskundige_constante
+bky_std,MATH_CONSTANT_TOOLTIP,"Return one of the common constants: π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), or ∞ (infinity).","Geeft een van de vaak voorkomende constante waarden: π (3.141…), e (2.718…), φ (1.618…), √2 (1.414…), √½ (0.707…), of ∞ (oneindig)."
+bky_std,MATH_CONSTRAIN_HELPURL,https://en.wikipedia.org/wiki/Clamping_(graphics),https://en.wikipedia.org/wiki/Clamping_(graphics)
+bky_std,MATH_CONSTRAIN_TITLE,constrain %1 low %2 high %3,beperk %1 van minimaal %2 tot maximaal %3
+bky_std,MATH_CONSTRAIN_TOOLTIP,Constrain a number to be between the specified limits (inclusive).,Beperk een getal tussen de twee opgegeven limieten (inclusief).
+bky_std,MATH_DIVISION_SYMBOL,÷,÷
+bky_std,MATH_IS_DIVISIBLE_BY,is divisible by,is deelbaar door
+bky_std,MATH_IS_EVEN,is even,is even
+bky_std,MATH_IS_NEGATIVE,is negative,is negatief
+bky_std,MATH_IS_ODD,is odd,is oneven
+bky_std,MATH_IS_POSITIVE,is positive,is positief
+bky_std,MATH_IS_PRIME,is prime,is priemgetal
+bky_std,MATH_IS_TOOLTIP,"Check if a number is an even, odd, prime, whole, positive, negative, or if it is divisible by certain number. Returns true or false.","Test of een getal even, oneven, een priemgetal, geheel, positief of negatief is, of deelbaar is door een bepaald getal. Geeft ""waar"" of ""onwaar""."
+bky_std,MATH_IS_WHOLE,is whole,is geheel getal
+bky_std,MATH_MODULO_HELPURL,https://en.wikipedia.org/wiki/Modulo_operation,https://nl.wikipedia.org/wiki/Modulair_rekenen
+bky_std,MATH_MODULO_TITLE,remainder of %1 ÷ %2,restgetal van %1 ÷ %2
+bky_std,MATH_MODULO_TOOLTIP,Return the remainder from dividing the two numbers.,Geeft het restgetal van het resultaat van de deling van de twee getallen.
+bky_std,MATH_MULTIPLICATION_SYMBOL,×,×
+bky_std,MATH_NUMBER_HELPURL,https://en.wikipedia.org/wiki/Number,https://nl.wikipedia.org/wiki/Getal_%28wiskunde%29
+bky_std,MATH_NUMBER_TOOLTIP,A number.,Een getal.
+bky_std,MATH_ONLIST_HELPURL,,
+bky_std,MATH_ONLIST_OPERATOR_AVERAGE,average of list,gemiddelde van lijst
+bky_std,MATH_ONLIST_OPERATOR_MAX,max of list,hoogste uit lijst
+bky_std,MATH_ONLIST_OPERATOR_MEDIAN,median of list,mediaan van lijst
+bky_std,MATH_ONLIST_OPERATOR_MIN,min of list,laagste uit lijst
+bky_std,MATH_ONLIST_OPERATOR_MODE,modes of list,modi van lijst
+bky_std,MATH_ONLIST_OPERATOR_RANDOM,random item of list,willekeurige item van lijst
+bky_std,MATH_ONLIST_OPERATOR_STD_DEV,standard deviation of list,standaarddeviatie van lijst
+bky_std,MATH_ONLIST_OPERATOR_SUM,sum of list,som van lijst
+bky_std,MATH_ONLIST_TOOLTIP_AVERAGE,Return the average (arithmetic mean) of the numeric values in the list.,Geeft het gemiddelde terug van de numerieke waarden in een lijst.
+bky_std,MATH_ONLIST_TOOLTIP_MAX,Return the largest number in the list.,Geeft het grootste getal in een lijst.
+bky_std,MATH_ONLIST_TOOLTIP_MEDIAN,Return the median number in the list.,Geeft de mediaan in de lijst.
+bky_std,MATH_ONLIST_TOOLTIP_MIN,Return the smallest number in the list.,Geeft het kleinste getal uit een lijst.
+bky_std,MATH_ONLIST_TOOLTIP_MODE,Return a list of the most common item(s) in the list.,Geeft een lijst van de meest voorkomende onderdelen in de lijst.
+bky_std,MATH_ONLIST_TOOLTIP_RANDOM,Return a random element from the list.,Geeft een willekeurig item uit de lijst terug.
+bky_std,MATH_ONLIST_TOOLTIP_STD_DEV,Return the standard deviation of the list.,Geeft de standaardafwijking van de lijst.
+bky_std,MATH_ONLIST_TOOLTIP_SUM,Return the sum of all the numbers in the list.,Geeft de som van alle getallen in de lijst.
+bky_std,MATH_POWER_SYMBOL,^,^
+bky_std,MATH_RANDOM_FLOAT_HELPURL,https://en.wikipedia.org/wiki/Random_number_generation,https://nl.wikipedia.org/wiki/Toevalsgenerator
+bky_std,MATH_RANDOM_FLOAT_TITLE_RANDOM,random fraction,willekeurige fractie
+bky_std,MATH_RANDOM_FLOAT_TOOLTIP,Return a random fraction between 0.0 (inclusive) and 1.0 (exclusive).,Geeft een willekeurige fractie tussen 0.0 (inclusief) en 1.0 (exclusief).
+bky_std,MATH_RANDOM_INT_HELPURL,https://en.wikipedia.org/wiki/Random_number_generation,https://nl.wikipedia.org/wiki/Toevalsgenerator
+bky_std,MATH_RANDOM_INT_TITLE,random integer from %1 to %2,willekeurig geheel getal van %1 tot %2
+bky_std,MATH_RANDOM_INT_TOOLTIP,"Return a random integer between the two specified limits, inclusive.","Geeft een willekeurig getal tussen de 2 opgegeven limieten in, inclusief."
+bky_std,MATH_ROUND_HELPURL,https://en.wikipedia.org/wiki/Rounding,https://nl.wikipedia.org/wiki/Afronden
+bky_std,MATH_ROUND_OPERATOR_ROUND,round,afronden
+bky_std,MATH_ROUND_OPERATOR_ROUNDDOWN,round down,naar beneden afronden
+bky_std,MATH_ROUND_OPERATOR_ROUNDUP,round up,omhoog afronden
+bky_std,MATH_ROUND_TOOLTIP,Round a number up or down.,Rondt een getal af omhoog of naar beneden.
+bky_std,MATH_SINGLE_HELPURL,https://en.wikipedia.org/wiki/Square_root,https://nl.wikipedia.org/wiki/Vierkantswortel
+bky_std,MATH_SINGLE_OP_ABSOLUTE,absolute,absoluut
+bky_std,MATH_SINGLE_OP_ROOT,square root,wortel
+bky_std,MATH_SINGLE_TOOLTIP_ABS,Return the absolute value of a number.,Geeft de absolute waarde van een getal.
+bky_std,MATH_SINGLE_TOOLTIP_EXP,Return e to the power of a number.,Geeft e tot de macht van een getal.
+bky_std,MATH_SINGLE_TOOLTIP_LN,Return the natural logarithm of a number.,Geeft het natuurlijk logaritme van een getal.
+bky_std,MATH_SINGLE_TOOLTIP_LOG10,Return the base 10 logarithm of a number.,Geeft het logaritme basis 10 van een getal.
+bky_std,MATH_SINGLE_TOOLTIP_NEG,Return the negation of a number.,Geeft de negatief van een getal.
+bky_std,MATH_SINGLE_TOOLTIP_POW10,Return 10 to the power of a number.,Geeft 10 tot de macht van een getal.
+bky_std,MATH_SINGLE_TOOLTIP_ROOT,Return the square root of a number.,Geeft de wortel van een getal.
+bky_std,MATH_SUBTRACTION_SYMBOL,-,-
+bky_std,MATH_TRIG_ACOS,acos,acos
+bky_std,MATH_TRIG_ASIN,asin,asin
+bky_std,MATH_TRIG_ATAN,atan,arctan
+bky_std,MATH_TRIG_COS,cos,cos
+bky_std,MATH_TRIG_HELPURL,https://en.wikipedia.org/wiki/Trigonometric_functions,https://nl.wikipedia.org/wiki/Goniometrische_functie
+bky_std,MATH_TRIG_SIN,sin,sin
+bky_std,MATH_TRIG_TAN,tan,tan
+bky_std,MATH_TRIG_TOOLTIP_ACOS,Return the arccosine of a number.,Geeft de arccosinus van een getal.
+bky_std,MATH_TRIG_TOOLTIP_ASIN,Return the arcsine of a number.,Geeft de arcsinus van een getal.
+bky_std,MATH_TRIG_TOOLTIP_ATAN,Return the arctangent of a number.,Geeft de arctangens van een getal.
+bky_std,MATH_TRIG_TOOLTIP_COS,Return the cosine of a degree (not radian).,Geeft de cosinus van een graad (geen radialen).
+bky_std,MATH_TRIG_TOOLTIP_SIN,Return the sine of a degree (not radian).,Geeft de sinus van een graad (geen radialen).
+bky_std,MATH_TRIG_TOOLTIP_TAN,Return the tangent of a degree (not radian).,Geeft de tangens van een graad (geen radialen).
+bky_std,NEW_COLOUR_VARIABLE,Create colour variable...,Creëer kleurvariabele
+bky_std,NEW_NUMBER_VARIABLE,Create number variable...,Creëer numeriek variabele
+bky_std,NEW_STRING_VARIABLE,Create string variable...,Creëer tekstvariabele
+bky_std,NEW_VARIABLE,Create variable...,Variabele maken...
+bky_std,NEW_VARIABLE_TITLE,New variable name:,Nieuwe variabelenaam:
+bky_std,NEW_VARIABLE_TYPE_TITLE,New variable type:,Nieuw soort variabele
+bky_std,ORDINAL_NUMBER_SUFFIX,,
+bky_std,PROCEDURES_ALLOW_STATEMENTS,allow statements,statements toestaan
+bky_std,PROCEDURES_BEFORE_PARAMS,with:,met:
+bky_std,PROCEDURES_CALLNORETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://nl.wikipedia.org/wiki/Subprogramma
+bky_std,PROCEDURES_CALLNORETURN_TOOLTIP,Run the user-defined function '%1'.,"Voer de door de gebruiker gedefinieerde functie ""%1"" uit."
+bky_std,PROCEDURES_CALLRETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://nl.wikipedia.org/wiki/Subprogramma
+bky_std,PROCEDURES_CALLRETURN_TOOLTIP,Run the user-defined function '%1' and use its output.,"Voer de door de gebruiker gedefinieerde functie ""%1"" uit en gebruik de uitvoer."
+bky_std,PROCEDURES_CALL_BEFORE_PARAMS,with:,met:
+bky_std,PROCEDURES_CREATE_DO,Create '%1',"Maak ""%1"""
+bky_std,PROCEDURES_DEFNORETURN_COMMENT,Describe this function...,Deze functie beschrijven...
+bky_std,PROCEDURES_DEFNORETURN_DO,,
+bky_std,PROCEDURES_DEFNORETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://nl.wikipedia.org/wiki/Subprogramma
+bky_std,PROCEDURES_DEFNORETURN_PROCEDURE,do something,doe iets
+bky_std,PROCEDURES_DEFNORETURN_TITLE,to,om
+bky_std,PROCEDURES_DEFNORETURN_TOOLTIP,Creates a function with no output.,Maakt een functie zonder uitvoer.
+bky_std,PROCEDURES_DEFRETURN_HELPURL,https://en.wikipedia.org/wiki/Subroutine,https://nl.wikipedia.org/wiki/Subprogramma
+bky_std,PROCEDURES_DEFRETURN_RETURN,return,uitvoeren
+bky_std,PROCEDURES_DEFRETURN_TOOLTIP,Creates a function with an output.,Maakt een functie met een uitvoer.
+bky_std,PROCEDURES_DEF_DUPLICATE_WARNING,Warning: This function has duplicate parameters.,Waarschuwing: deze functie heeft parameters met dezelfde naam.
+bky_std,PROCEDURES_HIGHLIGHT_DEF,Highlight function definition,Accentueer functiedefinitie
+bky_std,PROCEDURES_IFRETURN_HELPURL,https://c2.com/cgi/wiki?GuardClause,https://c2.com/cgi/wiki?GuardClause
+bky_std,PROCEDURES_IFRETURN_TOOLTIP,"If a value is true, then return a second value.","Als de eerste waarde ""waar"" is, geef dan de tweede waarde terug."
+bky_std,PROCEDURES_IFRETURN_WARNING,Warning: This block may be used only within a function definition.,Waarschuwing: dit blok mag alleen gebruikt worden binnen de definitie van een functie.
+bky_std,PROCEDURES_MUTATORARG_TITLE,input name:,invoernaam:
+bky_std,PROCEDURES_MUTATORARG_TOOLTIP,Add an input to the function.,Een invoer aan de functie toevoegen.
+bky_std,PROCEDURES_MUTATORCONTAINER_TITLE,inputs,ingangen
+bky_std,PROCEDURES_MUTATORCONTAINER_TOOLTIP,"Add, remove, or reorder inputs to this function.","Invoer van deze functie toevoegen, verwijderen of herordenen."
+bky_std,REDO,Redo,Opnieuw
+bky_std,REMOVE_COMMENT,Remove Comment,Opmerking verwijderen
+bky_std,RENAME_VARIABLE,Rename variable...,Variabele hernoemen...
+bky_std,RENAME_VARIABLE_TITLE,Rename all '%1' variables to:,"Alle variabelen ""%1"" hernoemen naar:"
+bky_std,TEXT_APPEND_HELPURL,https://github.com/google/blockly/wiki/Text#text-modification,https://github.com/google/blockly/wiki/Text#text-modification
+bky_std,TEXT_APPEND_TITLE,to %1 append text %2,voor%1 voeg tekst toe van %2
+bky_std,TEXT_APPEND_TOOLTIP,Append some text to variable '%1'.,"Voeg tekst toe aan de variabele ""%1""."
+bky_std,TEXT_CHANGECASE_HELPURL,https://github.com/google/blockly/wiki/Text#adjusting-text-case,https://github.com/google/blockly/wiki/Text#adjusting-text-case
+bky_std,TEXT_CHANGECASE_OPERATOR_LOWERCASE,to lower case,naar kleine letters
+bky_std,TEXT_CHANGECASE_OPERATOR_TITLECASE,to Title Case,naar Hoofdletter Per Woord
+bky_std,TEXT_CHANGECASE_OPERATOR_UPPERCASE,to UPPER CASE,naar HOOFDLETTERS
+bky_std,TEXT_CHANGECASE_TOOLTIP,Return a copy of the text in a different case.,Geef een kopie van de tekst met veranderde hoofdletters terug.
+bky_std,TEXT_CHARAT_FIRST,get first letter,haal eerste letter op
+bky_std,TEXT_CHARAT_FROM_END,get letter # from end,haal letter # op vanaf einde
+bky_std,TEXT_CHARAT_FROM_START,get letter #,haal letter # op
+bky_std,TEXT_CHARAT_HELPURL,https://github.com/google/blockly/wiki/Text#extracting-text,https://github.com/google/blockly/wiki/Text#extracting-text
+bky_std,TEXT_CHARAT_LAST,get last letter,haal laatste letter op
+bky_std,TEXT_CHARAT_RANDOM,get random letter,haal willekeurige letter op
+bky_std,TEXT_CHARAT_TAIL,,
+bky_std,TEXT_CHARAT_TITLE,in text %1 %2,in tekst %1 %2
+bky_std,TEXT_CHARAT_TOOLTIP,Returns the letter at the specified position.,Geeft de letter op de opgegeven positie terug.
+bky_std,TEXT_COUNT_HELPURL,https://github.com/google/blockly/wiki/Text#counting-substrings,https://github.com/google/blockly/wiki/Text#counting-substrings
+bky_std,TEXT_COUNT_MESSAGE0,count %1 in %2,%1 in %2 tellen
+bky_std,TEXT_COUNT_TOOLTIP,Count how many times some text occurs within some other text.,Tel hoe vaak bepaalde tekst voorkomt in andere tekst.
+bky_std,TEXT_CREATE_JOIN_ITEM_TOOLTIP,Add an item to the text.,Voegt een item aan de tekst toe.
+bky_std,TEXT_CREATE_JOIN_TITLE_JOIN,join,samenvoegen
+bky_std,TEXT_CREATE_JOIN_TOOLTIP,"Add, remove, or reorder sections to reconfigure this text block.","Toevoegen, verwijderen of volgorde wijzigen van secties om dit tekstblok opnieuw in te stellen."
+bky_std,TEXT_GET_SUBSTRING_END_FROM_END,to letter # from end,van letter # tot einde
+bky_std,TEXT_GET_SUBSTRING_END_FROM_START,to letter #,naar letter #
+bky_std,TEXT_GET_SUBSTRING_END_LAST,to last letter,naar laatste letter
+bky_std,TEXT_GET_SUBSTRING_HELPURL,https://github.com/google/blockly/wiki/Text#extracting-a-region-of-text,https://github.com/google/blockly/wiki/Text#extracting-a-region-of-text
+bky_std,TEXT_GET_SUBSTRING_INPUT_IN_TEXT,in text,in tekst
+bky_std,TEXT_GET_SUBSTRING_START_FIRST,get substring from first letter,haal subtekst op van eerste letter
+bky_std,TEXT_GET_SUBSTRING_START_FROM_END,get substring from letter # from end,haal subtekst op vanaf letter # vanaf einde
+bky_std,TEXT_GET_SUBSTRING_START_FROM_START,get substring from letter #,haal subtekst op vanaf letter #
+bky_std,TEXT_GET_SUBSTRING_TAIL,,
+bky_std,TEXT_GET_SUBSTRING_TOOLTIP,Returns a specified portion of the text.,Geeft het opgegeven onderdeel van de tekst terug.
+bky_std,TEXT_INDEXOF_HELPURL,https://github.com/google/blockly/wiki/Text#finding-text,https://github.com/google/blockly/wiki/Text#finding-text
+bky_std,TEXT_INDEXOF_OPERATOR_FIRST,find first occurrence of text,zoek eerste voorkomen van tekst
+bky_std,TEXT_INDEXOF_OPERATOR_LAST,find last occurrence of text,zoek het laatste voorkomen van tekst
+bky_std,TEXT_INDEXOF_TITLE,in text %1 %2 %3,in tekst %1 %2 %3
+bky_std,TEXT_INDEXOF_TOOLTIP,Returns the index of the first/last occurrence of the first text in the second text. Returns %1 if text is not found.,Geeft de index terug van het eerste of laatste voorkomen van de eerste tekst in de tweede tekst. Geeft %1 terug als de tekst niet gevonden is.
+bky_std,TEXT_ISEMPTY_HELPURL,https://github.com/google/blockly/wiki/Text#checking-for-empty-text,https://github.com/google/blockly/wiki/Text#checking-for-empty-text
+bky_std,TEXT_ISEMPTY_TITLE,%1 is empty,%1 is leeg
+bky_std,TEXT_ISEMPTY_TOOLTIP,Returns true if the provided text is empty.,"Geeft ""waar"" terug, als de opgegeven tekst leeg is."
+bky_std,TEXT_JOIN_HELPURL,https://github.com/google/blockly/wiki/Text#text-creation,https://github.com/google/blockly/wiki/Text#text-creation
+bky_std,TEXT_JOIN_TITLE_CREATEWITH,create text with,maak tekst met
+bky_std,TEXT_JOIN_TOOLTIP,Create a piece of text by joining together any number of items.,Maakt een stuk tekst door één of meer items samen te voegen.
+bky_std,TEXT_LENGTH_HELPURL,https://github.com/google/blockly/wiki/Text#text-modification,https://github.com/google/blockly/wiki/Text#text-modification
+bky_std,TEXT_LENGTH_TITLE,length of %1,lengte van %1
+bky_std,TEXT_LENGTH_TOOLTIP,Returns the number of letters (including spaces) in the provided text.,Geeft het aantal tekens terug (inclusief spaties) in de opgegeven tekst.
+bky_std,TEXT_PRINT_HELPURL,https://github.com/google/blockly/wiki/Text#printing-text,https://github.com/google/blockly/wiki/Text#printing-text
+bky_std,TEXT_PRINT_TITLE,print %1,tekst weergeven: %1
+bky_std,TEXT_PRINT_TOOLTIP,"Print the specified text, number or other value.","Drukt de opgegeven tekst, getal of een andere waarde af."
+bky_std,TEXT_PROMPT_HELPURL,https://github.com/google/blockly/wiki/Text#getting-input-from-the-user,https://github.com/google/blockly/wiki/Text#getting-input-from-the-user
+bky_std,TEXT_PROMPT_TOOLTIP_NUMBER,Prompt for user for a number.,Vraagt de gebruiker om een getal in te voeren.
+bky_std,TEXT_PROMPT_TOOLTIP_TEXT,Prompt for user for some text.,Vraagt de gebruiker om invoer.
+bky_std,TEXT_PROMPT_TYPE_NUMBER,prompt for number with message,vraagt de gebruiker om een getal met de tekst
+bky_std,TEXT_PROMPT_TYPE_TEXT,prompt for text with message,vraagt om invoer met bericht
+bky_std,TEXT_REPLACE_HELPURL,https://github.com/google/blockly/wiki/Text#replacing-substrings,https://github.com/google/blockly/wiki/Text#replacing-substrings
+bky_std,TEXT_REPLACE_MESSAGE0,replace %1 with %2 in %3,vervang %1 door %2 in %3
+bky_std,TEXT_REPLACE_TOOLTIP,Replace all occurances of some text within some other text.,Vervang alle voorkomens van tekst in een andere tekst.
+bky_std,TEXT_REVERSE_HELPURL,https://github.com/google/blockly/wiki/Text#reversing-text,https://github.com/google/blockly/wiki/Text#reversing-text
+bky_std,TEXT_REVERSE_MESSAGE0,reverse %1,%1 omkeren
+bky_std,TEXT_REVERSE_TOOLTIP,Reverses the order of the characters in the text.,Keert de volgorde van de tekens in de tekst om.
+bky_std,TEXT_TEXT_HELPURL,https://en.wikipedia.org/wiki/String_(computer_science),https://nl.wikipedia.org/wiki/String_%28informatica%29
+bky_std,TEXT_TEXT_TOOLTIP,"A letter, word, or line of text.","Een letter, woord of een regel tekst."
+bky_std,TEXT_TRIM_HELPURL,https://github.com/google/blockly/wiki/Text#trimming-removing-spaces,https://github.com/google/blockly/wiki/Text#trimming-removing-spaces
+bky_std,TEXT_TRIM_OPERATOR_BOTH,trim spaces from both sides of,spaties van beide kanten afhalen van
+bky_std,TEXT_TRIM_OPERATOR_LEFT,trim spaces from left side of,spaties van de linkerkant verwijderen van
+bky_std,TEXT_TRIM_OPERATOR_RIGHT,trim spaces from right side of,spaties van de rechterkant verwijderen van
+bky_std,TEXT_TRIM_TOOLTIP,Return a copy of the text with spaces removed from one or both ends.,Geeft een kopie van de tekst met verwijderde spaties van één of beide kanten.
+bky_std,TODAY,Today,Vandaag
+bky_std,UNDO,Undo,Ongedaan maken
+bky_std,UNNAMED_KEY,unnamed,zonder naam
+bky_std,VARIABLES_DEFAULT_NAME,item,item
+bky_std,VARIABLES_GET_CREATE_SET,Create 'set %1',"Maak ""verander %1"""
+bky_std,VARIABLES_GET_HELPURL,https://github.com/google/blockly/wiki/Variables#get,https://github.com/google/blockly/wiki/Variables#get
+bky_std,VARIABLES_GET_TOOLTIP,Returns the value of this variable.,Geeft de waarde van deze variabele.
+bky_std,VARIABLES_SET,set %1 to %2,stel %1 in op %2
+bky_std,VARIABLES_SET_CREATE_GET,Create 'get %1',Maak 'opvragen van %1'
+bky_std,VARIABLES_SET_HELPURL,https://github.com/google/blockly/wiki/Variables#set,https://github.com/google/blockly/wiki/Variables#set
+bky_std,VARIABLES_SET_TOOLTIP,Sets this variable to be equal to the input.,Verandert de waarde van de variabele naar de waarde van de invoer.
+bky_std,VARIABLE_ALREADY_EXISTS,A variable named '%1' already exists.,"Er bestaat al een variabele met de naam ""%1""."
+bky_std,VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE,A variable named '%1' already exists for another type: '%2'.,Een variabele met de naam '%1' bestaat al voor een ander soort variabele: '%2'.
+bky_std,WORKSPACE_ARIA_LABEL,Blockly Workspace,Blockly werkruimte
+bky_std,WORKSPACE_COMMENT_DEFAULT_TEXT,Say something...,Zeg iets...
+bky_std,CONTROLS_FOREACH_INPUT_DO,do,voer uit
+bky_std,CONTROLS_FOR_INPUT_DO,do,voer uit
+bky_std,CONTROLS_IF_ELSEIF_TITLE_ELSEIF,else if,anders als
+bky_std,CONTROLS_IF_ELSE_TITLE_ELSE,else,anders
+bky_std,CONTROLS_IF_IF_TITLE_IF,if,als
+bky_std,CONTROLS_IF_MSG_THEN,do,voer uit
+bky_std,CONTROLS_WHILEUNTIL_INPUT_DO,do,voer uit
+bky_std,LISTS_CREATE_WITH_ITEM_TITLE,item,item
+bky_std,LISTS_GET_INDEX_HELPURL,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list,https://github.com/google/blockly/wiki/Lists#getting-items-from-a-list
+bky_std,LISTS_GET_INDEX_INPUT_IN_LIST,in list,in lijst
+bky_std,LISTS_GET_SUBLIST_INPUT_IN_LIST,in list,in lijst
+bky_std,LISTS_INDEX_OF_INPUT_IN_LIST,in list,in lijst
+bky_std,LISTS_SET_INDEX_INPUT_IN_LIST,in list,in lijst
+bky_std,MATH_CHANGE_TITLE_ITEM,item,item
+bky_std,PROCEDURES_DEFRETURN_COMMENT,Describe this function...,Deze functie beschrijven...
+bky_std,PROCEDURES_DEFRETURN_DO,,
+bky_std,PROCEDURES_DEFRETURN_PROCEDURE,do something,doe iets
+bky_std,PROCEDURES_DEFRETURN_TITLE,to,om
+bky_std,TEXT_APPEND_VARIABLE,item,item
+bky_std,TEXT_CREATE_JOIN_ITEM_TITLE_ITEM,item,item
+bky_std,MATH_HUE,230,230
+bky_std,LOOPS_HUE,120,120
+bky_std,LISTS_HUE,260,260
+bky_std,LOGIC_HUE,210,210
+bky_std,VARIABLES_HUE,330,330
+bky_std,TEXTS_HUE,160,160
+bky_std,PROCEDURES_HUE,290,290
+bky_std,COLOUR_HUE,20,20
+bky_std,VARIABLES_DYNAMIC_HUE,310,310
+bky_std,CROSS_TAB_COPY,Copy,Kopiëren
+bky_std,CROSS_TAB_PASTE,Paste,Plakken
+bky_custom,CONTROLS_REPEAT_TITLE,repeat %1 times,herhaal %1 keer
+bky_custom,DELETE_X_BLOCKS,Delete,Verwijderen
+bky_custom,DELETE_BLOCK,Delete,Verwijderen
+bky_custom,WITH_FORWARD,with forward,met voorwaarts
+bky_custom,ON_PORT,on,op
+bky_custom,SET_UP,set up,stel in
+bky_custom,PROGRAM_START,program,programma
+bky_custom,Stop.COAST,coast,uitrollen
+bky_custom,STOP_COAST_DESCRIPTION,coast freely,vrij uitrollen
+bky_custom,Stop.BRAKE,brake,remmen
+bky_custom,STOP_BRAKE_DESCRIPTION,brake by friction,remmen door wrijving
+bky_custom,Stop.HOLD,hold,vasthouden
+bky_custom,STOP_HOLD_DESCRIPTION,hold this position,houd deze positie vast
+bky_custom,Stop.NONE,continue,doorgaan
+bky_custom,STOP_NONE_DESCRIPTION,continue moving,doorgaan met bewegen
+bky_custom,RENAME_ELIPSIS,Rename...,Kies naam...
+bky_custom,CONTROLS_ITER_FOR,for,voor
+bky_custom,CONTROLS_ITER_IN,in,in
+bky_custom,WARN_LOOP_VAR,Can only be used within loop block with the same variable.,Alleen te gebruiken in een lusblok met dezelfde variabele.
+bky_custom,WARN_FUNC_VAR,Can only be used within function with this argument,Alleen te gebruiken in een functie met dit argument.
+bky_custom,RANGE,range,reeks
+bky_custom,MULTITASK,multitask until %3 done,multitask tot %3 klaar
+bky_custom,MULTITASK_ALL,all,alles
+bky_custom,MULTITASK_RACE,one task,één taak
+bky_custom,MULTITASK_ALL_DESCRIPTION,all: Wait for all tasks to finish.,alles: Wacht tot alle taken klaar zijn.
+bky_custom,MULTITASK_RACE_DESCRIPTION,"one task: Finish one task, then cancel the others.","één taak: Maak één taak af, en stop dan de rest."
+bky_custom,SEP_SPACE_DESCRIPTION,space,spatie
+bky_custom,SEP_COMMA_ONLY_DESCRIPTION,comma,komma
+bky_custom,SEP_COMMA_SPACE_DESCRIPTION,comma with space,komma met spatie
+bky_custom,TRUE,true,waar
+bky_custom,FALSE,false,onwaar
+bky_custom,NONE,none,niets
+bky_custom,EQ_DESCRIPTION,=    True if the values are equal,=    Waar als de waarden gelijk zijn
+bky_custom,NEQ_DESCRIPTION,≠   True if the values are different,≠   Waar als de waarden verschillend zijn
+bky_custom,LT_DESCRIPTION,<   True if left value is smaller,<   Waar als linkerwaarde kleiner is
+bky_custom,LTE_DESCRIPTION,"≤   True if left value is smaller, or the same",≤   Waar als linkerwaarde kleiner of gelijk is
+bky_custom,GT_DESCRIPTION,>   True if left value is bigger,>   Waar als linkerwaarde groter is
+bky_custom,GTE_DESCRIPTION,"≥   True if left value is bigger, or the same",≥   Waar als linkerwaarde groter of gelijk is
+bky_custom,MATH_RANDOM_INT_TITLE,random from %1 to %2,willekeurig tussen %1 en %2
+bky_custom,LIST_LITERAL,list,lijst
+bky_custom,LIST_IS_IN,in,in
+bky_custom,COLOR_TO_DETECT_SETUP,to match only,om alleen te matchen
+bky_custom,COLOR_CHOOSE_COLOR,choose color,kies kleur
+bky_custom,MOTOR_RUN_AT_SPEED,run at,draai op
+bky_custom,MOTOR_STOP,stop,stop
+bky_custom,MOTOR_TRACK,track,houd vast op
+bky_custom,MOTOR_MEASURE,get,meet
+bky_custom,MOTOR_RESET_ANGLE,reset angle to,reset hoek naar
+bky_custom,MOTOR_GET_ANGLE_DESCRIPTION,angle: °,hoek: °
+bky_custom,MOTOR_GET_SPEED_DESCRIPTION,speed: °/s,snelheid: °/s
+bky_custom,MOTOR_GET_SPEED_AVERAGE,average speed,gemiddelde snelheid
+bky_custom,MOTOR_GET_SPEED_AVERAGE_DESCRIPTION,average speed: °/s,gemiddelde snelheid: °/s
+bky_custom,MOTOR_LOAD,load,belasting
+bky_custom,MOTOR_LOAD_DESCRIPTION,load: mNm,belasting: mNm
+bky_custom,MOTOR_STALLED,stalled,vastgelopen
+bky_custom,MOTOR_STALLED_DESCRIPTION,stalled: true or false,vastgelopen: waar of onwaar
+bky_custom,MOTOR_GET_SPEED_AVERAGE_DURING,during,gedurende
+bky_custom,MOTOR_POWER_AT,power at,drijf aan op
+bky_custom,MOTOR_CONFIGURE,configure,configureer
+bky_custom,MOTOR_DUTY_CYCLE,duty cycle,arbeidscyclus
+bky_custom,MOTOR_THEN,then,dan
+bky_custom,MOTOR_POWER_LIMIT,with power limit,met vermogenslimiet
+bky_custom,MOTOR_RUN_FOREVER,forever,oneindig
+bky_custom,MOTOR_RUN_FOREVER_DESCRIPTION,rotate forever (until you use another motor block or the program ends),draai oneindig (totdat je een ander motorblok gebruikt of het programma stopt)
+bky_custom,MOTOR_RUN_FOR,by,met
+bky_custom,MOTOR_RUN_FOR_DESCRIPTION,rotate by the given angle,draai met de gegeven hoek
+bky_custom,MOTOR_RUN_TO,towards,naar
+bky_custom,MOTOR_RUN_TO_DESCRIPTION,rotate towards the angle target,draai naar de hoek
+bky_custom,MOTOR_RUN_UNTIL_STALLED,to end stop,tot eindpunt
+bky_custom,MOTOR_RUN_UNTIL_STALLED_DESCRIPTION,rotate to the end stop,draai naar het eindpunt
+bky_custom,MOTOR_RUN_TO_CENTER,to center,naar midden
+bky_custom,MOTOR_RUN_TO_CENTER_DESCRIPTION,rotate to the center between two end stops,draai naar het midden tussen twee eindpunten
+bky_custom,MOTOR_TARGET_TOLERANCES,tolerances,toleranties
+bky_custom,MOTOR_TARGET_TOLERANCES_DESCRIPTION,tolerances for movements,toleranties voor bewegingen
+bky_custom,MOTOR_ANGLE,angle,hoek
+bky_custom,MOTOR_SPEED,speed,snelheid
+bky_custom,MOTOR_ACCELERATION,acceleration,versnelling
+bky_custom,MOTOR_ACCELERATION_DESCRIPTION,acceleration and deceleration,versnelling en vertraging
+bky_custom,MOTOR_MAX_SPEED,maximum speed,maximale snelheid
+bky_custom,MOTOR_MAX_SPEED_DESCRIPTION,maximum speed,maximum snelheid
+bky_custom,MOTOR_MAX_TORQUE,maximum torque,maximum koppel
+bky_custom,MOTOR_MAX_TORQUE_DESCRIPTION,maximum feedback torque,maximum feedback koppel
+bky_custom,MOTOR_MAX_VOLTAGE,maximum voltage,maximale spanning
+bky_custom,MOTOR_MAX_VOLTAGE_DESCRIPTION,maximum voltage,maximale spanning
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT,straight,recht
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT_DESCRIPTION,straight for a given distance,recht voor een gegeven afstand
+bky_custom,DRIVEBASE_DRIVE_STRAIGHT_FOR,for,voor
+bky_custom,DRIVEBASE_STRAIGHT_SPEED,drive speed,rijsnelheid
+bky_custom,DRIVEBASE_STRAIGHT_SPEED_DESCRIPTION,drive speed,rijsnelheid
+bky_custom,DRIVEBASE_STRAIGHT_ACCELERATION,drive acceleration,rijversnelling
+bky_custom,DRIVEBASE_STRAIGHT_ACCELERATION_DESCRIPTION,drive acceleration,rijversnelling
+bky_custom,DRIVEBASE_TURN_RATE,turn speed,draaisnelheid
+bky_custom,DRIVEBASE_TURN_RATE_DESCRIPTION,turn speed,draaisnelheid
+bky_custom,DRIVEBASE_TURN_ACCELERATION,turn acceleration,draaiversnelling
+bky_custom,DRIVEBASE_TURN_ACCELERATION_DESCRIPTION,turn acceleration,draaiversnelling
+bky_custom,DRIVEBASE_DRIVE,drive,rijd
+bky_custom,DRIVEBASE_DRIVE_FOREVER,forever,oneindig
+bky_custom,DRIVEBASE_TURN_AT_SPEED,at,op
+bky_custom,DRIVEBASE_TURN_AT_RATE,and turn at,en stuur met
+bky_custom,DRIVEBASE_DRIVE_FOREVER_DESCRIPTION,forever (until you change course or stop),oneindig (totdat je van koers verandert of stopt)
+bky_custom,DRIVEBASE_DRIVE_TURN,turn,draai
+bky_custom,DRIVEBASE_DRIVE_TURN_DESCRIPTION,turn in place by a given angle,draai op de plaats met een gegeven hoek
+bky_custom,DRIVEBASE_DRIVE_CURVE,curve,bocht
+bky_custom,DRIVEBASE_DRIVE_CURVE_DESCRIPTION,curve by a given angle and radius,draai met een gegeven hoek en straal
+bky_custom,DRIVEBASE_DRIVE_CURVE_RADIUS,with radius,met straal
+bky_custom,DRIVEBASE_DRIVE_ARC_ANGLE,curve,bocht
+bky_custom,DRIVEBASE_DRIVE_ARC_ANGLE_DESCRIPTION,curve by a given angle and radius,bocht met een gegeven hoek en straal
+bky_custom,DRIVEBASE_DRIVE_ARC_DISTANCE,veer,zwenk
+bky_custom,DRIVEBASE_DRIVE_ARC_DISTANCE_DESCRIPTION,veer along a circle for a given distance,zwenk langs een cirkel voor een gegeven afstand
+bky_custom,DRIVEBASE_RESET,reset distance and angle,reset afstand en hoek
+bky_custom,DRIVEBASE_RESET_WITH_VALUES,reset distance %4 angle %5,reset afstand naar %4 en hoek naar %5
+bky_custom,DRIVEBASE_USE_GYRO,use,gebruik
+bky_custom,DRIVEBASE_USE_GYRO_TRUE,gyro,gyro
+bky_custom,DRIVEBASE_USE_GYRO_FALSE,rotation sensors,rotatiesensoren
+bky_custom,DRIVEBASE_USE_GYRO_TRUE_DESCRIPTION,use gyro for turning and driving straight,gebruik gyro voor draaien en recht rijden
+bky_custom,DRIVEBASE_USE_GYRO_FALSE_DESCRIPTION,use rotation sensors for turning and driving straight,gebruik rotatiesensoren voor draaien en recht rijden
+bky_custom,DRIVEBASE_MEASURE,get,meet
+bky_custom,DRIVEBASE_GET_SPEED,speed,snelheid
+bky_custom,DRIVEBASE_GET_SPEED_DESCRIPTION,drive speed: mm/s,rijsnelheid: mm/s
+bky_custom,DRIVEBASE_GET_DISTANCE,distance,afstand
+bky_custom,DRIVEBASE_GET_DISTANCE_DESCRIPTION,driven distance: mm,gereden afstand: mm
+bky_custom,DRIVEBASE_GET_ANGLE,angle,hoek
+bky_custom,DRIVEBASE_GET_ANGLE_DESCRIPTION,driven angle: °,gereden hoek: °
+bky_custom,DRIVEBASE_GET_TURN_RATE,turn rate,draaisnelheid
+bky_custom,DRIVEBASE_GET_TURN_RATE_DESCRIPTION,turn rate: °/s,draaisnelheid: °/s
+bky_custom,DRIVEBASE_START_DRIVING,start at,start met
+bky_custom,DRIVEBASE_START_TURNING,and,en
+bky_custom,DRIVEBASE_MOVE,drive,rijd
+bky_custom,DRIVEBASE_MOVE_STRAIGHT,straight,rechtuit
+bky_custom,DRIVEBASE_MOVE_STRAIGHT_DESCRIPTION,straight,rechtuit
+bky_custom,DRIVEBASE_MOVE_STRAIGHT_FOR,for,voor
+bky_custom,DRIVEBASE_MOVE_TURN,turn,draai
+bky_custom,DRIVEBASE_MOVE_TURN_DESCRIPTION,turn,draai
+bky_custom,DRIVEBASE_MOVE_TURN_RELATIVE,by,met
+bky_custom,DRIVEBASE_MOVE_TURN_RELATIVE_DESCRIPTION,relative: by a given angle,relatief: met een gegeven hoek
+bky_custom,DRIVEBASE_MOVE_TURN_ABSOLUTE,to,naar
+bky_custom,DRIVEBASE_MOVE_TURN_ABSOLUTE_DESCRIPTION,absolute: to a target angle,absoluut: naar een doelhoek
+bky_custom,DRIVEBASE_MOVE_ARC,curve,bocht
+bky_custom,DRIVEBASE_MOVE_ARC_DESCRIPTION,curve,bocht
+bky_custom,DRIVEBASE_MOVE_ARC_RADIUS,radius,straal
+bky_custom,DRIVEBASE_MOVE_ARC_ANGLE,by,met
+bky_custom,DRIVEBASE_MOVE_ARC_ANGLE_DESCRIPTION,by an angle,met een hoek
+bky_custom,DRIVEBASE_MOVE_ARC_DISTANCE,for,voor
+bky_custom,DRIVEBASE_MOVE_ARC_DISTANCE_DESCRIPTION,for a distance,voor een afstand
+bky_custom,DRIVEBASE_MOVE_COORDINATES,coordinates,coördinaten
+bky_custom,DRIVEBASE_MOVE_COORDINATES_X,Δ x,Δ x
+bky_custom,DRIVEBASE_MOVE_COORDINATES_Y,Δ y,Δ y
+bky_custom,DRIVEBASE_MOVE_COORDINATES_DESCRIPTION,coordinates,coördinaten
+bky_custom,CHANNEL,channel,kanaal
+bky_custom,CHANNELS,channels,kanalen
+bky_custom,BLE_RADIO_BROADCAST_CHANNEL,broadcast channel,zendkanaal
+bky_custom,BLE_RADIO_OBSERVE_CHANNEL,observe channel,ontvangkanaal
+bky_custom,BLE_RADIO_OBSERVE_CHANNELS,observe channels,ontvangkanalen
+bky_custom,OBSERVE_CHANNEL_UNAVAILABLE,Configure an observe channel first,Stel eerst een ontvangkanaal in
+bky_custom,BROADCAST,broadcast,zend uit
+bky_custom,OBSERVE,observe,luister naar
+bky_custom,UNPACK_INTO,unpack %1 to,pak %1 uit in
+bky_custom,WAIT_UNTIL,wait until,wacht tot
+bky_custom,WAIT,wait,wacht
+bky_custom,WAIT_FOREVER,wait forever,wacht oneindig
+bky_custom,BUTTON_PRESSED,is pressed,is ingedrukt
+bky_custom,LEFT_DOWN,left down,links omlaag
+bky_custom,LEFT_MINUS,left ━,links ━
+bky_custom,DOWN,down,omlaag
+bky_custom,RIGHT_DOWN,right down,rechts omlaag
+bky_custom,RIGHT_MINUS,right ━,rechts ━
+bky_custom,LEFT,left,links
+bky_custom,CENTER,center,midden
+bky_custom,RIGHT,right,rechts
+bky_custom,LEFT_UP,left up,links omhoog
+bky_custom,LEFT_PLUS,left ✚,links ✚
+bky_custom,UP,up,omhoog
+bky_custom,BLUETOOTH,bluetooth,bluetooth
+bky_custom,RIGHT_UP,right up,rechts omhoog
+bky_custom,RIGHT_PLUS,right ✚,rechts ✚
+bky_custom,BUTTON_ANY,any button,ten minste één knop
+bky_custom,LIGHT_REFLECTION,reflected light,gereflecteerd licht
+bky_custom,LIGHT_AMBIENT,ambient light,omgevingslicht
+bky_custom,LIGHT_REFLECTED_DESCRIPTION,reflected light: %,gereflecteerd licht: %
+bky_custom,LIGHT_AMBIENT_DESCRIPTION,ambient light: %,omgevingslicht: %
+bky_custom,CONNECT_ANY,scan and connect,scan en verbind
+bky_custom,CONNECT_ANY_DESCRIPTION,scan and connect to the first available remote,scan en verbind met de eerste beschikbare afstandsbediening
+bky_custom,CONNECT_NAME,connect to,verbind met
+bky_custom,CONNECT_NAME_DESCRIPTION,connect to a specific remote,verbind met een specifieke afstandsbediening
+bky_custom,CONNECT_RENAME,connect and rename to,verbind en verander de naam
+bky_custom,CONNECT_RENAME_DESCRIPTION,"scan and connect to the first available remote, then rename it","scan en verbind met de eerste beschikbare afstandsbediening, en verander dan de naam"
+bky_custom,MAX_ONE_REMOTE,There can only be one remote.,Er kan maar één afstandsbediening zijn.
+bky_custom,MAX_ONE_HUB,There can only be one hub.,Er kan maar één hub zijn.
+bky_custom,MAX_ONE_BLE_RADIO,There can only be one Bluetooth radio.,Er kan maar één Bluetooth-radio zijn.
+bky_custom,HUB_AXIS_TOP,top side axis,as bovenzijde
+bky_custom,HUB_AXIS_FRONT,front side axis,as voorzijde
+bky_custom,VECTOR,vector,vector
+bky_custom,IMU_MEASURE,get,meet
+bky_custom,IMU_GET_PITCH,pitch,helling (pitch)
+bky_custom,IMU_GET_PITCH_DESCRIPTION,pitch: °,helling (pitch): °
+bky_custom,IMU_GET_ROLL,roll,kanteling (roll)
+bky_custom,IMU_GET_ROLL_DESCRIPTION,roll: °,kanteling (roll): °
+bky_custom,IMU_GET_ACCELERATION,acceleration,versnelling
+bky_custom,IMU_GET_ACCELERATION_DESCRIPTION,acceleration: mm/s²,versnelling: mm/s²
+bky_custom,IMU_GET_ANGULAR_VELOCITY,angular velocity,hoeksnelheid
+bky_custom,IMU_GET_ANGULAR_VELOCITY_DESCRIPTION,angular velocity: °/s,hoeksnelheid: °/s
+bky_custom,IMU_GET_ROTATION,rotation,rotatie
+bky_custom,IMU_GET_ROTATION_DESCRIPTION,rotation: °,rotatie: °
+bky_custom,IMU_GET_ALONG_AXIS,along,langs
+bky_custom,IMU_GET_AROUND_AXIS,around,rond
+bky_custom,IMU_GET_HEADING,get heading,meet richtingshoek
+bky_custom,IMU_RESET_HEADING,reset heading to,reset richtingshoek naar
+bky_custom,IMU_GET_READY,ready,klaar
+bky_custom,IMU_GET_READY_DESCRIPTION,check if gyro is ready for use,controleer of gyro klaar is voor gebruik
+bky_custom,IMU_GET_STATIONARY,stationary,stilstaand
+bky_custom,IMU_GET_STATIONARY_DESCRIPTION,check if hub is currently stationary,controleer of de hub momenteel stilstaat
+bky_custom,IMU_GYRO_IS,is,is
+bky_custom,COLOR_GET_COLOR,color,kleur
+bky_custom,COLOR_GET_COLOR_DESCRIPTION,best matching color,best matchende kleur
+bky_custom,COLOR_GET_HSV,hsv,hsv
+bky_custom,COLOR_GET_HSV_DESCRIPTION,"hue (h), saturation (s), and brightness value (v) measurement","kleurtoon (h), verzadiging (s) en helderheid (v)"
+bky_custom,BLUE_1,blue 1,blauw 1
+bky_custom,BLUE_1_DESCRIPTION,"channel 1, blue","kanaal 1, blauw"
+bky_custom,BLUE_2,blue 2,blauw 2
+bky_custom,BLUE_2_DESCRIPTION,"channel 2, blue","kanaal 2, blauw"
+bky_custom,BLUE_3,blue 3,blauw 3
+bky_custom,BLUE_3_DESCRIPTION,"channel 3, blue","kanaal 3, blauw"
+bky_custom,BLUE_4,blue 4,blauw 4
+bky_custom,BLUE_4_DESCRIPTION,"channel 4, blue","kanaal 4, blauw"
+bky_custom,RED_1,red 1,rood 1
+bky_custom,RED_1_DESCRIPTION,"channel 1, red","kanaal 1, rood"
+bky_custom,RED_2,red 2,rood 2
+bky_custom,RED_2_DESCRIPTION,"channel 2, red","kanaal 2, rood"
+bky_custom,RED_3,red 3,rood 3
+bky_custom,RED_3_DESCRIPTION,"channel 3, red","kanaal 3, rood"
+bky_custom,RED_4,red 4,rood 4
+bky_custom,RED_4_DESCRIPTION,"channel 4, red","kanaal 4, rood"
+bky_custom,FORCE,force,kracht
+bky_custom,DISTANCE,distance,afstand
+bky_custom,PRINT,print,print
+bky_custom,LIGHT,light,licht
+bky_custom,LIGHT_ON,on,aan
+bky_custom,LIGHT_OFF,off,uit
+bky_custom,STOPWATCH_TIME,time,tijd
+bky_custom,STOPWATCH_PAUSE,pause,pauzeren
+bky_custom,STOPWATCH_RESET,reset,resetten
+bky_custom,STOPWATCH_RESET_DESCRIPTION,reset time to 0 ms,tijd resetten naar 0 ms
+bky_custom,STOPWATCH_RESUME,resume,hervatten
+bky_custom,APP_DATA_ONE_VALUE,value,waarde
+bky_custom,APP_DATA_ONE_VALUE_DESCRIPTION,one value (0 is first),één waarde (0 is de eerste)
+bky_custom,APP_DATA_ALL_VALUES,all values,alle waarden
+bky_custom,APP_DATA_ALL_VALUES_DESCRIPTION,list of all values,lijst van alle waarden
+bky_custom,APP_DATA_COLOR_TRACKER,color tracker,kleurvolger
+bky_custom,APP_DATA_COLOR_TRACKER_DESCRIPTION,track a colored object,volg een gekleurd object
+bky_custom,APP_DATA_LINE_FOLLOWER,line follower,lijnvolger
+bky_custom,APP_DATA_LINE_FOLLOWER_DESCRIPTION,follow a line on the ground,volg een lijn op de grond
+bky_custom,APP_DATA_LINE_FOLLOWER_DARK_LINE,dark line,donkere lijn
+bky_custom,APP_DATA_LINE_FOLLOWER_DARK_LINE_DESCRIPTION,follow a dark line on a light surface,volg een donkere lijn op een lichte ondergrond
+bky_custom,APP_DATA_LINE_FOLLOWER_LIGHT_LINE,light line,lichte lijn
+bky_custom,APP_DATA_LINE_FOLLOWER_LIGHT_LINE_DESCRIPTION,follow a light line on a dark surface,volg een lichte lijn op een donkere ondergrond
+bky_custom,APP_DATA_CUSTOM,custom,handmatig
+bky_custom,APP_DATA_CUSTOM_DESCRIPTION,use a custom data format,gebruik je eigen dataformaat
+bky_custom,APP_DATA_FORMAT,format,formaat
+bky_custom,APP_DATA_MODE,mode,modus
+bky_custom,APP_DATA_TEACHABLE_MACHINE,classification,classificatie
+bky_custom,APP_DATA_TEACHABLE_MACHINE_DESCRIPTION,classify objects using your own model,classificeer objecten met je eigen model
+bky_custom,APP_DATA_TEACHABLE_MACHINE_MODEL,model,model
+bky_custom,LIGHT_MATRIX_DISPLAY,display,toon
+bky_custom,LIGHT_MATRIX_OFF,off,uit
+bky_custom,LIGHT_MATRIX_OFF_DESCRIPTION,turn display off,zet display uit
+bky_custom,LIGHT_MATRIX_PIXEL,pixel,pixel
+bky_custom,LIGHT_MATRIX_PIXEL_DESCRIPTION,pixel (one light),pixel (één licht)
+bky_custom,LIGHT_MATRIX_NUMBER,number,getal
+bky_custom,LIGHT_MATRIX_NUMBER_DESCRIPTION,number from 0 to 99,getal van 0 tot 99
+bky_custom,LIGHT_MATRIX_SYMBOL,letter,letter
+bky_custom,LIGHT_MATRIX_SYMBOL_DESCRIPTION,letter (A-Z) or symbol (! # $ % & < = > ? @),letter (A-Z) of symbool (! # $ % & < = > ? @)
+bky_custom,LIGHT_MATRIX_ROW,row,rij
+bky_custom,LIGHT_MATRIX_COL,column,kolom
+bky_custom,LIGHT_MATRIX_BRIGHTNESS,at,op
+bky_custom,BEEP,beep at %4 for %5,piep op %4 voor %5
+bky_custom,TASK_DEFINE,Make your own task,Maak je eigen taak
+bky_custom,TASK_MULTITASK,Multitask,Multitask
+bky_custom,TASK_MY_TASKS,My tasks,Mijn taken
+bky_custom,TASK_EXTERNAL,External tasks,Externe taken
+bky_custom,IMPORT_FROM,from %3 import %4,van %3 importeer %4
+bky_custom,BATTERY_MEASURE,battery,batterij
+bky_custom,BATTERY_GET_VOLTAGE,voltage,spanning
+bky_custom,BATTERY_GET_VOLTAGE_DESCRIPTION,voltage: mV,spanning: mV
+bky_custom,BATTERY_GET_CURRENT,current,stroom
+bky_custom,BATTERY_GET_CURRENT_DESCRIPTION,current: mA,stroom: mA
+bky_custom,LB,left bumper,linker bumper
+bky_custom,RB,right bumper,rechter bumper
+bky_custom,LJ,left joystick,linker joystick
+bky_custom,RJ,right joystick,rechter joystick
+bky_custom,XBOX_LT,left trigger,linker trigger
+bky_custom,XBOX_RT,right trigger,rechter trigger
+bky_custom,XBOX_LJ_X,left joystick horizontal,linker joystick horizontaal
+bky_custom,XBOX_LJ_Y,left joystick vertical,linker joystick verticaal
+bky_custom,XBOX_RJ_X,right joystick horizontal,rechter joystick horizontaal
+bky_custom,XBOX_RJ_Y,right joystick vertical,rechter joystick verticaal
+bky_custom,XBOX_DPAD,direction pad,richtingsknop
+bky_custom,MENU,menu,menu
+bky_custom,VIEW,view,weergave
+bky_custom,GUIDE,guide,gids
+bky_custom,UPLOAD,upload,delen
+bky_custom,CAR_WITH_STEER,with steering,met stuur
+bky_custom,CAR_WITH_DRIVE,and drive,en aandrijving
+bky_custom,CAR_STEER_BY,steer by,stuur met
+bky_custom,CAR_DRIVE_AT,drive at,rijd met
+bky_custom,CAR_DRIVE_AT_SPEED,speed,snelheid
+bky_custom,CAR_DRIVE_AT_POWER,power,vermogen
+bky_custom,P1,paddle 1,peddel 1
+bky_custom,P2,paddle 2,peddel 2
+bky_custom,P3,paddle 3,peddel 3
+bky_custom,P4,paddle 4,peddel 4
+bky_custom,XBOX_PROFILE,profile,profiel
+bky_custom,LIST_GET,list %1 get %2,lijst %1 lees %2
+bky_custom,LIST_DO,list,lijst
+bky_custom,LIST_GET_FIRST,first,eerste
+bky_custom,LIST_GET_FIRST_DESCRIPTION,first value,eerste waarde
+bky_custom,LIST_GET_LAST,last,laatste
+bky_custom,LIST_GET_LAST_DESCRIPTION,last value,laatste waarde
+bky_custom,LIST_GET_INDEX,#,#
+bky_custom,LIST_GET_INDEX_DESCRIPTION,value at index #,waarde op index #
+bky_custom,LIST_GET_RANDOM,random,willekeurige
+bky_custom,LIST_GET_RANDOM_DESCRIPTION,random value,willekeurige waarde
+bky_custom,LIST_SET_INDEX_TO,to,op
+bky_custom,LIST_INSERT_INDEX_AS,as,op
+bky_custom,LIST_SET_INDEX,set #,zet #
+bky_custom,LIST_SET_INDEX_DESCRIPTION,set value with index # to a new value,zet waarde met index # op een nieuwe waarde
+bky_custom,LIST_SET_FIRST,set first,zet eerste
+bky_custom,LIST_SET_FIRST_DESCRIPTION,set first value to a new value,zet eerste waarde op een nieuwe waarde
+bky_custom,LIST_SET_LAST,set last,zet laatste
+bky_custom,LIST_SET_LAST_DESCRIPTION,set last value to a new value,zet laatste waarde op een nieuwe waarde
+bky_custom,LIST_REMOVE_INDEX,remove #,verwijder #
+bky_custom,LIST_REMOVE_INDEX_DESCRIPTION,remove value with index #,verwijder waarde met index #
+bky_custom,LIST_REMOVE_FIRST,remove first,verwijder eerste
+bky_custom,LIST_REMOVE_FIRST_DESCRIPTION,remove first value,verwijder eerste waarde
+bky_custom,LIST_REMOVE_LAST,remove last,verwijder laatste
+bky_custom,LIST_REMOVE_LAST_DESCRIPTION,remove last value,verwijder laatste waarde
+bky_custom,LIST_INSERT_INDEX,insert at #,voeg in op #
+bky_custom,LIST_INSERT_INDEX_DESCRIPTION,insert a new value at (before) index #,voeg een nieuwe waarde in op (vóór) index #
+bky_custom,LIST_INSERT_FIRST,prefix,voeg voorin
+bky_custom,LIST_INSERT_FIRST_DESCRIPTION,prefix a new value at the beginning,voeg een nieuwe waarde in aan het begin
+bky_custom,LIST_INSERT_LAST,append,voeg toe
+bky_custom,LIST_INSERT_LAST_DESCRIPTION,append a new value at the end,voeg een nieuwe waarde toe aan het einde
+bky_custom,DRIVEBASE_LEFT,left,links
+bky_custom,DRIVEBASE_RIGHT,right,rechts
+bky_custom,DRIVEBASE_WITH,with,met
+bky_custom,DRIVEBASE_AND,and,en
+bky_custom,HUB_SET_STOP_BUTTON,stop button is,stopknop is
+bky_custom,HUB_SHUTDOWN,shut down,afsluiten
+bky_custom,STOP_PROGRAM,stop program,stop programma
+bky_custom,GAMEPAD_RUMBLE_AT_FOR,rumble at %4 for %5,tril op %4 voor %5
+bky_custom,GAMEPAD_RUMBLE_REPEAT,times with pause,keer met pauze
+bky_custom,WARNING_CANNOT_READ_VARIABLE_IN_SETUP,Cannot read variable in setup,Kan variabele niet lezen tijdens initialisatie
+bky_custom,WARNING_SETUP_FIRST,⚠️ Click to set up.,⚠️ Klik om te configureren.
+bky_custom,READ_INPUT,read,lees
+bky_custom,READ_INPUT_FIRST_CHAR,first key,eerste toets
+bky_custom,READ_INPUT_FIRST_CHAR_DESCRIPTION,"the first (oldest) input byte, as a character key","het eerste (oudste) invoerbyte, als teken"
+bky_custom,READ_INPUT_LAST_CHAR,last key,laatste toets
+bky_custom,READ_INPUT_LAST_CHAR_DESCRIPTION,"the last (newest) input byte, as a character key","het laatste (nieuwste) invoerbyte, als teken"
+bky_custom,READ_INPUT_FIRST_BYTE,first byte,eerste byte
+bky_custom,READ_INPUT_FIRST_BYTE_DESCRIPTION,"the first (oldest) input byte, as a number (0 to 255)","het eerste (oudste) invoerbyte, als getal (0 tot 255)"
+bky_custom,READ_INPUT_LAST_BYTE,last byte,laatste byte
+bky_custom,READ_INPUT_LAST_BYTE_DESCRIPTION,"the last (newest) input byte, as a number (0 to 255)","het laatste (nieuwste) invoerbyte, als getal (0 tot 255)"
+bky_custom,SIDE_TOP,top side,bovenkant
+bky_custom,SIDE_BOTTOM,bottom side,onderkant
+bky_custom,SIDE_FRONT,front side,voorkant
+bky_custom,SIDE_BACK,back side,achterkant
+bky_custom,SIDE_LEFT,left side,linkerkant
+bky_custom,SIDE_RIGHT,right side,rechterkant
+bky_custom,SIDE_IS_UP,is up,is boven
+bky_custom,MATH_ADDITION_DESCRIPTION,+    add,+    optellen
+bky_custom,MATH_SUBTRACTION_DESCRIPTION,−    subtract,−    aftrekken
+bky_custom,MATH_MULTIPLICATION_DESCRIPTION,×    multiply,×    vermenigvuldigen
+bky_custom,MATH_DIVISION_DESCRIPTION,÷    divide,÷    delen
+bky_custom,MATH_POWER_DESCRIPTION,^    power,^    macht
+bky_custom,MATH_DIVIDE_INT,//,//
+bky_custom,MATH_DIVIDE_INT_DESCRIPTION,//    divide and discard decimals,//    delen en bewaar alleen gehele getallen
+bky_custom,IMU_HEADING_CORRECTION,heading correction,richtingscorrectie
+bky_custom,IMU_ANGULAR_VELOCITY_THRESHOLD,angular velocity threshold,hoeksnelheidsdrempelwaarde
+bky_custom,IMU_ANGULAR_VELOCITY_THRESHOLD_DESCRIPTION,angular velocity below which the hub calibrates,hoeksnelheid waaronder de hub kalibreert
+bky_custom,IMU_ACCELERATION_THRESHOLD,acceleration threshold,versnellingsdrempelwaarde
+bky_custom,IMU_ACCELERATION_THRESHOLD_DESCRIPTION,acceleration below which the hub calibrates,versnelling waaronder de hub kalibreert
+bky_custom,TEMPERATURE,temperature,temperatuur
+bky_custom,SOUNDINPUT_VOLUME,volume,volume
+bky_custom,CHANNEL_1,channel 1,kanaal 1
+bky_custom,CHANNEL_2,channel 2,kanaal 2
+bky_custom,CHANNEL_3,channel 3,kanaal 3
+bky_custom,CHANNEL_4,channel 4,kanaal 4
+bky_custom,BEACON,beacon,baken
+bky_custom,CLASS_INSTANTIATE,is a,is een
+bky_custom,CLASS_CALL_METHOD_SYNC,call,roep aan
+bky_custom,CLASS_CALL_METHOD_ASYNC,await,wacht op
+bky_custom,CLASS_CALL_METHOD_SYNC_DESCRIPTION,call a method (def),roep een methode aan (def)
+bky_custom,CLASS_CALL_METHOD_ASYNC_DESCRIPTION,await a method (async def),wacht op een methode (async def)
+bky_custom,APP_DATA_OBJECT_DETECTION,object detection,objectdetectie
+bky_custom,APP_DATA_OBJECT_DETECTION_DESCRIPTION,detect everyday objects,detecteer alledaagse objecten
+bky_custom,APP_DATA_OBJECT_DETECTION_LABEL,detect,detecteer
+bky_custom,DETECT_NONE,nothing,niets
+bky_custom,DETECT_PERSON,person,persoon
+bky_custom,DETECT_BICYCLE,bicycle,fiets
+bky_custom,DETECT_CAR,car,auto
+bky_custom,DETECT_MOTORCYCLE,motorcycle,motorfiets
+bky_custom,DETECT_AIRPLANE,airplane,vliegtuig
+bky_custom,DETECT_BUS,bus,bus
+bky_custom,DETECT_TRAIN,train,trein
+bky_custom,DETECT_TRUCK,truck,vrachtwagen
+bky_custom,DETECT_BOAT,boat,boot
+bky_custom,DETECT_TRAFFIC_LIGHT,traffic light,verkeerslicht
+bky_custom,DETECT_FIRE_HYDRANT,fire hydrant,brandkraan
+bky_custom,DETECT_STOP_SIGN,stop sign,stopbord
+bky_custom,DETECT_PARKING_METER,parking meter,parkeerautomaat
+bky_custom,DETECT_BENCH,bench,bank
+bky_custom,DETECT_BIRD,bird,vogel
+bky_custom,DETECT_CAT,cat,kat
+bky_custom,DETECT_DOG,dog,hond
+bky_custom,DETECT_HORSE,horse,paard
+bky_custom,DETECT_SHEEP,sheep,schaap
+bky_custom,DETECT_COW,cow,koe
+bky_custom,DETECT_ELEPHANT,elephant,olifant
+bky_custom,DETECT_BEAR,bear,beer
+bky_custom,DETECT_ZEBRA,zebra,zebra
+bky_custom,DETECT_GIRAFFE,giraffe,giraf
+bky_custom,DETECT_BACKPACK,backpack,rugzak
+bky_custom,DETECT_UMBRELLA,umbrella,paraplu
+bky_custom,DETECT_HANDBAG,handbag,handtas
+bky_custom,DETECT_TIE,tie,stropdas
+bky_custom,DETECT_SUITCASE,suitcase,koffer
+bky_custom,DETECT_FRISBEE,frisbee,frisbee
+bky_custom,DETECT_SKIS,skis,ski's
+bky_custom,DETECT_SNOWBOARD,snowboard,snowboard
+bky_custom,DETECT_SPORTS_BALL,sports ball,sportbal
+bky_custom,DETECT_KITE,kite,vlieger
+bky_custom,DETECT_BASEBALL_BAT,baseball bat,honkbalknuppel
+bky_custom,DETECT_BASEBALL_GLOVE,baseball glove,honkbalhandschoen
+bky_custom,DETECT_SKATEBOARD,skateboard,skateboard
+bky_custom,DETECT_SURFBOARD,surfboard,surfplank
+bky_custom,DETECT_TENNIS_RACKET,tennis racket,tennisracket
+bky_custom,DETECT_BOTTLE,bottle,fles
+bky_custom,DETECT_WINE_GLASS,wine glass,wijnglas
+bky_custom,DETECT_CUP,cup,beker
+bky_custom,DETECT_FORK,fork,vork
+bky_custom,DETECT_KNIFE,knife,mes
+bky_custom,DETECT_SPOON,spoon,lepel
+bky_custom,DETECT_BOWL,bowl,kom
+bky_custom,DETECT_BANANA,banana,banaan
+bky_custom,DETECT_APPLE,apple,appel
+bky_custom,DETECT_SANDWICH,sandwich,boterham
+bky_custom,DETECT_ORANGE,orange,sinaasappel
+bky_custom,DETECT_BROCCOLI,broccoli,broccoli
+bky_custom,DETECT_CARROT,carrot,wortel
+bky_custom,DETECT_HOT_DOG,hot dog,hotdog
+bky_custom,DETECT_PIZZA,pizza,pizza
+bky_custom,DETECT_DONUT,donut,donut
+bky_custom,DETECT_CAKE,cake,taart
+bky_custom,DETECT_CHAIR,chair,stoel
+bky_custom,DETECT_COUCH,couch,bank
+bky_custom,DETECT_POTTED_PLANT,potted plant,kamerplant
+bky_custom,DETECT_BED,bed,bed
+bky_custom,DETECT_DINING_TABLE,dining table,eettafel
+bky_custom,DETECT_TOILET,toilet,toilet
+bky_custom,DETECT_TV,tv,tv
+bky_custom,DETECT_LAPTOP,laptop,laptop
+bky_custom,DETECT_MOUSE,mouse,muis
+bky_custom,DETECT_REMOTE,remote,afstandsbediening
+bky_custom,DETECT_KEYBOARD,keyboard,toetsenbord
+bky_custom,DETECT_CELL_PHONE,cell phone,mobiele telefoon
+bky_custom,DETECT_MICROWAVE,microwave,magnetron
+bky_custom,DETECT_OVEN,oven,oven
+bky_custom,DETECT_TOASTER,toaster,broodrooster
+bky_custom,DETECT_SINK,sink,gootsteen
+bky_custom,DETECT_REFRIGERATOR,refrigerator,koelkast
+bky_custom,DETECT_BOOK,book,boek
+bky_custom,DETECT_CLOCK,clock,klok
+bky_custom,DETECT_VASE,vase,vaas
+bky_custom,DETECT_SCISSORS,scissors,schaar
+bky_custom,DETECT_TEDDY_BEAR,teddy bear,knuffelbeer
+bky_custom,DETECT_HAIR_DRIER,hair drier,föhn
+bky_custom,DETECT_TOOTHBRUSH,toothbrush,tandenborstel
+bky_custom,OUTDATED_BLOCK_WARNING,A newer version of this block is available in the palette.,Er is een nieuwere versie van dit blok beschikbaar in het blokpalet.
+bky_custom,SENSOR_PRESSED,pressed,ingedrukt
+bky_custom,SENSOR_RELEASED,released,losgelaten
+bky_custom,SENSOR_FORCE,force,kracht
+bky_custom,SENSOR_FORCE_DESCRIPTION,force: N,kracht: N
+bky_custom,Port A,Port A,Poort A
+bky_custom,Port B,Port B,Poort B
+bky_custom,Port C,Port C,Poort C
+bky_custom,Port D,Port D,Poort D
+bky_custom,Port E,Port E,Poort E
+bky_custom,Port F,Port F,Poort F
+bky_custom,Sensor Port 1,Sensor Port 1,Sensorpoort 1
+bky_custom,Sensor Port 2,Sensor Port 2,Sensorpoort 2
+bky_custom,Sensor Port 3,Sensor Port 3,Sensorpoort 3
+bky_custom,Sensor Port 4,Sensor Port 4,Sensorpoort 4
+bky_custom,PB_EXT_EMPTY_LIST,empty list,lege lijst
+bky_custom,PB_EXT_LIST_WITH,list with,lijst met
+bky_custom,PB_EXT_COLOR_DEF,%1 %2 %3 as %4 h %5 s %6 v %7,%1 %2 %3 als %4 h %5 s %6 v %7
+bky_custom,PB_EXT_SETUP_ON,%1 %2 %3 on %4,%1 %2 %3 op %4
+bky_custom,PB_EXT_SETUP_ON_2,%1 %2 %3 on %4 %5,%1 %2 %3 op %4 %5
+bky_custom,PB_EXT_SETUP_ON_FWD,%1 %2 %3 on %4 with forward %5,%1 %2 %3 op %4 met voorwaarts %5
+bky_custom,PB_EXT_SETUP_ON_2_FWD,%1 %2 %3 on %4 %5 with forward %6,%1 %2 %3 op %4 %5 met voorwaarts %6
+bky_custom,PB_EXT_TASK_RETURN,%1 %2 return %3,%1 %2 geef %3 terug
+bky_custom,PB_EXT_VAR_STARTING_AT,%1 %2 %3 starting at %4,%1 %2 %3 beginnend op %4
+bky_custom,PB_EXT_VAR_SET_TO,%1 %2 %3 set to %4,%1 %2 zet %3 op %4
+bky_custom,PB_EXT_RANGE_FROM,from,van
+bky_custom,PB_EXT_RANGE_TO,to,tot
+bky_custom,PB_EXT_RANGE_STEPS,with steps of,met stap
+toolbox_categories,Setup,Setup,Instellen
+toolbox_categories,Output,Output,Uitvoer
+toolbox_categories,Input,Input,Invoer
+toolbox_categories,Flow,Flow,Besturing
+toolbox_categories,Data,Data,Gegevens
+toolbox_categories,Tasks,Tasks,Taken
+toolbox_categories,Variables,Variables,Variabelen
+toolbox_categories,Other,Other,Overig
+flyout_labels,Set up hub,Set up hub,Hub instellen
+flyout_labels,Set up smart motors,Set up smart motors,Slimme motoren instellen
+flyout_labels,Set up basic motors,Set up basic motors,Basismotoren instellen
+flyout_labels,Set up lights,Set up lights,Lichten instellen
+flyout_labels,Set up Powered Up sensors,Set up Powered Up sensors,Powered Up-sensoren instellen
+flyout_labels,Set up EV3 sensors,Set up EV3 sensors,EV3-sensoren instellen
+flyout_labels,Set up NXT sensors,Set up NXT sensors,NXT-sensoren instellen
+flyout_labels,Set up other sensors,Set up other sensors,Overige sensoren instellen
+flyout_labels,Motor,Motor,Motor
+flyout_labels,Drive Base,Drive Base,Rijbasis
+flyout_labels,Car,Car,Auto met stuur
+flyout_labels,Light & Sound,Light & Sound,Licht & geluid
+flyout_labels,Motors,Motors,Motoren
+flyout_labels,General,General,Algemeen
+flyout_labels,Light and Color,Light and Color,Licht en kleur
+flyout_labels,Orientation,Orientation,Oriëntatie
+flyout_labels,Buttons and Force,Buttons and Force,Knoppen en kracht
+flyout_labels,Time,Time,Tijd
+flyout_labels,Communication,Communication,Communicatie
+flyout_labels,Hub status,Hub status,Hubstatus
+flyout_labels,Decisions,Decisions,Beslissingen
+flyout_labels,Waiting,Waiting,Wachten
+flyout_labels,Repeating,Repeating,Herhalen
+flyout_labels,Comments,Comments,Opmerkingen
+flyout_labels,Stopping the program,Stopping the program,Programma stoppen
+flyout_labels,Numbers,Numbers,Getallen
+flyout_labels,Logic,Logic,Logica
+flyout_labels,Geometry,Geometry,Meetkunde
+flyout_labels,Lists and Text,Lists and Text,Lijsten en tekst
+flyout_labels,Variables,Variables,Variabelen
+flyout_labels,Imports,Imports,Imports
+flyout_labels,Classes,Classes,Klassen
+flyout_labels,My objects,My objects,Mijn objecten
+ui_strings,Editor,Editor,Editor
+ui_strings,Welcome,Welcome,Welkom
+ui_strings,Write your program here…,Write your program here…,Schrijf hier je programma…
+ui_strings,Check syntax,Check syntax,Syntaxis controleren
+ui_strings,Copy,Copy,Kopiëren
+ui_strings,Paste,Paste,Plakken
+ui_strings,Select all,Select all,Alles selecteren
+ui_strings,Undo,Undo,Ongedaan maken
+ui_strings,Redo,Redo,Opnieuw uitvoeren
+ui_strings,Close {fileName},Close {fileName},{fileName} sluiten
+ui_strings,Editor context menu,Editor context menu,Contextmenu van editor
+ui_strings,Clear,Clear,Wissen
+ui_strings,Loading…,Loading…,Laden…
+ui_strings,Unable to load project.,Unable to load project.,Kan project niet laden.
+ui_strings,File type,File type,Bestandstype
+ui_strings,Select the type of program you want to create.,Select the type of program you want to create.,Kies het type programma dat je wilt maken.
+ui_strings,Code with blocks,Code with blocks,Programmeren met blokken
+ui_strings,Code with Python,Code with Python,Programmeren met Python
+ui_strings,Show code,Show code,Code tonen
+ui_strings,Hide code,Hide code,Code verbergen
+ui_strings,This code changes when you move blocks around. Open a Python program to make changes.,This code changes when you move blocks around. Open a Python program to make changes.,Deze code verandert mee wanneer je blokken verplaatst. Open een Python-programma om zelf code te bewerken.
+ui_strings,Enable block coding,Enable block coding,Blokprogrammeren inschakelen
+ui_strings,Unlock with a license code,Unlock with a license code,Ontgrendelen met een licentiecode
+ui_strings,"Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.","Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.","Koop een jaarlijkse of levenslange licentiecode. Geen account nodig. Ideaal voor individuen, teams en scholen. Lees {learnMoreLink}."
+ui_strings,more,more,meer
+ui_strings,Your license is activated,Your license is activated,Je licentie is geactiveerd
+ui_strings,Free trial activated,Free trial activated,Gratis proefperiode geactiveerd
+ui_strings,Thank you for supporting Pybricks!,Thank you for supporting Pybricks!,Bedankt voor het steunen van Pybricks!
+ui_strings,Valid until: {expiryDate}.,Valid until: {expiryDate}.,Geldig tot: {expiryDate}.
+ui_strings,This license does not expire.,This license does not expire.,Deze licentie verloopt niet.
+ui_strings,"To use this license on another device, please deactivate it here first.","To use this license on another device, please deactivate it here first.","Om deze licentie op een ander apparaat te gebruiken, deactiveer je deze eerst hier."
+ui_strings,Enter or paste the license code,Enter or paste the license code,Voer de licentiecode in of plak deze
+ui_strings,Paste from clipboard,Paste from clipboard,Plakken vanaf klembord
+ui_strings,Activate,Activate,Activeren
+ui_strings,Try free,Try free,Gratis proberen
+ui_strings,Welcome to Pybricks! Go on and build something fun!,Welcome to Pybricks! Go on and build something fun!,Welkom bij Pybricks! Ga lekker aan de slag en bouw iets leuks!
+ui_strings,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.,Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.,Ben je docent en heb je meer tijd nodig met je klas? Neem contact op via sales@pybricks.com voor een gratis proefperiode van 30 dagen.
+ui_strings,Your free trial has ended.,Your free trial has ended.,Je gratis proefperiode is afgelopen.
+ui_strings,Free for {days} days,Free for {days} days,{days} dagen gratis
+ui_strings,Trial ended,Trial ended,Proefperiode afgelopen
+ui_strings,Checking…,Checking…,Controleren…
+ui_strings,Deactivate on this device,Deactivate on this device,Deactiveren op dit apparaat
+ui_strings,End trial,End trial,Proefperiode beëindigen
+ui_strings,Sign out,Sign out,Uitloggen
+ui_strings,Continue,Continue,Doorgaan
+ui_strings,Block coding is available with a license code or a fan subscription.,Block coding is available with a license code or a fan subscription.,Blokprogrammeren is beschikbaar met een licentiecode of een supporter-abonnement.
+ui_strings,Buy,Buy,Kopen
+ui_strings,For fans of our mission,For fans of our mission,Voor fans van onze missie
+ui_strings,"If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.","If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.","Als je ons werk waardeert, kun je ons steunen via Patreon. Je krijgt toegang tot alle functies, nieuwsupdates en extra voordelen."
+ui_strings,Sign in via Patreon,Sign in via Patreon,Inloggen via Patreon
+ui_strings,Become a supporter,Become a supporter,Word supporter
+ui_strings,Try again,Try again,Opnieuw proberen
+ui_strings,You will be asked to sign in again in {days} days.,You will be asked to sign in again in {days} days.,Over {days} dagen word je gevraagd opnieuw in te loggen.
+ui_strings,Unable to access the license server. Please try again from the Pybricks app.,Unable to access the license server. Please try again from the Pybricks app.,Kan geen verbinding maken met de licentieserver. Probeer het opnieuw vanuit de Pybricks-app.
+ui_strings,An unexpected error occurred. Please try again.,An unexpected error occurred. Please try again.,Er is een onverwachte fout opgetreden. Probeer het opnieuw.
+ui_strings,Unable to access the license server. Please check your internet connection and try again.,Unable to access the license server. Please check your internet connection and try again.,Kan de licentieserver niet bereiken. Controleer je internetverbinding en probeer het opnieuw.
+ui_strings,Unable to process your request.,Unable to process your request.,Kan je verzoek niet verwerken.
+ui_strings,Please enter a license code.,Please enter a license code.,Voer een licentiecode in.
+ui_strings,This code doesn't look right. Make sure you copy the whole red box from your email receipt.,This code doesn't look right. Make sure you copy the whole red box from your email receipt.,Deze code lijkt niet te kloppen. Zorg dat je het volledige rode kader uit je e-mailbewijs kopieert.
+ui_strings,This license has expired.,This license has expired.,Deze licentie is verlopen.
+ui_strings,License code not found. Please check and try again.,License code not found. Please check and try again.,Licentiecode niet gevonden. Controleer de code en probeer het opnieuw.
+ui_strings,Patreon sign-in failed due to an invalid origin. Please try again.,Patreon sign-in failed due to an invalid origin. Please try again.,Inloggen via Patreon is mislukt vanwege een ongeldige herkomst. Probeer het opnieuw.
+ui_strings,Patreon sign-in failed. Please try again.,Patreon sign-in failed. Please try again.,Inloggen via Patreon is mislukt. Probeer het opnieuw.
+ui_strings,"You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake.","You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake.","Je bent ingelogd met Patreon, maar je bent geen Pybricks-supporter. Neem contact met ons op als je denkt dat dit een vergissing is."
+ui_strings,Starting camera.,Starting camera.,Camera starten.
+ui_strings,Camera access was denied or unavailable.,Camera access was denied or unavailable.,Cameratoegang is geweigerd of niet beschikbaar.
+ui_strings,Select camera,Select camera,Selecteer camera
+ui_strings,No cameras found,No cameras found,Geen camera's gevonden
+ui_strings,"If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}","If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}","Als je Pybricks nog nooit via USB op Linux hebt gebruikt, moet je je computer eerst toestemming geven om verbinding te maken met je hub. {instructions}"
+ui_strings,Click for instructions.,Click for instructions.,Klik voor instructies.
+ui_strings,Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions},Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions},Gebruik je Pybricks voor het eerst op deze computer? Mogelijk moet je handmatig het USB-stuurprogramma voor dit type hub installeren. {instructions}
+ui_strings,Bluetooth button,Bluetooth button,Bluetooth-knop
+ui_strings,button,button,knop
+ui_strings,right button,right button,rechterknop
+ui_strings,Bluetooth light,Bluetooth light,Bluetooth-lampje
+ui_strings,hub light,hub light,hub-lampje
+ui_strings,pink-green-blue-off,pink-green-blue-off,roze-groen-blauw-uit
+ui_strings,light purple,light purple,lichtpaars
+ui_strings,Preparation:,Preparation:,Voorbereiding:
+ui_strings,Make sure the hub has new or fully charged batteries.,Make sure the hub has new or fully charged batteries.,Zorg dat de hub nieuwe of volledig opgeladen batterijen heeft.
+ui_strings,Make sure the hub is turned off.,Make sure the hub is turned off.,Zorg dat de hub is uitgeschakeld.
+ui_strings,Disconnect the USB cable.,Disconnect the USB cable.,Koppel de USB-kabel los.
+ui_strings,Open the {lego} Powered Up app in 'Create' mode and start a new project.,Open the {lego} Powered Up app in 'Create' mode and start a new project.,Open de {lego} Powered Up-app in de modus 'Maken' en start een nieuw project.
+ui_strings,Enter update mode (see video):,Enter update mode (see video):,Zet in updatemodus (zie video):
+ui_strings,Disconnect any device from port A on the hub.,Disconnect any device from port A on the hub.,Koppel elk apparaat los van poort A op de hub.
+ui_strings,Press and hold the {button} on the hub.,Press and hold the {button} on the hub.,Houd de {button} op de hub ingedrukt.
+ui_strings,Connect the USB cable.,Connect the USB cable.,Sluit de USB-kabel aan.
+ui_strings,Wait for the {light} to start blinking {lightPattern}.,Wait for the {light} to start blinking {lightPattern}.,Wacht tot het {light} {lightPattern} begint te knipperen.
+ui_strings,The app will automatically connect and start restoring the firmware.,The app will automatically connect and start restoring the firmware.,De app maakt automatisch verbinding en begint met het herstellen van de firmware.
+ui_strings,Release the {button}.,Release the {button}.,Laat de {button} los.
+ui_strings,Release the button. Wait for progress to reach 100%.,Release the button. Wait for progress to reach 100%.,Laat de knop los. Wacht tot de voortgang 100% bereikt.
+ui_strings,Keep holding the {button} in the next steps. We'll tell you when to let go.,Keep holding the {button} in the next steps. We'll tell you when to let go.,Houd de {button} ingedrukt tijdens de volgende stappen. We geven aan wanneer je kunt loslaten.
+ui_strings,Press the center button to turn on the EV3.,Press the center button to turn on the EV3.,Druk op de middelste knop om de EV3 aan te zetten.
+ui_strings,"When the screen says ""Updating..."", release both buttons.","When the screen says ""Updating..."", release both buttons.","Zodra op het scherm ""Updating..."" verschijnt, laat je beide knoppen los."
+ui_strings,"When the progress bar is done, the app will connect.","When the progress bar is done, the app will connect.","Zodra de voortgangsbalk klaar is, maakt de app verbinding."
+ui_strings,Install:,Install:,Installeren:
+ui_strings,Click the {flashButton} button below.,Click the {flashButton} button below.,Klik hieronder op de knop {flashButton}.
+ui_strings,Install,Install,Installeren
+ui_strings,"In the pop-up dialog, select {deviceName} and click {connectButton}.","In the pop-up dialog, select {deviceName} and click {connectButton}.",Selecteer in het pop-upvenster {deviceName} en klik op {connectButton}.
+ui_strings,Connect,Connect,Verbinden
+ui_strings,Connected to:,Connected to:,Verbonden met:
+ui_strings,Hub type:,Hub type:,Type hub:
+ui_strings,Firmware:,Firmware:,Firmware:
+ui_strings,Currently installed:,Currently installed:,Momenteel geïnstalleerd:
+ui_strings,Version to install:,Version to install:,Te installeren versie:
+ui_strings,Version to recover:,Version to recover:,Te herstellen versie:
+ui_strings,app: {app},app: {app},app: {app}
+ui_strings,version: {version},version: {version},versie: {version}
+ui_strings,Option 1: Quick update,Option 1: Quick update,Optie 1: Snelle update
+ui_strings,This works if you used the {spike} App or Pybricks recently.,This works if you used the {spike} App or Pybricks recently.,Dit werkt als je onlangs de {spike}-app of Pybricks hebt gebruikt.
+ui_strings,Turn the hub {on}.,Turn the hub {on}.,Zet de hub {on}.
+ui_strings,Connect the USB cable and click {checkButton} below.,Connect the USB cable and click {checkButton} below.,Sluit de USB-kabel aan en klik hieronder op {checkButton}.
+ui_strings,Click your hub in the dialog and click {connectButton}.,Click your hub in the dialog and click {connectButton}.,Klik op je hub in het venster en klik op {connectButton}.
+ui_strings,Check for hubs,Check for hubs,Zoek naar hubs
+ui_strings,Option 2: Manual update,Option 2: Manual update,Optie 2: Handmatige update
+ui_strings,This is the old installation method. You can use this:,This is the old installation method. You can use this:,Dit is de klassieke installatiemethode. Gebruik deze:
+ui_strings,If your hub still runs an old version of Pybricks or an old LEGO app.,If your hub still runs an old version of Pybricks or an old LEGO app.,Als op je hub nog een oude versie van Pybricks of een oude LEGO-app staat.
+ui_strings,"Or if a hub light already blinks red/blue/green, or a light blinks pink.","Or if a hub light already blinks red/blue/green, or a light blinks pink.",Of als een lampje op de hub al rood/blauw/groen of roze knippert.
+ui_strings,"Next time, you can do the quick update.","Next time, you can do the quick update.",De volgende keer kun je gewoon de snelle update gebruiken.
+ui_strings,Update manually,Update manually,Handmatig updaten
+ui_strings,Code completion engine status indicator,Code completion engine status indicator,Statusindicator voor code-aanvulling
+ui_strings,Code completion engine is starting up and will be ready soon.,Code completion engine is starting up and will be ready soon.,De engine voor code-aanvulling wordt gestart en is zo klaar.
+ui_strings,Code completion engine is ready to use.,Code completion engine is ready to use.,De engine voor code-aanvulling is klaar voor gebruik.
+ui_strings,Code completion engine has stopped working.,Code completion engine has stopped working.,De engine voor code-aanvulling werkt niet meer.
+ui_strings,Code completion engine has not started yet.,Code completion engine has not started yet.,De engine voor code-aanvulling is nog niet gestart.
+ui_strings,Connected hub,Connected hub,Verbonden hub
+ui_strings,Battery,Battery,Batterij
+ui_strings,Battery is low. Hub will turn off soon.,Battery is low. Hub will turn off soon.,Batterij bijna leeg. De hub schakelt binnenkort uit.
+ui_strings,Battery level is OK.,Battery level is OK.,Batterijniveau is in orde.
+ui_strings,Devices,Devices,Apparaten
+ui_strings,Pause,Pause,Pauzeren
+ui_strings,Resume,Resume,Hervatten
+ui_strings,Hold your sensor steady at one LEGO unit above a white piece of paper.,Hold your sensor steady at one LEGO unit above a white piece of paper.,Houd je sensor stil op één LEGO-eenheid boven een wit vel papier.
+ui_strings,Hold steady…,Hold steady…,Houd stil…
+ui_strings,Calibration complete. The results are saved on the hub for this sensor port.,Calibration complete. The results are saved on the hub for this sensor port.,Kalibratie voltooid. De resultaten zijn opgeslagen op de hub voor deze sensorpoort.
+ui_strings,Calibration did not succeed. Please try again.,Calibration did not succeed. Please try again.,Kalibratie niet gelukt. Probeer het opnieuw.
+ui_strings,User,User,Gebruiker
+ui_strings,Log in to unlock extra features,Log in to unlock extra features,Log in om extra functies te ontgrendelen
+ui_strings,The file '{fileName}' will be permanently deleted. This cannot be undone.,The file '{fileName}' will be permanently deleted. This cannot be undone.,Het bestand '{fileName}' wordt definitief verwijderd. Dit kan niet ongedaan worden gemaakt.
+ui_strings,Delete,Delete,Verwijderen
+ui_strings,Keep,Keep,Behouden
+ui_strings,File name,File name,Bestandsnaam
+ui_strings,OK!,OK!,OK!
+ui_strings,File name cannot be empty.,File name cannot be empty.,Bestandsnaam mag niet leeg zijn.
+ui_strings,File name cannot have spaces.,File name cannot have spaces.,Bestandsnaam mag geen spaties bevatten.
+ui_strings,The file extension will be added automatically.,The file extension will be added automatically.,De bestandsextensie wordt automatisch toegevoegd.
+ui_strings,File name must start with a letter ({letters}) or underscore ({underscore}).,File name must start with a letter ({letters}) or underscore ({underscore}).,Bestandsnaam moet beginnen met een letter ({letters}) of liggend streepje ({underscore}).
+ui_strings,"File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).","File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).","Bestandsnaam mag alleen letters ({letters}), cijfers ({numbers}) en liggende streepjes ({underscore}) bevatten."
+ui_strings,A file with this name already exists. Try a different name.,A file with this name already exists. Try a different name.,Er bestaat al een bestand met deze naam. Kies een andere naam.
+ui_strings,Fix it for me.,Fix it for me.,Pas automatisch aan.
+ui_strings,Duplicate '{fileName}',Duplicate '{fileName}','{fileName}' dupliceren
+ui_strings,Duplicate,Duplicate,Dupliceren
+ui_strings,File actions,File actions,Bestandsacties
+ui_strings,Back up all files,Back up all files,Back-up maken van alle bestanden
+ui_strings,Import a file,Import a file,Bestand importeren
+ui_strings,Create a new file,Create a new file,Nieuw bestand maken
+ui_strings,Files,Files,Bestanden
+ui_strings,Accessibility guide for tree {treeLabel}.,Accessibility guide for tree {treeLabel}.,Toegankelijkheidsgids voor boomstructuur {treeLabel}.
+ui_strings,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:,Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:,Navigeer met de pijltjestoetsen. Begin met typen om een bestand te zoeken. Extra sneltoetsen:
+ui_strings,{key} to open the file in the code editor,{key} to open the file in the code editor,{key} om het bestand te openen in de editor
+ui_strings,{key} to start renaming the focused file,{key} to start renaming the focused file,{key} om de naam van het geselecteerde bestand te wijzigen
+ui_strings,{key} to duplicate focused file,{key} to duplicate focused file,{key} om het geselecteerde bestand te dupliceren
+ui_strings,{key} to export the focused file,{key} to export the focused file,{key} om het geselecteerde bestand te exporteren
+ui_strings,{key} to delete the focused file,{key} to delete the focused file,{key} om het geselecteerde bestand te verwijderen
+ui_strings,Searching.,Searching.,Zoeken.
+ui_strings,Rename {fileName},Rename {fileName},Naam van {fileName} wijzigen
+ui_strings,Duplicate {fileName},Duplicate {fileName},{fileName} dupliceren
+ui_strings,Export {fileName},Export {fileName},{fileName} exporteren
+ui_strings,Delete {fileName},Delete {fileName},{fileName} verwijderen
+ui_strings,Template,Template,Sjabloon
+ui_strings,Use a template,Use a template,Sjabloon gebruiken
+ui_strings,Create a new file for the selected hub.,Create a new file for the selected hub.,Maak een nieuw bestand voor de geselecteerde hub.
+ui_strings,Create a new empty file.,Create a new empty file.,Maak een nieuw leeg bestand.
+ui_strings,Create,Create,Maken
+ui_strings,Rename '{fileName}',Rename '{fileName}',Naam wijzigen van '{fileName}'
+ui_strings,Rename,Rename,Naam wijzigen
+ui_strings,Rename imported file,Rename imported file,Geïmporteerd bestand hernoemen
+ui_strings,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.,The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.,De naam van het geïmporteerde bestand '{fileName}' is niet toegestaan in {appName}. Wijzig hieronder de naam.
+ui_strings,Skip importing this file,Skip importing this file,Importeren van dit bestand overslaan
+ui_strings,Replace existing file?,Replace existing file?,Bestaand bestand vervangen?
+ui_strings,A file already exists with the same name as the imported file '{fileName}'.,A file already exists with the same name as the imported file '{fileName}'.,Er bestaat al een bestand met dezelfde naam als het geïmporteerde bestand '{fileName}'.
+ui_strings,Remember this answer when resolving additional conflicts.,Remember this answer when resolving additional conflicts.,Onthoud dit antwoord voor overige conflicten.
+ui_strings,Keep the existing file and skip importing this file,Keep the existing file and skip importing this file,Bestaand bestand behouden en importeren overslaan
+ui_strings,Replace the existing file with the imported file,Replace the existing file with the imported file,Bestaand bestand vervangen door geïmporteerd bestand
+ui_strings,Keep the existing file and rename the imported file,Keep the existing file and rename the imported file,Bestaand bestand behouden en geïmporteerd bestand hernoemen
+ui_strings,Open source software licenses,Open source software licenses,Open-source softwarelicenties
+ui_strings,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.,{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.,{name} is gebouwd op open-sourcesoftware. Door {name} te gebruiken ga je akkoord met de voorwaarden van alle bijbehorende softwarelicenties.
+ui_strings,Packages,Packages,Pakketten
+ui_strings,Package:,Package:,Pakket:
+ui_strings,Author:,Author:,Auteur:
+ui_strings,License:,License:,Licentie:
+ui_strings,Failed to load license data.,Failed to load license data.,Kan licentiegegevens niet laden.
+ui_strings,Select a package to view the license.,Select a package to view the license.,Selecteer een pakket om de licentie te bekijken.
+ui_strings,About {appName},About {appName},Over {appName}
+ui_strings,MicroPython for programmable {lego} hubs.,MicroPython for programmable {lego} hubs.,MicroPython voor programmeerbare {lego}-hubs.
+ui_strings,Copy version info,Copy version info,Versie-informatie kopiëren
+ui_strings,Software licenses,Software licenses,Softwarelicenties
+ui_strings,Changelog,Changelog,Wijzigingsoverzicht
+ui_strings,Pybricks website,Pybricks website,Pybricks-website
+ui_strings,Help,Help,Help
+ui_strings,Click to show help for the {helpForLabel} checkbox.,Click to show help for the {helpForLabel} checkbox.,Klik om uitleg te tonen voor het selectievakje {helpForLabel}.
+ui_strings,Close,Close,Sluiten
+ui_strings,Settings & help,Settings & help,Instellingen & hulp
+ui_strings,Appearance,Appearance,Weergave
+ui_strings,Dark mode,Dark mode,Donkere modus
+ui_strings,Enable to choose dark mode. Disable to choose light mode.,Enable to choose dark mode. Disable to choose light mode.,Schakel in voor de donkere modus. Schakel uit voor de lichte modus.
+ui_strings,Use {in} and {out} to zoom.,Use {in} and {out} to zoom.,Gebruik {in} en {out} om in en uit te zoomen.
+ui_strings,Language,Language,Taal
+ui_strings,Firmware,Firmware,Firmware
+ui_strings,Install Pybricks firmware,Install Pybricks firmware,Pybricks-firmware installeren
+ui_strings,Restore official {lego} firmware,Restore official {lego} firmware,Officiële {lego}-firmware herstellen
+ui_strings,Learn Pybricks,Learn Pybricks,Leer Pybricks
+ui_strings,Community answers,Community answers,Community-antwoorden
+ui_strings,Bug reports,Bug reports,Fouten melden
+ui_strings,Developer,Developer,Ontwikkelaar
+ui_strings,Show debug info,Show debug info,Debug-informatie tonen
+ui_strings,Enable NXT,Enable NXT,NXT inschakelen
+ui_strings,Pretend to be on,Pretend to be on,Simuleer besturingssysteem
+ui_strings,Actual platform,Actual platform,Werkelijk systeem
+ui_strings,App,App,App
+ui_strings,Ready for offline use.,Ready for offline use.,Klaar voor offline gebruik.
+ui_strings,Install as app,Install as app,Installeren als app
+ui_strings,Check for update,Check for update,Controleren op updates
+ui_strings,Try new beta features,Try new beta features,Nieuwe bètafuncties proberen
+ui_strings,Return to stable version,Return to stable version,Terug naar stabiele versie
+ui_strings,Restart to install update,Restart to install update,Herstart om update te installeren
+ui_strings,About,About,Over
+ui_strings,Welcome tour,Welcome tour,Rondleiding
+ui_strings,Select your hub,Select your hub,Selecteer je hub
+ui_strings,Hubs that connect with Bluetooth Low Energy,Hubs that connect with Bluetooth Low Energy,Hubs met Bluetooth Low Energy (BLE)
+ui_strings,Hubs that connect with Bluetooth Classic,Hubs that connect with Bluetooth Classic,Hubs met klassieke Bluetooth
+ui_strings,First time setup for {hub},First time setup for {hub},Eerste installatie voor {hub}
+ui_strings,Back,Back,Terug
+ui_strings,Next,Next,Volgende
+ui_strings,Done,Done,Klaar
+ui_strings,Mac,Mac,Mac
+ui_strings,Windows PC,Windows PC,Windows-pc
+ui_strings,Linux computer,Linux computer,Linux-computer
+ui_strings,Android device,Android device,Android-apparaat
+ui_strings,Chromebook,Chromebook,Chromebook
+ui_strings,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.,Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.,Je {hub} verschijnt na enkele seconden onder {nearbyDevices}. Klik daarnaast op {connect}.
+ui_strings,"Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}","Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}","Klik op {addDevice}, kies {bluetooth} en selecteer je {hub} zodra deze verschijnt.{allDevicesNote}"
+ui_strings,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.,Your {hub} appears in the device list after a few seconds. Just click it to start pairing.,Je {hub} verschijnt na enkele seconden in de apparatenlijst. Klik erop om te koppelen.
+ui_strings,Tap {pairNewDevice} and select your {hub} when it appears.,Tap {pairNewDevice} and select your {hub} when it appears.,Tik op {pairNewDevice} en selecteer je {hub} zodra deze verschijnt.
+ui_strings,Click {pairNewDevice} and select your {hub} when it appears.,Click {pairNewDevice} and select your {hub} when it appears.,Klik op {pairNewDevice} en selecteer je {hub} zodra deze verschijnt.
+ui_strings,Nearby Devices,Nearby Devices,Apparaten in de buurt
+ui_strings,Add device,Add device,Apparaat toevoegen
+ui_strings,Bluetooth,Bluetooth,Bluetooth
+ui_strings,Pair new device,Pair new device,Nieuw apparaat koppelen
+ui_strings,All devices,All devices,Alle apparaten
+ui_strings," If it is not in the list, click {allDevices} to stop Windows from hiding it."," If it is not in the list, click {allDevices} to stop Windows from hiding it."," Staat deze niet in de lijst, klik dan op {allDevices} zodat Windows het apparaat niet verbergt."
+ui_strings,Register EV3 Bluetooth connection,Register EV3 Bluetooth connection,EV3 Bluetooth-verbinding registreren
+ui_strings,"The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.",De EV3-steen moet éénmalig worden gekoppeld aan je {platform} voordat Pybricks hem kan zien. Daarna kun je op elk moment rechtstreeks vanuit Pybricks verbinden.
+ui_strings,"On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.","On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.",Ga op je EV3 naar {settings} en kies {registerDevice}. Laat de EV3 op dit scherm staan.
+ui_strings,Settings,Settings,Instellingen
+ui_strings,Add new computer,Add new computer,Nieuwe computer toevoegen
+ui_strings,Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice},Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice},Open de Bluetooth-instellingen op je {platform} en zet Bluetooth aan. {findDevice}
+ui_strings,"Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on.","Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on.","Zodra het koppelen klaar is, verbreekt de EV3 automatisch de verbinding. Dit hoort zo. Sluit de Bluetooth-instellingen op je {platform} en op je EV3. Voortaan verbind je eenvoudig via de Bluetooth-knop in Pybricks."
+ui_strings,Register NXT Bluetooth connection,Register NXT Bluetooth connection,NXT Bluetooth-verbinding registreren
+ui_strings,"The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.","The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.",De NXT-steen moet éénmalig worden gekoppeld aan je {platform} voordat Pybricks hem kan zien. Daarna kun je altijd direct vanuit Pybricks verbinden.
+ui_strings,Turn your NXT brick on.,Turn your NXT brick on.,Zet je NXT-steen aan.
+ui_strings,"Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.","Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.",Open de Bluetooth-instellingen op je {platform} en zet Bluetooth aan. {findDevice} Voer wanneer om een pincode wordt gevraagd {passkey} in{suggestedPasskeyNote}.
+ui_strings,", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it",", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it", en vervang eventuele cijfers die je computer zelf heeft ingevuld (het veld is gewoon bewerkbaar)
+ui_strings,"Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on.","Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on.",Na voltooiing verbreekt de NXT automatisch de verbinding. Dit hoort zo. Sluit de Bluetooth-instellingen op je {platform}. Voortaan kun je via de Bluetooth-knop in Pybricks verbinden zodra je NXT aan staat.
+ui_strings,Windows DFU USB driver installation instructions,Windows DFU USB driver installation instructions,Installatie-instructies voor Windows DFU USB-stuurprogramma
+ui_strings,"Right-click the Windows {startMenu}, then click {deviceManager}.","Right-click the Windows {startMenu}, then click {deviceManager}.",Klik met de rechtermuisknop op het {startMenu} van Windows en kies {deviceManager}.
+ui_strings,Start Menu,Start Menu,Startmenu
+ui_strings,Device Manager,Device Manager,Apparaatbeheer
+ui_strings,Look for {dfuUsbHubName} under {otherDevices}.,Look for {dfuUsbHubName} under {otherDevices}.,Zoek naar {dfuUsbHubName} onder {otherDevices}.
+ui_strings,Other Devices,Other Devices,Overige apparaten
+ui_strings,Properties,Properties,Eigenschappen
+ui_strings,"If it is listed with a warning sign, right-click it and select {properties}.","If it is listed with a warning sign, right-click it and select {properties}.","Als er een waarschuwingsteken bij staat, klik er dan met rechts op en kies {properties}."
+ui_strings,"If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.","If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.","Staat het apparaat elders zonder waarschuwingsteken, dan is het stuurprogramma al geïnstalleerd en kun je dit venster sluiten."
+ui_strings,"If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions.","If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions.","Zie je het apparaat helemaal niet, controleer dan of de hub in de DFU-updatemodus staat en probeer opnieuw. Sluit dit venster om de video-instructies te bekijken."
+ui_strings,"In the {properties} dialog, click the {updateDriver} button.","In the {properties} dialog, click the {updateDriver} button.",Klik in het venster {properties} op de knop {updateDriver}.
+ui_strings,{dfuUsbHubName} Properties,{dfuUsbHubName} Properties,Eigenschappen van {dfuUsbHubName}
+ui_strings,Update Driver...,Update Driver...,Stuurprogramma bijwerken...
+ui_strings,"In the {updateDrivers} dialog, click the {browse} button.","In the {updateDrivers} dialog, click the {browse} button.",Klik in het venster {updateDrivers} op {browse}.
+ui_strings,Update Drivers,Update Drivers,Stuurprogramma's bijwerken
+ui_strings,Browse my computer for drivers,Browse my computer for drivers,Op mijn computer naar stuurprogramma's zoeken
+ui_strings,Then click the {letMePick} button.,Then click the {letMePick} button.,Klik vervolgens op {letMePick}.
+ui_strings,Let me pick from a list of available drivers on my computer,Let me pick from a list of available drivers on my computer,Ik wil kiezen uit een lijst met stuurprogramma's op mijn computer
+ui_strings,"In the list of device types, select {usbDevices}, then click the {next} button.","In the list of device types, select {usbDevices}, then click the {next} button.",Selecteer in de lijst met apparaattypen {usbDevices} en klik op {next}.
+ui_strings,Universal Serial Bus devices,Universal Serial Bus devices,Universal Serial Bus-apparaten
+ui_strings,"In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.","In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.",Kies in de lijst {manufacturer} voor {winUsbDevice} en kies in de lijst {model} eveneens {winUsbDevice}. Klik daarna op {next}.
+ui_strings,Manufacturer,Manufacturer,Fabrikant
+ui_strings,WinUsb Device,WinUsb Device,WinUsb-apparaat (WinUsb Device)
+ui_strings,Model,Model,Model
+ui_strings,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.,A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.,Er verschijnt een waarschuwing dat het stuurprogramma niet wordt aanbevolen. Klik op {yes} om toch door te gaan; het stuurprogramma is volledig compatibel.
+ui_strings,Yes,Yes,Ja
+ui_strings,The driver installation is complete. Click the {close} button.,The driver installation is complete. Click the {close} button.,De installatie van het stuurprogramma is voltooid. Klik op {close}.
+ui_strings,Select hub type,Select hub type,Kies type hub
+ui_strings,Select your hub.,Select your hub.,Selecteer je hub.
+ui_strings,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.,The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.,De EV3-firmware kan niet vanaf een Android-apparaat worden bijgewerkt. Gebruik hiervoor een computer.
+ui_strings," Once installed, you can use your Android device to run Pybricks programs."," Once installed, you can use your Android device to run Pybricks programs."," Zodra de firmware is geïnstalleerd, kun je wel je Android-apparaat gebruiken om Pybricks-programma's uit te voeren."
+ui_strings,Advanced,Advanced,Geavanceerd
+ui_strings,Drop custom firmware .zip file here or click to browse.,Drop custom firmware .zip file here or click to browse.,Sleep een aangepast firmware-.zip-bestand hierheen of klik om te bladeren.
+ui_strings,Custom firmware selected.,Custom firmware selected.,Aangepaste firmware geselecteerd.
+ui_strings,Hub type: {hubTypeName},Hub type: {hubTypeName},Type hub: {hubTypeName}
+ui_strings,Firmware version: {version},Firmware version: {version},Firmwareversie: {version}
+ui_strings,Accept licenses,Accept licenses,Licenties accepteren
+ui_strings,There was a problem while getting the firmware file.,There was a problem while getting the firmware file.,Er is een probleem opgetreden bij het ophalen van het firmwarebestand.
+ui_strings,I have read and agree to the license terms and conditions.,I have read and agree to the license terms and conditions.,Ik heb de licentievoorwaarden gelezen en ga hiermee akkoord.
+ui_strings,Configure options,Configure options,Opties instellen
+ui_strings,Hub name,Hub name,Naam van hub
+ui_strings,(optional),(optional),(optioneel)
+ui_strings,"Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.","Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.",Kies een Bluetooth-naam voor je hub. Handig om meerdere hubs uit elkaar te houden bij het verbinden.
+ui_strings,The name is too long.,The name is too long.,De naam is te lang.
+ui_strings,Suggest a different name,Suggest a different name,Andere naam voorstellen
+ui_strings,"Select the hub to restore the official {lego} firmware on, then click {next}.","Select the hub to restore the official {lego} firmware on, then click {next}.",Selecteer de hub waarop je de officiële {lego}-firmware wilt herstellen en klik op {next}.
+ui_strings,Select which firmware you want to restore.,Select which firmware you want to restore.,Kies welke officiële firmware je wilt herstellen.
+ui_strings,Restore firmware,Restore firmware,Firmware herstellen
+ui_strings,Restore,Restore,Herstellen
+ui_strings,v3: {app} App,v3: {app} App,v3: {app}-app
+ui_strings,v2: {app} Robot Inventor App,v2: {app} Robot Inventor App,v2: {app} Robot Inventor-app
+ui_strings,v1.09H: {app} EV3 Home edition,v1.09H: {app} EV3 Home edition,v1.09H: {app} EV3 Home-editie
+ui_strings,v1.09E: {app} EV3 Classroom and EV3 Lab,v1.09E: {app} EV3 Classroom and EV3 Lab,v1.09E: {app} EV3 Classroom en EV3 Lab
+ui_strings,v1.10E: {app},v1.10E: {app},v1.10E: {app}
+ui_strings,Pybricks on Linux,Pybricks on Linux,Pybricks op Linux
+ui_strings,Access rules,Access rules,Toegangsregels
+ui_strings,You must give your computer permission to connect to your robot. You only need to do this once.,You must give your computer permission to connect to your robot. You only need to do this once.,Je moet je computer eenmalig toestemming geven om verbinding te maken met je robot.
+ui_strings,Download the rules file. Remember where you save it.,Download the rules file. Remember where you save it.,Download het regelbestand en onthoud waar je het opslaat.
+ui_strings,Download rules file,Download rules file,Regelbestand downloaden
+ui_strings,Open a terminal and run this command. You need administrator (sudo) access.,Open a terminal and run this command. You need administrator (sudo) access.,Open een terminalvenster en voer dit commando uit (vereist sudo-beheerdersrechten):
+ui_strings,"This copies the rules file to the correct system location. If you saved it elsewhere, change the path below.","This copies the rules file to the correct system location. If you saved it elsewhere, change the path below.",Hiermee kopieer je het regelbestand naar de juiste systeemmap. Pas het pad aan als je het elders hebt opgeslagen.
+ui_strings,"You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in.","You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in.",Je hoeft je computer niet opnieuw op te starten. Koppel de robot even los en sluit hem opnieuw aan als hij al ingeplugd was.
+ui_strings,Browser tips,Browser tips,Browsertips
+ui_strings,"You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.","You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.","Je kunt Pybricks gebruiken met Google Chrome, Chromium, Brave of Vivaldi."
+ui_strings,"If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:","If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:","Als je Chromium als snap-pakket hebt geïnstalleerd (standaard op Ubuntu), voer dan dit commando uit:"
+ui_strings,"Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.","Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.","Sommige browserfuncties staan standaard uit. Plak elke regel hieronder in de adresbalk, zet deze op {enabled} en herstart de browser:"
+ui_strings,Enabled,Enabled,Ingeschakeld (Enabled)
+ui_strings,Linux setup,Linux setup,Linux-instellingen
+ui_strings,Connect using Bluetooth,Connect using Bluetooth,Verbinden via Bluetooth
+ui_strings,Disconnect Bluetooth,Disconnect Bluetooth,Bluetooth-verbinding verbreken
+ui_strings,"USB is connected, disconnect to use Bluetooth","USB is connected, disconnect to use Bluetooth",USB is verbonden; koppel los om Bluetooth te gebruiken
+ui_strings,File explorer,File explorer,Bestandsverkenner
+ui_strings,Show file explorer,Show file explorer,Bestandsverkenner tonen
+ui_strings,Hide file explorer,Hide file explorer,Bestandsverkenner verbergen
+ui_strings,REPL,REPL,REPL-terminal
+ui_strings,Code interactively in the terminal (REPL),Code interactively in the terminal (REPL),Interactief programmeren in de terminal (REPL)
+ui_strings,Run,Run,Starten
+ui_strings,Run this program ({key}),Run this program ({key}),Dit programma uitvoeren ({key})
+ui_strings,Downloading… {percent},Downloading… {percent},Downloaden… {percent}
+ui_strings,Show settings and help,Show settings and help,Instellingen en hulp tonen
+ui_strings,Hide settings and help,Hide settings and help,Instellingen en hulp verbergen
+ui_strings,Stop,Stop,Stoppen
+ui_strings,Stop everything ({key}),Stop everything ({key}),Alles stoppen ({key})
+ui_strings,USB,USB,USB
+ui_strings,Connect using USB,Connect using USB,Verbinden via USB
+ui_strings,Disconnect USB,Disconnect USB,USB-verbinding verbreken
+ui_strings,"Bluetooth is connected, disconnect to use USB","Bluetooth is connected, disconnect to use USB",Bluetooth is verbonden; verbreek eerst om USB te gebruiken
+ui_strings,Last,Last,Voltooien
+ui_strings,Open the dialog,Open the dialog,Venster openen
+ui_strings,Skip,Skip,Overslaan
+ui_strings,Welcome to {appName}.,Welcome to {appName}.,Welkom bij {appName}.
+ui_strings,Click {next} to discover key features.,Click {next} to discover key features.,Klik op {next} om de belangrijkste functies te ontdekken.
+ui_strings,Click the {icon} button to create a new program.,Click the {icon} button to create a new program.,Klik op de knop {icon} om een nieuw programma te maken.
+ui_strings,Don't lose your work.,Don't lose your work.,Raak je werk niet kwijt.
+ui_strings,Click {icon} to back up your programs.,Click {icon} to back up your programs.,Klik op {icon} om een back-up van je programma's te maken.
+ui_strings,"To use {appName}, you have to install the Pybricks firmware.","To use {appName}, you have to install the Pybricks firmware.","Om {appName} te gebruiken, installeer je eerst de Pybricks-firmware op je hub."
+ui_strings,You can restore the official {lego} firmware at any time.,You can restore the official {lego} firmware at any time.,Je kunt op elk moment terugkeren naar de officiële {lego}-firmware.
+ui_strings,Click the Bluetooth button to connect.,Click the Bluetooth button to connect.,Klik op de Bluetooth-knop om verbinding te maken.
+ui_strings,"Once connected, click the {icon} button to run your program.","Once connected, click the {icon} button to run your program.","Zodra je verbonden bent, klik je op de knop {icon} om je programma te starten."
+ui_strings,The program is now saved on the hub. Press the button on the hub to run it again.,The program is now saved on the hub. Press the button on the hub to run it again.,Het programma staat nu op de hub opgeslagen. Druk op de knop op de hub om het opnieuw te starten.
+ui_strings,Browser not supported,Browser not supported,Browser niet ondersteund
+ui_strings,This browser cannot connect to your hub.,This browser cannot connect to your hub.,Deze browser kan geen verbinding maken met je hub.
+ui_strings,"Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.","Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.","Gebruik Pybricks met Google Chrome, Microsoft Edge, Chromium, Brave of Vivaldi."
+ui_strings,"To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.","To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.","Gebruik op dit apparaat een browser met Bluetooth-ondersteuning, zoals Bluefy uit de App Store."
+ui_strings,"SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor","SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor","SPIKE Prime, SPIKE Essential en MINDSTORMS Robot Inventor"
+ui_strings,"These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser.","These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser.","Deze hubs moeten eerst eenmalig via de USB-kabel worden bijgewerkt op een Windows-, Mac-, Linux- of Android-apparaat. Daarna kun je hier draadloos via Bluetooth programmeren."
+ui_strings,MINDSTORMS EV3,MINDSTORMS EV3,MINDSTORMS EV3
+ui_strings,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.,This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad.,Deze hub gebruikt een ouder type Bluetooth dat in geen enkele browser op iPhone of iPad werkt.
+ui_strings,Supported browsers,Supported browsers,Ondersteunde browsers
+ui_strings,Activities,Activities,Activiteitenbalk
+ui_strings,Terminal,Terminal,Terminal
+ui_strings,Documentation,Documentation,Documentatie
+ui_strings,Show documentation,Show documentation,Documentatie tonen
+ui_strings,Hide documentation,Hide documentation,Documentatie verbergen
+ui_strings,Show terminal,Show terminal,Terminal tonen
+ui_strings,Hide terminal,Hide terminal,Terminal verbergen
+ui_strings,Open camera,Open camera,Camera openen
+ui_strings,Hide camera,Hide camera,Camera verbergen
+ui_strings,"An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.","An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.","Er is een onverwachte fout opgetreden. Klik hieronder op {copyErrorMessage} om de technische details te kopiëren voor een foutrapport, en vermeld daarbij je besturingssysteem, browser en wat je deed toen de fout optrad."
+ui_strings,Expand for detailed technical information,Expand for detailed technical information,Uitklappen voor gedetailleerde technische informatie
+ui_strings,Copy error message,Copy error message,Foutmelding kopiëren
+ui_strings,Report bug,Report bug,Fout melden
+ui_strings,Could not connect to the hub.,Could not connect to the hub.,Kon geen verbinding maken met de hub.
+ui_strings,Check that your hub is not in use by other apps.,Check that your hub is not in use by other apps.,Controleer of je hub niet al door een andere app wordt gebruikt.
+ui_strings,Check that your hub is not in use by other apps. Make sure that you have permission to connect.,Check that your hub is not in use by other apps. Make sure that you have permission to connect.,Controleer of je hub niet door andere apps wordt gebruikt en of je toegangsrechten hebt om te verbinden.
+ui_strings,Failed to connect to update server. The internet connection or the server may be down. Try again later.,Failed to connect to update server. The internet connection or the server may be down. Try again later.,Kan geen verbinding maken met de updateserver. Controleer je internetverbinding of probeer het later opnieuw.
+ui_strings,This browser does not support Web Bluetooth or it is not enabled.,This browser does not support Web Bluetooth or it is not enabled.,Deze browser ondersteunt geen Web Bluetooth of de functie is uitgeschakeld.
+ui_strings,Use a supported browser such as Google Chrome or Microsoft Edge.,Use a supported browser such as Google Chrome or Microsoft Edge.,Gebruik een ondersteunde browser zoals Google Chrome of Microsoft Edge.
+ui_strings,"On Linux, Web Bluetooth must be turned on manually.","On Linux, Web Bluetooth must be turned on manually.",Op Linux moet Web Bluetooth handmatig worden ingeschakeld.
+ui_strings,"Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.","Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.","Brave schakelt Web Bluetooth standaard uit. Plak onderstaande regel in de adresbalk, zet deze op {enabled} en herstart Brave:"
+ui_strings,More info,More info,Meer informatie
+ui_strings,No Bluetooth adapter could be found or permission to use it has not been granted.,No Bluetooth adapter could be found or permission to use it has not been granted.,Geen Bluetooth-adapter gevonden of er is geen toestemming verleend om deze te gebruiken.
+ui_strings,"Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.","Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.","Schakel een Bluetooth Low Energy-adapter in, geef je browser toestemming voor Bluetooth en herstart de browser."
+ui_strings,"Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy.","Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy.","Sommige browsers zoals Opera ondersteunen geen Web Bluetooth. Gebruik Chrome, Edge, of Bluefy op iPhone en iPad."
+ui_strings,The web browser did not give permission to use Bluetooth Low Energy.,The web browser did not give permission to use Bluetooth Low Energy.,De webbrowser heeft geen toestemming gegeven voor Bluetooth Low Energy.
+ui_strings,Failed to connect to the hub.,Failed to connect to the hub.,Verbinding maken met de hub is mislukt.
+ui_strings,"Please restart your computer and the hub, then try again.","Please restart your computer and the hub, then try again.",Start je hub en je computer opnieuw op en probeer het nogmaals.
+ui_strings,How can I solve connectivity issues?,How can I solve connectivity issues?,Hoe los ik verbindingsproblemen op?
+ui_strings,Connected to hub but failed to get {serviceName} service.,Connected to hub but failed to get {serviceName} service.,"Verbonden met de hub, maar de service {serviceName} kon niet worden geopend."
+ui_strings,Ensure that you are using the most recent firmware.,Ensure that you are using the most recent firmware.,Zorg ervoor dat je de nieuwste firmware gebruikt.
+ui_strings,"If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","Blijft het probleem bestaan, verwijder dan ""{hubName}"" uit de Bluetooth-instellingen van je besturingssysteem en verbind opnieuw."
+ui_strings,No hub detected.,No hub detected.,Geen hub gedetecteerd.
+ui_strings,Have you installed the Pybricks firmware yet?,Have you installed the Pybricks firmware yet?,Heb je de Pybricks-firmware al op de hub geïnstalleerd?
+ui_strings,Solve connectivity issues,Solve connectivity issues,Verbindingsproblemen oplossen
+ui_strings,A new firmware version is available for this hub. Please install the latest version to use all new features.,A new firmware version is available for this hub. Please install the latest version to use all new features.,Er is een nieuwe firmwareversie beschikbaar voor deze hub. Installeer de nieuwste versie om alle functies te gebruiken.
+ui_strings,Update Pybricks firmware,Update Pybricks firmware,Pybricks-firmware bijwerken
+ui_strings,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.,The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.,De verbonden hub gebruikt een nieuwer Pybricks-communicatieprofiel. Sommige functies werken mogelijk niet goed.
+ui_strings,The hub has {hubVersion} while {app} supports {appVersion}.,The hub has {hubVersion} while {app} supports {appVersion}.,De hub heeft {hubVersion} terwijl {app} {appVersion} ondersteunt.
+ui_strings,Downgrade the hub firmware or upgrade {app} to avoid problems.,Downgrade the hub firmware or upgrade {app} to avoid problems.,Werk {app} bij of installeer bijpassende hub-firmware om problemen te voorkomen.
+ui_strings,The hub is no longer connected. Please reconnect and try again.,The hub is no longer connected. Please reconnect and try again.,De verbinding met de hub is verbroken. Verbind opnieuw en probeer het nogmaals.
+ui_strings,The file '{fileName}' could not be opened. It is already open in another window.,The file '{fileName}' could not be opened. It is already open in another window.,Het bestand '{fileName}' kon niet worden geopend omdat het al in een ander venster geopend is.
+ui_strings,There are no files to back up. Create a new file first by clicking the {icon} icon.,There are no files to back up. Create a new file first by clicking the {icon} icon.,Er zijn geen bestanden voor een back-up. Maak eerst een nieuw bestand via het pictogram {icon}.
+ui_strings,There were no {py} files in the {zip} file.,There were no {py} files in the {zip} file.,Er zijn geen {py}-bestanden gevonden in het {zip}-bestand.
+ui_strings,A USB error occurred while installing the firmware.,A USB error occurred while installing the firmware.,Er is een USB-fout opgetreden tijdens het installeren van de firmware.
+ui_strings,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.,Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.,Controleer of de USB-datakabel niet beschadigd is en stevig in zowel de hub als de computer zit.
+ui_strings,This browser does not support WebUSB or WebUSB is not enabled.,This browser does not support WebUSB or WebUSB is not enabled.,Deze browser ondersteunt geen WebUSB of WebUSB is uitgeschakeld.
+ui_strings,This browser does not support WebHID or WebHID is not enabled.,This browser does not support WebHID or WebHID is not enabled.,Deze browser ondersteunt geen WebHID of WebHID is uitgeschakeld.
+ui_strings,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.,Hub not found. Make sure that the hub is connected via USB and that it is in update mode.,Hub niet gevonden. Zorg dat de hub via USB is aangesloten en in de updatemodus staat.
+ui_strings,Also make sure that you have permission to connect.,Also make sure that you have permission to connect.,Controleer ook of je de juiste USB-toegangsrechten hebt ingesteld.
+ui_strings,The firmware you selected is not compatible with your hub.,The firmware you selected is not compatible with your hub.,De geselecteerde firmware is niet geschikt voor jouw hub.
+ui_strings,This is very unusual. The USB device did not contain the expected interface.,This is very unusual. The USB device did not contain the expected interface.,Ongebruikelijke fout: het USB-apparaat bevat niet de verwachte interface.
+ui_strings,Erasing the old firmware: {percent},Erasing the old firmware: {percent},Oude firmware wissen: {percent}
+ui_strings,Installing the new firmware: {percent},Installing the new firmware: {percent},Nieuwe firmware installeren: {percent}
+ui_strings,You may release the power button on the hub now.,You may release the power button on the hub now.,Je kunt de aan/uit-knop op de hub nu loslaten.
+ui_strings,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.,This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.,"Dit programma is te groot: de gecompileerde grootte is {actual} bytes, maar op de hub past maximaal {max} bytes."
+ui_strings,Try removing unused code or making names and strings smaller.,Try removing unused code or making names and strings smaller.,Verwijder ongebruikte code of maak tekstreeksen korter.
+ui_strings,Failed to compile MicroPython file.,Failed to compile MicroPython file.,Compileren van MicroPython-bestand is mislukt.
+ui_strings,Go to error,Go to error,Ga naar fout
+ui_strings,This browser does not support the Web Serial API or it is not enabled.,This browser does not support the Web Serial API or it is not enabled.,Deze browser ondersteunt de Web Serial API niet of deze staat uit.
+ui_strings,This hub is already in use in another Pybricks tab or window.,This hub is already in use in another Pybricks tab or window.,Deze hub is al in gebruik in een ander Pybricks-tabblad of -venster.
+ui_strings,Not connected. Make sure that the hub is on. Then try again.,Not connected. Make sure that the hub is on. Then try again.,Niet verbonden. Controleer of de hub aan staat en probeer het opnieuw.
+ui_strings,You have to register the connection manually the first time.,You have to register the connection manually the first time.,De eerste keer moet je de Bluetooth-verbinding handmatig registreren.
+ui_strings,EV3 instructions,EV3 instructions,EV3-instructies
+ui_strings,NXT instructions,NXT instructions,NXT-instructies
+ui_strings,Pybricks is not yet installed on this hub.,Pybricks is not yet installed on this hub.,Pybricks staat nog niet op deze hub geïnstalleerd.
+ui_strings,Start installation,Start installation,Installatie starten
+ui_strings,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.,Address copied to clipboard. Use a wallet that supports ENS addresses to donate.,Adres gekopieerd naar klembord. Gebruik een wallet met ENS-ondersteuning om te doneren.
+ui_strings,{appName} is already up to date.,{appName} is already up to date.,{appName} is al helemaal bijgewerkt.
+ui_strings,"Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","Connected to hub but failed to get {serviceName} service.
+Ensure that you are using the most recent firmware.
+If the problem persists, try removing the ""{hubName}"" device in your OS Bluetooth settings, then try connecting again.","Verbonden met hub, maar service {serviceName} kon niet worden opgehaald.
+Zorg dat je de nieuwste firmware gebruikt.
+Verwijder anders ""{hubName}"" in de Bluetooth-instellingen van je systeem en verbind opnieuw."
+ui_strings,Unexpected error while trying to connect: {errorMessage},Unexpected error while trying to connect: {errorMessage},Onverwachte fout tijdens verbinden: {errorMessage}
+ui_strings,Failed to open file.,Failed to open file.,Bestand openen mislukt.
+ui_strings,Failed to save the program.,Failed to save the program.,Programma opslaan mislukt.
+ui_strings,Failed to import file(s).,Failed to import file(s).,Bestand(en) importeren mislukt.
+ui_strings,Failed to create file.,Failed to create file.,Bestand maken mislukt.
+ui_strings,Failed to duplicate file.,Failed to duplicate file.,Bestand dupliceren mislukt.
+ui_strings,Failed to export file.,Failed to export file.,Bestand exporteren mislukt.
+ui_strings,Failed to delete file.,Failed to delete file.,Bestand verwijderen mislukt.
+ui_strings,Failed to archive files.,Failed to archive files.,Bestanden archiveren mislukt.
+ui_strings,Failed to initialize file storage. Changes will not be automatically saved.,Failed to initialize file storage. Changes will not be automatically saved.,Kan bestandsopslag niet initialiseren. Wijzigingen worden niet automatisch opgeslagen.
+ui_strings,The hub took too long to respond. Restart the hub and try again.,The hub took too long to respond. Restart the hub and try again.,De hub reageerde niet op tijd. Herstart de hub en probeer het opnieuw.
+ui_strings,There was a problem with Bluetooth.,There was a problem with Bluetooth.,Er is een probleem opgetreden met Bluetooth.
+ui_strings,The hub was disconnected before installation was completed. Restart the hub and try again.,The hub was disconnected before installation was completed. Restart the hub and try again.,De verbinding met de hub werd verbroken voordat de installatie klaar was. Herstart de hub en probeer opnieuw.
+ui_strings,The hub said something went wrong.,The hub said something went wrong.,De hub meldde dat er iets misging.
+ui_strings,The connected hub is not supported.,The connected hub is not supported.,De verbonden hub wordt niet ondersteund.
+ui_strings,The firmware is for a different kind of hub from the connected hub.,The firmware is for a different kind of hub from the connected hub.,De gekozen firmware is bedoeld voor een ander type hub dan de verbonden hub.
+ui_strings,Failed to fetch firmware from the server: {status},Failed to fetch firmware from the server: {status},Ophalen van firmware van de server mislukt: {status}
+ui_strings,The firmware.zip file is missing required files or is invalid.,The firmware.zip file is missing required files or is invalid.,Het bestand firmware.zip is ongeldig of mist vereiste bestanden.
+ui_strings,"The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.","The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.",Het bestand firmware.metadata.json bevat ontbrekende of ongeldige velden. Herstel dit en probeer opnieuw.
+ui_strings,"The included main.py file could not be compiled. Fix it, then try again.","The included main.py file could not be compiled. Fix it, then try again.",Het meegeleverde bestand main.py kon niet worden gecompileerd. Herstel de fout en probeer opnieuw.
+ui_strings,The combined firmware and main.py are too big to fit in the flash memory.,The combined firmware and main.py are too big to fit in the flash memory.,De gecombineerde firmware en main.py passen niet in het flashgeheugen van de hub.
+ui_strings,Unexpected error while trying to install firmware: {errorMessage},Unexpected error while trying to install firmware: {errorMessage},Onverwachte fout bij het installeren van firmware: {errorMessage}
+ui_strings,{errorMessage},{errorMessage},{errorMessage}
+ui_strings,A new version of {appName} is available. Click {action} to start using the new version.,A new version of {appName} is available. Click {action} to start using the new version.,Er is een nieuwe versie van {appName} beschikbaar. Klik op {action} om de nieuwe versie te starten.
+ui_strings,Restart,Restart,Herstarten
+ui_overrides,i18n_x0wdzg.checkHub.easy.on,on,aan
+ui_overrides,i18n_x0wdzg.button.power,button,aan/uit-knop
+ui_overrides,i18n_1h3ihz6.bootloaderPanel.title,Install,Installeren
+ui_overrides,i18n_1w3ud0i.last,Last,Voltooien
+dom_patches,searchPlaceholder,Search...,Bestanden zoeken…
+dom_patches,languageHeading,Language,Taal van interface & blokken
+dom_patches,languageHelper,Switch UI & block language (Python code is never modified).,Wijzig de taal van de interface en programmeerblokken (Python-code blijft ongewijzigd).
+dom_patches,quickSwitchTooltip,Switch Pybricks UI & Blocks language,Wijzig Pybricks interface- en bloktaal
+dom_patches,hubNames.BOOST Move Hub,BOOST Move Hub,BOOST Move Hub
+dom_patches,hubNames.City Hub,City Hub,City Hub
+dom_patches,hubNames.Technic Hub,Technic Hub,Technic Hub
+dom_patches,hubNames.SPIKE Prime Hub,SPIKE Prime Hub,SPIKE Prime Hub
+dom_patches,hubNames.MINDSTORMS Robot Inventor,MINDSTORMS Robot Inventor,MINDSTORMS Robot Inventor
+dom_patches,hubNames.SPIKE Essential Hub,SPIKE Essential Hub,SPIKE Essential Hub
+dom_patches,hubNames.MINDSTORMS EV3,MINDSTORMS EV3,MINDSTORMS EV3
+dom_patches,hubNames.MINDSTORMS NXT,MINDSTORMS NXT,MINDSTORMS NXT
+dom_patches,telemetryLabels.reflection,reflection,reflectie
+dom_patches,telemetryLabels.ambient light,ambient light,omgevingslicht
+dom_patches,telemetryLabels.calibrate,calibrate,kalibreren
+dom_patches,telemetryLabels.distance,distance,afstand
+dom_patches,telemetryLabels.angle,angle,hoek
+dom_patches,telemetryLabels.position,position,positie
+dom_patches,telemetryLabels.width,width,breedte
+dom_patches,telemetryLabels.height,height,hoogte
+dom_patches,telemetryLabels.score,score,zekerheid
+dom_patches,telemetryLabels.error,error,afwijking
+dom_patches,dialogButtons.Back,Back,Terug
+dom_patches,dialogButtons.Next,Next,Volgende
+dom_patches,dialogButtons.Submit,Submit,Bevestigen
+dom_patches,dialogButtons.Close,Close,Sluiten
+dom_patches,dialogButtons.OK,OK,OK

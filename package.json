@@ -1,0 +1,13 @@
+{
+  "name": "pybricks-i18n",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full UI & Blockly multi-language Chrome Extension (简体中文, 繁體中文, Español, Nederlands, English) for Pybricks Code without ever modifying Python code.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-locales.mjs",
+    "test": "node tests/verify-all.mjs",
+    "package": "node scripts/package-extension.mjs && node tests/verify-all.mjs"
+  },
+  "license": "MIT"
+}

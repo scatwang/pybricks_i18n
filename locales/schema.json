@@ -1,0 +1,1037 @@
+{
+  "message0Upgrades": {
+    "empty list": "%{BKY_PB_EXT_EMPTY_LIST}",
+    "%1 %2 %3 as %4 h %5 s %6 v %7": "%{BKY_PB_EXT_COLOR_DEF}",
+    "%1 %2 %3 on %4": "%{BKY_PB_EXT_SETUP_ON}",
+    "%1 %2 %3 on %4 %5": "%{BKY_PB_EXT_SETUP_ON_2}",
+    "%1 %2 %3 on %4 with forward %5": "%{BKY_PB_EXT_SETUP_ON_FWD}",
+    "%1 %2 %3 on %4 %5 with forward %6": "%{BKY_PB_EXT_SETUP_ON_2_FWD}",
+    "%1 %2 return %3": "%{BKY_PB_EXT_TASK_RETURN}",
+    "%1 %2 %3 starting at %4": "%{BKY_PB_EXT_VAR_STARTING_AT}",
+    "%1 %2 %3 set to %4": "%{BKY_PB_EXT_VAR_SET_TO}"
+  },
+  "fieldLabels": {
+    "empty list": "PB_EXT_EMPTY_LIST",
+    "list with": "PB_EXT_LIST_WITH",
+    "from": "PB_EXT_RANGE_FROM",
+    "to": "PB_EXT_RANGE_TO",
+    "with steps of": "PB_EXT_RANGE_STEPS"
+  },
+  "uiCatalogEnTree": {
+    "i18n_12zlqvz": {
+      "tablist": {
+        "label": "Editor"
+      },
+      "welcome": "Welcome",
+      "placeholder": "Write your program here…",
+      "check": "Check syntax",
+      "copy": "Copy",
+      "paste": "Paste",
+      "selectAll": "Select all",
+      "undo": "Undo",
+      "redo": "Redo",
+      "closeFile": {
+        "tooltip": "Close {fileName}"
+      },
+      "contextMenu": {
+        "label": "Editor context menu"
+      }
+    },
+    "i18n_1g551i2": {
+      "copy": "Copy",
+      "paste": "Paste",
+      "selectAll": "Select all",
+      "clear": "Clear"
+    },
+    "i18n_1vykd69": {
+      "loading": "Loading…",
+      "loadError": "Unable to load project.",
+      "programTypePicker": {
+        "label": "File type",
+        "description": "Select the type of program you want to create.",
+        "blocks": "Code with blocks",
+        "python": "Code with Python"
+      },
+      "codePreview": {
+        "show": "Show code",
+        "hide": "Hide code",
+        "readOnly": "This code changes when you move blocks around. Open a Python program to make changes."
+      },
+      "user": {
+        "title": "Enable block coding",
+        "usingLicense": "Unlock with a license code",
+        "intro": "Purchase an annual or lifetime code. No accounts needed. Great for individuals, teams, and schools. Learn {learnMoreLink}.",
+        "learnMore": "more",
+        "licenseActive": "Your license is activated",
+        "trialActive": "Free trial activated",
+        "patreonActive": "Thank you for supporting Pybricks!",
+        "expiresOn": "Valid until: {expiryDate}.",
+        "expiresNever": "This license does not expire.",
+        "deactivateHowTo": "To use this license on another device, please deactivate it here first.",
+        "enterKey": "Enter or paste the license code",
+        "paste": "Paste from clipboard",
+        "activate": "Activate",
+        "startTrial": "Try free",
+        "trialWelcome": "Welcome to Pybricks! Go on and build something fun!",
+        "trialWelcome2": "Are you a teacher and do you need more time with your class? Contact us at sales@pybricks.com for a free 30-day trial.",
+        "trialExpired": "Your free trial has ended.",
+        "trialDaysLeft": "Free for {days} days",
+        "trialEnded": "Trial ended",
+        "activating": "Checking…",
+        "deactivateHere": "Deactivate on this device",
+        "endTrial": "End trial",
+        "signOut": "Sign out",
+        "Ok": "Continue",
+        "overview": "Block coding is available with a license code or a fan subscription.",
+        "visitShop": "Buy",
+        "patreon": {
+          "heading": "For fans of our mission",
+          "intro": "If you love what we do, you can join us via the creator platform Patreon. You'll get all features, as well as news updates and special perks.",
+          "signIn": "Sign in via Patreon",
+          "becomeSupporter": "Become a supporter",
+          "tryAgain": "Try again",
+          "reLoginIn": "You will be asked to sign in again in {days} days."
+        },
+        "error": {
+          "forbidden": "Unable to access the license server. Please try again from the Pybricks app.",
+          "unknown": "An unexpected error occurred. Please try again.",
+          "network": "Unable to access the license server. Please check your internet connection and try again.",
+          "license": {
+            "methodNotAllowed": "Unable to process your request.",
+            "missingKey": "Please enter a license code.",
+            "invalidFormat": "This code doesn't look right. Make sure you copy the whole red box from your email receipt.",
+            "expired": "This license has expired.",
+            "notFound": "License code not found. Please check and try again."
+          },
+          "patreon": {
+            "invalidOrigin": "Patreon sign-in failed due to an invalid origin. Please try again.",
+            "oauthFailed": "Patreon sign-in failed. Please try again.",
+            "notPatron": "You signed in with Patreon, but you are not a Pybricks supporter. Please contact us if you think this is a mistake."
+          }
+        }
+      }
+    },
+    "i18n_mnb4dw": {
+      "cameraLoading": "Starting camera.",
+      "cameraAccessDenied": "Camera access was denied or unavailable.",
+      "selectCamera": "Select camera",
+      "noCamerasFound": "No cameras found"
+    },
+    "i18n_x0wdzg": {
+      "warning": {
+        "linux": {
+          "message": "If you have never used Pybricks with USB on Linux, you need to give your computer permission to connect to your hub first. {instructions}",
+          "instructions": "Click for instructions."
+        },
+        "windows": {
+          "message": "Are you using Pybricks on this computer for the first time? You may need to manually install the USB driver for this hub type. {instructions}",
+          "instructions": "Click for instructions."
+        }
+      },
+      "button": {
+        "bluetooth": "Bluetooth button",
+        "power": "button",
+        "right": "right button"
+      },
+      "light": {
+        "bluetooth": "Bluetooth light",
+        "status": "hub light"
+      },
+      "lightPattern": {
+        "bluetooth": "pink-green-blue-off",
+        "status": "light purple"
+      },
+      "instructionGroup": {
+        "prepare": {
+          "title": "Preparation:",
+          "batteries": "Make sure the hub has new or fully charged batteries.",
+          "turnOff": "Make sure the hub is turned off.",
+          "usb": "Disconnect the USB cable.",
+          "app": "Open the {lego} Powered Up app in 'Create' mode and start a new project."
+        },
+        "bootloaderMode": {
+          "title": "Enter update mode (see video):",
+          "disconnectIo": "Disconnect any device from port A on the hub.",
+          "holdButton": "Press and hold the {button} on the hub.",
+          "connectUsb": "Connect the USB cable.",
+          "waitForLight": "Wait for the {light} to start blinking {lightPattern}.",
+          "waitAppConnect": "The app will automatically connect and start restoring the firmware.",
+          "releaseButton": "Release the {button}.",
+          "releaseButtonAndWait": "Release the button. Wait for progress to reach 100%.",
+          "keepHolding": "Keep holding the {button} in the next steps. We'll tell you when to let go.",
+          "pressPowerButtonEV3": "Press the center button to turn on the EV3.",
+          "releaseButtonsEV3": "When the screen says \"Updating...\", release both buttons.",
+          "restoreComplete": "When the progress bar is done, the app will connect."
+        },
+        "connect": {
+          "title": "Install:",
+          "clickConnectAndFlash": "Click the {flashButton} button below.",
+          "flashButton": "Install",
+          "selectDevice": "In the pop-up dialog, select {deviceName} and click {connectButton}.",
+          "connectButton": "Connect"
+        }
+      },
+      "connected": {
+        "connectedTo": "Connected to:",
+        "hubType": "Hub type:",
+        "firmware": "Firmware:"
+      },
+      "detected": {
+        "detectedVersion": "Currently installed:",
+        "versionToInstall": "Version to install:",
+        "versionToRecover": "Version to recover:",
+        "app": "app: {app}",
+        "version": "version: {version}"
+      },
+      "checkHub": {
+        "easy": {
+          "title": "Option 1: Quick update",
+          "intro": "This works if you used the {spike} App or Pybricks recently.",
+          "step1": "Turn the hub {on}.",
+          "step2": "Connect the USB cable and click {checkButton} below.",
+          "step3": "Click your hub in the dialog and click {connectButton}.",
+          "connectButton": "Connect",
+          "on": "on",
+          "checkButton": "Check for hubs"
+        },
+        "manual": {
+          "title": "Option 2: Manual update",
+          "intro": "This is the old installation method. You can use this:",
+          "reason1": "If your hub still runs an old version of Pybricks or an old LEGO app.",
+          "reason2": "Or if a hub light already blinks red/blue/green, or a light blinks pink.",
+          "outro": "Next time, you can do the quick update.",
+          "manualButton": "Update manually"
+        }
+      }
+    },
+    "i18n_10e33ue": {
+      "completionEngineStatus": {
+        "label": "Code completion engine status indicator",
+        "message": {
+          "loading": "Code completion engine is starting up and will be ready soon.",
+          "ready": "Code completion engine is ready to use.",
+          "failed": "Code completion engine has stopped working.",
+          "unknown": "Code completion engine has not started yet."
+        }
+      },
+      "hubInfo": {
+        "title": "Connected hub",
+        "connectedTo": "Connected to:",
+        "hubType": "Hub type:",
+        "firmware": "Firmware:"
+      },
+      "battery": {
+        "title": "Battery",
+        "low": "Battery is low. Hub will turn off soon.",
+        "ok": "Battery level is OK."
+      }
+    },
+    "i18n_1sp0dya": {
+      "title": "Devices",
+      "pause": "Pause",
+      "resume": "Resume",
+      "calibration": {
+        "prepare": "Hold your sensor steady at one LEGO unit above a white piece of paper.",
+        "measure": "Hold steady…",
+        "succeeded": "Calibration complete. The results are saved on the hub for this sensor port.",
+        "failed": "Calibration did not succeed. Please try again."
+      }
+    },
+    "i18n_1xufj4k": {
+      "label": "User",
+      "tooltip": {
+        "action": "Log in to unlock extra features"
+      }
+    },
+    "i18n_1d1pgnf": {
+      "message": "The file '{fileName}' will be permanently deleted. This cannot be undone.",
+      "action": {
+        "accept": "Delete",
+        "cancel": "Keep"
+      }
+    },
+    "i18n_mgb7rm": {
+      "label": "File name",
+      "helpText": {
+        "isOk": "OK!",
+        "isEmpty": "File name cannot be empty.",
+        "hasSpaces": "File name cannot have spaces.",
+        "hasFileExtension": "The file extension will be added automatically.",
+        "hasInvalidFirstCharacter": "File name must start with a letter ({letters}) or underscore ({underscore}).",
+        "hasInvalidCharacters": "File name can only contain letters ({letters}), numbers ({numbers}) and underscores ({underscore}).",
+        "alreadyExists": "A file with this name already exists. Try a different name.",
+        "fixIt": "Fix it for me."
+      }
+    },
+    "i18n_wy0fhf": {
+      "title": "Duplicate '{fileName}'",
+      "action": {
+        "accept": "Duplicate"
+      }
+    },
+    "i18n_lmmxp1": {
+      "header": {
+        "toolbar": {
+          "title": "File actions",
+          "exportAll": "Back up all files",
+          "import": "Import a file",
+          "addNew": "Create a new file"
+        }
+      },
+      "tree": {
+        "label": "Files",
+        "liveDescriptor": {
+          "intro": {
+            "accessibilityGuide": "Accessibility guide for tree {treeLabel}.",
+            "navigation": "Navigate the tree with the arrow keys. Start typing the name of a file to search for a file. Additional keybindings are available:",
+            "keybindings": {
+              "primaryAction": "{key} to open the file in the code editor",
+              "rename": "{key} to start renaming the focused file",
+              "duplicate": "{key} to duplicate focused file",
+              "export": "{key} to export the focused file",
+              "delete": "{key} to delete the focused file"
+            }
+          },
+          "searching": "Searching."
+        }
+      },
+      "treeItem": {
+        "renameTooltip": "Rename {fileName}",
+        "duplicateTooltip": "Duplicate {fileName}",
+        "exportTooltip": "Export {fileName}",
+        "deleteTooltip": "Delete {fileName}"
+      }
+    },
+    "i18n_1xlgz77": {
+      "title": "Create a new file",
+      "template": {
+        "label": "Template"
+      },
+      "useTemplate": {
+        "label": "Use a template",
+        "description": {
+          "checked": "Create a new file for the selected hub.",
+          "unchecked": "Create a new empty file."
+        }
+      },
+      "action": {
+        "create": "Create"
+      }
+    },
+    "i18n_1b7p1pg": {
+      "title": "Rename '{fileName}'",
+      "action": {
+        "rename": "Rename"
+      }
+    },
+    "i18n_big9r3": {
+      "title": "Rename imported file",
+      "message": "The name of the imported file '{fileName}' is not allowed in {appName}. Please change the name below.",
+      "action": {
+        "skip": "Skip importing this file",
+        "rename": "Rename"
+      }
+    },
+    "i18n_302bwj": {
+      "title": "Replace existing file?",
+      "message": "A file already exists with the same name as the imported file '{fileName}'.",
+      "option": {
+        "remember": "Remember this answer when resolving additional conflicts."
+      },
+      "action": {
+        "skip": "Keep the existing file and skip importing this file",
+        "replace": "Replace the existing file with the imported file",
+        "rename": "Keep the existing file and rename the imported file"
+      }
+    },
+    "i18n_1xv2knq": {
+      "title": "Open source software licenses",
+      "description": "{name} is built on open source software. By using {name} you are agreeing to the terms and conditions of all of the included software licenses.",
+      "packageList": {
+        "label": "Packages"
+      },
+      "packageLabel": "Package:",
+      "authorLabel": "Author:",
+      "licenseLabel": "License:",
+      "error": {
+        "fetchFailed": "Failed to load license data."
+      },
+      "help": {
+        "selectPackage": "Select a package to view the license."
+      }
+    },
+    "i18n_vncd6b": {
+      "title": "About {appName}",
+      "description": "MicroPython for programmable {lego} hubs.",
+      "copyVersion": "Copy version info",
+      "licenseButton": {
+        "label": "Software licenses"
+      },
+      "changelogButton": {
+        "label": "Changelog"
+      },
+      "websiteButton": {
+        "label": "Pybricks website"
+      }
+    },
+    "i18n_3o8vuq": {
+      "helpButton": {
+        "label": "Help",
+        "description": "Click to show help for the {helpForLabel} checkbox."
+      },
+      "helpDialog": {
+        "title": "Help",
+        "closeButton": {
+          "label": "Close"
+        }
+      }
+    },
+    "i18n_kfd4pn": {
+      "title": "Settings & help",
+      "appearance": {
+        "title": "Appearance",
+        "darkMode": {
+          "label": "Dark mode",
+          "help": "Enable to choose dark mode. Disable to choose light mode."
+        },
+        "zoom": {
+          "help": "Use {in} and {out} to zoom."
+        }
+      },
+      "language": {
+        "title": "Language"
+      },
+      "firmware": {
+        "title": "Firmware",
+        "flashPybricksButton": {
+          "label": "Install Pybricks firmware"
+        },
+        "flashLegoButton": {
+          "label": "Restore official {lego} firmware"
+        }
+      },
+      "help": {
+        "title": "Help",
+        "learn": {
+          "label": "Learn Pybricks"
+        },
+        "discuss": {
+          "label": "Community answers"
+        },
+        "bugs": {
+          "label": "Bug reports"
+        }
+      },
+      "developer": {
+        "title": "Developer",
+        "showDebugInfo": {
+          "label": "Show debug info"
+        },
+        "enableNxtPreview": {
+          "label": "Enable NXT"
+        },
+        "platform": {
+          "label": "Pretend to be on",
+          "default": "Actual platform"
+        }
+      },
+      "app": {
+        "title": "App",
+        "offlineUseHelp": "Ready for offline use.",
+        "install": {
+          "label": "Install as app"
+        },
+        "checkForUpdate": {
+          "label": "Check for update"
+        },
+        "tryBeta": {
+          "beta": "Try new beta features",
+          "stable": "Return to stable version"
+        },
+        "restart": {
+          "label": "Restart to install update"
+        },
+        "about": {
+          "label": "About"
+        },
+        "tour": {
+          "label": "Welcome tour"
+        }
+      }
+    },
+    "i18n_19bnif0": {
+      "title": "Select your hub",
+      "lowEnergy": {
+        "label": "Hubs that connect with Bluetooth Low Energy"
+      },
+      "classic": {
+        "label": "Hubs that connect with Bluetooth Classic",
+        "setup": "First time setup for {hub}"
+      }
+    },
+    "i18n_tv9v18": {
+      "backButton": {
+        "label": "Back"
+      },
+      "nextButton": {
+        "label": "Next"
+      },
+      "doneButton": {
+        "label": "Done"
+      },
+      "platform": {
+        "mac": "Mac",
+        "windows": "Windows PC",
+        "linux": "Linux computer",
+        "android": "Android device",
+        "chromeos": "Chromebook"
+      },
+      "findDevice": {
+        "mac": "Your {hub} appears under {nearbyDevices} after a few seconds. Click {connect} next to it.",
+        "windows": "Click {addDevice}, then choose {bluetooth}, and select your {hub} when it appears.{allDevicesNote}",
+        "linux": "Your {hub} appears in the device list after a few seconds. Just click it to start pairing.",
+        "android": "Tap {pairNewDevice} and select your {hub} when it appears.",
+        "chromeos": "Click {pairNewDevice} and select your {hub} when it appears.",
+        "label": {
+          "nearbyDevices": "Nearby Devices",
+          "connect": "Connect",
+          "addDevice": "Add device",
+          "bluetooth": "Bluetooth",
+          "pairNewDevice": "Pair new device",
+          "allDevices": "All devices"
+        },
+        "allDevicesNote": " If it is not in the list, click {allDevices} to stop Windows from hiding it."
+      },
+      "ev3": {
+        "title": "Register EV3 Bluetooth connection",
+        "step": {
+          "0": {
+            "intro": "The EV3 brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.",
+            "message": "On your EV3, go to {settings} and choose {registerDevice}. Leave the EV3 on this screen.",
+            "settings": "Settings",
+            "registerDevice": "Add new computer"
+          },
+          "1": {
+            "message": "Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice}",
+            "disconnect": "Once complete, your EV3 brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform} and on your EV3. Now you can connect with the Bluetooth button in Pybricks whenever your EV3 is turned on."
+          }
+        }
+      },
+      "nxt": {
+        "title": "Register NXT Bluetooth connection",
+        "step": {
+          "0": {
+            "intro": "The NXT brick must be registered with your {platform} once before Pybricks can see it. It's like exchanging phone numbers. You need to do this only once. After that, you can connect here in Pybricks any time.",
+            "message": "Turn your NXT brick on."
+          },
+          "1": {
+            "message": "Open the Bluetooth settings on your {platform} and turn Bluetooth on. {findDevice} When you are asked for a passkey, enter {passkey}{suggestedPasskeyNote}.",
+            "suggestedPasskeyNote": ", replacing any code that your computer filled in for you. That field is editable, even though it may not look like it",
+            "disconnect": "Once complete, your NXT brick will disconnect automatically. This is intentional. Close the Bluetooth settings on your {platform}. Now you can connect with the Bluetooth button in Pybricks whenever your NXT is turned on."
+          }
+        }
+      }
+    },
+    "i18n_7aqrxb": {
+      "title": "Windows DFU USB driver installation instructions",
+      "backButton": {
+        "label": "Back"
+      },
+      "nextButton": {
+        "label": "Next"
+      },
+      "doneButton": {
+        "label": "Done"
+      },
+      "step": {
+        "1": {
+          "message": "Right-click the Windows {startMenu}, then click {deviceManager}.",
+          "startMenu": "Start Menu",
+          "deviceManager": "Device Manager"
+        },
+        "2": {
+          "message": "Look for {dfuUsbHubName} under {otherDevices}.",
+          "otherDevices": "Other Devices",
+          "properties": "Properties",
+          "listedWithWarning": "If it is listed with a warning sign, right-click it and select {properties}.",
+          "listedWithoutWarning": "If it is listed somewhere else without a warning sign, then the driver is already installed. You may close this window.",
+          "notListed": "If you don't see it at all, make sure that the hub is in DFU update mode and try again. Close this window to watch the video instructions."
+        },
+        "3": {
+          "message": "In the {properties} dialog, click the {updateDriver} button.",
+          "properties": "{dfuUsbHubName} Properties",
+          "updateDriver": "Update Driver..."
+        },
+        "4": {
+          "message": "In the {updateDrivers} dialog, click the {browse} button.",
+          "updateDrivers": "Update Drivers",
+          "browse": "Browse my computer for drivers"
+        },
+        "5": {
+          "message": "Then click the {letMePick} button.",
+          "letMePick": "Let me pick from a list of available drivers on my computer"
+        },
+        "6": {
+          "message": "In the list of device types, select {usbDevices}, then click the {next} button.",
+          "usbDevices": "Universal Serial Bus devices",
+          "next": "Next"
+        },
+        "7": {
+          "message": "In the {manufacturer} list, select {winUsbDevice}. Then in the {model} list, also select {winUsbDevice}. Then click the {next} button.",
+          "manufacturer": "Manufacturer",
+          "winUsbDevice": "WinUsb Device",
+          "model": "Model",
+          "next": "Next"
+        },
+        "8": {
+          "message": "A warning dialog says that the driver is not recommended. Click {yes} to proceed anyway. The driver is compatible.",
+          "yes": "Yes"
+        },
+        "9": {
+          "message": "The driver installation is complete. Click the {close} button.",
+          "close": "Close"
+        }
+      }
+    },
+    "i18n_1h3ihz6": {
+      "title": "Install Pybricks firmware",
+      "selectHubPanel": {
+        "title": "Select hub type",
+        "message": "Select your hub.",
+        "androidEv3Note": "The EV3 firmware cannot be updated from your Android device. Please use a different computer for this step.",
+        "androidEv3RecoveryComplete": " Once installed, you can use your Android device to run Pybricks programs.",
+        "advanced": {
+          "label": "Advanced",
+          "customFirmwareDropzone": {
+            "label": "Drop custom firmware .zip file here or click to browse."
+          }
+        },
+        "customFirmware": {
+          "message": "Custom firmware selected.",
+          "hubType": "Hub type: {hubTypeName}",
+          "firmwareVersion": "Firmware version: {version}",
+          "clearButton": "Clear"
+        }
+      },
+      "licensePanel": {
+        "title": "Accept licenses",
+        "licenseText": {
+          "error": "There was a problem while getting the firmware file."
+        },
+        "acceptCheckbox": {
+          "label": "I have read and agree to the license terms and conditions."
+        }
+      },
+      "optionsPanel": {
+        "title": "Configure options",
+        "hubName": {
+          "label": "Hub name",
+          "labelInfo": "(optional)",
+          "help": "Choose a Bluetooth name for your hub. If you have more than one hub, this makes it easy to tell them apart when you connect.",
+          "error": "The name is too long.",
+          "suggestButton": {
+            "label": "Suggest a different name"
+          }
+        }
+      },
+      "bootloaderPanel": {
+        "title": "Install"
+      },
+      "backButton": {
+        "label": "Back"
+      },
+      "nextButton": {
+        "label": "Next"
+      },
+      "doneButton": {
+        "label": "Done"
+      },
+      "flashFirmwareButton": {
+        "label": "Install"
+      },
+      "restore": {
+        "title": "Restore official {lego} firmware",
+        "selectHubPanel": {
+          "message": "Select the hub to restore the official {lego} firmware on, then click {next}.",
+          "firmwareMessage": "Select which firmware you want to restore."
+        },
+        "panel": {
+          "title": "Restore firmware",
+          "flashButton": "Restore",
+          "primeFirmwareType": {
+            "v3": "v3: {app} App",
+            "v2": "v2: {app} Robot Inventor App"
+          },
+          "ev3FirmwareType": {
+            "home": "v1.09H: {app} EV3 Home edition",
+            "education": "v1.09E: {app} EV3 Classroom and EV3 Lab",
+            "makecode": "v1.10E: {app}"
+          }
+        }
+      }
+    },
+    "i18n_5dmiof": {
+      "title": "Pybricks on Linux",
+      "rulesTitle": "Access rules",
+      "intro": "You must give your computer permission to connect to your robot. You only need to do this once.",
+      "step": {
+        "download": {
+          "message": "Download the rules file. Remember where you save it.",
+          "button": "Download rules file"
+        },
+        "install": {
+          "message": "Open a terminal and run this command. You need administrator (sudo) access.",
+          "copies": "This copies the rules file to the correct system location. If you saved it elsewhere, change the path below."
+        },
+        "replug": "You do not need to restart your computer. If your robot was already plugged in, unplug it and plug it back in."
+      },
+      "copy": "Copy",
+      "browser": {
+        "title": "Browser tips",
+        "message": "You can use Pybricks with Google Chrome, Chromium, Brave or Vivaldi.",
+        "chromiumSnap": "If you installed Chromium as a snap package, which is the default on Ubuntu, you must run this command:",
+        "flags": "Some browser features are not enabled by default. To turn them on, paste each line below into the address bar, set it to {enabled} and restart the browser.",
+        "enabled": "Enabled"
+      },
+      "setupButton": "Linux setup",
+      "closeButton": {
+        "label": "Close"
+      }
+    },
+    "i18n_1n2p90k": {
+      "label": "Bluetooth",
+      "tooltip": {
+        "connect": "Connect using Bluetooth",
+        "disconnect": "Disconnect Bluetooth",
+        "usbConnected": "USB is connected, disconnect to use Bluetooth"
+      }
+    },
+    "i18n_1brk2wp": {
+      "label": "File explorer",
+      "tooltip": {
+        "show": "Show file explorer",
+        "hide": "Hide file explorer"
+      }
+    },
+    "i18n_1h4ke3d": {
+      "label": "REPL",
+      "tooltip": "Code interactively in the terminal (REPL)"
+    },
+    "i18n_6qsil7": {
+      "label": "Run",
+      "tooltip": {
+        "action": "Run this program ({key})",
+        "progress": "Downloading… {percent}"
+      }
+    },
+    "i18n_187u01j": {
+      "label": "Settings",
+      "tooltip": {
+        "show": "Show settings and help",
+        "hide": "Hide settings and help"
+      }
+    },
+    "i18n_5wielm": {
+      "label": "Stop",
+      "tooltip": "Stop everything ({key})"
+    },
+    "i18n_z3nkm": {
+      "label": "USB",
+      "tooltip": {
+        "connect": "Connect using USB",
+        "disconnect": "Disconnect USB",
+        "bluetoothConnected": "Bluetooth is connected, disconnect to use USB"
+      }
+    },
+    "i18n_1ltvrkn": {
+      "label": "Editor"
+    },
+    "i18n_1w3ud0i": {
+      "back": "Back",
+      "close": "Close",
+      "last": "Last",
+      "next": "Next",
+      "open": "Open the dialog",
+      "skip": "Skip",
+      "steps": {
+        "welcome": {
+          "message": "Welcome to {appName}.",
+          "action": "Click {next} to discover key features."
+        },
+        "newFile": {
+          "message": "Click the {icon} button to create a new program."
+        },
+        "backupFiles": {
+          "message": "Don't lose your work.",
+          "action": "Click {icon} to back up your programs."
+        },
+        "flashPybricksFirmware": {
+          "message": "To use {appName}, you have to install the Pybricks firmware."
+        },
+        "restoreOfficialFirmware": {
+          "message": "You can restore the official {lego} firmware at any time."
+        },
+        "connectToHub": {
+          "message": "Click the Bluetooth button to connect."
+        },
+        "downloadAndRun": {
+          "message": "Once connected, click the {icon} button to run your program.",
+          "runAgain": "The program is now saved on the hub. Press the button on the hub to run it again."
+        }
+      }
+    },
+    "i18n_11ab89b": {
+      "title": "Browser not supported",
+      "message": "This browser cannot connect to your hub.",
+      "suggestion": "Please use Pybricks with Google Chrome, Microsoft Edge, Chromium, Brave or Vivaldi.",
+      "ios": {
+        "message": "To use Pybricks on this device, use a browser that supports Bluetooth such as Bluefy from the App Store.",
+        "spike": {
+          "title": "SPIKE Prime, SPIKE Essential and MINDSTORMS Robot Inventor",
+          "message": "These hubs must first be updated using the USB cable. You can use a Windows, Mac, Linux or Android device. When you're ready, return here to create programs and run them via Bluetooth in a supported browser."
+        },
+        "ev3": {
+          "title": "MINDSTORMS EV3",
+          "message": "This hub uses an older type of Bluetooth that does not work in any browser on iPhone or iPad."
+        }
+      },
+      "moreInfoButton": "Supported browsers",
+      "closeButton": {
+        "label": "Close"
+      }
+    },
+    "i18n_1jnp7tr": {
+      "landmark": {
+        "activities": "Activities",
+        "editor": "Editor",
+        "terminal": "Terminal",
+        "documentation": "Documentation"
+      },
+      "docs": {
+        "show": "Show documentation",
+        "hide": "Hide documentation"
+      },
+      "terminal": {
+        "show": "Show terminal",
+        "hide": "Hide terminal"
+      },
+      "camera": {
+        "show": "Open camera",
+        "hide": "Hide camera"
+      }
+    },
+    "i18n_z6ukgz": {
+      "message": "An unexpected error occurred. Please consider reporting this so we can make a better error message. Click the {copyErrorMessage} button below to copy the technical details and paste it in the bug report. Also include the operating system you are using, the web browser you are using and the actions you performed that led to this error.",
+      "technicalInfo": "Expand for detailed technical information",
+      "copyErrorMessage": "Copy error message",
+      "reportBug": "Report bug",
+      "usbOpenFailed": {
+        "message": "Could not connect to the hub.",
+        "suggestion": {
+          "other": "Check that your hub is not in use by other apps.",
+          "linux": "Check that your hub is not in use by other apps. Make sure that you have permission to connect."
+        }
+      }
+    },
+    "i18n_1pqc2z1": {
+      "updateServerFailure": {
+        "message": "Failed to connect to update server. The internet connection or the server may be down. Try again later."
+      }
+    },
+    "i18n_fe0w07": {
+      "noWebBluetooth": {
+        "message": "This browser does not support Web Bluetooth or it is not enabled.",
+        "suggestion": "Use a supported browser such as Google Chrome or Microsoft Edge.",
+        "linuxSuggestion": "On Linux, Web Bluetooth must be turned on manually.",
+        "brave": "Brave turns off Web Bluetooth. To turn it on, paste the line below into the address bar, set it to {enabled} and restart Brave.",
+        "enabled": "Enabled",
+        "action": "More info"
+      },
+      "bluetoothNotAvailable": {
+        "message": "No Bluetooth adapter could be found or permission to use it has not been granted.",
+        "suggestion": "Please connect or enable a Bluetooth Low Energy adapter, ensure your browser has permission to use it and restart the browser.",
+        "browserSupport": "Some browsers like Brave and Opera do not support Web Bluetooth. Be sure to use a supported browser such as Chrome, Edge or on iPhone and iPad, Bluefy."
+      },
+      "noGatt": {
+        "message": "The web browser did not give permission to use Bluetooth Low Energy."
+      },
+      "connectFailed": {
+        "message": "Failed to connect to the hub.",
+        "suggestion": "Please restart your computer and the hub, then try again.",
+        "troubleshootButton": "How can I solve connectivity issues?"
+      },
+      "missingService": {
+        "message": "Connected to hub but failed to get {serviceName} service.",
+        "suggestion1": "Ensure that you are using the most recent firmware.",
+        "suggestion2": "If the problem persists, try removing the \"{hubName}\" device in your OS Bluetooth settings, then try connecting again."
+      },
+      "noHub": {
+        "message": "No hub detected.",
+        "suggestion": "Have you installed the Pybricks firmware yet?",
+        "flashFirmwareButton": "Install Pybricks firmware",
+        "troubleshootButton": "Solve connectivity issues"
+      },
+      "oldFirmware": {
+        "message": "A new firmware version is available for this hub. Please install the latest version to use all new features.",
+        "flashFirmware": {
+          "label": "Update Pybricks firmware"
+        }
+      },
+      "newPybricksProfile": {
+        "message": "The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.",
+        "versions": "The hub has {hubVersion} while {app} supports {appVersion}.",
+        "suggestion": "Downgrade the hub firmware or upgrade {app} to avoid problems."
+      },
+      "disconnected": {
+        "message": "The hub is no longer connected. Please reconnect and try again."
+      }
+    },
+    "i18n_qcterr": {
+      "fileInUse": {
+        "message": "The file '{fileName}' could not be opened. It is already open in another window."
+      },
+      "noFilesToBackup": {
+        "message": "There are no files to back up. Create a new file first by clicking the {icon} icon."
+      },
+      "noPyFiles": {
+        "message": "There were no {py} files in the {zip} file."
+      }
+    },
+    "i18n_3ng9i5": {
+      "dfuError": {
+        "message": "A USB error occurred while installing the firmware.",
+        "suggestion": "Ensure the USB cable is not damaged and is firmly attached to the hub and to the computer.",
+        "tryAgainButton": "Try again"
+      },
+      "noWebUsb": {
+        "message": "This browser does not support WebUSB or WebUSB is not enabled.",
+        "suggestion": "Use a supported browser such as Google Chrome or Microsoft Edge."
+      },
+      "noWebHid": {
+        "message": "This browser does not support WebHID or WebHID is not enabled.",
+        "suggestion": "Use a supported browser such as Google Chrome or Microsoft Edge."
+      },
+      "noDfuHub": {
+        "message": "Hub not found. Make sure that the hub is connected via USB and that it is in update mode.",
+        "suggestion1": {
+          "linux": "Also make sure that you have permission to connect."
+        }
+      },
+      "unsupportedDfuHub": {
+        "message": "The firmware you selected is not compatible with your hub."
+      },
+      "noDfuInterface": {
+        "message": "This is very unusual. The USB device did not contain the expected interface."
+      },
+      "flashProgress": {
+        "erasing": "Erasing the old firmware: {percent}",
+        "flashing": "Installing the new firmware: {percent}"
+      },
+      "releaseButton": {
+        "message": "You may release the power button on the hub now."
+      }
+    },
+    "i18n_1ceqw8j": {
+      "userProgramSize": {
+        "message": "This program is too big. Compiled size is {actual} bytes but the hub can only fit {max} bytes.",
+        "suggestion": "Try removing unused code or making names and strings smaller."
+      }
+    },
+    "i18n_1m2fc08": {
+      "compilerError": {
+        "message": "Failed to compile MicroPython file.",
+        "gotoErrorButton": "Go to error"
+      }
+    },
+    "i18n_1a3hjg": {
+      "noWebSerial": {
+        "message": "This browser does not support the Web Serial API or it is not enabled.",
+        "suggestion": "Use a supported browser such as Google Chrome or Microsoft Edge.",
+        "action": "More info"
+      },
+      "alreadyInUse": {
+        "message": "This hub is already in use in another Pybricks tab or window."
+      },
+      "noHub": {
+        "message": "No hub detected.",
+        "suggestion": "Have you installed the Pybricks firmware yet?",
+        "flashFirmwareButton": "Install Pybricks firmware"
+      },
+      "noBluetoothHub": {
+        "message": "Not connected. Make sure that the hub is on. Then try again.",
+        "suggestion": "You have to register the connection manually the first time.",
+        "ev3PairingButton": "EV3 instructions",
+        "nxtPairingButton": "NXT instructions"
+      },
+      "oldFirmware": {
+        "message": "A new firmware version is available for this hub. Please install the latest version to use all new features.",
+        "flashFirmware": {
+          "label": "Update Pybricks firmware"
+        }
+      },
+      "spikeDetected": {
+        "message": "Pybricks is not yet installed on this hub.",
+        "flashFirmware": {
+          "label": "Start installation"
+        }
+      },
+      "newPybricksProfile": {
+        "message": "The connected hub uses a newer Pybricks communication profile version. Some features may not work correctly.",
+        "versions": "The hub has {hubVersion} while {app} supports {appVersion}.",
+        "suggestion": "Downgrade the hub firmware or upgrade {app} to avoid problems."
+      }
+    },
+    "i18n_18b989s": {
+      "addressCopied": {
+        "message": "Address copied to clipboard. Use a wallet that supports ENS addresses to donate."
+      }
+    },
+    "i18n_1e4s4v4": {
+      "app": {
+        "noUpdateFound": "{appName} is already up to date."
+      },
+      "ble": {
+        "gattServiceNotFound": "Connected to hub but failed to get {serviceName} service.\nEnsure that you are using the most recent firmware.\nIf the problem persists, try removing the \"{hubName}\" device in your OS Bluetooth settings, then try connecting again.",
+        "unexpectedError": "Unexpected error while trying to connect: {errorMessage}"
+      },
+      "editor": {
+        "failedToOpenFile": "Failed to open file.",
+        "failedToSaveFile": "Failed to save the program."
+      },
+      "explorer": {
+        "failedToImportFiles": "Failed to import file(s).",
+        "failedToCreate": "Failed to create file.",
+        "failedToDuplicate": "Failed to duplicate file.",
+        "failedToExport": "Failed to export file.",
+        "failedToDelete": "Failed to delete file.",
+        "failedToArchive": "Failed to archive files."
+      },
+      "fileStorage": {
+        "failedToInitialize": "Failed to initialize file storage. Changes will not be automatically saved."
+      },
+      "flashFirmware": {
+        "timedOut": "The hub took too long to respond. Restart the hub and try again.",
+        "bleError": "There was a problem with Bluetooth.",
+        "disconnected": "The hub was disconnected before installation was completed. Restart the hub and try again.",
+        "hubError": "The hub said something went wrong.",
+        "unsupportedDevice": "The connected hub is not supported.",
+        "deviceMismatch": "The firmware is for a different kind of hub from the connected hub.",
+        "failToFetch": "Failed to fetch firmware from the server: {status}",
+        "badZipFile": "The firmware.zip file is missing required files or is invalid.",
+        "badMetadata": "The firmware.metadata.json file contains missing or invalid entries. Fix it, then try again.",
+        "compileError": "The included main.py file could not be compiled. Fix it, then try again.",
+        "sizeTooBig": "The combined firmware and main.py are too big to fit in the flash memory.",
+        "unexpectedError": "Unexpected error while trying to install firmware: {errorMessage}"
+      },
+      "mpy": {
+        "error": "{errorMessage}"
+      },
+      "serviceWorker": {
+        "update": {
+          "message": "A new version of {appName} is available. Click {action} to start using the new version.",
+          "action": "Restart"
+        }
+      }
+    }
+  }
+}

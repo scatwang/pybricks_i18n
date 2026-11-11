@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Pybricks Code Multi-Idioma (ES/中文/NL/EN)",
+    "description": "Extension name in Spanish (max 45 chars)"
+  },
+  "extShortName": {
+    "message": "PybricksI18n",
+    "description": "Short name (max 12 chars)"
+  },
+  "extDescription": {
+    "message": "Interfaz y bloques Blockly en Español, Chino, Neerlandés e Inglés para Pybricks Code con cambio en vivo sin tocar el código Python.",
+    "description": "Extension description in Spanish (max 132 chars)"
+  }
+}
